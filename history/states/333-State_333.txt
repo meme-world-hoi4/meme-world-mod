@@ -1,0 +1,29 @@
+
+state={
+	id=333
+	name="STATE_333"
+	provinces={
+		4515 6363 18730 18757 18772 18799 18854 18894 18923 18964 
+	}
+	history={
+		owner = KIR
+		controller = KIR
+		add_core_of = KIR
+		victory_points = {
+			18799 5 
+		}
+	buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+	}
+resources={
+		tungsten = 7
+		oil = 12
+	}
+	manpower=1330000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

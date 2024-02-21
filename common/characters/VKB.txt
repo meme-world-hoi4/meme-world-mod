@@ -1,0 +1,18 @@
+characters={
+	VKB_Ilya_Chursin={
+		name="VKB_Ilya_Chursin"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Vkbs_Ilya_Chursin
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

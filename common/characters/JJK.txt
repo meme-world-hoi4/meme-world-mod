@@ -1,0 +1,18 @@
+characters={
+	JJK_Araki_Five={
+		name="JJK_Araki_Five"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Jojo_Araki_Five
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

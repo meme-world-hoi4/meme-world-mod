@@ -1,0 +1,30 @@
+state={
+	id=67
+	name="STATE_67"
+	provinces={
+		190 
+	}
+	manpower = 593600
+	state_category = megalopolis
+	history = {
+		owner = GAR
+		controller = GAR
+		add_core_of = GAR
+		
+		victory_points = {
+		190 20
+		}
+buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 3
+			190 = {
+			naval_base = 7
+			}
+			dockyard = 1
+		}
+}
+resources={
+		steel = 6
+	}
+}

@@ -1,0 +1,137 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 2021.9.1.13
+		picture = "GFX_select_date_1936"
+		default_country = "KEK"
+
+		
+	"XXX"={
+			minor = yes
+			history = ""
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"EVD"={
+			minor = yes
+			history = ""
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"ARO" = {
+			minor = yes
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"XXX"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		"XXX"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"JJK"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"KIR"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"BAL"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"XXX"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"VKB"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+				"PER"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"PAR"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"GAR"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+				"SHL"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+				"BUL"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+			"XXX"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"KEK"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+				"OPO"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+			"ARO"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+			"XXX"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"XXX"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+				"SSR"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+				"EPI"= {
+			minor = yes
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+}
+}
+

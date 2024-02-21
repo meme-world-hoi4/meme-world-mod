@@ -1,0 +1,24 @@
+state={
+	id=476
+	name="STATE_476"
+	provinces={
+		4036 19735 
+	}
+	history={
+		owner = ZEL
+		controller = ZEL
+		add_core_of = ZEL
+		
+		victory_points = {
+
+		}
+buildings = {
+			infrastructure = 1
+			4036 = {
+			naval_base = 2
+			}
+}
+}
+	manpower = 62000
+	state_category = rural
+}

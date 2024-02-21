@@ -1,0 +1,27 @@
+state={
+	id=406
+	name="STATE_406"
+	provinces={
+		971 3140 6985 18701 18758 18765 18802 18868 18905
+	}
+	manpower = 70000
+	state_category = rural
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		
+		victory_points = {
+		18905 5
+		}
+buildings = {
+			infrastructure = 4
+			3140 = {
+				naval_base = 2
+			}
+			18905 = {
+				naval_base = 2
+			}
+}
+}
+}

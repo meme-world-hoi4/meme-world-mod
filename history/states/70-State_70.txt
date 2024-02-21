@@ -1,0 +1,39 @@
+state={
+	id=70
+	name="STATE_70"
+	provinces={
+		5241 6876 11935 11947 11984 
+	}
+	manpower = 968800
+	state_category = metropolis
+	history = {
+		owner = GAR
+		controller = GAR
+		add_core_of = GAR
+		
+		victory_points = {
+		11935 15
+		}
+		victory_points = {
+		5241 20
+		}
+		victory_points = {
+		6876 10
+		}
+buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 3
+			11935 = {
+			naval_base = 5
+			}
+			5241 = {
+			naval_base = 5
+			}
+		}
+}
+resources={
+		aluminium = 8
+		steel = 12
+	}
+}

@@ -1,0 +1,19 @@
+state={
+	id=404
+	name="STATE_404"
+	provinces={
+		50 5825 7847 8061 8292 18716 18750 18777 
+	}
+	manpower = 89760
+	state_category = town
+	history = {
+		owner = PAR
+		controller = PAR
+		add_core_of = PAR
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 2
+		}
+}
+}

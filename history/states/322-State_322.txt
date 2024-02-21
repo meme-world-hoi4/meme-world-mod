@@ -1,0 +1,25 @@
+state={
+	id=322
+	name="STATE_322"
+	provinces={
+		205 982 1132 2345 2412 6481 6994 8336 8935 17241 17303 17304 17328 17329 17358 17377 17384 
+	}
+	history={
+		owner = KEZ
+		controller = KEZ
+		add_core_of = KEZ
+		victory_points = {
+		2345 20
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+}
+	resources={
+		oil = 22
+	}
+	manpower = 2677360
+	state_category = city
+}

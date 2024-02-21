@@ -1,0 +1,33 @@
+state={
+	id=450
+	name="STATE_450"
+	provinces={
+		565 3337 4369 7177 8551 9114 19354 19414 19456 19470 19500 19529 19560 19635 
+	}
+	manpower = 1988840
+	state_category = large_city
+	history = {
+		owner = PAR
+		controller = PAR
+		
+		victory_points = {
+		19529 15
+		}
+		victory_points = {
+		9114 5
+		}
+		add_core_of = PAR
+buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			8551 = {
+			naval_base = 4
+			}
+			dockyard = 1
+		}
+}
+resources={
+		steel = 8
+	}
+}

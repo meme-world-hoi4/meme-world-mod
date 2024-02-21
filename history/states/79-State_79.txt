@@ -1,0 +1,33 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		21 1244 1311 1526 2470 2720 2754 3427 4220 5519 5594 6530 6900 8039 8734 9299 9359 12044 12045 12055 12056 12068 12079 12087 12088 12091 12092 12099 12110 12115 12118 12122 12125 12143 12145 12146 12149 12150 12155 12167 12174 12175 12184 12188 12189 12202 12211 12212 12223 
+	}
+	manpower = 1505280
+	state_category = large_city
+	history = {
+		owner = JJK
+		controller = JJK
+		
+		victory_points = {
+		12202 10
+		}
+		victory_points = {
+		12211 5
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			12055 = {
+			naval_base = 4
+			}
+			12088 = {
+			naval_base = 4
+			}
+		}
+}
+resources={
+		oil = 12
+	}
+}

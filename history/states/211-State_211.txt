@@ -1,0 +1,27 @@
+state={
+	id=211
+	name="STATE_211"
+	provinces={
+		2396 4194 4964 6887 7196 15243 15281 15301 15310 15332 15340 15361 15413 
+	}
+	manpower = 686260
+	state_category = town
+history={
+		owner = ARO
+		controller = ARO
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 1
+			arms_factory = 2
+			industrial_complex = 2
+			2396 = {
+				naval_base = 5
+			}
+			dockyard = 1
+		}
+	}
+resources={
+		chromium = 12
+	}
+}

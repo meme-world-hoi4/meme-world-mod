@@ -1,0 +1,25 @@
+state={
+	id=465
+	name="STATE_465"
+	provinces={
+		5303 8428 19545 19553 19565 19604 19632 19637 
+	}
+	manpower = 660800
+	state_category = city
+	history = {
+		owner = VKB
+		controller = VKB
+		add_core_of = VKB
+		
+		victory_points = {
+		19637 10
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			8428 = {
+			naval_base = 3
+			}
+		}
+}
+}

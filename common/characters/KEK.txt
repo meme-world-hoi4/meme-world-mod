@@ -1,0 +1,59 @@
+characters={
+	
+	KEK_Nikita_Sesonsky={
+		name="KEK_Nikita_Sesonsky"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kekland_Nikita_Sesonsky
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	KEK_Il_Kek_Duri={
+		name="KEK_Il_Kek_Duri"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kekland_Il_Kek_Duri
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	KEK_Green_House={
+		name="KEK_Green_House"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kekland_Green_House
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			desc = KEK_Green_House_desc
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	#KEK_Deoano_Kershuzvelt={
+	#	name="KEK_Deoano_Kershuzvelt"
+	#	portraits={
+	#		civilian={
+	#			large=GFX_Portrait_Kekland_Deoano_Kershuzvelt
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology=conservatism
+	#		expire="2022.1.1.1"
+	#		id=-1
+	#	}
+	#}
+}

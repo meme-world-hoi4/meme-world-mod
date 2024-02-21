@@ -1,0 +1,18 @@
+characters={
+	PER_Viv_Mim={
+		name="PER_Viv_Mim"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Persia_Viv_Mim
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

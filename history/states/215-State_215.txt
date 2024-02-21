@@ -1,0 +1,54 @@
+state={
+	id=215
+	name="STATE_215"
+	provinces={
+		5659 6916 7710 8442 8468 9729 15457 15471 15520 15539 15547 15586 15615 15620 15653 15654 15684 
+	}
+	manpower = 16259900
+	state_category = megalopolis
+	history={
+		owner = OPO
+		controller = OPO
+		
+		victory_points = {
+		15520 30
+		}
+		victory_points = {
+		15457 10
+		}
+		victory_points = {
+		15615 10
+		}
+		victory_points = {
+		15654 5
+		}
+		victory_points = {
+		15653 10
+		}
+		victory_points = {
+		15620 10
+		}
+		victory_points = {
+		15539 5
+		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 10
+			industrial_complex = 14
+			air_base = 1
+			dockyard = 5
+			15620 = {
+				naval_base = 8
+			}
+			15615 = {
+				naval_base = 5
+			}
+			15457 = {
+				naval_base = 8
+			}
+	}
+}
+resources={
+		steel=8
+	}
+}

@@ -1,0 +1,30 @@
+state={
+	id=189
+	name="STATE_189"
+	provinces={
+		223 1313 2605 2644 2985 3578 5501 8351 8506 8528 8721 8957 9349 14774 14787 14793 14811 14833 14841 14890 14909 14916 14927 14942 14958 14959 14968 15012 15013 15030 15043 15054 15097 15134 
+	}
+	manpower = 294900
+	state_category = large_town
+	history = {
+		owner = KEK
+		controller = KEK
+		
+		victory_points = {
+		9349 10
+		}
+		victory_points = {
+		8957 5
+		}
+buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			14958 = {
+				naval_base = 5
+			}
+		}
+}
+resources={
+		tungsten = 6
+	}
+}

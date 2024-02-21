@@ -1,0 +1,42 @@
+﻿###########################
+# turkey Events
+###########################
+
+add_namespace = genericc
+
+# COUNTRY INFLUENCING OUR POLITICS
+country_event = {
+	id = genericc.1
+	title = genericc.1.t
+	desc = genericc.1.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = genericc.1.a
+		add_stability = 0.1
+		add_timed_idea = {
+		idea = small_democratic_support
+		days = 30
+	}
+}
+}
+
+country_event = {
+	id = genericc.2
+	title = genericc.2.t
+	desc = genericc.2.d
+	picture = GFX_report_event_generic_handshake
+
+	is_triggered_only = yes
+
+	option = {
+		name = genericc.2.a
+		add_political_power = 50
+		add_timed_idea = {
+		idea = small_neutrality_support
+		days = 30
+	}
+}
+}

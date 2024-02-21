@@ -1,0 +1,29 @@
+state={
+	id=68
+	name="STATE_68"
+	provinces={
+		3041 6816 6975 11924 11940 11978 11985 12009 12038 12039 
+	}
+	manpower = 462000
+	state_category = town
+	history = {
+		owner = EVD
+		controller = EVD
+		add_core_of = EVD
+		
+		victory_points = {
+		12039 15
+		}
+buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			11924 = {
+			naval_base = 5
+			}
+			dockyard = 1
+		}
+}
+resources={
+		oil = 16
+	}
+}

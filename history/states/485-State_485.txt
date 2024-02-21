@@ -1,0 +1,43 @@
+
+state={
+	id=485
+	name="STATE_485"
+
+	history={
+		owner = VKB
+		controller = VKB
+		add_core_of = VKB
+		victory_points = {
+		19841 30
+		}
+		victory_points = {
+		20026 15
+		}
+		victory_points = {
+		20010 5
+		}
+		victory_points = {
+		20094 10
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			19906 = {
+			naval_base = 5
+			}
+			dockyard = 1
+		}
+	}
+
+	provinces={
+		1120 1528 1594 1595 3241 4166 4588 4775 5807 6489 7415 7915 8679 9750 19841 19847 19895 19905 19906 19916 19962 19971 19991 20010 20026 20043 20044 20045 20074 20083 20094 20167 
+	}
+resources={
+		steel = 6
+	}
+	manpower=3598000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

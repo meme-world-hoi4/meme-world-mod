@@ -1,0 +1,39 @@
+state={
+	id=84
+	name="STATE_84"
+	provinces={
+		1051 1895 2282 3088 3318 3406 3914 4226 4661 5009 5113 5287 5911 6617 6888 6920 7609 7789 8118 8896 9500 12067 12070 12081 12100 12105 12106 12107 12134 12135 12136 12161 12162 12168 12176 12179 12196 12203 12204 12213 12214 12218 
+	}
+	manpower = 4891600
+	state_category = metropolis
+	history = {
+		owner = JJK
+		controller = JJK
+		add_core_of = JJK
+		
+		victory_points = {
+		6920 20
+		}
+		victory_points = {
+		4226 15
+		}
+		victory_points = {
+		12179 15
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			12105 = {
+			naval_base = 6
+			}
+			5113 = {
+			naval_base = 4
+			}
+			dockyard = 1
+		}
+}
+	resources={
+		steel = 8
+	}
+}

@@ -1,0 +1,31 @@
+state={
+	id=183
+	name="STATE_183"
+	provinces={
+		217 481 499 1235 1581 1762 1823 2222 2471 3052 3059 4089 4332 4359 4516 5516 6133 6205 6304 7123 7713 8419 9079 9376 14544 14558 14585 14608 14625 14641 14657 14670 14687 14688 14689 14715 14716 14724 14752 14775 14780 14788 14812 14824 14859 14860 14876 14896 14924 14943 14969 15049 
+	}
+	manpower = 357150
+	state_category = large_town
+	history = {
+		owner = KEK
+		controller = KEK
+		
+		victory_points = {
+		14752 10
+		}
+buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			14752 = {
+				naval_base = 5
+			}
+			14860 = {
+				naval_base = 3
+			}
+			dockyard = 1
+		}
+}
+resources={
+		oil = 4
+	}
+}

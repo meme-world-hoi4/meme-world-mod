@@ -1,0 +1,30 @@
+state={
+	id=2
+	name="STATE_2"
+	provinces={
+		882 1703 2647 6528 7520 8350 8473 8611 9275 9838 9839 9840 9841 9870 9871 9874 9889 9904 9914 
+	}
+	manpower = 256060
+	state_category = city
+	history = {
+		owner = BAL
+		controller = BAL
+		add_core_of = BAL		
+		victory_points = {
+		8350 10
+		}
+		victory_points = {
+		9871 15
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+}
+}
+resources={
+		tungsten = 8
+		chromium = 16
+		steel = 6
+	}
+}

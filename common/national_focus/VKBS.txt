@@ -1,0 +1,2375 @@
+focus_tree = {
+	id = vkbs_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VKB
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 2350 y = 1150 }
+	
+	focus = {
+		id = VKB_policy_focuses
+		icon = GFX_goal_generic_demand_territory
+		cost = 1,00
+		x = 13
+		y = 1
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = VKB_eco_country_reforms
+		icon = GFX_focus_generic_industry_2
+		cost = 1,00
+		x = 27
+		y = 1
+		completion_reward = {
+			add_political_power = 50
+		}
+
+	}
+	focus = {
+		id = VKB_navy_reform
+		icon = GFX_focus_ICE_modernizing_the_coast_guard
+		cost = 1,00
+		x = 52
+		y = 1
+		completion_reward = {
+			navy_experience = 25
+		}
+
+	}
+	focus = { 
+		id = VKB_country_industry_plans
+		icon = GFX_focus_NORDIC_com_capstone_civilian
+		cost = 1,00
+		x = 24
+		y = 2
+		prerequisite = {
+			focus = VKB_eco_country_reforms
+		}
+		mutually_exclusive = {
+			focus = VKB_economy_plan
+		}
+		completion_reward = {
+		custom_effect_tooltip = facotry_bonus_industrial_base_tt
+		custom_effect_tooltip = millitary_bonus_industrial_base_5percent_tt
+		custom_effect_tooltip = specific_decision_for_undustrial_plans_tt
+		hidden_effect = {
+		add_ideas = { add_factory_bonus_small }
+		}
+	}
+	}
+	focus = {
+		id = VKB_develop_hard_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 1,00
+		x = 22
+		y = 4
+		prerequisite = {
+			focus = VKB_create_industry_base
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		add_timed_idea = {
+		idea = develop_hard_industry_small
+		days = 30
+		}
+		}
+
+	}
+	focus = {
+		id = VKB_develop_light_industry
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 1,00
+		x = 26
+		y = 4
+		prerequisite = {
+			focus = VKB_create_industry_base
+		}
+	completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		add_timed_idea = {
+		idea = develop_light_industry_small
+		days = 30
+		}
+		}
+}
+	focus = {
+		id = VKB_new_ministr
+		icon = GFX_goal_generic_major_alliance
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_policy_focuses
+		}
+		x = 4
+		y = 2
+		completion_reward = {
+			add_political_power = 100
+			add_timed_idea = {
+				idea = new_ministr_in_gov
+				days = 30
+			}
+		}
+	}
+	focus = {
+		id = VKB_administrator
+		icon = GFX_focus_generic_improve_the_administration
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_new_ministr
+		}
+		x = 4
+		y = 3
+		completion_reward = {
+			add_political_power = 50
+			add_ideas = political_reform
+		}
+	}
+	focus = {
+		id = VKB_revision_law
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_administrator
+		}
+		x = 4
+		y = 4
+		completion_reward = {
+			add_political_power = 150
+		}
+
+	}
+	focus = {
+		id = VKB_populism_gov
+		icon = GFX_goal_generic_propaganda
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_revision_law
+		}
+		x = 4
+		y = 5
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.1
+		}
+
+	}
+	focus = {
+		id = VKB_support_commie
+		icon = GFX_focus_yug_pan_slavic_congress
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_policy_focuses
+		}
+		mutually_exclusive = {
+			focus = VKB_democratic_reform
+			focus = VKB_protect_gov_power
+			focus = VKB_national_gov_idea
+		}
+		x = 7
+		y = 2
+		completion_reward = {
+		custom_effect_tooltip = communism_grows_tt
+		}
+	}
+	focus = {
+		id = VKB_work_union
+		icon = GFX_focus_ITA_the_italian_republic
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_support_commie
+		}
+		x = 7
+		y = 3
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.05 }
+		}
+
+	}
+	focus = {
+		id = VKB_manifistations
+		icon = GFX_focus_generic_workers
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_work_union
+		}
+		x = 7
+		y = 4
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.05 }
+			add_timed_idea = {
+				idea = communism_support
+				days = 30
+			}
+		}
+	}
+	focus = {
+		id = VKB_legalize_groups
+		icon = GFX_focus_generic_join_comintern
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_manifistations
+		}
+		x = 7
+		y = 5
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.1 }
+			swap_ideas = {
+				remove_idea = communism_support
+				add_idea = strong_communism_support
+		}
+		}
+	}
+	focus = {
+		id = VKB_farmer_money
+		icon = GFX_focus_generic_farmland
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_legalize_groups
+		}
+		x = 6
+		y = 6
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.05 }
+			add_stability = 0.1
+			custom_effect_tooltip = farmer_support_tt
+			add_timed_idea = {
+				idea = farmer_support
+				days = 15
+			}
+		}
+	}
+	focus = {
+		id = VKB_eight_hour_day
+		icon = GFX_goal_generic_soviet_construction
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_legalize_groups
+		}
+		x = 8
+		y = 6
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.1 }
+			add_stability = 0.1
+			custom_effect_tooltip = eight_hour_day_tt
+			add_ideas = eight_hour_workday
+		}
+	}
+	focus = {
+		id = VKB_revolution
+		icon = GFX_focus_SWE_refuge_for_revolutionaries
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_farmer_money
+		}
+		prerequisite = {
+			focus = VKB_eight_hour_day
+		}
+		x = 7
+		y = 7
+	available = {
+	is_subject = no
+	communism > 0.5
+	}
+	
+	bypass = {
+	has_government = communism
+		}
+		
+	completion_reward = {
+		add_popularity = { ideology = communism popularity = 0.1 }
+		set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+		add_stability = -0.15
+
+	}
+	}
+	focus = {
+		id = VKB_farmer_reform
+		icon = GFX_focus_prc_agrarian_socialism
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_revolution
+		}
+		x = 5
+		y = 8
+	completion_reward = {
+	custom_effect_tooltip = increase_population_farmer_reform
+	add_stability = 0.1
+	hidden_effect = {
+	add_ideas = population_farmer_reform
+	}
+	}
+	}
+	focus = {
+		id = VKB_idealogy_propaganda
+		icon = GFX_focus_por_workers_of_iberia
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_revolution
+		}
+		x = 7
+		y = 8
+	completion_reward = {
+		add_popularity = { ideology = communism popularity = 0.15 }
+		}
+	}
+	focus = {
+		id = VKB_democratic_reform
+		icon = GFX_focus_SWE_refuge_from_war
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_policy_focuses
+		}
+		mutually_exclusive = {
+			focus = VKB_protect_gov_power
+			focus = VKB_support_commie
+			focus = VKB_national_gov_idea
+		}
+		x = 11
+		y = 2
+		completion_reward = {
+		custom_effect_tooltip = liberals_grows_tt
+		}
+	}
+	focus = {
+		id = VKB_create_new_const
+		icon = GFX_focus_generic_treaty
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_democratic_reform
+		}
+		x = 11
+		y = 3
+		completion_reward = {
+			add_popularity = { ideology = democratic popularity = 0.05 }
+			country_event = genericc.1
+	}
+}
+	focus = {
+		id = VKB_law_state
+		icon = GFX_focus_generic_court
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_create_new_const
+		}
+		x = 11
+		y = 4
+		completion_reward = {
+		custom_effect_tooltip = democratic_stability_tt
+			add_stability = 0.1
+	}
+	}
+	focus = {
+		id = VKB_amnistia
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_law_state
+		}
+		x = 11
+		y = 5
+		completion_reward = {
+		add_popularity = { ideology = democratic popularity = 0.1 }
+			swap_ideas = {
+			remove_idea = small_democratic_support
+			add_idea = strong_democratic_support
+		}
+			add_stability = -0.05
+	}
+	}
+	focus = {
+		id = VKB_law_reform
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_amnistia
+		}
+		x = 10
+		y = 6
+	completion_reward = {
+		add_popularity = { ideology = democratic popularity = 0.1 }
+		add_stability = 0.15
+		custom_effect_tooltip = pp_democratic_conclusions_tt
+		custom_effect_tooltip = pp_gain_minus_democratic_tt
+		hidden_effect = {
+		add_ideas = { law_reform_pp_gain_minus }
+	}
+	}
+	}
+	focus = {
+		id = VKB_free_news
+		icon = GFX_focus_SWI_establish_pro_helvetia
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_amnistia
+		}
+		x = 12
+		y = 6
+	completion_reward = {
+		add_popularity = { ideology = democratic popularity = 0.10 }
+			add_stability = -0.1
+		custom_effect_tooltip = specific_decision_for_democratic_country_will_open_tt
+	}
+	}
+	focus = {
+		id = VKB_democratic_state
+		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_law_reform
+		}
+		prerequisite = {
+			focus = VKB_free_news
+		}
+		x = 11
+		y = 7
+	available = {
+	is_subject = no
+	democratic > 0.5
+	}
+	
+	bypass = {
+	has_government = democratic
+		}
+		
+	completion_reward = {
+		add_popularity = { ideology = democratic popularity = 0.1 }
+		set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+
+	}
+	}
+	focus = {
+		id = VKB_GEN_people_equality
+		icon = GFX_goal_continuous_increase_nu
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_revolution
+			focus = VKB_democratic_state
+		}
+		x = 9
+		y = 8
+	completion_reward = {
+	add_popularity = { ideology = communism popularity = 0.05 }
+	add_popularity = { ideology = democratic popularity = 0.05 }
+	add_stability = 0.1
+	add_political_power = 100
+	custom_effect_tooltip = decrease_people_discontent_tt
+	}
+	}
+	focus = {
+		id = VKB_nationalisation_commie
+		icon = GFX_focus_DEN_heavy_regulations
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_farmer_reform
+			focus = VKB_GEN_people_equality
+		}
+		prerequisite = {
+			focus = VKB_idealogy_propaganda
+		}
+		x = 7
+		y = 9
+	completion_reward = {
+	custom_effect_tooltip = nationalization_commie_tt
+	random_list = {
+	5 = {
+	random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+	
+	}
+	5 = {
+	random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+	
+	}
+	}
+	custom_effect_tooltip = good_fabric_bonus_economy_reforms_5percent_tt
+	hidden_effect = {
+	add_ideas = add_nationalisation_bonus_small
+	}
+	}
+	}
+	focus = {
+		id = VKB_eliminate_opportunism
+		icon = GFX_focus_SOV_the_last_purge
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_nationalisation_commie
+		}
+		x = 8
+		y = 10
+	completion_reward = {
+	add_popularity = { ideology = fascism popularity = -0.15 }
+	add_popularity = { ideology = democratic popularity = -0.05 }
+	add_popularity = { ideology = communism popularity = 0.1 }
+	}
+	}
+	focus = {
+		id = VKB_true_elections
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_democratic_state
+		}
+		x = 11
+		y = 8
+	completion_reward = {
+	add_popularity = { ideology = democratic popularity = 0.1 }
+	set_politics = {
+				ruling_party = democratic
+				elections_allowed = yes
+				election_frequency = 15
+			}
+	}
+	}
+	focus = {
+		id = VKB_pluralism_gov
+		icon = GFX_focus_generic_self_management
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_true_elections
+		}
+		x = 11
+		y = 9
+	completion_reward = {
+	add_political_power = 100
+	add_stability = 0.15
+	}
+	}
+	focus = {
+		id = VKB_protect_business
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_pluralism_gov
+		}
+		x = 12
+		y = 10
+	completion_reward = {
+	add_political_power = -50
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		add_timed_idea = {
+		idea = develop_light_industry_small
+		days = 15
+		}
+		}
+	}
+	focus = {
+		id = VKB_protect_gov_power
+		icon = GFX_goal_generic_defence
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_policy_focuses
+		}
+		mutually_exclusive = {
+			focus = VKB_democratic_reform
+			focus = VKB_national_gov_idea
+			focus = VKB_support_commie
+		}
+		x = 15
+		y = 2
+		completion_reward = {
+		custom_effect_tooltip = personal_power_grows_tt
+		}
+	}
+	focus = {
+		id = VKB_find_alias
+		icon = GFX_focus_generic_university_2
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_protect_gov_power
+		}
+		x = 15
+		y = 3
+	completion_reward = {
+	add_popularity = { ideology = neutrality popularity = 0.05 }
+			country_event = genericc.2
+	}
+	}
+	focus = {
+		id = VKB_privatization
+		icon = GFX_focus_NOR_approach_kretsen
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_find_alias
+		}
+		x = 15
+		y = 4
+	completion_reward = {
+	add_popularity = { ideology = neutrality popularity = 0.15}
+	custom_effect_tooltip = neutrality_good_factory_debuff_tt
+	custom_effect_tooltip = neutrality_good_factory_idea_tt
+	hidden_effect = {
+	add_ideas = neutrality_good_factory_debuff_idea
+	}
+	}
+	}
+	focus = {
+		id = VKB_company_against_enemies
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_privatization
+		}
+		x = 15
+		y = 5
+	completion_reward = {
+	add_popularity = { ideology = neutrality popularity = 0.05 }
+	swap_ideas = {
+		remove_idea = small_neutrality_support
+		add_idea = strong_neutrality_support
+	}
+	}
+	}
+	focus = {
+		id = VKB_subdue_news
+		icon = GFX_focus_generic_secret_service_agency
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_company_against_enemies
+		}
+		x = 14
+		y = 6
+		completion_reward = {
+		add_popularity = { ideology = neutrality popularity = 0.1 }
+		add_stability = 0.1
+		add_political_power = -50
+	}
+
+	}
+	focus = {
+		id = VKB_police_reform
+		icon = GFX_focus_generic_military_mission
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_company_against_enemies
+		}
+		x = 16
+		y = 6
+	completion_reward = {
+		custom_effect_tooltip = police_reform_tt
+		add_stability = 0.15
+	}
+	}
+	focus = {
+		id = VKB_autocracy_gov
+		icon = GFX_focus_rom_royal_dictatorship
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_police_reform
+		}
+		prerequisite = {
+			focus = VKB_subdue_news
+		}
+		mutually_exclusive = {
+			focus = VKB_oligarchism_gov
+			focus = VKB_oligarchism_gov
+		}
+		x = 16
+		y = 7
+	available = {
+	is_subject = no
+	neutrality > 0.5
+	}
+	
+	bypass = {
+	has_government = neutrality
+		}
+		
+	completion_reward = {
+		add_popularity = { ideology = neutrality popularity = 0.1 }
+		set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+
+	}
+	}
+	focus = {
+		id = VKB_national_gov_idea
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_policy_focuses
+		}
+		mutually_exclusive = {
+			focus = VKB_protect_gov_power
+			focus = VKB_democratic_reform
+			focus = VKB_support_commie
+		}
+		x = 19
+		y = 2
+	completion_reward = {
+		custom_effect_tooltip = nationalist_grows_tt
+		}
+	}
+	focus = {
+		id = VKB_national_policy
+		icon = GFX_goal_generic_political_pressure
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_national_gov_idea
+		}
+		x = 19
+		y = 3
+		
+	completion_reward = {
+		add_popularity = { ideology = fascism popularity = 0.05 }
+		add_stability = -0.1
+	}
+	}
+	focus = {
+		id = VKB_patriot_groups
+		icon = GFX_focus_FIN_parmis_devils
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_national_policy
+		}
+		x = 19
+		y = 4
+		completion_reward = {
+		add_war_support = 0.1
+		add_timed_idea = {
+			idea = patriot_brigades
+			days = 28
+		}
+		add_timed_idea = {
+			idea = nationalist_support
+			days = 30
+		}
+	}
+}
+	focus = {
+		id = VKB_natioanal_goverment
+		icon = GFX_focus_SWI_embrace_panoramaheim
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_patriot_groups
+		}
+		x = 19
+		y = 5
+	completion_reward = {
+		add_popularity = { ideology = fascism popularity = 0.1 }
+		swap_ideas = {
+				remove_idea = nationalist_support
+				add_idea = strong_nationalist_support
+		}
+	}
+	}
+	focus = {
+		id = VKB_army_reform
+		icon = GFX_focus_generic_manpower
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_natioanal_goverment
+		}
+		x = 18
+		y = 6
+		completion_reward = {
+			add_command_power = 50
+			add_stability = -0.1
+			add_ideas = empowerment_army
+		}
+	}
+	focus = {
+		id = VKB_rights_for_local
+		icon = GFX_goal_generic_major_alliance
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_natioanal_goverment
+		}
+		x = 20
+		y = 6
+	completion_reward = {
+			add_stability = 0.1
+			add_popularity = { ideology = fascism popularity = 0.1 }
+		}
+	}
+	focus = {
+		id = VKB_millitary_reshuffle
+		icon = GFX_focus_generic_limited_social_mobilization
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform
+		}
+		prerequisite = {
+			focus = VKB_rights_for_local
+		}
+		x = 19
+		y = 7
+	available = {
+	is_subject = no
+	fascism > 0.5
+	}
+	
+	bypass = {
+	has_government = fascism
+		}
+		
+	completion_reward = {
+		add_popularity = { ideology = fascism popularity = 0.1 }
+		set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+		add_stability = -0.15
+	}
+	}
+	focus = {
+		id = VKB_cult_leader
+		icon = GFX_goal_generic_air_doctrine
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_millitary_reshuffle
+			focus = VKB_autocracy_gov
+		}
+		x = 17
+		y = 8
+	completion_reward = {
+	add_popularity = { ideology = fascism popularity = 0.05 }
+	add_popularity = { ideology = neutrality popularity = 0.05 }
+	custom_effect_tooltip = cult_leader_tt
+	custom_effect_tooltip = cult_leader_buff_tt
+	hidden_effect = {
+		add_ideas = cult_leader_buff
+	}
+	}
+	}
+	focus = {
+		id = VKB_fascism_idealogy
+		icon = GFX_focus_generic_fascist_propaganda
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_millitary_reshuffle
+		}
+		x = 19
+		y = 8
+	completion_reward = {
+	add_popularity = { ideology = fascism popularity = 0.15 }
+	}
+	}
+	focus = {
+		id = VKB_national_army
+		icon = GFX_focus_generic_fascist_troops
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_millitary_reshuffle
+		}
+		x = 21
+		y = 8
+	completion_reward = {
+	add_ideas = national_army
+	add_political_power = -50
+	}
+	}
+	focus = {
+		id = VKB_nationalisation_fascismm
+		icon = GFX_focus_DEN_heavy_regulations
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_national_army
+		}
+		prerequisite = {
+			focus = VKB_fascism_idealogy
+		}
+		x = 19
+		y = 9
+	completion_reward = {
+	custom_effect_tooltip = nationalization_commie_tt
+	random_list = {
+	5 = {
+	random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+	
+	}
+	5 = {
+	random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+	
+	}
+	}
+	custom_effect_tooltip = good_fabric_bonus_economy_reforms_5percent_tt
+	hidden_effect = {
+	add_ideas = add_nationalisation_bonus_small
+	}
+	}
+	}
+	focus = {
+		id = VKB_national_brigade
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_national_army
+		}
+		x = 20
+		y = 10
+	completion_reward = {
+	custom_effect_tooltip = fascism_furher_brigade_tt
+	hidden_effect = {
+	add_ideas = fascism_furher_brigade
+	}
+	add_war_support = 0.15
+	}
+	}
+	focus = {
+		id = VKB_create_industry_base
+		icon = GFX_focus_generic_socialist_science
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_country_industry_plans
+		}
+		x = 24
+		y = 3
+		completion_reward = {
+		custom_effect_tooltip = research_bonus_industrial_base_tt
+		custom_effect_tooltip = facotry_bonus_industrial_base_tt
+		custom_effect_tooltip = millitary_bonus_industrial_base_tt
+		hidden_effect = {
+		add_ideas = { add_speed_research }
+		add_ideas = { add_factory_bonus }
+		}
+		}
+	}
+	focus = {
+		id = VKB_indutry_railways
+		icon = GFX_focus_POL_warsaw_main_station
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_create_industry_base
+		}
+		x = 24
+		y = 4
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	focus = {
+		id = VKB_resources_industry
+		icon = GFX_focus_generic_mining_industry
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_develop_hard_industry
+		}
+		prerequisite = {
+			focus = VKB_indutry_railways
+		}
+		x = 23
+		y = 5
+	completion_reward = {
+		custom_effect_tooltip = random_resources_tt
+		
+		random_list = {
+   100 = {
+	random_owned_controlled_state = {
+        add_resource = {
+			type = oil
+			amount = 6
+		}
+	}
+    }
+    100 = {
+    random_owned_controlled_state = {
+        add_resource = {
+			type = steel
+			amount = 6
+		}
+	}
+    }
+    100 = {
+    random_owned_controlled_state = {
+        add_resource = {
+			type = aluminium
+			amount = 6
+		}
+	}
+    }
+    100 = {
+    random_owned_controlled_state = {
+        add_resource = {
+			type = tungsten
+			amount = 6
+		}
+	}
+    }
+	100 = {
+    random_owned_controlled_state = {
+        add_resource = {
+			type = chromium
+			amount = 6
+		}
+	}
+    }
+}
+random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+
+}
+
+	}
+	focus = {
+		id = VKB_effect_industry
+		icon = GFX_focus_NORDIC_com_selector_civilian
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_develop_light_industry
+		}
+		prerequisite = {
+			focus = VKB_indutry_railways
+		}
+		x = 25
+		y = 5
+	completion_reward = {
+	add_ideas = high_effect_industrial
+	}
+	}
+	focus = {
+		id = VKB_create_new_bussiness
+		icon = GFX_focus_generic_energy
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_effect_industry
+		}
+		prerequisite = {
+			focus = VKB_resources_industry
+		}
+		x = 24
+		y = 6
+	completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+		}
+	}
+}
+	focus = {
+		id = VKB_gossektor_in_economy
+		icon = GFX_goal_generic_production
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_create_new_bussiness
+		}
+		x = 24
+		y = 7
+
+	}
+	focus = {
+		id = VKB_against_capitalism
+		icon = GFX_focus_spr_class_war
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_nationalisation_commie
+		}
+		x = 6
+		y = 10
+	completion_reward = {
+	add_popularity = { ideology = neutrality popularity = -0.15 }
+	add_popularity = { ideology = democratic popularity = -0.1 }
+	add_popularity = { ideology = communism popularity = 0.1 }
+	}
+	}
+	focus = {
+		id = VKB_economy_plan
+		icon = GFX_goal_generic_positive_trade_relations
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_eco_country_reforms
+		}
+		mutually_exclusive = {
+			focus = VKB_country_industry_plans
+		}
+		x = 30
+		y = 2
+		completion_reward = {
+		custom_effect_tooltip = facotry_bonus_industrial_base_tt
+		custom_effect_tooltip = good_fabric_bonus_economy_reforms_5percent_tt
+		custom_effect_tooltip = specific_decision_for_economy_reforms_tt
+		hidden_effect = {
+		add_ideas = { add_factory_economy_bonus_small }
+		}
+	}
+	}
+	focus = {
+		id = VKB_economic_plans
+		icon = GFX_focus_SOV_organize_wreckers
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_against_capitalism
+		}
+		prerequisite = {
+			focus = VKB_eliminate_opportunism
+		}
+		x = 7
+		y = 11
+	completion_reward = {
+	custom_effect_tooltip = economic_plans_communism_tt
+	hidden_effect = {
+	add_ideas = economic_plans_communism
+	}
+	}
+	}
+	focus = {
+		id = VKB_call_for_investitions
+		icon = GFX_focus_generic_concessions
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_economy_plan
+		}
+		x = 30
+		y = 3
+		completion_reward = {
+		add_ideas = { country_open_incomes }
+	}
+	}
+	focus = {
+		id = VKB_credit_policy
+		icon = GFX_focus_mex_privatisation
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_call_for_investitions
+		}
+		x = 28
+		y = 4
+	completion_reward = {
+	hidden_effect = {
+		add_ideas = { country_open_incomes }
+	}
+	custom_effect_tooltip = good_fabric_value_economy_plans_tt
+	}
+	}
+	focus = {
+		id = VKB_railways_development
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_call_for_investitions
+		}
+		x = 30
+		y = 4
+	completion_reward = {
+		random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+	}
+	}
+	focus = {
+		id = VKB_sell_resources
+		icon = GFX_focus_oil_sell
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_credit_policy
+		}
+		prerequisite = {
+			focus = VKB_railways_development
+		}
+		x = 29
+		y = 5
+	completion_reward = {
+		custom_effect_tooltip = random_resources_tt
+		
+		random_list = {
+   100 = {
+	random_owned_controlled_state = {
+        add_resource = {
+			type = oil
+			amount = 6
+		}
+	}
+    }
+    100 = {
+    random_owned_controlled_state = {
+        add_resource = {
+			type = steel
+			amount = 6
+		}
+	}
+    }
+    100 = {
+    random_owned_controlled_state = {
+        add_resource = {
+			type = aluminium
+			amount = 6
+		}
+	}
+    }
+    100 = {
+    random_owned_controlled_state = {
+        add_resource = {
+			type = tungsten
+			amount = 6
+		}
+	}
+    }
+	100 = {
+    random_owned_controlled_state = {
+        add_resource = {
+			type = chromium
+			amount = 6
+		}
+	}
+    }
+}
+
+custom_effect_tooltip = add_local_resources_factor_tt
+hidden_effect = {
+ add_ideas = local_resources_factor
+}
+}
+
+	}
+	focus = {
+		id = VKB_urbanization
+		icon = GFX_focus_SWE_urbanization
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_sell_resources
+			focus = VKB_effect_industry
+		}
+		x = 27
+		y = 6
+	completion_reward = {
+		custom_effect_tooltip = gain_population_urbanization_economy_plans_tt
+		hidden_effect = {
+		add_ideas = { gain_population_urbanization }
+		}
+	}
+	}
+	focus = {
+		id = VKB_tax_for_small_bus
+		icon = GFX_goal_generic_intelligence_exchange
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_call_for_investitions
+		}
+		x = 32
+		y = 4
+	completion_reward = {
+		custom_effect_tooltip = build_speed_economy_plans_tt
+		hidden_effect = {
+		add_ideas = { tax_for_small_business }
+		}
+	}
+	}
+	focus = {
+		id = VKB_investiotion_in_light_industry
+		icon = GFX_focus_generic_industry_1
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_railways_development
+		}
+		prerequisite = {
+			focus = VKB_tax_for_small_bus
+		}
+		x = 31
+		y = 5
+	completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		add_timed_idea = {
+		idea = develop_light_industry
+		days = 45
+		}
+	}
+	}
+	focus = {
+		id = VKB_tech_industry
+		icon = GFX_focus_NORDIC_com_selector_research
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_sell_resources
+		}
+		prerequisite = {
+			focus = VKB_investiotion_in_light_industry
+		}
+		x = 30
+		y = 6
+	completion_reward = {
+	random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+	custom_effect_tooltip = research_tech_industry_bonus_tt
+	hidden_effect = {
+	add_ideas = high_tech_industry
+	}
+	}
+	}
+	focus = {
+		id = VKB_country_army_reform
+		icon = GFX_goal_rhineland
+		cost = 1,00
+		x = 40
+		y = 1
+		completion_reward = {
+		army_experience = 25
+	}
+	}
+	focus = {
+		id = VKB_shipyard_build
+		icon = GFX_focus_generic_refit_civilian_ships
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_navy_reform
+		}
+		x = 52
+		y = 2
+
+	}
+	focus = {
+		id = VKB_submarine_research
+		icon = GFX_goal_generic_navy_submarine
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_shipyard_build
+		}
+		x = 52
+		y = 3
+
+	}
+	focus = {
+		id = VKB_light_fleet_reform
+		icon = GFX_focus_generic_destroyer
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_submarine_research
+		}
+		x = 49
+		y = 4
+
+	}
+	focus = {
+		id = VKB_destroyer_research
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_light_fleet_reform
+		}
+		x = 48
+		y = 5
+
+	}
+	focus = {
+		id = VKB_light_cruiser_reseatch
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_light_fleet_reform
+		}
+		x = 50
+		y = 5
+
+	}
+	focus = {
+		id = VKB_navy_tactic_reform
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_submarine_research
+		}
+		x = 52
+		y = 4
+
+	}
+	focus = {
+		id = VKB_navy_tactic_reform_two
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_navy_tactic_reform
+		}
+		x = 52
+		y = 5
+
+	}
+	focus = {
+		id = VKB_heavy_fleet_reform
+		icon = GFX_focus_generic_cruiser2
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_submarine_research
+		}
+		x = 55
+		y = 4
+
+	}
+	focus = {
+		id = VKB_battleship_reseacrh
+		icon = GFX_goal_generic_navy_battleship
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_heavy_fleet_reform
+		}
+		x = 56
+		y = 5
+
+	}
+	focus = {
+		id = VKB_oligarchism_gov
+		icon = GFX_focus_generic_industrialists
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_subdue_news
+		}
+		prerequisite = {
+			focus = VKB_police_reform
+		}
+		mutually_exclusive = {
+			focus = VKB_autocracy_gov
+			focus = VKB_autocracy_gov
+		}
+		x = 14
+		y = 7
+	available = {
+	is_subject = no
+	neutrality > 0.5
+	}
+	
+	bypass = {
+	has_government = neutrality
+		}
+		
+	completion_reward = {
+		add_popularity = { ideology = neutrality popularity = 0.1 }
+		set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+
+	}
+	}
+	focus = {
+		id = VKB_formal_election
+		icon = GFX_focus_usa_voter_registration_act
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_oligarchism_gov
+			focus = VKB_autocracy_gov
+		}
+		x = 15
+		y = 8
+	completion_reward = {
+	custom_effect_tooltip = set_politics_oligarat_one_tt
+	custom_effect_tooltip = set_politics_oligarat_two_tt
+	custom_effect_tooltip = set_politics_oligarat_three_tt
+	custom_effect_tooltip = set_politics_oligarat_four_tt
+	hidden_effect = {
+	set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+	}
+	add_stability = 0.05		
+	}
+	}
+	focus = {
+		id = VKB_industry_privileges
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_oligarchism_gov
+			focus = VKB_democratic_state
+		}
+		x = 13
+		y = 8
+	completion_reward = {
+	custom_effect_tooltip = facotry_bonus_tt
+	custom_effect_tooltip = good_fabric_value_economy_plans_tt
+	hidden_effect = {
+	add_ideas = inside_industry
+	}
+	}
+	}
+	focus = {
+		id = VKB_country_general
+		icon = GFX_focus_LAT_banish_clemins
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_religion_gov
+		}
+		prerequisite = {
+			focus = VKB_loyalty_servant
+		}
+		mutually_exclusive = {
+			focus = VKB_coronation
+		}
+		x = 15
+		y = 11
+	completion_reward = {
+	set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+				long_name = generic_neutrality_general_party_long
+				name = generic_neutrality_general_party
+			}
+	add_popularity = { ideology = neutrality popularity = 0.1 }
+	add_popularity = { ideology = fascism popularity = 0.1 }
+	custom_effect_tooltip = general_political_gain
+	hidden_effect = {
+	add_ideas = general_end_buff
+	}
+	add_stability = 0.15
+	}
+	}
+	focus = {
+		id = VKB_coronation
+		icon = GFX_focus_hun_elect_a_king
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_loyalty_servant
+		}
+		prerequisite = {
+			focus = VKB_religion_gov
+		}
+		mutually_exclusive = {
+			focus = VKB_country_general
+		}
+		x = 17
+		y = 11
+	completion_reward = {
+	set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+				long_name = generic_neutrality_king_party_long
+				name = generic_neutrality_king_party
+			}
+	add_popularity = { ideology = neutrality popularity = 0.15 }
+	custom_effect_tooltip = king_political_gain
+	hidden_effect = {
+	add_ideas = king_end_buff
+	}
+	}
+	}
+	focus = {
+		id = VKB_gov_power
+		icon = GFX_focus_POL_complete_april_constitution
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_subjugate_opposition
+		}
+		x = 13
+		y = 11
+	completion_reward = {
+	set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+				long_name = generic_neutrality_oligarhat_party_long
+				name = generic_neutrality_oligarhat_party
+			}
+	add_popularity = { ideology = neutrality popularity = 0.1 }
+	custom_effect_tooltip = oligarhat_political_gain
+	hidden_effect = {
+	add_ideas = oligarhat_end_buff
+	}
+	add_stability = 0.2
+	}
+	}
+	focus = {
+		id = VKB_religion_gov
+		icon = GFX_focus_SOV_patriarch_of_all_russia
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_power_special_force
+		}
+		x = 15
+		y = 10
+	completion_reward = {
+	add_stability = 0.25
+	add_political_power = 100
+	}
+	}
+	focus = {
+		id = VKB_rights_for_migrants
+		icon = GFX_focus_cze_german_puppet
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_nationalisation_fascismm
+		}
+		x = 18
+		y = 10
+
+	}
+	focus = {
+		id = VKB_power_special_force
+		icon = GFX_focus_generic_vatican_agents
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_industry_privileges
+			focus = VKB_cult_leader
+		}
+		prerequisite = {
+			focus = VKB_formal_election
+		}
+		x = 15
+		y = 9
+	completion_reward = {
+	add_ideas = special_forces_power
+	add_political_power = 100
+	add_stability = 0.1
+	}
+	}
+	focus = {
+		id = VKB_furher_power
+		icon = GFX_focus_ger_reichskommisariats
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_rights_for_migrants
+		}
+		prerequisite = {
+			focus = VKB_national_brigade
+		}
+		x = 19
+		y = 11
+	completion_reward = {
+	set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+				long_name = generic_fascism_furher_party_long
+				name = generic_fascism_furher_party
+			}
+	add_popularity = { ideology = fascism popularity = 0.15 }
+	}
+	}
+	focus = {
+		id = VKB_president_republic
+		icon = GFX_goal_support_democracy
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_protect_business
+		}
+		prerequisite = {
+			focus = VKB_protect_freedoom_speech
+		}
+		x = 11
+		y = 11
+	completion_reward = {
+	custom_effect_tooltip = democratic_end_focus_tt
+	hidden_effect = {
+	add_ideas = democratic_end_focus
+	}
+	add_political_power = 100
+	}
+	}
+	focus = {
+		id = VKB_subjugate_opposition
+		icon = GFX_focus_eng_move_to_secure_the_dominions
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_industry_privileges
+		}
+		x = 13
+		y = 9
+	available = {
+	neutrality > 0.7
+	}
+	bypass = {
+	neutrality > 0.9
+	}
+	completion_reward = {
+	set_popularities = {
+	neutrality = 100
+	}
+	}
+	}
+	focus = {
+		id = VKB_protect_freedoom_speech
+		icon = GFX_goal_continuous_def_against_influence
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_pluralism_gov
+		}
+		x = 10
+		y = 10
+	completion_reward = {
+	custom_effect_tooltip = general_political_gain
+	hidden_effect = {
+	add_ideas = protect_freedom_speech
+	}
+	}
+	}
+	focus = {
+		id = VKB_loyalty_servant
+		icon = GFX_goal_generic_improve_relations
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_cult_leader
+		}
+		x = 17
+		y = 9
+	completion_reward = {
+	custom_effect_tooltip = cost_loyalty_servant_tt
+	add_political_power = -50
+	add_stability = 0.05
+	hidden_effect = {
+	add_ideas = cost_loyalty_servant
+	}
+	}
+	}
+	focus = {
+		id = VKB_aircraft_carrier_reform
+		icon = GFX_goal_generic_navy_carrier
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_heavy_fleet_reform
+		}
+		x = 54
+		y = 5
+
+	}
+	focus = {
+		id = VKB_navy_country
+		icon = GFX_goal_unknown
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_navy_tactic_reform_two
+		}
+		prerequisite = {
+			focus = VKB_battleship_reseacrh
+		}
+		prerequisite = {
+			focus = VKB_light_cruiser_reseatch
+		}
+		prerequisite = {
+			focus = VKB_destroyer_research
+		}
+		prerequisite = {
+			focus = VKB_aircraft_carrier_reform
+		}
+		x = 52
+		y = 6
+
+	}
+	focus = {
+		id = VKB_country_industrialisation
+		icon = GFX_focus_SWE_landsverk
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_tech_industry
+			focus = VKB_create_new_bussiness
+		}
+		prerequisite = {
+			focus = VKB_urbanization
+		}
+		x = 27
+		y = 7
+	completion_reward = {
+	swap_ideas = {
+				remove_idea = agrarian_country
+				add_idea = industrial_country
+		}
+	}
+	}
+	focus = {
+		id = VKB_offshore_country
+		icon = GFX_focus_ETH_adopt_the_lira
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_tech_industry
+		}
+		x = 30
+		y = 7
+
+	}
+	
+	focus = {
+		id = VKB_army_reform16
+		text = army_reform16
+		icon = GFX_focus_secret_rearmament
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform1
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = VKB_army_reform8
+		text = army_reform8
+		icon = GFX_goal_generic_build_tank
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform16
+		}
+		x = 35
+		y = 4
+
+	}
+	focus = {
+		id = VKB_army_reform7
+		text = army_reform7
+		icon = GFX_focus_SWE_let_fly_all_guns
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform16
+		}
+		x = 37
+		y = 4
+
+	}
+	focus = {
+		id = VKB_army_reform6
+		text = army_reform6
+		icon = GFX_focus_generic_truck
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform3
+		}
+		x = 43
+		y = 3
+
+	}
+	focus = {
+		id = VKB_army_reform2
+		text = army_reform2
+		icon = GFX_goal_generic_army_doctrines
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform6
+			focus = VKB_army_reform16
+		}
+		x = 40
+		y = 4
+
+	}
+	focus = {
+		id = VKB_army_reform14
+		text = army_reform14
+		icon = GFX_goal_generic_army_doctrines
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform2
+		}
+		x = 40
+		y = 5
+
+	}
+	focus = {
+		id = VKB_army_reform5
+		text = army_reform5
+		icon = GFX_focus_NOR_rikstanken
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform6
+		}
+		x = 43
+		y = 4
+
+	}
+	focus = {
+		id = VKB_army_reform18
+		text = army_reform18
+		icon = GFX_focus_SWE_lynx_armored_car
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform6
+		}
+		x = 45
+		y = 4
+
+	}
+	focus = {
+		id = VKB_army_reform20
+		text = army_reform20
+		icon = GFX_goal_generic_army_tanks
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform5
+		}
+		prerequisite = {
+			focus = VKB_army_reform18
+		}
+		x = 44
+		y = 5
+
+	}
+	focus = {
+		id = VKB_army_reform23
+		text = army_reform23
+		icon = GFX_focus_SOV_mobilization_plan
+		cost = 1,00
+		prerequisite = {
+			focus = VKB_army_reform14
+		}
+		prerequisite = {
+			focus = VKB_army_reform4
+		}
+		prerequisite = {
+			focus = VKB_army_reform20
+		}
+		x = 40
+		y = 6
+
+	}
+	focus = {
+		id = VKB_army_reform1
+		text = army_reform1
+		icon = GFX_goal_rhineland
+		cost = 1,00
+		x = 37
+		y = 2
+	prerequisite = {
+			focus = VKB_country_army_reform
+		}
+	}
+	
+	focus = {
+		id = VKB_army_reform3
+		text = army_reform3
+		icon = GFX_goal_generic_army_motorized
+		cost = 1,00
+		x = 43
+		y = 2
+		prerequisite = {
+			focus = VKB_country_army_reform
+		}
+	}
+	focus = {
+		id = VKB_army_reform4
+		text = army_reform4
+		icon = GFX_focus_generic_full_social_mobilization
+		cost = 1,00
+		x = 36
+		y = 5
+	prerequisite = {
+			focus = VKB_army_reform7
+		}
+	prerequisite = {
+			focus = VKB_army_reform8
+		}
+	}
+}

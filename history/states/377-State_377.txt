@@ -1,0 +1,60 @@
+state={
+	id=377
+	name="STATE_377"
+	provinces={
+		85 203 1163 1409 1529 2209 2318 3740 4320 4813 5180 5200 5785 5966 7545 7618 7910 8813 18166 18236 18296 18297 18359 18407 18408 18409 18420 18438 18445 18458 18466 18467 18483 18491 18510 18520 18582 18594 18599 18604 18631 18632 18633 18634 18669 18679 18702 18726 18732 18738 18787 18791 
+	}
+	manpower = 2842000
+	state_category = city
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		
+		victory_points = {
+		18466 10
+		}
+		victory_points = {
+		5966 15
+		}
+		victory_points = {
+		18520 20
+		}
+		victory_points = {
+		5200 20
+		}
+		victory_points = {
+		203 5
+		}
+		victory_points = {
+		18409 5
+		}
+		victory_points = {
+		4320 15
+		}
+		victory_points = {
+		18738 10
+		}
+		victory_points = {
+		7910 15
+		}
+		victory_points = {
+		1409 15
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			4320 = {
+			naval_base = 5
+			}
+			5200 = {
+			naval_base = 5
+			}
+			1409 = {
+			naval_base = 5
+			}
+			dockyard = 1
+		}
+}
+}

@@ -1,0 +1,26 @@
+state={
+	id=298
+	name="STATE_298"
+	provinces={
+		107 4204 9422 16769 16890 16905 16959 16980 17021 17033 17047 
+	}
+	manpower = 309200
+	state_category = town
+	history = {
+		owner = KEK
+		controller = KEK
+		
+		victory_points = {
+		16769 5
+		}
+buildings = {
+			infrastructure = 2
+			16769 = {
+				naval_base = 5
+			}
+		}
+}
+resources={
+		oil = 2
+	}
+}

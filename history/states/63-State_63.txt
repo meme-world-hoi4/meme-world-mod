@@ -1,0 +1,35 @@
+state={
+	id=63
+	name="STATE_63"
+	provinces={
+		12 312 2037 2376 3818 3982 5048 5554 6191 6247 6354 7258 7559 7788 7813 7999 9046 9127 9484 11895 11901 11926 12001 12010 12021 12033 12040 12048 12060 12061 12090 12095 12114 12121 12148 
+	}
+	manpower = 2401621
+	state_category = large_city
+	history = {
+		owner = EVD
+		controller = EVD
+		add_core_of = EVD
+		
+		victory_points = {
+		9046 10
+		}
+		victory_points = {
+		7258 10
+		}
+		victory_points = {
+		12010 5
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			3982 = {
+			naval_base = 4
+			}
+		}
+}
+resources={
+		oil = 6
+	}
+}

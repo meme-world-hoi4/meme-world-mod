@@ -1,0 +1,22 @@
+state={
+	id=40
+	name="STATE_40"
+	provinces={
+		5558 
+	}
+	manpower = 154000
+	state_category = large_city
+	history = {
+		owner = BAL
+		controller = BAL
+		add_core_of = BAL
+		
+		victory_points = {
+		5558 10
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+}
+}

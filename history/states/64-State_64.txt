@@ -1,0 +1,42 @@
+state={
+	id=64
+	name="STATE_64"
+	provinces={
+		1808 2109 2632 2748 3251 3457 8367 11863 11883 11896 11914 11948 11958 11997 12101 
+	}
+	manpower = 1369760
+	state_category = city
+	history = {
+		owner = JJK
+		controller = JJK
+		add_core_of = JJK
+		victory_points = {
+		3251 5
+		}
+		victory_points = {
+		12101 20
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			12101 = {
+			naval_base = 6
+			}
+			8367 = {
+			naval_base = 3
+			}
+			2748 = {
+			naval_base = 4
+			}
+			11958 = {
+			naval_base = 3
+			}
+			11914 = {
+			naval_base = 3
+			}
+		}
+}
+resources={
+		rubber = 18
+	}
+}

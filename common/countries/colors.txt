@@ -1,0 +1,106 @@
+KEK = {
+	color = rgb { 76 145 63 }
+	color_ui = rgb { 99 189 82 }
+}
+
+ARO = {
+	color = rgb { 20  98  56 }
+	color_ui = rgb { 29  125  74 }
+}
+
+OPO = {
+	color = rgb { 20  98  56 }
+	color_ui = rgb { 29  125  74 }
+}
+
+EVD = {
+	color = rgb { 192  192  192 }
+	color_ui = rgb { 232  232  232 }
+}
+
+SSR = {
+	color = rgb { 164  48  64 }
+	color_ui = rgb { 220  69  89 }
+}
+
+GAR = {
+	color = rgb { 159  94  66 }
+	color_ui = rgb { 240  143  101 }
+}
+
+JJK = {
+	color = rgb { 156  56  156 }
+	color_ui = rgb { 228  75  228 }
+}
+
+KIR = {
+	color = rgb { 156  56  156 }
+	color_ui = rgb { 228  75  228 }
+}
+
+EPI = {
+	color = rgb { 60  56  169 }
+	color_ui = rgb { 82  76  233 }
+}
+
+PAR = {
+	color = rgb { 98  98  98 }
+	color_ui = rgb { 162  162  162 }
+}
+
+PER = {
+	color = rgb { 142  24  173 }
+	color_ui = rgb { 194  29  237 }
+}
+
+VKB = {
+	color = rgb { 173  171  19  }
+	color_ui = rgb { 230  226  20 }
+}
+
+SHL = {
+	color = rgb { 154  171  82  }
+	color_ui = rgb { 192  214  101 }
+}
+
+BAL = {
+	color = rgb { 150  64  46  }
+	color_ui = rgb { 186  80  58 }
+}
+
+BUL = {
+	color = rgb { 135  80  37  }
+	color_ui = rgb { 173  102  49 }
+}
+
+ZEL = {
+	color = rgb { 15  150  74 }
+	color_ui = rgb { 19  217  105 }
+}
+
+ORD = {
+	color = rgb { 173  126  18  }
+	color_ui = rgb { 240  175  25 }
+}
+
+REP = {
+	color = rgb { 82  148  19 }
+	color_ui = rgb { 112  199  29 }
+}
+
+MOH = {
+	color = rgb { 171  170  141 }
+	color_ui = rgb { 237  236  191 }
+}
+
+KEZ = {
+	color = rgb { 161  158  20 }
+	color_ui = rgb { 237  234  29 }
+}
+
+XXX = {
+	color = rgb { 34  34  34 }
+	color_ui = rgb { 34  34  34 }
+}
+
+### Наша группа: https://vk.com/club223272462

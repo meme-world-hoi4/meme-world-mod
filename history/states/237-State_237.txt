@@ -1,0 +1,42 @@
+
+state={
+	id=237
+	name="STATE_237"
+	provinces={
+		1584 1725 3217 3321 4601 4857 4871 5335 5752 6285 7295 7674 7747 8315 8844 16434 16505 16506 16527 16538 16547 16559 16569 16586 16587 16621 16686 16697 16709 
+	}
+	manpower=2171730
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+
+	history={
+		owner = KEK
+		controller = KEK
+		add_core_of = KEK
+		
+		victory_points = {
+		7295 20
+		}
+		victory_points = {
+		16709 15
+		}
+		victory_points = {
+		16621 15
+		}
+		victory_points = {
+		4871 10
+		}
+		victory_points = {
+		16569 5
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 2
+		}
+}
+		resources={
+		steel=14
+	}
+}

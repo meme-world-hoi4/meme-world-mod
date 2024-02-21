@@ -1,0 +1,32 @@
+
+state={
+	id=172
+	name="STATE_172"
+	provinces={
+		2121 3770 4378 4715 9355 14158 14226 14238 14252 14393 14424 14448 14517 14518 14578 
+	}
+	history={
+		owner = OPO
+		controller = OPO
+		victory_points = {
+		}
+	buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		14424 = {
+			naval_base = 3
+		}
+		14578 = {
+			naval_base = 3
+		}
+		14158 = {
+			naval_base = 3
+		}	
+	}
+}
+	manpower=296000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

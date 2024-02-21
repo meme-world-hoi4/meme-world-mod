@@ -1,0 +1,19 @@
+state={
+	id=442
+	name="STATE_442"
+	provinces={
+		1586 2622 3128 4850 5314 5703 8988 9266 19257 19269 19291 19301 19349 19372 19378 19392 19410 19411 19422 19499 19521 
+	}
+	manpower = 278500
+	state_category = rural
+	history = {
+		owner = EVD
+		controller = EVD
+		
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 1
+		}
+}
+}

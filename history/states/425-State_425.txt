@@ -1,0 +1,31 @@
+state={
+	id=425
+	name="STATE_425"
+	provinces={
+		337 561 842 2871 3163 3296 3665 3671 4593 4818 4860 5099 5761 6329 6865 6895 7070 8271 8751 9705 19074 19127 19128 19129 19131 19145 19151 19153 19159 19164 19168 19177 19178 19181 19191 19194 19195 19198 19202 19210 19217 19218 19222 
+	}
+	manpower = 1043000
+	state_category = city
+	history = {
+		owner = EPI
+		controller = EPI
+		add_core_of = EPI
+		
+		victory_points = {
+		19222 10
+		}
+		victory_points = {
+		337 15
+		}
+		victory_points = {
+		19177 5
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+}
+}
+resources={
+		aluminium = 12
+	}
+}

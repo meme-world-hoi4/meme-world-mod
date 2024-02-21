@@ -1,0 +1,42 @@
+state={
+	id=98
+	name="STATE_98"
+	provinces={
+		81 472 866 892 1686 1806 1811 2047 2248 2473 2477 2682 2876 3621 4198 4484 4608 4744 5104 5211 5671 6086 6945 7050 7197 7243 7625 8429 8750 12264 12270 12275 12305 12307 12324 12342 12348 12354 12355 12368 12405 12420 12421 12454 12455 12481 12493 12506 12513 12533 12534 12544 12563 12573 12613 12618 12655 12656 
+	}
+	manpower = 2210320
+	state_category = large_city
+	history = {
+		owner = JJK
+		controller = JJK
+		add_core_of = JJK
+		victory_points = {
+		472 15
+		}
+		victory_points = {
+		12533 10
+		}
+		victory_points = {
+		8429 20
+		}
+		victory_points = {
+		2876 20
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+			472 = {
+			naval_base = 6
+			}
+			2876 = {
+			naval_base = 5
+			}
+			dockyard = 2
+		}
+}
+resources={
+		rubber = 6
+		steel = 18
+	}
+}

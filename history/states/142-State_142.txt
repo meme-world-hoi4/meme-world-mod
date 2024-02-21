@@ -1,0 +1,36 @@
+
+state={
+	id=142
+	name="STATE_142"
+	provinces={
+		532 1053 1472 2813 4617 4791 4886 5298 6012 6022 6391 6921 6950 7024 7622 7654 8071 8176 8464 9423 9557 9583 9770 13109 13142 13202 13287 13288 13516 13529 13550 13564 13565 13583 13606 13615 13633 13656 13657 13721 13722 13743 13744 13765 13829 13842 13852 13891 13909 13927 13976 13989 14048 14079 14345 14373 14411 14429 14475 14640 14686 14708 14733 14744 14760 
+	}
+	history={
+		owner = KEK
+		controller = KEK
+		victory_points = {
+			14760 5 
+		}
+buildings = {
+			infrastructure = 2
+			14760 = {
+				naval_base = 5
+			}
+			14079 = {
+				naval_base = 5
+			}
+			13516 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	resources={
+		oil = 12
+		rubber = 18
+	}	
+	manpower=421000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

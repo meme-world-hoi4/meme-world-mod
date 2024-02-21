@@ -1,0 +1,34 @@
+state={
+	id=467
+	name="STATE_467"
+	provinces={
+		311 628 886 1333 1388 1667 1985 2527 2717 3095 4068 4123 4252 4349 4801 5399 5573 5886 6249 6925 7185 8413 9438 19568 19576 19602 19642 19664 19673 19713 19718 19733 19741 19758 19780 19787 19797 19814 19845 19846 19853 19864 19879 19880 19898 19911 19912 19934 19945 19959 20007 20019 20078 20124 
+	}
+	manpower = 742000
+	state_category = town
+	history = {
+		owner = BUL
+		controller = BUL
+		
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			19642 = {
+			naval_base = 2
+			}
+			19718 = {
+			naval_base = 4
+			}
+			19664 = {
+			naval_base = 3
+			}
+		}
+}
+resources={
+		rubber = 34
+		oil = 12
+	}
+}

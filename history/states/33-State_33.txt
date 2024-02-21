@@ -1,0 +1,41 @@
+
+state={
+	id=33
+	name="STATE_33"
+
+	history={
+		owner = BAL
+		controller = BAL
+		add_core_of = BAL
+		victory_points = {
+			5469 5 
+		}
+		victory_points = {
+			4509 5 
+		}
+		victory_points = {
+			6892 20 
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			11108 = {
+			naval_base = 5
+			}
+			dockyard = 2
+		}
+
+	}
+
+	provinces={
+		696 1996 2955 2982 3207 3572 3985 4509 5384 5469 6575 6789 6892 7108 9119 9204 10904 10931 10980 10997 11019 11039 11056 11077 11108 11144 11174 11190 11220 11233 11263 11336 
+	}
+	resources={
+		oil = 6
+	}
+	manpower=1482250
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

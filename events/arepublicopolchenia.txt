@@ -1,0 +1,145 @@
+﻿###########################
+# Bulgarian Events
+###########################
+
+add_namespace = arepublicopolchenia
+
+# Выборы
+country_event = {
+	id = arepublicopolchenia.1
+	title = arepublicopolchenia.1.t
+	desc = arepublicopolchenia.1.d
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arepublicopolchenia.1.a
+		
+}
+}
+
+country_event = {
+	id = arepublicopolchenia.2
+	title = arepublicopolchenia.2.t
+	desc = arepublicopolchenia.2.d
+	picture = GFXreport_event_generic_military_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arepublicopolchenia.2.a
+}
+}
+
+country_event = {
+	id = arepublicopolchenia.3
+	title = arepublicopolchenia.3.t
+	desc = arepublicopolchenia.3.d
+	picture = GFX_report_event_generic_military_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arepublicopolchenia.3.a
+		add_war_support = 0.1
+		add_stability = -0.15
+		add_popularity = { ideology = fascism popularity = 0.05 }
+}
+}
+
+country_event = {
+	id = arepublicopolchenia.4
+	title = arepublicopolchenia.4.t
+	desc = arepublicopolchenia.4.d
+	picture = GFX_report_event_generic_riot
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arepublicopolchenia.4.a
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 215
+				num_provinces = 1
+				on_win = opolchenie.6
+				on_lose = opolchenie.7
+				on_cancel = japan_border_conflict.4
+				modifier = 0.1
+				dig_in_factor = 0
+				terrain_factor = 0
+    }	
+			defender = {
+				state = 219
+				num_provinces = 1
+				on_win = arepublicopolchenia.5
+				on_lose = arepublicopolchenia.6
+				on_cancel = japan_border_conflict.5
+    }
+}
+		set_cosmetic_tag = ARO_DRO
+		
+	hidden_effect = {
+	news_event = { days = 1 id = news.2 }
+	country_event = { days = 3 id = arepublicopolchenia.10 }
+	add_timed_idea = {
+	idea = dro_win_buff
+	days = 10
+	}
+}
+}
+}
+
+country_event = {
+	id = arepublicopolchenia.5
+	title = arepublicopolchenia.5.t
+	desc = arepublicopolchenia.5.d
+	picture = GFX_report_event_france_victory_syria
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arepublicopolchenia.5.a
+		add_war_support = 0.15
+		add_stability = 0.1
+}
+}
+
+country_event = {
+	id = arepublicopolchenia.6
+	title = arepublicopolchenia.6.t
+	desc = arepublicopolchenia.6.d
+	picture = GFX_report_event_france_victory_syria
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = arepublicopolchenia.6.a
+}
+}
+
+country_event = {
+	id = arepublicopolchenia.10
+	title = arepublicopolchenia.10.t
+	desc = arepublicopolchenia.10.d
+	picture = GFX_report_event_generic_riot
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = arepublicopolchenia.10a
+		finalize_border_war = {
+			defender_win = yes
+			attacker = 215
+			defender = 219
+		}
+		finalize_border_war = {
+			defender_win = yes
+			attacker = 222
+			defender = 215
+		}
+}
+}

@@ -1,0 +1,14 @@
+MAL_UK = {
+    color = rgb { 201 56 93 }
+    color_ui = rgb { 255 73 121 }
+}
+
+EVD_puppet_jjk = {
+	color = rgb { 156  56  156 }
+	color_ui = rgb { 228  75  228 }
+}
+
+ARO_DRO = {
+	color = rgb { 103  133  72 }
+	color_ui = rgb { 177  232  121 }
+}

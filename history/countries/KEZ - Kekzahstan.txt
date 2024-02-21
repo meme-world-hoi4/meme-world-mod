@@ -1,0 +1,36 @@
+capital = 308
+set_capital = 17146
+
+oob = "KEZ_2021"
+
+2021.1.1 = {
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 15 
+	neutrality = 85
+}
+
+add_ideas = agrarian_country
+add_ideas = based_political_power
+
+create_country_leader = {
+    name = "Unknown Leader"
+    desc = ""
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+    expire = "2023.1.1"
+    ideology = despotism
+    traits = {
+        #
+    }
+}
+
+	add_political_power = 10

@@ -1,0 +1,40 @@
+state={
+	id=205
+	name="STATE_205"
+	provinces={
+		683 907 1280 1554 1861 2198 2300 3132 3922 4396 4423 4496 4686 4896 5424 5956 6266 6434 6738 7042 7543 8191 8352 8360 8645 8667 8722 9067 9505 9570 15146 15184 15263 15304 15307 15311 15318 15343 15348 15379 15387 15398 15399 15407 15414 15426 15427 15432 15436 15484 15485 15510 15529 15555 15566 15608 15609 15629 15643 15685 15693 
+	}
+	history={
+		owner = MOH
+		controller = MOH
+		add_core_of = MOH
+		
+		victory_points = {
+		15387 15
+		}
+		victory_points = {
+		15436 10
+		}
+		victory_points = {
+		15184 10
+		}
+		victory_points = {
+		4396 10
+		}
+	buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			15184 = {
+				naval_base = 5
+			}
+			15608 = {
+				naval_base = 3
+			}
+	}
+}
+	manpower = 1876580
+	state_category = city
+	resources={
+		aluminium=12
+	}
+}

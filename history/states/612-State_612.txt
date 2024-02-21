@@ -1,0 +1,36 @@
+
+state={
+	id=612
+	name="STATE_612"
+
+	history={
+		owner = BUL
+		controller = BUL
+		victory_points = {
+
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			20051 = {
+			naval_base = 2
+			}
+			19759 = {
+			naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		64 359 1868 2024 3258 3465 3627 4466 5157 6711 6976 7298 7841 8593 8686 8875 9699 19655 19697 19759 19788 19829 19854 19890 19923 19929 19946 19988 19989 20031 20039 20051 20063 20088 20110 20116 20117 
+	}
+resources={
+		rubber = 18
+		steel = 24
+	}
+	manpower=529200
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

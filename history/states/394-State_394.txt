@@ -1,0 +1,28 @@
+state={
+	id=394
+	name="STATE_394"
+	provinces={
+		1768
+	}
+	manpower = 4060000
+	state_category = large_city
+	history = {
+		owner = PER
+		controller = PER
+		add_core_of = PER
+		
+		victory_points = {
+		1768 30
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+			1768 = {
+			naval_base = 6
+			}
+			dockyard = 1
+		}
+
+}
+}

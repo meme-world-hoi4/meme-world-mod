@@ -1,0 +1,21 @@
+state={
+	id=407
+	name="STATE_407"
+	provinces={
+		841 859 1037 1521 1814 2440 3166 4039 5050 5194 6761 7188 7532 8311 9136 9142 18697 18735 18743 18782 18794 18805 18807 18816 18841 18847 18859 18860 18870 18881 18911 18925 18938 18957 18967 18975 18998 19010 19021 19028 
+	}
+history={
+		owner = KEK
+		controller = KEK
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 1
+		}
+	}
+	manpower = 189000
+	state_category = rural
+resources={
+		oil = 8
+	}
+}

@@ -1,0 +1,35 @@
+state={
+	id=296
+	name="STATE_296"
+	provinces={
+		1735 1877 1939 2374 2935 4520 5670 6810 8354 8854 8874 16751 16767 16836 16837 16868 16883 16894 16903 16931 16939 16970 
+	}
+	history={
+		owner = REP
+		controller = REP
+		add_core_of = REP
+		
+		victory_points = {
+		16836 30
+		}
+		victory_points = {
+		16767 15
+		}
+		victory_points = {
+		16883 10
+		}
+		victory_points = {
+		16894 10
+		}
+		victory_points = {
+		5670 10
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 5
+		}
+}
+	manpower = 2772560
+	state_category = large_city
+}

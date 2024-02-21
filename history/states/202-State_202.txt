@@ -1,0 +1,26 @@
+state={
+	id=202
+	name="STATE_202"
+	provinces={
+		377 833 1081 1840 5506 6262 6558 7038 9304 15104 15147 15154 15185 15215 15259 15272 15273 15284 15312 15333 15334 15408 15465 
+	}
+	history={
+		owner = MOH
+		controller = MOH
+		add_core_of = MOH
+		
+		victory_points = {
+		15312 15
+		}
+		victory_points = {
+		6558 5
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+	}
+}
+	manpower = 2040900
+	state_category = city
+}

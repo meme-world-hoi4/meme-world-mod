@@ -1,0 +1,42 @@
+state={
+	id=490
+	name="STATE_490"
+	provinces={
+		181 1889 2069 2423 3333 3871 4923 5406 5527 6691 7290 8881 9176 9709 20095 20096 20122 20136 20145 20154 20170 20195 20221 20222 20255 20263 20293 20302 20303 20354 
+	}
+	manpower = 1126720
+	state_category = large_city
+	history = {
+		owner = SSR
+		controller = SSR
+		add_core_of = SSR
+		
+		victory_points = {
+		20095 10
+		}
+		victory_points = {
+		7290 15
+		}
+		victory_points = {
+		4923 15
+		}
+		victory_points = {
+		20293 15
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 2
+			20221 = {
+				naval_base = 4
+			}
+			5406 = {
+				naval_base = 4
+			}
+			dockyard = 2
+}
+}
+resources={
+		steel = 42
+	}
+}

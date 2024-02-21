@@ -1,0 +1,36 @@
+state={
+	id=225
+	name="STATE_225"
+	provinces={
+		549 1504 2010 2782 6554 6915 7152 7714 7820 8455 9260 9451 15724 15772 15844 15895 15922 15938 15959 16016 16035 431 1880 3158 5951 7147 7337 8439 15948 15993 16027 16070 16084 16150 16167 16172 16223 16229 16238 16244 16264 16297 16307 16327 16361 16367 
+	}
+	manpower = 2764144
+	state_category = metropolis
+history={
+		owner = KEK
+		controller = KEK
+		add_core_of = KEK
+buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 3
+			dockyard = 1
+		}
+		
+		victory_points = {
+		7820 20
+		}
+		victory_points = {
+		5951 20
+		}
+		victory_points = {
+		6915 10
+		}
+		victory_points = {
+		16016 10
+		}
+		victory_points = {
+		2782 15
+		}
+}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=424
+	name="STATE_424"
+
+	history={
+		owner = EPI
+		controller = EPI
+		add_core_of = EPI
+		victory_points = {
+			19044 15 
+		}
+		victory_points = {
+			7795 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+}
+	}
+
+	provinces={
+		240 738 1754 2386 3769 4269 7795 8025 8366 18989 19007 19044 19072 19073 19150 
+	}
+	manpower=189840
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

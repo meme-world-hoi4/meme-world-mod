@@ -1,0 +1,33 @@
+
+state={
+	id=474
+	name="STATE_474"
+
+	history={
+		owner = VKB
+		controller = VKB
+		add_core_of = VKB
+		victory_points = {
+			1978 20 
+		}
+		victory_points = {
+			3147 15 
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			1978 = {
+			naval_base = 5
+			}
+		}
+	}
+
+	provinces={
+		726 1978 3147 5504 5746 8743 19709 19714 19729 19764 19778 19783 19850 19851 
+	}
+	manpower=1945300
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

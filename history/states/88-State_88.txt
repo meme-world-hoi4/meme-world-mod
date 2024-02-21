@@ -1,0 +1,28 @@
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		12116 12127 12151 12163 12193 
+	}
+	manpower = 406000
+	state_category = city
+	history = {
+		owner = GAR
+		controller = GAR
+		add_core_of = GAR
+		
+		victory_points = {
+		12127 15
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			12193 = {
+			naval_base = 4
+			}
+		}
+}
+resources={
+		oil = 4
+	}
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=398
+	name="STATE_398"
+
+	history={
+		owner = KIR
+		controller = KIR
+		add_core_of = KIR
+		victory_points = {
+			8373 10 
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			8373 = {
+			naval_base = 5
+			}
+			6732 = {
+			naval_base = 4
+			}
+			dockyard = 1
+		}
+	}
+
+	provinces={
+		2533 4035 6732 8373 9094 18731 18790 18800 18801 18849 
+	}
+	resources={
+		steel = 8
+		aluminium = 16
+	}
+	manpower=1540000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

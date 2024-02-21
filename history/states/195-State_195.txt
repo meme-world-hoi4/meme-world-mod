@@ -1,0 +1,20 @@
+state={
+	id=195
+	name="STATE_195"
+	provinces={
+		908 2567 3838 4634 4943 5819 6822 6848 7321 7519 8389 8481 9113 9302 9340 15022 15073 15103 15119 15133 15139 15159 15177 15199 15218 15236 15251 
+	}
+	manpower = 261000
+	state_category = large_town
+	history = {
+		owner = KEK
+		controller = KEK
+		
+		victory_points = {
+		15139 10
+		}
+buildings = {
+			infrastructure = 2
+		}
+}
+}

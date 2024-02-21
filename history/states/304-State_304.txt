@@ -1,0 +1,34 @@
+
+state={
+	id=304
+	name="STATE_304"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = KEK
+		controller = KEK
+		add_core_of = KEK
+		victory_points = {
+			17078 10 
+		}
+		victory_points = {
+			16941 15 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		2625 3797 7026 8301 9137 16889 16916 16940 16941 16964 16979 16996 17012 17020 17078 17084 17092 17124 
+	}
+	manpower=669000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

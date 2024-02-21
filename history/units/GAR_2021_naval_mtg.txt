@@ -1,0 +1,180 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	fleet = {
+		name = "Main Gardernia Fleet"			
+		naval_base = 11840
+		task_force = {				
+			name = "Gardernia Battleships Force"
+			location = 11840
+			### Battleship Division 1 ###			
+			ship = { name = "Mid Range Battleship" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = GAR version_name = "Mid Range Battleship" } } }				
+			ship = { name = "Mid Range Battleship 2" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = GAR version_name = "Mid Range Battleship" } } }				
+			ship = { name = "Gardernian Rose" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = GAR version_name = "Mid Range Battleship" } } }
+			ship = { name = "Mid Range Battleship 3" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = GAR version_name = "Mid Range Battleship" } } }
+}			
+		task_force = {					
+			name = "Carrier Battle Force"		
+			location = 11840
+			ship = { name = "GAR Foxtrot" definition = carrier start_experience_factor = 0.2 equipment = { ship_hull_carrier_1 = { amount = 1 owner = GAR version_name = "Gardernia Carrier Class" } } 
+				
+			}
+			ship = { name = "GAR Bravo" definition = carrier start_experience_factor = 0.2 equipment = { ship_hull_carrier_conversion_bb = { amount = 1 owner = GAR version_name = "Gardernia Carrier Class" } } 
+				
+			}
+			
+			ship = { name = "GAR Epsilon" definition = carrier start_experience_factor = 0.2 equipment = { ship_hull_carrier_1 = { amount = 1 owner = GAR version_name = "Gardernia Carrier Class" } } 
+				
+			}
+		}
+		
+		task_force = {			
+			name = "Gardernia Light Crusier Force"
+			location = 11840
+			ship = { name = "GAR Light Crusier Type A 1" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }
+			ship = { name = "GAR Light Crusier Type A 2" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }		
+			ship = { name = "GAR Light Crusier Type A 3" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }		
+			ship = { name = "GAR Light Crusier Type A 4" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }		
+			ship = { name = "GAR Light Crusier Type A 5" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }		
+			ship = { name = "GAR Light Crusier Type A 6" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }		
+			ship = { name = "GAR Light Crusier Type A 7" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }		
+			ship = { name = "GAR Light Crusier Type A 8" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }
+			ship = { name = "GAR Light Crusier Type B 1" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }		
+			ship = { name = "GAR Light Crusier Type B 2" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }		
+			ship = { name = "GAR Light Crusier Type B 3" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }		
+			ship = { name = "GAR Light Crusier Type B 4" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }
+		}
+		
+		task_force = {
+			name = "Gardernia Destroyer Type A Force"
+			location = 11840
+			ship = { name = "GAR Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+
+	}
+	
+	task_force = {
+			name = "Gardernia Destroyer Type B Force"
+			location = 11840
+			ship = { name = "GAR Destroyer Type B 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 7" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 8" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 9" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 10" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 11" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 12" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			
+
+	}
+	
+}
+		
+	fleet = {
+		name = "Second Gardernian Fleet"			
+		naval_base = 12083
+		task_force = {					
+			name = "Gardernia Light Crusier Force"
+			location = 12083
+			ship = { name = "GAR Light Crusier Type A 9" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }
+			ship = { name = "GAR Light Crusier Type A 10" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }		
+			ship = { name = "GAR Light Crusier Type A 11" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }		
+			ship = { name = "GAR Light Crusier Type A 12" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }	
+			ship = { name = "GAR Light Crusier Type A 13" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }		
+			ship = { name = "GAR Light Crusier Type A 14" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type A" } } }	
+		}
+		ship = { name = "GAR Light Crusier Type B 5" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }		
+			ship = { name = "GAR Light Crusier Type B 6" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }		
+			ship = { name = "GAR Light Crusier Type B 7" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }		
+			ship = { name = "GAR Light Crusier Type B 8" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }
+		
+		task_force = {
+			name = "Gardernia Second Battleship Force"
+			location = 12083
+			ship = { name = "Mid Range Battleship 4" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = GAR version_name = "Mid Range Battleship" } } }				
+			ship = { name = "Alexander Bayazidov" definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = GAR version_name = "Mid Range Battleship" } } }			
+			### Battleship Division 2 ###			
+			}
+		
+		task_force = {
+			name = "Gardernia Destroyer Type A Force"
+			location = 12083
+			ship = { name = "GAR Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 7" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 8" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 9" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 10" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 11" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 12" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 13" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+			ship = { name = "GAR Destroyer Type A 14" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type A" } } }
+
+	}
+}
+
+fleet = {
+		name = "Third Gardernian Fleet"			
+		naval_base = 725
+		task_force = {					
+			name = "Gardernia Light Crusier Force"
+			location = 725
+			ship = { name = "GAR Light Crusier Type B 9" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }		
+			ship = { name = "GAR Light Crusier Type B 10" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GAR version_name = "Light Crusier Type B" } } }
+		}
+	
+	task_force = {
+			name = "Gardernia Destroyer Type B Force"
+			location = 725
+			ship = { name = "GAR Destroyer Type B 13" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 14" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 15" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 16" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 17" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 18" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 19" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 20" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 21" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 22" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 23" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 24" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 25" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			ship = { name = "GAR Destroyer Type B 26" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GAR version_name = "Destroyer Type B" } } }
+			
+
+	}
+}
+
+fleet = {
+		name = "Submarine Fleet"			
+		naval_base = 5241
+		task_force = {					
+			name = "Gardernia Submarines"
+			location =5241
+			ship = { name = "GAR Submarines Type A 1" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 5" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 6" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 7" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 8" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 5" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 6" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 7" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+			ship = { name = "GAR Submarines Type A 8" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = GAR version_name = "Submarine Type A" } } }
+
+}
+}
+}
+
+#####################

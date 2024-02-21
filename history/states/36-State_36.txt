@@ -1,0 +1,40 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = BAL
+		controller = BAL
+		victory_points = {
+		11191 15
+		}
+		victory_points = {
+		3806 5
+		}
+		victory_points = {
+		11005 5
+		}
+		victory_points = {
+		1078 5
+		}
+buildings = {
+			infrastructure = 3
+			3806 = {
+			naval_base = 4
+			}
+		}
+
+	}
+
+	provinces={
+		83 1078 3806 8364 8545 8948 11005 11053 11058 11126 11191 11241 11259 11355 11402 
+	}
+resources={
+		rubber = 6
+	}
+	manpower=260960
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

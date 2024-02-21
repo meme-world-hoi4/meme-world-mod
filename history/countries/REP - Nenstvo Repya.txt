@@ -1,0 +1,36 @@
+capital = 296
+set_capital = 16836
+
+oob = "REP_2021"
+
+2021.1.1 = {
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = neutrality
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 25 
+	neutrality = 75
+}
+
+add_ideas = agrarian_country
+add_ideas = based_political_power
+
+#create_country_leader = {
+#    name = "Vasil Zacharka"
+#    desc = ""
+#    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+#   expire = "2023.1.1"
+#    ideology = centrism
+#    traits = {
+#        #
+#    }
+#}
+recruit_character = REP_Mc_Kreker
+add_ideas = idea_kek_union
+}

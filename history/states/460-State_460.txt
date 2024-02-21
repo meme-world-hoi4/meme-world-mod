@@ -1,0 +1,22 @@
+state={
+	id=460
+	name="STATE_460"
+	provinces={
+		2503 3992 8575 19679 19689 19750 19770 
+	}
+	manpower = 342405
+	state_category = city
+	history = {
+		owner = SSR
+		controller = SSR
+		add_core_core = SSR
+		
+		victory_points = {
+		2503 10
+		}
+buildings = {
+			infrastructure = 3
+}
+		
+}
+}

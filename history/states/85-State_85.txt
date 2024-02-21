@@ -1,0 +1,29 @@
+
+state={
+	id=85
+	name="STATE_85"
+	provinces={
+		1783 3774 4165 5216 5484 6658 8346 8975 9674 18513 18561 18562 18584 18592 18606 18618 18636 18646 18653 18661 18670 18671 18683 18695 18696 18713 18734 18741 18742 18748 18754 18775 18788 18793 18804 18815 18840 
+	}
+	manpower=142800
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history = {
+		owner = BAL
+		controller = BAL
+		
+		victory_points = {
+		18618 5
+		}
+buildings = {
+			infrastructure = 2
+			18561 = {
+			naval_base = 4
+			}
+		}
+}
+resources={
+		rubber = 12
+	}
+}

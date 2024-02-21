@@ -1,0 +1,42 @@
+
+state={
+	id=475
+	name="STATE_475"
+	provinces={
+		2872 4041 4103 4576 5402 6405 8264 8325 9371 9532 19727 19742 19748 19816 19865 19891 19947 19966 19994 20008 20053 
+	}
+	history={
+		owner = ZEL
+		controller = ZEL
+		add_core_of = ZEL
+		
+		victory_points = {
+		19891 30
+		}
+		victory_points = {
+		20008 10
+		}
+		victory_points = {
+		19748 10
+		}
+		victory_points = {
+		9532 5
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			6405 = {
+			naval_base = 4
+			}
+			dockyard = 1
+}
+}
+resources={
+		aluminium = 12
+	}
+	manpower=2138864
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

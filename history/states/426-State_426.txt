@@ -1,0 +1,20 @@
+state={
+	id=426
+	name="STATE_426"
+	provinces={
+		1 55 420 845 1040 1651 1909 1938 2569 2635 2825 3794 4679 4693 5244 5577 6280 6457 6669 8006 8024 8134 8504 8868 9393 9782 19090 19097 19098 19132 19160 19182 19203 19204 19211 19234 19237 19251 19299 19333 19341 19361 19366 
+	}
+history={
+		owner = MOH
+		controller = MOH
+		add_core_of = MOH
+buildings = {
+			infrastructure = 1
+}
+}
+	resources={
+		aluminium = 20
+	}
+	manpower = 243600
+	state_category = rural
+}

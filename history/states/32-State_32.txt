@@ -1,0 +1,22 @@
+state={
+	id=32
+	name="STATE_32"
+	provinces={
+		2865 5954 7237 10820 10899 
+	}
+	manpower = 32000
+	state_category = rural
+	history = {
+		owner = KIR
+		controller = KIR
+		add_core_of = KIR
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 1
+			10820 = {
+			naval_base = 2
+			}
+		}
+}
+}

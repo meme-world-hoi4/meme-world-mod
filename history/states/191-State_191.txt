@@ -1,0 +1,20 @@
+state={
+	id=191
+	name="STATE_191"
+	provinces={
+		4187 14842 14873 
+	}
+	history={
+		owner = MOH
+		controller = MOH
+		add_core_of = MOH
+}
+buildings = {
+			infrastructure = 1
+			4187 = {
+				naval_base = 1
+			}
+}
+	manpower = 22400
+	state_category = rural
+}

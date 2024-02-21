@@ -1,0 +1,24 @@
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		3137 5794 15984 16040 16058 16112 
+	}
+	manpower = 561900
+	state_category = large_town
+history={
+		owner = KEK
+		controller = KEK
+		add_core_of = KEK
+buildings = {
+			infrastructure = 2
+			16112 = {
+				naval_base = 6
+			}
+		}
+		
+		victory_points = {
+		16058 10
+		}
+}
+}

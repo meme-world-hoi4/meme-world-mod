@@ -1,0 +1,90 @@
+﻿###########################
+# Bulgarian Events
+###########################
+
+add_namespace = keklandia
+
+# Выборы
+country_event = {
+	id = keklandia.1
+	title = keklandia.1.t
+	desc = keklandia.1.d
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keklandia.1.a
+		custom_effect_tooltip = border_war_with_opolchenie_soon_tt
+}
+}
+
+country_event = {
+	id = keklandia.2
+	title = keklandia.2.t
+	desc = keklandia.2.d
+	picture = GFX_report_event_bul_troops_dobrudja
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keklandia.2.a
+		hidden_effect = {
+		news_event = { days = 1 id = news.3 }
+		KEK = {
+		remove_ideas = idea_kek_union
+		}
+		REP = {
+		remove_ideas = idea_kek_union
+		}
+		REP = {
+		add_named_threat = {
+			threat = 5
+			name = KEK_destroy_union
+		}
+		}
+		}
+}
+}
+
+country_event = {
+	id = keklandia.3
+	title = keklandia.3.t
+	desc = keklandia.3.d
+	picture = GFX_report_event_generic_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keklandia.3.a
+		start_border_war = {
+			change_state_after_war = no
+			attacker = {
+				state = 222
+				num_provinces = 6
+				on_win = 
+				on_lose = 
+				on_cancel = 
+				modifier = 0.1
+				dig_in_factor = 0
+				terrain_factor = 0
+    }	
+			defender = {
+				state = 215
+				num_provinces = 3
+				on_win = 
+				on_lose = 
+				on_cancel = 
+    }
+}
+
+	hidden_effect = {
+	KEK = {
+	add_named_threat = {
+			threat = 2
+			name = KEK_border_war_with_opo
+		}
+	}
+}
+}
+}

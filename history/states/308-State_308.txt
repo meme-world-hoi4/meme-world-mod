@@ -1,0 +1,34 @@
+state={
+	id=308
+	name="STATE_308"
+	provinces={
+		535 1466 3439 5682 6137 7739 8180 9155 9200 9569 17019 17069 17083 17103 17123 17146 17158 17171 17184 17188 17218 17219 17274 17275 17310 17344 17357 17375 
+	}
+	history={
+		owner = KEZ
+		controller = KEZ
+		add_core_of = KEZ
+		
+		victory_points = {
+		17146 30
+		}
+		victory_points = {
+		17274 10
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			17274 = {
+				naval_base = 5
+			}
+			dockyard = 1
+		}
+}
+resources={
+		oil = 18
+		steel = 8
+	}
+	manpower = 2983400
+	state_category = large_city
+}

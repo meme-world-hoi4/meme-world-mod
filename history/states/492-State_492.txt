@@ -1,0 +1,41 @@
+state={
+	id=492
+	name="STATE_492"
+	provinces={
+		324 1212 2095 6151 7712 20200 20247 20277 
+	}
+	manpower = 3469560
+	state_category = city
+	history = {
+		owner = SHL
+		controller = SHL
+		add_core_of = SHL
+		
+		victory_points = {
+		1212 15
+		}
+		victory_points = {
+		6151 10
+		}
+		victory_points = {
+		7712 5
+		}
+		victory_points = {
+		324 10
+		}
+		victory_points = {
+		2095 5
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 4
+			1212 = {
+			naval_base = 4
+			}
+			7712 = {
+			naval_base = 3
+			}
+		}
+}
+}

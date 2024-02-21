@@ -1,0 +1,26 @@
+state={
+	id=487
+	name="STATE_487"
+	provinces={
+		948 1984 2014 2814 3852 4087 6140 8435 19963 19993 20108 20169 20213 20254 
+	}
+	manpower = 206650
+	state_category = rural
+	history = {
+		owner = EVD
+		controller = EVD
+		
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			20213 = {
+			naval_base = 3
+			}
+		}
+}
+resources={
+		tungsten = 24
+	}
+}

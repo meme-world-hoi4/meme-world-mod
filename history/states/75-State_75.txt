@@ -1,0 +1,30 @@
+state={
+	id=75
+	name="STATE_75"
+	provinces={
+		1830 2860 7404 9095 9352 9752 9817 12003 12023 12035 12047 12065 12072 12089 12098 12117 
+	}
+	manpower = 3592400
+	state_category = metropolis
+		history = {
+		owner = EVD
+		controller = EVD
+		add_core_of = EVD
+		
+		victory_points = {
+		12047 30
+		}
+		victory_points = {
+		9817 15
+		}
+buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 4
+			7404 = {
+			naval_base = 6
+			}
+			dockyard = 2
+		}
+}
+}

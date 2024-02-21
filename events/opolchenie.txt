@@ -1,0 +1,160 @@
+﻿###########################
+# Bulgarian Events
+###########################
+
+add_namespace = opolchenie
+
+# Выборы
+country_event = {
+	id = opolchenie.1
+	title = opolchenie.1.t
+	desc = opolchenie.1.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = opolchenie.1.a
+		retire_ideology_leader = democratic
+		add_country_leader_role = {
+			character = OPO_Otto_Kerk
+			promote_leader = yes
+		country_leader = {
+			ideology = conservatism
+			expire = "2024.1.1"
+			traits = { }
+		}
+	}
+}
+}
+
+country_event = {
+	id = opolchenie.2
+	title = opolchenie.2.t
+	desc = opolchenie.2.d
+	picture = GFX_report_event_generic_conference
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = opolchenie.2.a
+		retire_ideology_leader = democratic
+		add_country_leader_role = {
+			character = OPO_Edward_Kekinesky
+			promote_leader = yes
+		country_leader = {
+			ideology = conservatism
+			expire = "2024.1.1"
+			traits = { }
+		}
+	}
+	add_war_support = 0.1
+	add_stability = -0.1
+}
+}
+
+country_event = {
+	id = opolchenie.3
+	title = opolchenie.3.t
+	desc = opolchenie.3.d
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = opolchenie.3.a
+		add_stability = 0.05
+		add_named_threat = {
+			threat = 2
+			name = OPO_deployment_of_troops
+		}
+		hidden_effect = {
+		ARO = {
+		country_event = arepublicopolchenia.1
+		}
+		KEK = {
+		country_event = keklandia.1
+		}
+		}
+}
+}
+
+country_event = {
+	id = opolchenie.4
+	title = opolchenie.4.t
+	desc = opolchenie.4.d
+	picture = GFX_report_event_generic_military_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.4.a
+	add_war_support = 0.15
+	add_stability = -0.1
+	add_popularity = { ideology = fascism popularity = 0.05 }
+	add_popularity = { ideology = neutrality popularity = 0.05 }
+	hidden_effect = {
+	ARO = { country_event = arepublicopolchenia.2 }
+	}
+}
+}
+
+country_event = {
+	id = opolchenie.5
+	title = opolchenie.5.t
+	desc = opolchenie.5.d
+	picture = GFX_report_event_generic_army
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.5.a
+	custom_effect_tooltip = start_opolchenie_border_war_tt
+	hidden_effect = {
+	ARO = { country_event = arepublicopolchenia.4 }
+	KEK = {
+		country_event = keklandia.3
+		}
+	set_autonomy = {
+			target = ARO
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+	add_named_threat = {
+			threat = 5
+			name = OPO_annex_dro
+		}
+	remove_ideas = idea_kek_union
+}
+}
+}
+
+country_event = {
+	id = opolchenie.6
+	title = opolchenie.6.t
+	desc = opolchenie.6.d
+	picture = GFX_report_event_hol_cabinet_gerbrandy
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+	name = opolchenie.4.a
+}
+}
+
+country_event = {
+	id = opolchenie.7
+	title = opolchenie.7.t
+	desc = opolchenie.7.d
+	picture = GFX_report_event_hol_cabinet_gerbrandy
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.4.a
+	add_war_support = -0.15
+	add_stability = -0.15
+}
+}

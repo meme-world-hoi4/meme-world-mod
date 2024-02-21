@@ -1,0 +1,25 @@
+state={
+	id=479
+	name="STATE_479"
+	provinces={
+		516 632 2788 3386 6223 7051 7804 19900 19920 19921 19951 19964 20075
+	}
+	manpower = 847720
+	state_category = city
+	history = {
+		owner = SSR
+		controller = SSR
+		add_core_of = SSR
+		
+		victory_points = {
+		19900 15
+		}
+buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+}
+}
+resources={
+		steel = 24
+	}
+}

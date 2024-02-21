@@ -1,0 +1,43 @@
+
+state={
+	id=217
+	name="STATE_217"
+	provinces={
+		413 743 746 3350 3807 3825 4162 6944 6947 8297 8919 9323 9343 9366 9493 9761 15482 15483 15543 15574 15592 15614 15642 15652 15676 15696 15697 15731 15738 15760 15777 15807 15843 15881 15905 15915 15918 15919 15946 15947 15982 15983 16000 16026 16057 16078 16105 16128 16462 16526 16568 16748 16807 16938 17007 17018 17038 
+	}
+	history={
+		owner = OPO
+		controller = OPO
+		victory_points = {
+		}
+		buildings = {
+			infrastructure = 2
+			3807 = {
+				naval_base = 3
+			}
+
+			3825 = {
+				naval_base = 3
+			}
+
+			16000 = {
+				naval_base = 3
+			}
+			8919 = {
+				naval_base = 2
+			}
+			17018 = {
+				naval_base = 2
+			}
+}
+}
+
+resources={
+		steel = 16
+		chromium = 6
+	}
+	manpower=1557696
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=445
+	name="STATE_445"
+
+	history={
+		owner = PAR
+		controller = PAR
+		victory_points = {
+		6069 15
+		}
+		add_core_of = PAR
+	buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			6069 = {
+			naval_base = 5
+			}
+			9273 = {
+			naval_base = 4
+			}
+			dockyard = 1
+		}
+	}
+
+	provinces={
+		303 3159 3230 4012 4954 6069 6108 9273 9590 9723 19326 19330 19355 19369 19383 19412 19440 
+	}
+	manpower=1675240
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

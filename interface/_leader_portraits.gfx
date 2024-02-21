@@ -1,0 +1,134 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_Portrait_Evdokimia_Gagik_Aslanyan"
+		texturefile = "gfx/leaders/EVD/Portrait_Evdokimia_Gagik_Aslanyan.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_Portrait_Partizania_Mikhail_Kondelyabrov"
+		texturefile = "gfx/leaders/PAR/Portrait_Patizania_Mikhail_kondelyabrov.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Kekland_Il_Kek_Duri"
+		texturefile = "gfx/leaders/KEK/Portrait_Kekland_Il_Kek_Duri.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Kekland_Nikita_Sesonsky"
+		texturefile = "gfx/leaders/KEK/Portrait_Kekland_Nikita_Sesonsky.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Evdokimia_Evdok_Arakimenko"
+		texturefile = "gfx/leaders/EVD/Portrait_Evdokimia_Evdok_Arakimenko.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Evdokimia_Evdok_Arakimenkoo"
+		texturefile = "gfx/leaders/EVD/Portrait_Evdokimia_Evdok_Arakimenkoo.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Shlepenia_Nikolay_Kvokk"
+		texturefile = "gfx/leaders/SHL/Portrait_Shlepenia_Nikolay_Kvokk.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Repya_Mc_Kreker"
+		texturefile = "gfx/leaders/REP/Portrait_Repya_Mc_Kreker.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Persia_Viv_Mim"
+		texturefile = "gfx/leaders/PER/Portrait_Persia_Viv_Mim.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Billy_Herrington"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Billy_Herrington.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Otto_Kerk"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Otto_Kerk.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Edward_Kekinesky"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Edward_Kekinesky.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Gardernia_Anton_Yashnov"
+		texturefile = "gfx/leaders/GAR/Portrait_Gardernia_Anton_Yashnov.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Kekland_Green_House"
+		texturefile = "gfx/leaders/KEK/Portrait_Kekland_Green_House.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Jojo_Araki_Five"
+		texturefile = "gfx/leaders/JJK/Portrait_Jojo_Araki_Five.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Epicana_Kaban_Fon_Lorents"
+		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Kaban_Fon_Lorents.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Epicana_Misato_Katsuragi"
+		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Misato_Katsuragi.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Baltikania_Salat_Ogzamov"
+		texturefile = "gfx/leaders/BAL/Portrait_Baltikania_Salat_Ogzamov.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Vkbs_Ilya_Chursin"
+		texturefile = "gfx/leaders/VKB/Portrait_Vkbs_Ilya_Chursin.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Lovushkinsk_Sava_Perseev"
+		texturefile = "gfx/leaders/SSR/Portrait_Lovushkinsk_Seva_Perseyev.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_ARO_Michael_Kekich"
+		texturefile = "gfx/leaders/ARO/Portrait_DRO_Michael_Kekich.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Bulba_Gregmor_Putifur"
+		texturefile = "gfx/leaders/BUL/Portrait_Bulba_Gregmor_Putifur.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Partizania_August_Henkel"
+		texturefile = "gfx/leaders/PAR/Portrait_Partizania_August_Henkel.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Partizania_Waldemar_Shvainoff"
+		texturefile = "gfx/leaders/PAR/Portrait_Partizania_Waldemar_Shvainoff.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Partizania_Helie_Ahverd"
+		texturefile = "gfx/leaders/PAR/Portrait_Partizania_Helie_Ahverd.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Partizania_Perdinand_Hohlander"
+		texturefile = "gfx/leaders/PAR/Portrait_Partizania_Perdinand_Hohlander.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Partizania_Yurgen_Juk"
+		texturefile = "gfx/leaders/PAR/Portrait_Partizania_Yurgen_Juk.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Partizania_Pax_Paxbetov"
+		texturefile = "gfx/leaders/PAR/Portrait_Partizania_Pax_Paxbetov.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Partizania_Partizano_Ranchovich_Mezurev"
+		texturefile = "gfx/leaders/PAR/Portrait_Partizania_Partizano_Ranchovich_Mezurev.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Epicana_Lisabet_Odelshvank"
+		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Lisabet_Odelshvank.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Epicana_Sergey_Krutovikin"
+		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Sergey_Krutovikin.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Epicana_Portrait_Epicana_Georg_Kolman"
+		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Georg_Kolman.dds"
+	}
+}

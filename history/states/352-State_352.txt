@@ -1,0 +1,30 @@
+
+state={
+	id=352
+	name="STATE_352"
+	provinces={
+		58 1221 4200 5545 7496 18848 18892 18903 18922 18946 18986 18987 19016 
+	}
+	history = {
+		owner = BUL
+		controller = BUL
+		
+		victory_points = {
+		18987 5
+		}
+buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			18987 = {
+			naval_base = 4
+			}
+		}
+}
+resources={
+		oil = 10
+	}
+	manpower=90000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

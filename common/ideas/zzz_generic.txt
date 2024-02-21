@@ -1,0 +1,917 @@
+ideas = {
+
+	hidden_ideas = {
+		add_speed_research = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			research_speed_factor = 0.1
+			}
+		}
+		
+		based_political_power = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_power_gain = 1
+			}
+		}
+		
+		add_factory_bonus = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_buildings_factor = 0.05 
+			industrial_capacity_factory = 0.1
+			}
+		}
+		
+		add_factory_economy_bonus_small = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_buildings_factor = 0.05 
+			consumer_goods_factor = -0.05
+			}
+		}
+		add_nationalisation_bonus_small = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			consumer_goods_factor = -0.05
+			}
+		}
+		
+		population_farmer_reform = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			monthly_population = 0.15
+			}
+		}
+		
+		add_factory_bonus_small = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_buildings_factor = 0.05 
+			industrial_capacity_factory = 0.05
+			}
+		}
+		tax_for_small_business = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_buildings_factor = 0.1
+			}
+		}
+		
+		dro_win_buff = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			army_defence_factor = 0.5
+			}
+		}
+		
+		local_resources_factor = {
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			local_resources_factor = 0.1
+			}
+	}
+	
+	high_tech_industry = {
+	allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			research_speed_factor = 0.15
+			}
+		}
+		
+	gain_population_urbanization = {
+	allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			monthly_population = 0.05
+			}
+		}
+		
+	law_reform_pp_gain_minus = {
+	allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_power_gain = -0.05
+			}
+		}
+		
+	neutrality_good_factory_debuff_idea = {
+		allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			consumer_goods_factor = 0.05
+			}
+		}
+		
+		cult_leader_buff = {
+		allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_power_factor = 0.5
+			}
+		}
+		
+		cost_loyalty_servant = {
+		allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_advisor_cost_factor = -0.5
+			}
+		}
+		
+		protect_freedom_speech = {
+		allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_power_factor = 0.2
+			}
+		}
+		
+		economic_plans_communism = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_buildings_factor = 0.15 
+			industrial_capacity_factory = 0.15
+			}
+		}
+		
+		fascism_furher_brigade = {
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			weekly_manpower = 500
+			}
+		}
+		
+		king_end_buff = {
+		allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_power_factor = 0.25
+			}
+		}
+		
+		general_end_buff = {
+		allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_power_factor = 0.2
+			}
+		}
+		
+		oligarhat_end_buff = {
+		allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_power_factor = 0.15
+			}
+		}
+		
+		inside_industry = {
+		allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_buildings_factor = 0.1
+			consumer_goods_factor = -0.1
+			}
+		}
+		
+	}
+
+	# Special ones that can be applied on other countries through focus system.
+	country = {
+	
+	develop_light_industry = {
+	picture = generic_goods_red_bonus
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_industrial_complex_factor = 0.2
+			}
+	}
+	
+	special_forces_power = {
+	picture = idea_FIN_maan_turva
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			special_forces_cap = 0.25
+			enemy_operative_detection_chance_factor = 0.2
+			enemy_operative_capture_chance_factor = 0.2
+			political_power_gain = 0.25
+			}
+	}
+	
+	small_neutrality_support = {
+	picture = generic_pp_unity_bonus
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			NOT = { has_government = neutrality }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			neutrality_drift = 0.05
+			neutrality_acceptance = 85
+			}
+	}
+	strong_neutrality_support = {
+	picture = generic_pp_unity_bonus
+	allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = neutrality }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			neutrality_drift = 0.15
+			neutrality_acceptance = 85
+			}
+	}
+	
+	high_effect_industrial = {
+	picture = generic_production_bonus
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+		production_speed_buildings_factor = 0.1
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		consumer_goods_factor = -0.1
+		production_oil_factor = 0.05
+			}
+	}
+	
+	country_open_incomes = {
+	picture = NOR_printing_money
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			consumer_goods_factor = -0.1
+			}
+	}
+	
+	develop_light_industry_small = {
+	picture = generic_goods_red_bonus
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_industrial_complex_factor = 0.15
+			}
+	}
+	develop_hard_industry_small = {
+	picture = SOV_second_five_year_plan
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			production_speed_arms_factory_factor = 0.15
+			}
+	}
+	
+		TO_chose_neutrality = {
+
+			picture = generic_pp_unity_bonus
+
+			removal_cost = -1
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			#on_add = {
+			#	set_rule = { can_join_factions = no }
+			#}
+			#
+			#on_remove = {
+			#	set_rule = { can_join_factions = yes }
+			#}
+
+			modifier = {
+				trade_opinion_factor = 0.25
+				democratic_acceptance = -300
+				communism_acceptance = 100
+				#custom_modifier_tooltip = SOV_shocked_by_surprise_attack_cant_join_factions_tt
+			}
+		}
+		
+		TO_nato_ratified = {
+
+			picture = generic_democratic_drift_bonus
+
+			removal_cost = -1
+
+			allowed = {
+				always = no # Added via event
+			}
+
+			modifier = {
+				
+			}
+		}
+		
+		nationalism = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				fascism_drift = 0.1
+			}
+		}
+		MTG_TEST_NAVAL_IDEA = { #MTG_TODO_GABRIEL: remove before shipping
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+
+			
+			modifier = {
+				navy_fuel_consumption_factor = -1
+				air_fuel_consumption_factor = -1
+				#spotting_chance = 5
+			}
+		}
+		
+		neutrality_influence = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+			modifier = {
+				neutrality_drift = 0.1
+				neutrality_acceptance = 85
+			}
+		}
+	
+		neutrality_idea = {
+			
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			cancel = {
+				has_war = yes
+			}
+			
+			removal_cost = -1
+	
+			modifier = {
+				#generate_wargoal_tension = 1.00
+				join_faction_tension = 1.00
+				#lend_lease_tension = 0.50
+				send_volunteers_tension = 0.20
+				guarantee_tension = 1.0
+				embargo_threshold_factor = 2.5
+				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
+				ai_get_ally_desire_factor = -100
+			}
+		}
+		
+		new_ministr_in_gov = {
+		
+		picture = prc_low_popular_support2
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_advisor_cost_factor = -0.2
+			}
+		}
+		
+		idea_kek_union = {
+		
+		picture = kek_union
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+			}
+		}
+		
+		national_army = {
+		picture = generic_women_in_the_army
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+		army_core_attack_factor = 0.1
+		army_core_defence_factor = 0.1
+		conscription = 0.1
+			}
+		}
+		
+		small_democratic_support = {
+		picture = generic_democratic_drift_bonus
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = democratic }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			democratic_drift = 0.05
+			democratic_acceptance = 85
+			}
+		}
+		
+		strong_democratic_support = {
+		picture = generic_democratic_drift_bonus
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = democratic }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			democratic_drift = 0.15
+			democratic_acceptance = 85
+			}
+		}
+		
+		
+		agrarian_country = {
+		
+		picture = generic_agrarian_society
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+				consumer_goods_factor = 0.25
+			}
+		}
+		
+		industrial_country = {
+		
+		picture = generic_improved_industries
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			
+			}
+		}
+		
+		political_reform = {
+		
+		picture = generic_pp_unity_bonus
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			political_power_gain = 0.15
+			}
+		}
+		
+		communism_support = {
+		
+		picture = por_iberian_workers_united
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			communism_drift = 0.05
+			communism_acceptance = 85
+			}
+		}
+		
+		strong_communism_support = {
+		
+		picture = por_iberian_workers_united
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = communism }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			communism_drift = 0.15
+			communism_acceptance = 85
+			}
+		}
+		
+		farmer_support = {
+		
+		picture = ETH_customs_barrier_ITA
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+				production_speed_buildings_factor = -0.1
+				monthly_population = 0.1
+			}
+		}
+		
+		eight_hour_workday = {
+		
+		picture = ETH_customs_barrier_ITA
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		empowerment_army = {
+		
+		picture = ETH_conservative_high_command
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+				max_command_power_mult = 0.1
+				command_power_gain_mult = 0.05
+			}
+		}
+		
+		patriot_brigades = {
+		
+		picture = generic_fascist_workers
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+				weekly_manpower = 800
+				war_support_weekly = 0.02
+			}
+		}
+		
+		nationalist_support = {
+		
+		picture = generic_fascism_drift_bonus
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = fascism }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			fascism_drift = 0.05
+			fascism_acceptance = 85
+			}
+		}
+		
+		strong_nationalist_support = {
+		
+		picture = generic_fascism_drift_bonus
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				NOT = { has_government = fascism }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			fascism_drift = 0.15
+			fascism_acceptance = 85
+			}
+		}
+		
+	}
+}

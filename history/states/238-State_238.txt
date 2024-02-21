@@ -1,0 +1,29 @@
+state={
+	id=238
+	name="STATE_238"
+	provinces={
+		1042 1968 2058 2101 2395 3765 4725 5697 6025 9779 15985 16017 16106 16107 16108 16141 16168 16174 16205 16230 16265 16266 16318 
+	}
+	manpower = 1836900
+	state_category = large_city
+history={
+		owner = KEK
+		controller = KEK
+		add_core_of = KEK
+
+		victory_points = {
+		6025 20 
+		}
+		victory_points = {
+		16266 15
+		}
+		victory_points = {
+		16108 5
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
+}
+}

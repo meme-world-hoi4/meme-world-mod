@@ -1,0 +1,39 @@
+
+state={
+	id=294
+	name="STATE_294"
+
+	history={
+		owner = KEK
+		controller = KEK
+		add_core_of = KEK
+		victory_points = {
+			17002 10 
+		}
+		victory_points = {
+			4345 15 
+		}
+		victory_points = {
+			551 10 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			17002 = {
+				naval_base = 8
+
+			}
+			dockyard = 2
+
+		}
+
+	}
+
+	provinces={
+		551 954 1856 2403 4064 4345 5218 8605 9713 16781 16831 16859 16875 16885 16917 16942 16952 17002 17008 
+	}
+	manpower=1101600
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

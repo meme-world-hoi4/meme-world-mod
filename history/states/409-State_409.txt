@@ -1,0 +1,34 @@
+state={
+	id=409
+	name="STATE_409"
+	provinces={
+		3272 3915 4223 5392 7386 7947 8953 9102 18813 18821 18822 18823 18829 18856 18864 18885 18886 18919 18936 18943 
+	}
+	manpower = 227430
+	state_category = town
+	history = {
+		owner = EPI
+		controller = EPI
+		add_core_of = EPI
+		
+		victory_points = {
+		7386 10
+		}
+		victory_points = {
+		9102 5
+		}
+		victory_points = {
+		18886 5
+		}
+buildings = {
+			infrastructure = 2
+			18822 = {
+				naval_base = 4
+			}
+			dockyard = 1
+}
+}
+resources={
+		steel = 12
+	}
+}

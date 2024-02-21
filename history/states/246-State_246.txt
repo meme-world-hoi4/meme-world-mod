@@ -1,0 +1,26 @@
+state={
+	id=246
+	name="STATE_246"
+	provinces={
+		1031 1722 1869 2331 2426 2534 4106 4613 4659 6358 7094 7151 7744 9035 9446 16129 16158 16197 16206 16217 16218 16239 16290 16291 16329 16335 16369 16377 16388 16437 16539 
+	}
+	manpower = 1260090
+	state_category = large_city
+
+	history={
+		owner = KEK
+		controller = KEK
+		add_core_of = KEK
+		
+		victory_points = {
+		16377 15
+		}
+		victory_points = {
+		6358 15
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+}
+}

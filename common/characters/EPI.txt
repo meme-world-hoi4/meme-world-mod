@@ -1,0 +1,82 @@
+characters={
+	EPI_Kaban_Fon_Lorents={
+		name="EPI_Kaban_Fon_Lorents"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Epicana_Kaban_Fon_Lorents
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	EPI_Misato_Katsuragi={
+		name="EPI_Misato_Katsuragi"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Epicana_Misato_Katsuragi
+			}
+		}
+	}
+	
+	EPI_Lisabet_Odelshvank = {
+	name=EPI_Lisabet_Odelshvank
+	portraits={
+			army={
+				large="GFX_Portrait_Epicana_Lisabet_Odelshvank"
+			}
+		}
+
+		corps_commander = {
+				traits={  }
+				skill=2
+				attack_skill=2
+				defense_skill=3
+				planning_skill=3
+				logistics_skill=1
+				legacy_id=0
+			}
+	}
+	
+	EPI_Georg_Kolman = {
+	name=EPI_Georg_Kolman
+	portraits={
+			army={
+				large="GFX_Portrait_Epicana_Portrait_Epicana_Georg_Kolman"
+			}
+		}
+
+		corps_commander = {
+				traits={  }
+				skill=1
+				attack_skill=2
+				defense_skill=2
+				planning_skill=2
+				logistics_skill=1
+				legacy_id=0
+			}
+	}
+	
+	EPI_Sergey_Krutovikin = {
+	name=EPI_Sergey_Krutovikin
+	portraits={
+			army={
+				large="GFX_Portrait_Epicana_Sergey_Krutovikin"
+			}
+		}
+
+		field_marshal = {
+				traits={  }
+				skill=2
+				attack_skill=4
+				defense_skill=1
+				planning_skill=2
+				logistics_skill=2
+				legacy_id=0
+			}
+	}
+	
+	
+}

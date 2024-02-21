@@ -1,0 +1,31 @@
+
+state={
+	id=71
+	name="STATE_71"
+	provinces={
+		555 830 2107 2639 3013 4381 4533 4630 6096 6884 8849 9725 20146 20177 20178 20204 20211 20212 20229 20245 20259 20264 20312 20323 
+	}
+	manpower=84500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+	history = {
+		owner = KEK
+		controller = KEK
+		
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 1
+		
+	20245 = {
+	naval_base = 1	
+		}
+}
+}
+resources={
+		oil = 8
+		steel = 2
+		rubber = 12
+	}
+}

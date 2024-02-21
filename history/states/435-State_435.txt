@@ -1,0 +1,42 @@
+state={
+	id=435
+	name="STATE_435"
+	provinces={
+		1696 1893 2168 2594 2756 3402 3675 5233 5550 5850 5950 6286 7213 7531 7684 7732 8254 8657 8658 9150 19241 19248 19274 19285 19296 19298 19304 19319 19322 19332 19350 19365 19379 19424 19437 19482 19491 19538 
+	}
+	manpower = 2691080
+	state_category = metropolis
+	history = {
+		owner = EPI
+		controller = EPI
+		add_core_of = EPI
+		
+		victory_points = {
+		19332 30
+		}
+		victory_points = {
+		5950 15
+		}
+		victory_points = {
+		19350 20
+		}
+		victory_points = {
+		5550 10
+		}
+		victory_points = {
+		19365 15
+		}
+		victory_points = {
+		5233 5
+		}
+		victory_points = {
+		19248 5
+		}
+buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 3
+}
+
+}
+}

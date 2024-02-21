@@ -1,0 +1,44 @@
+state={
+	id=477
+	name="STATE_477"
+	provinces={
+		251 2130 3048 3187 3704 5810 6037 6072 19806 19874 19894 20066 20082 20106 20112 20130 20153 
+	}
+	manpower = 4510430
+	state_category = large_city
+	history = {
+		owner = SHL
+		controller = SHL
+		
+		victory_points = {
+		3187 30
+		}
+		victory_points = {
+		3704 10
+		}
+		victory_points = {
+		3048 10
+		}
+		victory_points = {
+		19894 10
+		}
+		victory_points = {
+		20082 5
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 4
+			3187 = {
+			naval_base = 5
+			}
+			3048 = {
+			naval_base = 3
+			}
+			dockyard = 1
+		}
+}
+resources={
+		steel = 14
+	}
+}

@@ -1,0 +1,25 @@
+state={
+	id=497
+	name="STATE_497"
+	provinces={
+		6641 20260 
+	}
+	manpower = 10000
+	state_category = rural
+	history = {
+		owner = PAR
+		controller = PAR
+		add_core_of = PAR
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 1
+			20260 = {
+			naval_base = 2
+			}
+}
+}
+resources={
+		tungsten = 2
+	}
+}

@@ -1,0 +1,24 @@
+state={
+	id=81
+	name="STATE_81"
+	provinces={
+		513 1147 8576 12069 
+	}
+	manpower = 462000
+	state_category = large_town
+	history = {
+		owner = JJK
+		controller = JJK
+		add_core_of = JJK
+		victory_points = {
+		8576 5
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			8576 = {
+			naval_base = 6
+			}
+		}
+}
+}

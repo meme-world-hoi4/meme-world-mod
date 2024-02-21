@@ -1,0 +1,18 @@
+characters={
+	BUL_Gregmor_Putifur={
+		name="BUL_Gregmor_Putifur"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Bulba_Gregmor_Putifur
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

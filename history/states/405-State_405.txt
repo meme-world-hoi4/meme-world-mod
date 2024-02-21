@@ -1,0 +1,36 @@
+state={
+	id=405
+	name="STATE_405"
+	provinces={
+		539 1161 2251 2831 3826 4120 4962 5044 5605 5930 6284 7501 7703 8175 9232 9639 18665 18682 18740 18774 18803 18814 18824 18837 18869 18887 18909 18930 18956 18966 18974 18979 19000 19009 19039 19051 
+	}
+	manpower = 244860
+	state_category = large_town
+	history = {
+		owner = SSR
+		controller = SSR
+		add_core_of = SSR
+		
+		victory_points = {
+		18740 10
+		}
+		victory_points = {
+		18966 5
+		}
+		victory_points = {
+		2251 5
+		}
+buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			18740 = {
+			naval_base = 4
+			}
+			dockyard = 1
+}
+}
+resources={
+		tungsten = 4
+		chromium = 8
+	}
+}

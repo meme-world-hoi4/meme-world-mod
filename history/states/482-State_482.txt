@@ -1,0 +1,33 @@
+state={
+	id=482
+	name="STATE_482"
+	provinces={
+		177 588 4932 5901 6167 6172 7103 7569 8046 8115 9357 19868 19909 19933 19967 19997 20023 20029 20037 20061 20076 20086 20090 20102 20127 20162 
+	}
+	manpower = 2195700
+	state_category = large_city
+	history = {
+		owner = SSR
+		controller = SSR
+		add_core_of = SSR
+		
+		victory_points = {
+		19933 15
+		}
+		victory_points = {
+		588 10
+		}
+		victory_points = {
+		177 15
+		}
+		victory_points = {
+		20029 5
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+}
+		
+}
+}

@@ -1,0 +1,143 @@
+characters={
+	PAR_Mikhail_Kondelyabrov={
+		name="PAR_Mikhail_Kondelyabrov"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Partizania_Mikhail_Kondelyabrov
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	PAR_Partizano_Ranchovich_Mezurev={
+	name=PAR_Partizano_Ranchovich_Mezurev
+	portraits={
+			army={
+				large="GFX_Portrait_Partizania_Partizano_Ranchovich_Mezurev"
+			}
+		}
+
+		field_marshal = {
+				traits={  }
+				skill=2
+				attack_skill=3
+				defense_skill=2
+				planning_skill=2
+				logistics_skill=2
+				legacy_id=0
+			}
+	}
+	PAR_Helie_Ahverd={
+	name=PAR_Helie_Ahverd
+	portraits={
+			army={
+				large="GFX_Portrait_Partizania_Helie_Ahverd"
+			}
+		}
+
+		field_marshal = {
+				traits={  }
+				skill=2
+				attack_skill=2
+				defense_skill=2
+				planning_skill=3
+				logistics_skill=3
+				legacy_id=0
+			}
+	}
+	PAR_Pax_Paxbetov={
+	name=PAR_Pax_Paxbetov
+	portraits={
+			army={
+				large="GFX_Portrait_Partizania_Pax_Paxbetov"
+			}
+		}
+
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	PAR_Perdinand_Hohlander={
+	name=PAR_Perdinand_Hohlander
+	portraits={
+			army={
+				large="GFX_Portrait_Partizania_Perdinand_Hohlander"
+			}
+		}
+
+		corps_commander = {
+				traits={  }
+				skill=1
+				attack_skill=2
+				defense_skill=1
+				planning_skill=2
+				logistics_skill=2
+				legacy_id=0
+			}
+	}
+	PAR_Yurgen_Juk={
+	name=PAR_Yurgen_Juk
+	portraits={
+			army={
+				large="GFX_Portrait_Partizania_Yurgen_Juk"
+			}
+		}
+
+		corps_commander = {
+				traits={  }
+				skill=2
+				attack_skill=2
+				defense_skill=3
+				planning_skill=3
+				logistics_skill=1
+				legacy_id=0
+			}
+	}
+	PAR_August_Henkel={
+	name=PAR_August_Henkel
+	portraits={
+			army={
+				large="GFX_Portrait_Partizania_August_Henkel"
+			}
+		}
+
+		corps_commander = {
+				traits={  }
+				skill=1
+				attack_skill=3
+				defense_skill=1
+				planning_skill=2
+				logistics_skill=1
+				legacy_id=0
+			}
+	}
+	PAR_Waldemar_Shvainoff={
+	name=PAR_Waldemar_Shvainoff
+	portraits={
+			army={
+				large="GFX_Portrait_Partizania_Waldemar_Shvainoff"
+			}
+		}
+
+		field_marshal = {
+				traits={  }
+				skill=2
+				attack_skill=3
+				defense_skill=1
+				planning_skill=3
+				logistics_skill=2
+				legacy_id=0
+			}
+	}
+	
+}

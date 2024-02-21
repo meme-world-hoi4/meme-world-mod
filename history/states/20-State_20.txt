@@ -1,0 +1,64 @@
+state={
+	id=20
+	name="STATE_20"
+	provinces={
+		51 62 454 511 709 780 810 1173 1186 1255 1468 1487 1799 2064 2192 3285 3363 3493 3505 3601 3866 4169 4237 4644 4719 4984 5132 5246 5352 5959 6737 7062 7271 8247 8313 8453 9075 9187 9567 9614 9754 10339 10361 10362 10378 10416 10425 10436 10479 10494 10504 10523 10524 10571 10579 10666 10680 10689 10696 10722 10756 10767 10772 10804 10839 10843 10844 10854 10903 10917 10918 10927 10946 
+	}
+	manpower = 5625200
+	state_category = metropolis
+	history = {
+		owner = BAL
+		controller = BAL
+		
+		victory_points = {
+		10903 30
+		}
+		victory_points = {
+		10917 5
+		}
+		victory_points = {
+		10722 15
+		}
+		victory_points = {
+		8453 15
+		}
+		victory_points = {
+		9614 20
+		}
+		victory_points = {
+		9754 5
+		}
+		victory_points = {
+		10436 5
+		}
+		victory_points = {
+		4237 10
+		}
+		victory_points = {
+		4644 5
+		}
+		victory_points = {
+		10416 10
+		}
+		victory_points = {
+		51 5
+		}
+		victory_points = {
+		9567 20
+		}
+		victory_points = {
+		10918 10
+		}
+		victory_points = {
+		8247 5
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+		}
+}
+resources={
+		oil = 22
+	}
+}

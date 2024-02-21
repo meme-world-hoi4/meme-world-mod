@@ -1,0 +1,30 @@
+characters={
+	SSR_Sava_Perseev={
+		name="SSR_Sava_Perseev"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Lovushkinsk_Sava_Perseev
+			}
+			army={
+					large="GFX_Portrait_Lovushkinsk_Sava_Perseev"
+				}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="2024.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+				traits={ winter_specialist }
+				skill=2
+				attack_skill=2
+				defense_skill=2
+				planning_skill=4
+				logistics_skill=2
+				legacy_id=0
+			}
+	}
+	
+	
+	
+}

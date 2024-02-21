@@ -1,0 +1,70 @@
+state={
+	id=77
+	name="STATE_77"
+	provinces={
+		183 200 213 831 913 1019 1180 1330 1999 2296 2824 3382 5383 6371 6543 6600 6941 7302 7342 7405 7660 8225 8228 8636 9189 9269 12020 12043 12066 12080 12094 12097 12104 12109 12120 12124 12128 12130 12131 12141 12152 12160 12166 12171 12185 12186 12198 12207 12210 12226 12227 12241 12244 12258 12260 12261 12291 12292 12302 
+	}
+	manpower = 4130460
+	state_category = metropolis
+	history = {
+		owner = EVD
+		controller = EVD
+		add_core_of = EVD
+		
+		victory_points = {
+		8636 20
+		}
+		victory_points = {
+		12152 15
+		}
+		victory_points = {
+		12244 10
+		}
+		victory_points = {
+		12241 20
+		}
+		victory_points = {
+		183 15
+		}
+		victory_points = {
+		6600 15
+		}
+		victory_points = {
+		12066 15
+		}
+		victory_points = {
+		8228 5
+		}
+		victory_points = {
+		12292 5
+		}
+		victory_points = {
+		1019 5
+		}
+		victory_points = {
+		7342 5
+		}
+		victory_points = {
+		9269 5
+		}
+		victory_points = {
+		6371 10
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 3
+			1019 = {
+			naval_base = 5
+			}
+			12043 = {
+			naval_base = 5
+			}
+			dockyard = 2
+		}
+}
+resources={
+		steel = 8
+		oil = 16
+	}
+}

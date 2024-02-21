@@ -1,0 +1,25 @@
+﻿OPO_RG_HISTORICAL = {
+	for_countries = { OPO }
+
+	type = railway_gun
+	
+	fallback_name = "%d Opolchenie Railgun Artillery"
+
+	ordered = {
+		1 = {"%dst Opolchenie Railgun Artillery"}
+		2 = {"%dnd Opolchenie Railgun Artillery"}
+		5 = {"%d Super Opolchenie Railgun Artillery"}
+		7 = {"%d Super Opolchenie Railgun Artillery"}
+		8 = {"%d Super Opolchenie Railgun Artillery"}
+		11 = {"%d Super Opolchenie Railgun Artillery"}
+		12 = {"%d Super Opolchenie Railgun Artillery"}
+		4 = {"%d Super Opolchenie Railgun Artillery"}
+		13 = {"%d Super Opolchenie Railgun Artillery"}
+		9 = {"B Battery, Opolchenie Railgun Artillery"}
+		3 = {"X Super Opolchenie Railgun Artillery"}
+		6 = {"Y Super Opolchenie Railgun Artillery"}
+		15 = {"%d Super Opolchenie Railgun Artillery"}
+		17 = {"%d Super Opolchenie Railgun Artillery"}
+		
+	}
+}

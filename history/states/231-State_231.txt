@@ -1,0 +1,41 @@
+state={
+	id=231
+	name="STATE_231"
+	provinces={
+		39 935 1356 2836 3354 3943 3959 4546 5036 6209 7268 7448 7736 7962 8625 9133 9766 15817 15894 16015 16048 16065 16097 16113 16114 16122 16140 16149 16196 16216 16221 16222 16263 16289 16296 16353 16360 16387 16414 16415 16433 
+	}
+	manpower = 5085888
+	state_category = megalopolis
+	history={
+		owner = KEK
+		controller = KEK
+
+buildings = {
+			infrastructure = 5
+			arms_factory = 4
+			industrial_complex = 4
+			air_base = 3
+			dockyard = 2
+			16113 = {
+			naval_base = 6
+			}
+		}
+		
+		victory_points = {
+			3943 40 
+		}
+		victory_points = {
+			7268 10 
+		}
+		victory_points = {
+			39 10 
+		}
+		victory_points = {
+			7448 10 
+		}
+		
+}
+resources={
+		steel=18
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=297
+	name="STATE_297"
+	provinces={
+		4076 4134 5711 6449 6544 6794 16780 16830 16844 16888 16893 16930 16958 
+	}
+	history={
+		owner = REP
+		controller = REP
+		add_core_of = REP
+		
+		victory_points = {
+		
+		}
+buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+}
+resources={
+	aluminium=8
+	}
+	manpower = 1359960
+	state_category = city
+}

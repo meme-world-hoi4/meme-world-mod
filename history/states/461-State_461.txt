@@ -1,0 +1,33 @@
+state={
+	id=461
+	name="STATE_461"
+	provinces={
+		346 739 757 978 1381 3444 3942 5572 6721 8003 8278 8333 8649 8909 19483 19514 19527 19585 19591 19592 19624 19625 19640 19692 19717 
+	}
+	manpower = 2844209
+	state_category = metropolis
+	history = {
+		owner = SSR
+		controller = SSR
+		add_core_of = SSR
+		
+		victory_points = {
+		5572 20
+		}
+		victory_points = {
+		3942 30
+		}
+		victory_points = {
+		6721 20
+		}
+buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 4
+}
+}
+resources={
+		aluminium = 6
+		steel = 4
+	}
+}

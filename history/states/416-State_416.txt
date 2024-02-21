@@ -1,0 +1,34 @@
+state={
+	id=416
+	name="STATE_416"
+	provinces={
+		2306 3394 3408 3647 3859 4784 4900 5092 6716 7331 7416 8375 8424 9162 18836 18865 18879 18908 18920 18961 18965 18970 18990 18996 18999 19008 19020 19027 19035 19041 19045 19086 19094 19117 
+	}
+	manpower = 148900
+	state_category = town
+	history = {
+		owner = EPI
+		controller = EPI
+		add_core_of = EPI
+		
+		victory_points = {
+		8375 15
+		}
+		victory_points = {
+		18970 5
+		}
+		victory_points = {
+		19117 5
+		}
+buildings = {
+			infrastructure = 2
+			18836 = {
+				naval_base = 4
+			}
+			dockyard = 1
+}
+}
+resources={
+		tungsten = 12
+	}
+}

@@ -1,0 +1,36 @@
+state={
+	id=366
+	name="STATE_366"
+	provinces={
+		618 1055 3934 6490 6834 7540 8158 9651 18135 18136 18141 18148 18158 18175 18190 18202 18227 18232 18245 18255 18285 18319 18330 18362 
+	}
+	manpower = 254900
+	state_category = town
+	history = {
+		owner = VKB
+		controller = VKB
+		
+		victory_points = {
+		18175 10
+		}
+		victory_points = {
+		618 10
+		}
+		victory_points = {
+		18255 10
+		}
+		victory_points = {
+		3934 5
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			18255 = {
+			naval_base = 4
+			}
+		}
+}
+resources={
+		steel = 2
+	}
+}

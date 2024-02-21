@@ -1,0 +1,25 @@
+state={
+	id=384
+	name="STATE_384"
+	provinces={
+		130 18282 18344 
+	}
+	manpower = 644000
+	state_category = town
+	history = {
+		owner = PER
+		controller = PER
+		
+		victory_points = {
+		130 10
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+}
+}
+resources={
+		steel = 8
+	}
+}

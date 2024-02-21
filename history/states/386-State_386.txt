@@ -1,0 +1,33 @@
+state={
+	id=386
+	name="STATE_386"
+	provinces={
+		67 490 659 670 679 775 1605 2016 2240 2294 2407 2822 3015 3503 3735 5038 5160 5226 5679 5910 6383 6655 6665 6783 7457 8409 8452 8824 9416 18294 18331 18332 18395 18396 18405 18423 18451 18460 18485 18495 18503 18531 18550 18559 18560 18591 18600 18610 18617 18703 18720 18747 18753 18760 18761 18781 18792 18838 18880 
+	}
+	manpower = 1271200
+	state_category = city
+	history = {
+		owner = BUL
+		controller = BUL
+		add_core_of = BUL
+		
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 2
+			arms_factory = 3
+			industrial_complex = 3
+			8409 = {
+			naval_base = 4
+			}
+			18591 = {
+			naval_base = 3
+			}
+			dockyard = 1
+		}
+}
+resources={
+		rubber = 24
+		oil = 14
+	}
+}

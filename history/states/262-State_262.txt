@@ -1,0 +1,33 @@
+state={
+	id=262
+	name="STATE_262"
+	provinces={
+		2957 2961 4891 8846 9454 16336 16416 16417 16438 16439 16464 16488 
+	}
+	manpower =2044000
+	state_category = town
+	history={
+		owner = ORD
+		controller = ORD
+		add_core_of = ORD
+		
+		victory_points = {
+		16439 15
+		}
+		victory_points = {
+		16488 10
+		}
+		victory_points = {
+		2961 20
+		}
+buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+
+}
+	resources={
+		aluminium=14
+	}
+}

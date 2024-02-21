@@ -1,0 +1,34 @@
+capital = 241
+set_capital = 16267
+
+oob = "ORD_2021"
+
+2021.1.1 = {
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = neutrality
+	#last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+add_ideas = agrarian_country
+add_ideas = based_political_power
+
+create_country_leader = {
+    name = "Unknown Leader"
+    desc = ""
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+    expire = "2023.1.1"
+    ideology = despotism
+    traits = {
+        #
+    }
+}
+}

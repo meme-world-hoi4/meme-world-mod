@@ -1,0 +1,24 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	fleet = {
+		name = "Main Morshy Fleet"			
+		naval_base = 3997
+		task_force = {
+			name = "MOH Destroyer Type A Force"
+			location = 3997
+			ship = { name = "MOH Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = MOH version_name = "Destroyer Type A" } } }
+			ship = { name = "MOH Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = MOH version_name = "Destroyer Type A" } } }
+			ship = { name = "MOH Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = MOH version_name = "Destroyer Type A" } } }
+			ship = { name = "MOH Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = MOH version_name = "Destroyer Type A" } } }
+			ship = { name = "MOH Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = MOH version_name = "Destroyer Type A" } } }
+			ship = { name = "MOH Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = MOH version_name = "Destroyer Type A" } } }
+
+	}
+}
+}
+
+#####################

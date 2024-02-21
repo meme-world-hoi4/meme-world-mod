@@ -1,0 +1,30 @@
+state={
+	id=82
+	name="STATE_82"
+	provinces={
+		685 2023 5673 7281 12059 12074 12075 12086 
+	}
+	manpower = 1083600
+	state_category = city
+	history = {
+		owner = EVD
+		controller = EVD
+		add_core_of = EVD
+		
+		victory_points = {
+		685 10
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			12074 = {
+			naval_base = 4
+			}
+			dockyard = 1
+		}
+}
+resources={
+		oil = 8
+	}
+}

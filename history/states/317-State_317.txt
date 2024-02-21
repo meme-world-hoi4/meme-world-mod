@@ -1,0 +1,27 @@
+state={
+	id=317
+	name="STATE_317"
+	provinces={
+		566 3090 3799 4395 5948 7939 8754 9386 9609 17139 17153 17164 17209 17210 17244 17264 17312 17313 17324 17352 
+	}
+	manpower = 120400
+	state_category = rural
+	history = {
+		owner = BUL
+		controller = BUL
+		
+		victory_points = {
+		9609 10
+		}
+buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9609 = {
+			naval_base = 3
+			}
+		}
+}
+resources={
+		oil = 6
+	}
+}

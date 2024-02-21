@@ -1,0 +1,32 @@
+state={
+	id=399
+	name="STATE_399"
+	provinces={
+		388 991 1810 2752 3860 4421 5302 8448 9378 18575 18603 18643 18710 18725 18771 18785 18826 18834 18874 18893 18904 18932 18947 
+	}
+	manpower = 489570
+	state_category = city
+	history = {
+		owner = JJK
+		controller = JJK
+		
+		victory_points = {
+		1810 10
+		}
+		victory_points = {
+		18603 5
+		}
+		victory_points = {
+		18947 5
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+}
+resources={
+		oil = 14
+		tungsten = 10
+		rubber = 12
+	}
+}

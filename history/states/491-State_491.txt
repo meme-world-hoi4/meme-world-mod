@@ -1,0 +1,35 @@
+state={
+	id=491
+	name="STATE_491"
+	provinces={
+		2853 4869 6537 6659 20217 20218 20236 
+	}
+	manpower = 1086310
+	state_category = city
+	history = {
+		owner = VKB
+		controller = VKB
+		add_core_of = VKB
+		
+		victory_points = {
+		20218 15
+		}
+		victory_points = {
+		2853 5
+		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			3187 = {
+			naval_base = 5
+			}
+			20236 = {
+			naval_base = 3
+			}
+		}
+}
+resources={
+		oil = 4
+	}
+}

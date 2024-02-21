@@ -1,0 +1,73 @@
+
+state={
+	id=471
+	name="STATE_471"
+
+	history={
+		owner = PAR
+		controller = PAR
+		victory_points = {
+			19954 30 
+		}
+		victory_points = {
+			681 20 
+		}
+		victory_points = {
+			8475 5 
+		}
+		victory_points = {
+			19529 5 
+		}
+		victory_points = {
+			6069 20 
+		}
+		victory_points = {
+			1039 5 
+		}
+		victory_points = {
+			19824 10 
+		}
+		victory_points = {
+			19440 5 
+		}
+		victory_points = {
+			3040 5 
+		}
+		victory_points = {
+			9322 20 
+		}
+		victory_points = {
+			20276 10 
+		}
+		victory_points = {
+			3965 10 
+		}
+		add_core_of = PAR
+buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 4
+			1039 = {
+			naval_base = 5
+			}
+			20276 = {
+			naval_base = 5
+			}
+			1450 = {
+			naval_base = 4
+			}
+			dockyard = 2
+		}
+	}
+
+	provinces={
+		145 681 1039 1450 1670 1740 1903 2087 2416 2587 2601 2834 3040 3948 3965 4132 4503 4506 4675 5317 5862 5932 5934 6413 7139 7296 7408 8475 8604 9298 9322 9640 19804 19824 19855 19907 19913 19954 19980 20032 20040 20058 20070 20079 20140 20171 20187 20216 20261 20262 20276 
+	}
+	resources={
+		steel = 22
+	}
+	manpower=4021080
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

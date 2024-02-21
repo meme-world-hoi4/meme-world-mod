@@ -4,6 +4,7 @@ tags={
 }
 picture="thumbnail.jpg"
 name="MemeWorld Modification"
+replace_path="gfx/loadingscreens"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_peace"

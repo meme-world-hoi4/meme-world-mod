@@ -1,7 +1,7 @@
 ARO = "countries/Autonomous Republic Opolchenie.txt"
 OPO = "countries/Opolchenie.txt"
 EVD = "countries/Evdokimia.txt"
-SSR = "countries/Smsr.txt"
+FAL = "countries/Falleland.txt"
 GAR = "countries/Gardernia.txt"
 JJK = "countries/Jojonianskoe Knyazhestvo.txt"
 EPI = "countries/Epicana.txt"

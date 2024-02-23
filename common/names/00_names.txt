@@ -128,7 +128,7 @@ KIR = {
 	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
 }
 
-SSR = {
+FAL = {
 	male = {
 		names = {
 			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert

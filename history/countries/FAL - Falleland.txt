@@ -1,8 +1,8 @@
 capital = 461
 set_capital = 3942
 
-oob = "SSR_2021"
-set_naval_oob = "SSR_2021_naval_mtg"
+oob = "FAL_2021"
+set_naval_oob = "FAL_2021_naval_mtg"
 
 2021.1.1 = {
 
@@ -62,7 +62,7 @@ set_popularities = {
 }
 
 create_faction = SSRMM
-add_to_faction = SSR
+add_to_faction = FAL
 add_to_faction = EPI
 
 set_convoys = 30
@@ -123,6 +123,6 @@ create_equipment_variant = {
 		}
 		obsolete = yes
 	}
-	recruit_character = SSR_Sava_Perseev
+	recruit_character = FAL_Sava_Perseev
 
 }

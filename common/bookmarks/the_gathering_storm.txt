@@ -120,7 +120,7 @@ bookmarks = {
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 		
-				"SSR"= {
+				"FAL"= {
 			minor = yes
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

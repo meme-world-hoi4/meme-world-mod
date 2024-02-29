@@ -7,9 +7,9 @@ state={
 	manpower =1068000
 	state_category = city
 	history = {
-		owner = SSR
-		controller = SSR
-		add_core_of = SSR
+		owner = FAL
+		controller = FAL
+		add_core_of = FAL
 		
 		victory_points = {
 		19425 5

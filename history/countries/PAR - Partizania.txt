@@ -57,6 +57,10 @@ set_politics = {
 
 add_ideas = agrarian_country
 add_ideas = based_political_power
+add_ideas = ccapitalism_economy_type
+add_ideas = paid_medicine
+add_ideas = particular_social_care
+add_ideas = low_economic_mobilisation
 
 set_popularities = {
 	democratic = 30
@@ -66,6 +70,7 @@ set_popularities = {
 }
 
 recruit_character = PAR_Mikhail_Kondelyabrov
+recruit_character = PAR_Tihomir_Mainkompf
 recruit_character = PAR_Partizano_Ranchovich_Mezurev
 recruit_character = PAR_Helie_Ahverd
 recruit_character = PAR_Pax_Paxbetov

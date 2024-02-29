@@ -21,6 +21,9 @@ set_popularities = {
 
 add_ideas = agrarian_country
 add_ideas = based_political_power
+add_ideas = ccapitalism_economy_type
+
+recruit_character = KEZ_Abdul_Sluddah
 
 create_country_leader = {
     name = "Unknown Leader"

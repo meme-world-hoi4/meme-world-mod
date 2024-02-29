@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=nazism
 			expire="2029.1.1.1"
 			id=-1
 		}

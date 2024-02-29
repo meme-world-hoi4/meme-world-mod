@@ -1,5 +1,5 @@
 capital = 231
-set_capital = 3943 ##Наша столица
+set_capital = 3943
 
 oob = "KEK_2021"
 set_air_oob = "KEK_2021_air_legacy"
@@ -7,9 +7,8 @@ set_naval_oob = "KEK_2021_naval_mtg"
 
 2021.1.1 = {
 
-set_research_slots = 3 #Количество ячеек исследования
+set_research_slots = 3
 
-# Технологии, какие будут открыты при старте
 set_technology = {
 	infantry_weapons = 1
 }
@@ -82,13 +81,19 @@ set_popularities = {
 add_ideas = idea_kek_union
 add_ideas = agrarian_country
 add_ideas = based_political_power
+add_ideas = capitalism_economy_type
+add_ideas = low_economic_mobilisation
+add_ideas = middle_education
+add_ideas = paid_medicine
+add_ideas = particular_social_care
 
 country_event = { id = keklandia.2 days = 17 }
 
 recruit_character = KEK_Il_Kek_Duri
 recruit_character = KEK_Nikita_Sesonsky
-recruit_character = KEK_Deoano_Kershuzvelt
 recruit_character = KEK_Green_House
+recruit_character = KEK_Al_Kekone
+recruit_character = KEK_Mikhail_Mitrovski
 
 set_convoys = 30
 

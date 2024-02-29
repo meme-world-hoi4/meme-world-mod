@@ -16,70 +16,46 @@ default = {
 KEK = {
 	male = {
 		names = {
-			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
-			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
-			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
-			James Jeremy John Leopold Lester Martin Nigel Oswald Max
-			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Kek Kekchik Kekardo Kik Oio Bib Kekolai Otto Kersh Kecarlo Nin Keksander Kekvon Kekantonio Kelim Keksim Ayaz Jeremy Shrekan Kukov Kekarrie Jokekein Kekoano
 		}
 	}
 	female = {
-		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+		names = { Kekriana Fif Ana Kekomi Kekelizabeth }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
-		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
-		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
-		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
-		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+		Kekovich Kekov Kerkovich Keklazar Kekardov Kekarmstrong Kekin Sesovich Flexer Shvetsovksi Kerk Lulov Superkekov Kekulianov
 	}
-	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+	callsigns = { Shadow Strike Kersh Jeremy Jew }
 }
 
 OPO = {
 	male = {
 		names = {
-			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
-			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
-			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
-			James Jeremy John Leopold Lester Martin Nigel Oswald Max
-			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Kek Keksei Kekail Kekron Kekuard Kekstantin Jokekein Kekailo Kroks
 		}
 	}
 	female = {
-		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+		names = { Kekriana Fif Ana Kekomi Kekelizabeth }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
-		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
-		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
-		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
-		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+		Kekailov Kekovski American Kekinesku Kekvitskiy Kekano Kekelman Shvetsovksi Kerk
 	}
-	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+	callsigns = { Shadow Strike Kersh Jeremy Jew }
 }
 
 ARO = {
 	male = {
 		names = {
-			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
-			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
-			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
-			James Jeremy John Leopold Lester Martin Nigel Oswald Max
-			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Kek Keklazar Kekstantin Kekail Kekuard Kekarrie Keksander Keklia
 		}
 	}
 	female = {
-		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+		names = { Kekriana Fif Ana Kekomi Kekelizabeth }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
-		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
-		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
-		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
-		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+		Kekvitskiy Dobri Kekich Kekkels Keknovik Pushistik Kekyats
 	}
-	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+	callsigns = { Shadow Strike Kersh Jeremy Jew }
 }
 
 EPI = {
@@ -154,24 +130,16 @@ SSR = {
 JJK = {
 	male = {
 		names = {
-			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
-			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
-			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
-			James Jeremy John Leopold Lester Martin Nigel Oswald Max
-			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+			Kira Pucci Dio Jotaro Joseph Joshua Giornno
 		}
 	}
 	female = {
-		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+		names = { Trish Jolin }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
-		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
-		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
-		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
-		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+		Kujo Brando Jostar Diovich Josephich Taifunovich Jostarovich Yoshikage Yosikagovich Awaken Diavolovich
 	}
-	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+	callsigns = { TaiFun Starplatinum Theworld Hermitpurple Stoneocean Kingcrimson Baitthedust Crazydiamond Goldenwind }
 }
 
 BAL = {

@@ -81,6 +81,11 @@ set_popularities = {
 }
 add_ideas = industrial_country
 add_ideas = based_political_power
+add_ideas = social_capitalism_economy_type
+add_ideas = partial_economic_mobilisation
+add_ideas = middle_education
+add_ideas = default_medicine
+add_ideas = social_care
 
 #create_country_leader = {
 #    name = "Vasil Zacharka"

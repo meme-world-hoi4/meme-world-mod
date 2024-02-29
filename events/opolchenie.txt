@@ -15,12 +15,12 @@ country_event = {
 	
 	option = {
 		name = opolchenie.1.a
-		retire_ideology_leader = democratic
+		retire_ideology_leader = neutrality
 		add_country_leader_role = {
 			character = OPO_Otto_Kerk
 			promote_leader = yes
 		country_leader = {
-			ideology = conservatism
+			ideology = centrism
 			expire = "2024.1.1"
 			traits = { }
 		}
@@ -38,12 +38,12 @@ country_event = {
 	
 	option = {
 		name = opolchenie.2.a
-		retire_ideology_leader = democratic
+		retire_ideology_leader = neutrality
 		add_country_leader_role = {
 			character = OPO_Edward_Kekinesky
 			promote_leader = yes
 		country_leader = {
-			ideology = conservatism
+			ideology = centrism
 			expire = "2024.1.1"
 			traits = { }
 		}

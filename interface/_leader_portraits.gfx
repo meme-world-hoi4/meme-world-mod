@@ -131,4 +131,32 @@ spriteTypes = {
 		name = "GFX_Portrait_Epicana_Portrait_Epicana_Georg_Kolman"
 		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Georg_Kolman.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_Kirovsk_Jokolai_Second"
+		texturefile = "gfx/leaders/EPI/Portrait_Kirovsk_Jokolai_Second.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Patizania_Tihomir_Mainkompf"
+		texturefile = "gfx/leaders/PAR/Portrait_Patizania_Tihomir_Mainkompf.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_DRO_Antonio_Keklazar"
+		texturefile = "gfx/leaders/ARO/Portrait_DRO_Antonio_Keklazar.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Kekzahstan_Abdul_Sluddah"
+		texturefile = "gfx/leaders/KEZ/Portrait_Kekzahstan_Abdul_Sluddah.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Epicana_Daria_Shihanova"
+		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Daria_Shihanova.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Epicana_Nepokorim_Rasstrelyaev"
+		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Nepokorim_Rasstrelyaev.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Kekland_Mikhail_Mitrovski"
+		texturefile = "gfx/leaders/KEK/Portrait_Kekland_Mikhail_Mitrovski.dds"
+	}
 }

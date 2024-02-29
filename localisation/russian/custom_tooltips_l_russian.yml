@@ -55,3 +55,6 @@
  OPO_annex_dro: "Аннексия ДРО"
  KEK_destroy_union: "Развал Кеканской Унии"
  KEK_border_war_with_opo: "Вторжение в Ополчение"
+ no_coastline_tt: "Получите выход к морю, чтобы получить эффект от фокуса!"
+ one_free_research_slot_tt: "Ячейки исследований, когда стоит этот закон: §G+1§W"
+ design_gap_tt: "\n "

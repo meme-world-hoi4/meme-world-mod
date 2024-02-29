@@ -10,7 +10,7 @@ characters={
 				}
 		}
 		country_leader={
-			ideology=stalinism
+			ideology=marxism
 			expire="2024.1.1.1"
 			id=-1
 		}

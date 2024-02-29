@@ -20,6 +20,7 @@ set_popularities = {
 
 add_ideas = agrarian_country
 add_ideas = based_political_power
+add_ideas = ccapitalism_economy_type
 
 #create_country_leader = {
 #    name = "Vasil Zacharka"

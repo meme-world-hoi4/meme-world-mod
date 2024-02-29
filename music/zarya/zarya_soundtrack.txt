@@ -1,0 +1,66 @@
+
+music_station = "zarya"
+
+music = {
+	song = "splinmeaningoflife"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "nautiluspompilusbeast"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "splinnoexit"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "sevenbmolodyevetra"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "kukryniksynotrouble"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "bitwosilver"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "bitwonoonewritestothecolonel"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "aukcyonroad"
+	
+	chance = { factor = 1 }
+
+}
+
+
+music = {
+	song = "alisaroadenintyfive"
+	
+	chance = { factor = 1 }
+
+}

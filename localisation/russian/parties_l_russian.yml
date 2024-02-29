@@ -129,10 +129,10 @@
  
  PER_communism_party: "Единая Персия"
  PER_communism_party_long: "Единая Персия"
- PER_fascism_party: "Либерал-Демократическая Партия Персии"
- PER_fascism_party_long: "Либерал-Демократическая Партия Персии"
- PER_neutrality_party: "(д)Персик"
- PER_neutrality_party_long: "(д)Персик"
+ PER_fascism_party: "(д)Персик"
+ PER_fascism_party_long: "(д)Персик"
+ PER_neutrality_party: "Либерал-Демократическая Партия Персии"
+ PER_neutrality_party_long: "Либерал-Демократическая Партия Персии"
  
  EVD_communism_party: "Евдокимская Синергия"
  EVD_communism_party_long: "Евдокимская Синергия"

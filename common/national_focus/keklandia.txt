@@ -41,12 +41,20 @@ focus_tree = {
 		cost = 1,00
 		x = 52
 		y = 1
+		
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+		}
+		
 		completion_reward = {
 			navy_experience = 25
 		}
 
 	}
-	focus = { 
+	focus = {
 		id = KEK_country_industry_plans
 		icon = GFX_focus_NORDIC_com_capstone_civilian
 		cost = 1,00
@@ -173,7 +181,7 @@ focus_tree = {
 			add_political_power = 100
 			add_timed_idea = {
 				idea = new_ministr_in_gov
-				days = 30
+				days = 50
 			}
 		}
 	}
@@ -265,7 +273,7 @@ focus_tree = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			add_timed_idea = {
 				idea = communism_support
-				days = 30
+				days = 50
 			}
 		}
 	}
@@ -303,6 +311,12 @@ focus_tree = {
 				idea = farmer_support
 				days = 15
 			}
+			if = {
+				limit = {
+					has_idea = lack_of_social_care
+					}
+			add_ideas = particular_social_care
+		}
 		}
 	}
 	focus = {
@@ -349,7 +363,13 @@ focus_tree = {
 				elections_allowed = no
 			}
 		add_stability = -0.15
-
+	custom_effect_tooltip = design_gap_tt
+	if = {
+				limit = {
+					NOT = { has_government = communism }
+					}
+			add_ideas = capitalism_command_economy_type
+		}
 	}
 	}
 	focus = {
@@ -507,7 +527,13 @@ focus_tree = {
 				ruling_party = democratic
 				elections_allowed = no
 			}
-
+	custom_effect_tooltip = design_gap_tt
+	if = {
+				limit = {
+					NOT = { has_government = democratic }
+					}
+			add_ideas = capitalism_economy_type
+		}
 	}
 	}
 	focus = {
@@ -839,7 +865,13 @@ focus_tree = {
 				ruling_party = neutrality
 				elections_allowed = no
 			}
-
+	custom_effect_tooltip = design_gap_tt
+	if = {
+				limit = {
+					NOT = { has_government = neutrality }
+					}
+			add_ideas = ccapitalism_economy_type
+		}
 	}
 	}
 	focus = {
@@ -892,7 +924,7 @@ focus_tree = {
 		}
 		add_timed_idea = {
 			idea = nationalist_support
-			days = 30
+			days = 50
 		}
 	}
 }
@@ -940,7 +972,13 @@ focus_tree = {
 	completion_reward = {
 			add_stability = 0.1
 			add_popularity = { ideology = fascism popularity = 0.1 }
+			if = {
+				limit = {
+					has_idea = lack_of_social_care
+					}
+			add_ideas = particular_social_care
 		}
+	}
 	}
 	focus = {
 		id = KEK_millitary_reshuffle
@@ -970,6 +1008,13 @@ focus_tree = {
 				elections_allowed = no
 			}
 		add_stability = -0.15
+		custom_effect_tooltip = design_gap_tt
+		if = {
+				limit = {
+					NOT = { has_government = fascism }
+					}
+			add_ideas = ccapitalism_economy_type
+		}
 	}
 	}
 	focus = {
@@ -1399,17 +1444,6 @@ random_owned_controlled_state = {
 	}
 }
 	focus = {
-		id = KEK_gossektor_in_economy
-		icon = GFX_goal_generic_production
-		cost = 1,00
-		prerequisite = {
-			focus = KEK_create_new_bussiness
-		}
-		x = 24
-		y = 7
-
-	}
-	focus = {
 		id = KEK_against_capitalism
 		icon = GFX_focus_spr_class_war
 		cost = 1,00
@@ -1748,8 +1782,138 @@ hidden_effect = {
 		}
 		x = 52
 		y = 2
-
+	available = {
+			any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+		}
+		
+	complete_tooltip = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = dockyard
+				level = 2
+				instant_build = yes
+			}
+		}
+		
+	completion_reward = {
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = dockyard
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
+		if = {
+				limit = {
+						any_owned_state = {
+							dockyard < 1
+							free_building_slots = {
+								building = dockyard
+								size < 2
+								include_locked = yes
+							}
+						}
+					NOT = {
+						any_owned_state = {
+						is_coastal = yes
+					}
+					}
+					}
+					custom_effect_tooltip = no_coastline_tt
 	}
+	}
+
+}
 	focus = {
 		id = KEK_submarine_research
 		icon = GFX_goal_generic_navy_submarine
@@ -1759,7 +1923,14 @@ hidden_effect = {
 		}
 		x = 52
 		y = 3
-
+	completion_reward = {
+	add_tech_bonus = {
+		name = ss_bonus
+				bonus = 1.0
+				uses = 1
+				category = ss_tech
+	}
+}
 	}
 	focus = {
 		id = KEK_light_fleet_reform
@@ -1770,7 +1941,23 @@ hidden_effect = {
 		}
 		x = 49
 		y = 4
-
+	completion_reward = {
+	if = {
+		limit = {
+		has_idea = heavy_fleet_production
+		}
+	swap_ideas = {
+	add_idea = light_fleet_production
+	remove_idea = heavy_fleet_production
+	}
+	}
+	if = {
+		limit = {
+		NOT = { has_idea = heavy_fleet_production }
+		}
+	add_ideas = light_fleet_production
+	}
+}
 	}
 	focus = {
 		id = KEK_destroyer_research
@@ -1781,7 +1968,14 @@ hidden_effect = {
 		}
 		x = 48
 		y = 5
-
+	completion_reward = {
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 1.0
+				uses = 1
+				category = dd_tech
+			}
+		}
 	}
 	focus = {
 		id = KEK_light_cruiser_reseatch
@@ -1792,7 +1986,14 @@ hidden_effect = {
 		}
 		x = 50
 		y = 5
-
+	completion_reward = {
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 1.0
+				uses = 1
+				category = cl_tech
+			}
+		}
 	}
 	focus = {
 		id = KEK_navy_tactic_reform
@@ -1803,7 +2004,15 @@ hidden_effect = {
 		}
 		x = 52
 		y = 4
-
+	completion_reward = {
+			navy_experience = 10
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = naval_doctrine
+			}
+		}
 	}
 	focus = {
 		id = KEK_navy_tactic_reform_two
@@ -1814,7 +2023,15 @@ hidden_effect = {
 		}
 		x = 52
 		y = 5
-
+	completion_reward = {
+			navy_experience = 20
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 1
+				uses = 1
+				category = naval_doctrine
+			}
+		}
 	}
 	focus = {
 		id = KEK_heavy_fleet_reform
@@ -1825,7 +2042,23 @@ hidden_effect = {
 		}
 		x = 55
 		y = 4
-
+	completion_reward = {
+	if = {
+		limit = {
+		has_idea = light_fleet_production
+		}
+	swap_ideas = {
+	add_idea = heavy_fleet_production
+	remove_idea = light_fleet_production
+	}
+	}
+	if = {
+		limit = {
+		NOT = { has_idea = light_fleet_production }
+		}
+	add_ideas = heavy_fleet_production
+	}
+	}
 	}
 	focus = {
 		id = KEK_battleship_reseacrh
@@ -1836,7 +2069,16 @@ hidden_effect = {
 		}
 		x = 56
 		y = 5
-
+	completion_reward = {
+	add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.0
+				uses = 1
+				category = ca_tech
+				category = bc_tech
+				category = bb_tech
+			}
+	}
 	}
 	focus = {
 		id = KEK_oligarchism_gov
@@ -1869,7 +2111,13 @@ hidden_effect = {
 				ruling_party = neutrality
 				elections_allowed = no
 			}
-
+	custom_effect_tooltip = design_gap_tt
+	if = {
+				limit = {
+					NOT = { has_government = neutrality }
+					}
+			add_ideas = ccapitalism_economy_type
+		}
 	}
 	}
 	focus = {
@@ -2128,6 +2376,9 @@ hidden_effect = {
 		prerequisite = {
 			focus = KEK_cult_leader
 		}
+		prerequisite = {
+			focus = KEK_formal_election
+		}
 		x = 17
 		y = 9
 	completion_reward = {
@@ -2148,7 +2399,14 @@ hidden_effect = {
 		}
 		x = 54
 		y = 5
-
+	completion_reward = {
+	add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 1.0
+				uses = 1
+				category = cv_tech
+			}
+	}
 	}
 	focus = {
 		id = KEK_navy_country
@@ -2171,7 +2429,11 @@ hidden_effect = {
 		}
 		x = 52
 		y = 6
-
+	completion_reward = {
+	remove_ideas = light_fleet_production
+	remove_ideas = heavy_fleet_production
+	add_ideas = navy_country
+	}
 	}
 	focus = {
 		id = KEK_country_industrialisation
@@ -2191,20 +2453,9 @@ hidden_effect = {
 				remove_idea = agrarian_country
 				add_idea = industrial_country
 		}
+	add_ideas = partial_economic_mobilisation
 	}
 	}
-	focus = {
-		id = KEK_offshore_country
-		icon = GFX_focus_ETH_adopt_the_lira
-		cost = 1,00
-		prerequisite = {
-			focus = KEK_tech_industry
-		}
-		x = 30
-		y = 7
-
-	}
-	
 	focus = {
 		id = KEK_army_reform16
 		text = army_reform16
@@ -2215,7 +2466,14 @@ hidden_effect = {
 		}
 		x = 37
 		y = 3
-
+	completion_reward = {
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+			}
+	}
 	}
 	focus = {
 		id = KEK_army_reform8
@@ -2227,7 +2485,14 @@ hidden_effect = {
 		}
 		x = 35
 		y = 4
-
+	completion_reward = {
+			add_tech_bonus = {
+				name = support_bonus
+				bonus = 1.0
+				uses = 1
+				category = support_tech
+			}
+	}
 	}
 	focus = {
 		id = KEK_army_reform7
@@ -2239,7 +2504,14 @@ hidden_effect = {
 		}
 		x = 37
 		y = 4
-
+	completion_reward = {
+			add_tech_bonus = {
+				name = artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = artillery
+			}
+	}
 	}
 	focus = {
 		id = KEK_army_reform6
@@ -2251,7 +2523,14 @@ hidden_effect = {
 		}
 		x = 43
 		y = 3
-
+	completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 1.0
+				uses = 1
+				category = motorized_equipment
+			}
+	}
 	}
 	focus = {
 		id = KEK_army_reform2
@@ -2264,7 +2543,15 @@ hidden_effect = {
 		}
 		x = 40
 		y = 4
-
+	completion_reward = {
+	army_experience = 20
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+	}
 	}
 	focus = {
 		id = KEK_army_reform14
@@ -2276,7 +2563,15 @@ hidden_effect = {
 		}
 		x = 40
 		y = 5
-
+	completion_reward = {
+	army_experience = 30
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 1
+				uses = 1
+				category = land_doctrine
+			}
+	}
 	}
 	focus = {
 		id = KEK_army_reform5
@@ -2288,7 +2583,14 @@ hidden_effect = {
 		}
 		x = 43
 		y = 4
-
+	completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 1.0
+				uses = 1
+				category = armor
+			}
+		}
 	}
 	focus = {
 		id = KEK_army_reform18
@@ -2300,7 +2602,14 @@ hidden_effect = {
 		}
 		x = 45
 		y = 4
-
+	completion_reward = {
+			add_tech_bonus = {
+				name = mechanized_bonus
+				bonus = 1.0
+				uses = 1
+				category = cat_mechanized_equipment
+			}
+		}
 	}
 	focus = {
 		id = KEK_army_reform20
@@ -2315,7 +2624,9 @@ hidden_effect = {
 		}
 		x = 44
 		y = 5
-
+	completion_reward = {
+	add_ideas = attack_motorized_army_buff
+	}
 	}
 	focus = {
 		id = KEK_army_reform23
@@ -2333,7 +2644,9 @@ hidden_effect = {
 		}
 		x = 40
 		y = 6
-
+	completion_reward = {
+		add_ideas = millitary_country_bonus
+	}
 	}
 	focus = {
 		id = KEK_army_reform1
@@ -2345,18 +2658,30 @@ hidden_effect = {
 	prerequisite = {
 			focus = KEK_country_army_reform
 		}
+	completion_reward = {
+		hidden_effect = {
+		add_ideas = training_infanrty_army_buff
+		}
+	custom_effect_tooltip = training_infantry_buff_tt
+	}
 	}
 	
 	focus = {
 		id = KEK_army_reform3
 		text = army_reform3
 		icon = GFX_goal_generic_army_motorized
-		cost = 1,00
+		cost = 0.5,00
 		x = 43
 		y = 2
 		prerequisite = {
 			focus = KEK_country_army_reform
 		}
+	completion_reward = {
+		hidden_effect = {
+		add_ideas = training_motorized_army_buff
+		}
+	custom_effect_tooltip = training_bus_buff_tt
+	}
 	}
 	focus = {
 		id = KEK_army_reform4
@@ -2371,5 +2696,9 @@ hidden_effect = {
 	prerequisite = {
 			focus = KEK_army_reform8
 		}
+	completion_reward = {
+	add_ideas = attack_land_army_buff
+	}
+	
 	}
 }

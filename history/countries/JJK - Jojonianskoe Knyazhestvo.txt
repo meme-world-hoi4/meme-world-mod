@@ -184,4 +184,7 @@ set_air_oob = "JJK_2021_air_legacy"
 recruit_character = JJK_Araki_Five
 add_ideas = agrarian_country
 add_ideas = based_political_power
+add_ideas = ccapitalism_economy_type
+add_ideas = paid_medicine
+add_ideas = low_economic_mobilisation
 }

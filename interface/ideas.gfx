@@ -682,22 +682,22 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_idea_closed_economy"
-		texturefile = "gfx/interface/ideas/idea_generic_closed_economy.dds"
+		texturefile = "gfx/interface/ideas/idea_complete_autarky.dds"
 	}	
 	
 	spriteType = {
 		name = "GFX_idea_limited_exports"
-		texturefile = "gfx/interface/ideas/idea_generic_limited_exports.dds"
+		texturefile = "gfx/interface/ideas/idea_particular_export.dds"
 	}		
 	
 	spriteType = {
 		name = "GFX_idea_free_trade"
-		texturefile = "gfx/interface/ideas/idea_generic_free_trade.dds"
+		texturefile = "gfx/interface/ideas/idea_free_trade.dds"
 	}	
 	
 	spriteType = {
 		name = "GFX_idea_export_focus"
-		texturefile = "gfx/interface/ideas/idea_generic_export_focus.dds"
+		texturefile = "gfx/interface/ideas/idea_export_priority.dds"
 	}	
 	
 
@@ -8178,6 +8178,85 @@ spriteTypes = {
 		name = "GFX_idea_kek_union"
 		texturefile = "gfx/interface/ideas/idea_kek_union.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_lack_of_social_care"
+		texturefile = "gfx/interface/ideas/idea_lack_of_social_care.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_particular_social_care"
+		texturefile = "gfx/interface/ideas/idea_particular_social_care.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_social_care"
+		texturefile = "gfx/interface/ideas/idea_social_care.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_extra_social_care"
+		texturefile = "gfx/interface/ideas/idea_extra_social_care.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lack_of_health_care"
+		texturefile = "gfx/interface/ideas/idea_lack_of_health_care.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_default_medicine"
+		texturefile = "gfx/interface/ideas/idea_default_medicine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_paid_medicine"
+		texturefile = "gfx/interface/ideas/idea_paid_medicine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_free_medicine"
+		texturefile = "gfx/interface/ideas/idea_free_medicine.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lack_of_education"
+		texturefile = "gfx/interface/ideas/idea_lack_of_education.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_small_education"
+		texturefile = "gfx/interface/ideas/idea_small_education.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_middle_education"
+		texturefile = "gfx/interface/ideas/idea_middle_education.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_middle_specialist_education"
+		texturefile = "gfx/interface/ideas/idea_middle_specialist_education.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_higher_education"
+		texturefile = "gfx/interface/ideas/idea_higher_education.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_traditional_economy_type"
+		texturefile = "gfx/interface/ideas/idea_traditional_economy_type.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_warcommie_economy_type"
+		texturefile = "gfx/interface/ideas/idea_warcommie_economy_type.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_command_economy_type"
+		texturefile = "gfx/interface/ideas/idea_command_economy_type.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_capitalism_command_economy_type"
+		texturefile = "gfx/interface/ideas/idea_capitalism_command_economy_type.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_social_capitalism_economy_type"
+		texturefile = "gfx/interface/ideas/idea_social_capitalism_economy_type.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ccapitalism_economy_type"
+		texturefile = "gfx/interface/ideas/idea_ccapitalism_economy_type.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_capitalism_economy_type"
+		texturefile = "gfx/interface/ideas/idea_capitalism_economy_type.dds"
+	}
 
 }

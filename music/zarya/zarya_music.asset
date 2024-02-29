@@ -1,0 +1,53 @@
+music = {
+	name = "splinmeaningoflife"
+	file = "splinmeaningoflife.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "nautiluspompilusbeast"
+	file = "nautiluspompilusbeast.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "splinnoexit"
+	file = "splinnoexit.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "sevenbmolodyevetra"
+	file = "sevenbmolodyevetra.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "kukryniksynotrouble"
+	file = "kukryniksynotrouble.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "bitwosilver"
+	file = "bitwosilver.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "bitwonoonewritestothecolonel"
+	file = "bitwonoonewritestothecolonel.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "aukcyonroad"
+	file = "aukcyonroad.ogg"
+	volume = 0.8
+}
+
+music = {
+	name = "alisaroadenintyfive"
+	file = "alisaroadenintyfive.ogg"
+	volume = 0.8
+}

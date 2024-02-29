@@ -86,6 +86,11 @@ set_popularities = {
 
 add_ideas = agrarian_country
 add_ideas = based_political_power
+add_ideas = ccapitalism_economy_type
+add_ideas = low_economic_mobilisation
+add_ideas = middle_education
+add_ideas = paid_medicine
+add_ideas = particular_social_care
 
 create_equipment_variant = {
 		name = "Submarine Type A"

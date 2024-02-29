@@ -13,6 +13,20 @@ characters={
 		}
 	}
 	
+	PAR_Tihomir_Mainkompf={
+		name="PAR_Tihomir_Mainkompf"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Patizania_Tihomir_Mainkompf
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
 	PAR_Partizano_Ranchovich_Mezurev={
 	name=PAR_Partizano_Ranchovich_Mezurev
 	portraits={

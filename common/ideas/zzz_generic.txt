@@ -17,6 +17,74 @@ ideas = {
 			}
 		}
 		
+		attack_land_army_buff = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+			army_infantry_attack_factor = 0.10
+			army_artillery_attack_factor = 0.10
+			special_forces_attack_factor = 0.10
+			}
+		}
+		
+		attack_motorized_army_buff = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+			motorized_attack_factor = 0.10
+			mechanized_attack_factor = 0.10
+			army_armor_attack_factor = 0.10
+			}
+		}
+		
+		training_motorized_army_buff = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+			experience_gain_bus_training_factor = 0.15
+			}
+		}
+		
+		training_infanrty_army_buff = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+			experience_gain_infantry_training_factor = 0.15
+			}
+		}
+		
 		based_political_power = {
 		allowed = {
 				always = no
@@ -45,7 +113,7 @@ ideas = {
 		
 		modifier = {
 			production_speed_buildings_factor = 0.05 
-			industrial_capacity_factory = 0.1
+			industrial_capacity_factory = 0.05
 			}
 		}
 		
@@ -356,6 +424,24 @@ ideas = {
 	# Special ones that can be applied on other countries through focus system.
 	country = {
 	
+	millitary_country_bonus = {
+	picture = mex_politicised_army_2
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+		production_factory_max_efficiency_factor = 0.15
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+			}
+	}
+	
 	develop_light_industry = {
 	picture = generic_goods_red_bonus
 	allowed = {
@@ -388,6 +474,62 @@ ideas = {
 			enemy_operative_detection_chance_factor = 0.2
 			enemy_operative_capture_chance_factor = 0.2
 			political_power_gain = 0.25
+			}
+	}
+	
+	light_fleet_production = {
+	picture = generic_navy_bonus
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			NOT = { has_government = neutrality }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			ship_hull_light_design_cost_factor = -0.25
+			ship_hull_cruiser_design_cost_factor = -0.25
+			production_factory_max_efficiency_factor = 0.05
+			}
+	}
+	
+	heavy_fleet_production = {
+	picture = generic_navy_carrier_bonus
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			NOT = { has_government = neutrality }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			ship_hull_heavy_design_cost_factor = -0.25
+			ship_hull_carrier_design_cost_factor = -0.25
+			production_factory_max_efficiency_factor = 0.05
+			}
+	}
+	
+	navy_country = {
+	picture = generic_coastal_defense_ships2
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+			NOT = { has_government = neutrality }
+			}
+		removal_cost = -1
+		
+		modifier = {
+			ship_hull_heavy_design_cost_factor = -0.25
+			ship_hull_carrier_design_cost_factor = -0.25
+			ship_hull_light_design_cost_factor = -0.25
+			ship_hull_cruiser_design_cost_factor = -0.25
+			industrial_capacity_dockyard = 0.15
 			}
 	}
 	
@@ -722,7 +864,6 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-				consumer_goods_factor = 0.25
 			}
 		}
 		

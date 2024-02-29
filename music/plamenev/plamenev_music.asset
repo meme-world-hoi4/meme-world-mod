@@ -1,0 +1,26 @@
+music = {
+	name = "pavelplamenevnightbeforefight"
+	file = "pavelplamenevnightbeforefight.ogg"
+	volume = 0.8
+}
+music = {
+	name = "pavelplamenevlastday"
+	file = "pavelplamenevlastday.ogg"
+	volume = 0.8
+}
+music = {
+	name = "pavelplamenevrussiannotdefeat"
+	file = "pavelplamenevrussiannotdefeat.ogg"
+	volume = 0.8
+}
+music = {
+	name = "pavelplamenevveteranbrigade"
+	file = "pavelplamenevveteranbrigade.ogg"
+	volume = 0.8
+}
+music = {
+	name = "pavelplamenevbeyonddeath"
+	file = "pavelplamenevbeyonddeath.ogg"
+	volume = 0.7
+}
+

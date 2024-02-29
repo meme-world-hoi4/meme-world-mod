@@ -4153,5 +4153,308 @@ on_actions = {
 			}
 		}
 	}
-
+	
+	on_puppet = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = KEK
+					FROM = {
+						AND = {
+							original_tag = PAR
+							has_government = neutrality
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					KEK_Al_Kekone = {
+						add_country_leader_role = {
+							country_leader = {
+								ideology = oligarchism
+								expire="2029.1.1.1"
+							}
+							promote_leader = yes
+						}
+					}
+					set_cosmetic_tag = KEK_puppet_par
+				}
+			}
+			
+			IF = {
+				limit = {
+					tag = D01
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = neutrality
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					KEK_Al_Kekone = {
+						add_country_leader_role = {
+							country_leader = {
+								ideology = oligarchism
+								expire="2029.1.1.1"
+							}
+							promote_leader = yes
+						}
+					}
+					set_cosmetic_tag = KEK_puppet_par
+				}
+			}
+		}
+	}
+	
+	on_puppet = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = KEK
+					FROM = {
+						AND = {
+							original_tag = PAR
+							has_government = fascism
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					KEK_Al_Kekone = {
+						add_country_leader_role = {
+							country_leader = {
+								ideology = nazism
+								expire="2029.1.1.1"
+							}
+							promote_leader = yes
+						}
+					}
+					set_cosmetic_tag = KEK_puppet_par
+				}
+			}
+			
+			IF = {
+				limit = {
+					tag = D01
+					FROM = {
+						AND = {
+							original_tag = PAR
+							has_government = fascism
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					KEK_Al_Kekone = {
+						add_country_leader_role = {
+							country_leader = {
+								ideology = nazism
+								expire="2029.1.1.1"
+							}
+							promote_leader = yes
+						}
+					}
+					set_cosmetic_tag = KEK_puppet_par
+				}
+			}
+		}
+	}
+	
+	on_puppet = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = PAR
+					FROM = {
+						AND = {
+							original_tag = SSR
+							has_government = communism
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = PAR_puppet_ssr
+				}
+			}
+			
+			IF = {
+				limit = {
+					tag = D01
+					FROM = {
+						AND = {
+							original_tag = SSR
+							has_government = communism
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = PAR_puppet_ssr
+				}
+			}
+		}
+	}
+	
+	on_puppet = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = KEZ
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = democratic
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = KEZ_SUB
+				}
+			}
+			
+			IF = {
+				limit = {
+					tag = D01
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = democratic
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = KEZ_SUB
+				}
+			}
+		}
+	}
+	
+	on_puppet = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = KEZ
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = neutrality
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = KEZ_SUB
+				}
+			}
+			
+			IF = {
+				limit = {
+					tag = D01
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = neutrality
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = KEZ_SUB
+				}
+			}
+		}
+	}
+	
+	on_puppet = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = MOH
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = democratic
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = MOH_SUB
+				}
+			}
+			
+			IF = {
+				limit = {
+					tag = D01
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = democratic
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = MOH_SUB
+				}
+			}
+		}
+	}
+	
+	on_puppet = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = MOH
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = neutrality
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = MOH_SUB
+				}
+			}
+			
+			IF = {
+				limit = {
+					tag = D01
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = neutrality
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = MOH_SUB
+				}
+			}
+		}
+	}
+	
+	on_government_change = {
+		effect = {
+			#Make sure Soviet can always create factions
+			if = {
+				limit = {
+					original_tag = OPO
+					has_government = democratic
+				}
+				set_cosmetic_tag = OPO_DEM
+			}
+			
+		}
+	}
+	
+	
 }

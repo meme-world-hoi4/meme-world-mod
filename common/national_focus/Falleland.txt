@@ -1,12 +1,12 @@
 focus_tree = {
-	id = souz_memnih__soc_respublik_focus
+	id = souz_memnih_soc_respublik_focus
 	
 	country = {
 		factor = 0
 		
 		modifier = {
 			add = 10
-			tag = SSR
+			tag = FAL
 		}
 	}
 	

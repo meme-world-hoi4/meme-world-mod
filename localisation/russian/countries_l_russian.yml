@@ -48,9 +48,9 @@
  OPO_neutrality_ADJ: "Ополченск."
  OPO_neutrality_DEF: "Ополчение"
  
- FAL_communism: "Ловушкинск"
+ FAL_communism: "Ловушкинская Мемная Фдеративная Республика"
  FAL_communism_ADJ: "Ловушкинск."
- FAL_communism_DEF: "Ловушкинск"
+ FAL_communism_DEF: "ЛМФР"
 
  FAL_democratic: "Республика Ловушкинск" 
  FAL_democratic_ADJ: "Ловушкинск."
@@ -60,9 +60,9 @@
  FAL_fascism_ADJ: "Ловушкинск."
  FAL_fascism_DEF: "Священная Ловушкинская Империя"
  
- FAL_neutrality: "Ловушкинское Кайзерство"
+ FAL_neutrality: "Ловушкинская Империя"
  FAL_neutrality_ADJ: "Ловушкинск."
- FAL_neutrality_DEF: "Ловушкинское Кайзерство"
+ FAL_neutrality_DEF: "Ловушкинская Империя"
  
  EVD_communism: "Евдокимский Союз"
  EVD_communism_ADJ: "Евдокимск."

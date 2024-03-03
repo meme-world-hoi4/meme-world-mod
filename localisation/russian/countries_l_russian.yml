@@ -52,9 +52,9 @@
  FAL_communism_ADJ: "Ловушкинск."
  FAL_communism_DEF: "Ловушкинск"
 
- SSR_democratic: "Республика Ловушкинск" 
- SSR_democratic_ADJ: "Ловушкинск."
- SSR_democratic_DEF: "Республика Ловушкинск"
+ FAL_democratic: "Республика Ловушкинск" 
+ FAL_democratic_ADJ: "Ловушкинск."
+ FAL_democratic_DEF: "Республика Ловушкинск"
 
  FAL_fascism: "Священная Ловушкинская Империя"
  FAL_fascism_ADJ: "Ловушкинск."
@@ -284,9 +284,9 @@
  KEK_puppet_par_fascism_ADJ: "Кеканск."
  KEK_puppet_par_fascism_DEF: "Рейхштат Кекляндия"
  
- PAR_puppet_ssr_communism: "Партизанская Мемная Социалистическая Республика"
- PAR_puppet_ssr_communism_ADJ: "Партизанск."
- PAR_puppet_ssr_communism_DEF: "ПМСР"
+ PAR_puppet_fal_communism: "Партизанская Мемная Социалистическая Республика"
+ PAR_puppet_fal_communism_ADJ: "Партизанск."
+ PAR_puppet_fal_communism_DEF: "ПМСР"
  
  OPO_DEM: "Ополчение" 
  OPO_DEM_ADJ: "Ополченск."

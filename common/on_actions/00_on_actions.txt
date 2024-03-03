@@ -4269,14 +4269,14 @@ on_actions = {
 					original_tag = PAR
 					FROM = {
 						AND = {
-							original_tag = SSR
+							original_tag = FAL
 							has_government = communism
 						}
 					}
 				}
 				ROOT = {
 					retire_country_leader = yes
-					set_cosmetic_tag = PAR_puppet_ssr
+					set_cosmetic_tag = PAR_puppet_fal
 				}
 			}
 			
@@ -4285,14 +4285,14 @@ on_actions = {
 					tag = D01
 					FROM = {
 						AND = {
-							original_tag = SSR
+							original_tag = FAL
 							has_government = communism
 						}
 					}
 				}
 				ROOT = {
 					retire_country_leader = yes
-					set_cosmetic_tag = PAR_puppet_ssr
+					set_cosmetic_tag = PAR_puppet_fal
 				}
 			}
 		}

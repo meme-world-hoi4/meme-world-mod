@@ -6,8 +6,8 @@ state={
 		58 1221 4200 5545 7496 18848 18892 18903 18922 18946 18986 18987 19016 
 	}
 	history = {
-		owner = BLB
-		controller = BLB
+		owner = BST
+		controller = BST
 		
 		victory_points = {
 		18987 5

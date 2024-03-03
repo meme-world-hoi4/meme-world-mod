@@ -15,7 +15,7 @@ focus_tree = {
 	continuous_focus_position = { x = 2350 y = 1150 }
 	
 	focus = {
-		id = BUL_policy_focuses
+		id = BST_policy_focuses
 		icon = GFX_goal_generic_demand_territory
 		cost = 1,00
 		x = 13
@@ -25,7 +25,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BUL_eco_country_reforms
+		id = BST_eco_country_reforms
 		icon = GFX_focus_generic_industry_2
 		cost = 1,00
 		x = 27
@@ -36,7 +36,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BUL_navy_reform
+		id = BST_navy_reform
 		icon = GFX_focus_ICE_modernizing_the_coast_guard
 		cost = 1,00
 		x = 52

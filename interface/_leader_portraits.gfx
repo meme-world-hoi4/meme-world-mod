@@ -133,7 +133,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_Portrait_Kirovsk_Jokolai_Second"
-		texturefile = "gfx/leaders/EPI/Portrait_Kirovsk_Jokolai_Second.dds"
+		texturefile = "gfx/leaders/KIR/Portrait_Kirovsk_Jokolai_Second.dds"
 	}
 	spriteType = {
 		name = "GFX_Portrait_Patizania_Tihomir_Mainkompf"

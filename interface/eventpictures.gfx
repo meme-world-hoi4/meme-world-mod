@@ -1716,13 +1716,13 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_report_event_bulgarian_soldiers"
-		texturefile = "gfx/event_pictures/report_event_bulgarian_soldiers.dds"
+		name = "GFX_report_event_BSTgarian_soldiers"
+		texturefile = "gfx/event_pictures/report_event_BSTgarian_soldiers.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_news_event_bulgarian_soldiers"
-		texturefile = "gfx/event_pictures/news_event_bulgarian_soldiers.dds"
+		name = "GFX_news_event_BSTgarian_soldiers"
+		texturefile = "gfx/event_pictures/news_event_BSTgarian_soldiers.dds"
 	}
 	
 	spriteType = {
@@ -2357,23 +2357,23 @@ spriteTypes = {
 
 
 	spriteType = {
-		name = "GFX_news_event_bul_orthodox_priests"
-		texturefile = "gfx/event_pictures/news_event_bul_orthodox_priests.dds"
+		name = "GFX_news_event_BST_orthodox_priests"
+		texturefile = "gfx/event_pictures/news_event_BST_orthodox_priests.dds"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_bulgarian_ff_troops"
-		texturefile = "gfx/event_pictures/news_event_bulgarian_ff_troops.dds"
+		name = "GFX_news_event_BSTgarian_ff_troops"
+		texturefile = "gfx/event_pictures/news_event_BSTgarian_ff_troops.dds"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_bulgarian_partisans"
-		texturefile = "gfx/event_pictures/news_event_bulgarian_partisans.dds"
+		name = "GFX_news_event_BSTgarian_partisans"
+		texturefile = "gfx/event_pictures/news_event_BSTgarian_partisans.dds"
 	}
 
 	spriteType = {
-		name = "GFX_news_event_bulgarian_troops"
-		texturefile = "gfx/event_pictures/news_event_bulgarian_troops.dds"
+		name = "GFX_news_event_BSTgarian_troops"
+		texturefile = "gfx/event_pictures/news_event_BSTgarian_troops.dds"
 	}
 
 	spriteType = {
@@ -2397,8 +2397,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_news_event_macedonia_bulgaria_united"
-		texturefile = "gfx/event_pictures/news_event_macedonia_bulgaria_united.dds"
+		name = "GFX_news_event_macedonia_BSTgaria_united"
+		texturefile = "gfx/event_pictures/news_event_macedonia_BSTgaria_united.dds"
 	}
 
 	spriteType = {
@@ -2412,8 +2412,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_news_event_tsar_ferdinand_of_bulgaria"
-		texturefile = "gfx/event_pictures/news_event_tsar_ferdinand_of_bulgaria.dds"
+		name = "GFX_news_event_tsar_ferdinand_of_BSTgaria"
+		texturefile = "gfx/event_pictures/news_event_tsar_ferdinand_of_BSTgaria.dds"
 	}
 
 	spriteType = {
@@ -2507,113 +2507,113 @@ spriteTypes = {
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_aircraft_repairs"
-		texturefile = "gfx/event_pictures/report_event_bul_aircraft_repairs.dds"
+		name = "GFX_report_event_BST_aircraft_repairs"
+		texturefile = "gfx/event_pictures/report_event_BST_aircraft_repairs.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_artillery"
-		texturefile = "gfx/event_pictures/report_event_bul_artillery.dds"
+		name = "GFX_report_event_BST_artillery"
+		texturefile = "gfx/event_pictures/report_event_BST_artillery.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_boris_death"
-		texturefile = "gfx/event_pictures/report_event_bul_boris_death.dds"
+		name = "GFX_report_event_BST_boris_death"
+		texturefile = "gfx/event_pictures/report_event_BST_boris_death.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_boris_military"
-		texturefile = "gfx/event_pictures/report_event_bul_boris_military.dds"
+		name = "GFX_report_event_BST_boris_military"
+		texturefile = "gfx/event_pictures/report_event_BST_boris_military.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_boris_tour"
-		texturefile = "gfx/event_pictures/report_event_bul_boris_tour.dds"
+		name = "GFX_report_event_BST_boris_tour"
+		texturefile = "gfx/event_pictures/report_event_BST_boris_tour.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_boris_with_hitler"
-		texturefile = "gfx/event_pictures/report_event_bul_boris_with_hitler.dds"
+		name = "GFX_report_event_BST_boris_with_hitler"
+		texturefile = "gfx/event_pictures/report_event_BST_boris_with_hitler.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_boris_with_muraviev"
-		texturefile = "gfx/event_pictures/report_event_bul_boris_with_muraviev.dds"
+		name = "GFX_report_event_BST_boris_with_muraviev"
+		texturefile = "gfx/event_pictures/report_event_BST_boris_with_muraviev.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_dimitrov_with_stalin"
-		texturefile = "gfx/event_pictures/report_event_bul_dimitrov_with_stalin.dds"
+		name = "GFX_report_event_BST_dimitrov_with_stalin"
+		texturefile = "gfx/event_pictures/report_event_BST_dimitrov_with_stalin.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_ff_troops_panzer"
-		texturefile = "gfx/event_pictures/report_event_bul_ff_troops_panzer.dds"
+		name = "GFX_report_event_BST_ff_troops_panzer"
+		texturefile = "gfx/event_pictures/report_event_BST_ff_troops_panzer.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_ff_troops_yugoslavia"
-		texturefile = "gfx/event_pictures/report_event_bul_ff_troops_yugoslavia.dds"
+		name = "GFX_report_event_BST_ff_troops_yugoslavia"
+		texturefile = "gfx/event_pictures/report_event_BST_ff_troops_yugoslavia.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_imro_chieftain"
-		texturefile = "gfx/event_pictures/report_event_bul_imro_chieftain.dds"
+		name = "GFX_report_event_BST_imro_chieftain"
+		texturefile = "gfx/event_pictures/report_event_BST_imro_chieftain.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_italian_equipment"
-		texturefile = "gfx/event_pictures/report_event_bul_italian_equipment.dds"
+		name = "GFX_report_event_BST_italian_equipment"
+		texturefile = "gfx/event_pictures/report_event_BST_italian_equipment.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_making_bricks_for_school"
-		texturefile = "gfx/event_pictures/report_event_bul_making_bricks_for_school.dds"
+		name = "GFX_report_event_BST_making_bricks_for_school"
+		texturefile = "gfx/event_pictures/report_event_BST_making_bricks_for_school.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_military_parade_vidin"
-		texturefile = "gfx/event_pictures/report_event_bul_military_parade_vidin.dds"
+		name = "GFX_report_event_BST_military_parade_vidin"
+		texturefile = "gfx/event_pictures/report_event_BST_military_parade_vidin.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_muraviev_protest"
-		texturefile = "gfx/event_pictures/report_event_bul_muraviev_protest.dds"
+		name = "GFX_report_event_BST_muraviev_protest"
+		texturefile = "gfx/event_pictures/report_event_BST_muraviev_protest.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_officers_burgas"
-		texturefile = "gfx/event_pictures/report_event_bul_officers_burgas.dds"
+		name = "GFX_report_event_BST_officers_burgas"
+		texturefile = "gfx/event_pictures/report_event_BST_officers_burgas.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_partisans_plovdiv"
-		texturefile = "gfx/event_pictures/report_event_bul_partisans_plovdiv.dds"
+		name = "GFX_report_event_BST_partisans_plovdiv"
+		texturefile = "gfx/event_pictures/report_event_BST_partisans_plovdiv.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_prince_simeon"
-		texturefile = "gfx/event_pictures/report_event_bul_prince_simeon.dds"
+		name = "GFX_report_event_BST_prince_simeon"
+		texturefile = "gfx/event_pictures/report_event_BST_prince_simeon.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_soviet_army_sofia"
-		texturefile = "gfx/event_pictures/report_event_bul_soviet_army_sofia.dds"
+		name = "GFX_report_event_BST_soviet_army_sofia"
+		texturefile = "gfx/event_pictures/report_event_BST_soviet_army_sofia.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_troops_dobrudja"
-		texturefile = "gfx/event_pictures/report_event_bul_troops_dobrudja.dds"
+		name = "GFX_report_event_BST_troops_dobrudja"
+		texturefile = "gfx/event_pictures/report_event_BST_troops_dobrudja.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_troops_macedonia"
-		texturefile = "gfx/event_pictures/report_event_bul_troops_macedonia.dds"
+		name = "GFX_report_event_BST_troops_macedonia"
+		texturefile = "gfx/event_pictures/report_event_BST_troops_macedonia.dds"
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_bul_troops_partisans_boat"
-		texturefile = "gfx/event_pictures/report_event_bul_troops_partisans_boat.dds"
+		name = "GFX_report_event_BST_troops_partisans_boat"
+		texturefile = "gfx/event_pictures/report_event_BST_troops_partisans_boat.dds"
 	}
 
 	spriteType = { 
@@ -2847,8 +2847,8 @@ spriteTypes = {
 	}
 
 	spriteType = { 
-		name = "GFX_report_event_tur_sultan_in_istanbul"
-		texturefile = "gfx/event_pictures/report_event_tur_sultan_in_istanbul.dds"
+		name = "GFX_report_event_tur_sultan_in_istanBST"
+		texturefile = "gfx/event_pictures/report_event_tur_sultan_in_istanBST.dds"
 	}
 
 	spriteType = { 

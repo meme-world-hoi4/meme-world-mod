@@ -819,8 +819,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_focus_ger_bulwark_against_bolshevism"
-		texturefile = "gfx/interface/goals/focus_ger_bulwark_against_bolshevism.dds"
+		name = "GFX_focus_ger_BSTwark_against_bolshevism"
+		texturefile = "gfx/interface/goals/focus_ger_BSTwark_against_bolshevism.dds"
 	}
 	
 	SpriteType = {
@@ -2041,8 +2041,8 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_generic_attack_bulgaria"
-		texturefile = "gfx/interface/goals/focus_generic_attack_bulgaria.dds"
+		name = "GFX_focus_generic_attack_BSTgaria"
+		texturefile = "gfx/interface/goals/focus_generic_attack_BSTgaria.dds"
 	}
 
 	SpriteType = { 
@@ -2066,8 +2066,8 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_generic_befriend_bulgaria"
-		texturefile = "gfx/interface/goals/focus_generic_befriend_bulgaria.dds"
+		name = "GFX_focus_generic_befriend_BSTgaria"
+		texturefile = "gfx/interface/goals/focus_generic_befriend_BSTgaria.dds"
 	}
 
 	SpriteType = { 
@@ -2091,128 +2091,128 @@ spriteTypes = {
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_balkan_federation_of_socialist_republics"
-		texturefile = "gfx/interface/goals/focus_BUL_balkan_federation_of_socialist_republics.dds"
+		name = "GFX_focus_BST_balkan_federation_of_socialist_republics"
+		texturefile = "gfx/interface/goals/focus_BST_balkan_federation_of_socialist_republics.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_bulgaria_on_the_three_seas"
-		texturefile = "gfx/interface/goals/focus_BUL_bulgaria_on_the_three_seas.dds"
+		name = "GFX_focus_BST_BSTgaria_on_the_three_seas"
+		texturefile = "gfx/interface/goals/focus_BST_BSTgaria_on_the_three_seas.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_bulgarian_administration_of_the_balkans"
-		texturefile = "gfx/interface/goals/focus_BUL_bulgarian_administration_of_the_balkans.dds"
+		name = "GFX_focus_BST_BSTgarian_administration_of_the_balkans"
+		texturefile = "gfx/interface/goals/focus_BST_BSTgarian_administration_of_the_balkans.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_condemn_macedonian_organizations"
-		texturefile = "gfx/interface/goals/focus_BUL_condemn_macedonian_organizations.dds"
+		name = "GFX_focus_BST_condemn_macedonian_organizations"
+		texturefile = "gfx/interface/goals/focus_BST_condemn_macedonian_organizations.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_consolidate_the_third_bulgarian_state"
-		texturefile = "gfx/interface/goals/focus_BUL_consolidate_the_third_bulgarian_state.dds"
+		name = "GFX_focus_BST_consolidate_the_third_BSTgarian_state"
+		texturefile = "gfx/interface/goals/focus_BST_consolidate_the_third_BSTgarian_state.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_cooperate_with_the_zveno"
-		texturefile = "gfx/interface/goals/focus_BUL_cooperate_with_the_zveno.dds"
+		name = "GFX_focus_BST_cooperate_with_the_zveno"
+		texturefile = "gfx/interface/goals/focus_BST_cooperate_with_the_zveno.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_form_a_regency_council"
-		texturefile = "gfx/interface/goals/focus_BUL_form_a_regency_council.dds"
+		name = "GFX_focus_BST_form_a_regency_council"
+		texturefile = "gfx/interface/goals/focus_BST_form_a_regency_council.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_found_the_brannik"
-		texturefile = "gfx/interface/goals/focus_BUL_found_the_brannik.dds"
+		name = "GFX_focus_BST_found_the_brannik"
+		texturefile = "gfx/interface/goals/focus_BST_found_the_brannik.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_free_balkan_states"
-		texturefile = "gfx/interface/goals/focus_BUL_free_balkan_states.dds"
+		name = "GFX_focus_BST_free_balkan_states"
+		texturefile = "gfx/interface/goals/focus_BST_free_balkan_states.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_guardians_of_the_balkans"
-		texturefile = "gfx/interface/goals/focus_BUL_guardians_of_the_balkans.dds"
+		name = "GFX_focus_BST_guardians_of_the_balkans"
+		texturefile = "gfx/interface/goals/focus_BST_guardians_of_the_balkans.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_oppose_the_royal_dictatorship"
-		texturefile = "gfx/interface/goals/focus_BUL_oppose_the_royal_dictatorship.dds"
+		name = "GFX_focus_BST_oppose_the_royal_dictatorship"
+		texturefile = "gfx/interface/goals/focus_BST_oppose_the_royal_dictatorship.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_plot_against_boris"
-		texturefile = "gfx/interface/goals/focus_BUL_plot_against_boris.dds"
+		name = "GFX_focus_BST_plot_against_boris"
+		texturefile = "gfx/interface/goals/focus_BST_plot_against_boris.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_power_to_the_tsar"
-		texturefile = "gfx/interface/goals/focus_BUL_power_to_the_tsar.dds"
+		name = "GFX_focus_BST_power_to_the_tsar"
+		texturefile = "gfx/interface/goals/focus_BST_power_to_the_tsar.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_promote_bulgarian_nationalism"
-		texturefile = "gfx/interface/goals/focus_BUL_promote_bulgarian_nationalism.dds"
+		name = "GFX_focus_BST_promote_BSTgarian_nationalism"
+		texturefile = "gfx/interface/goals/focus_BST_promote_BSTgarian_nationalism.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_prussia_of_the_balkans"
-		texturefile = "gfx/interface/goals/focus_BUL_prussia_of_the_balkans.dds"
+		name = "GFX_focus_BST_prussia_of_the_balkans"
+		texturefile = "gfx/interface/goals/focus_BST_prussia_of_the_balkans.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_restore_the_bulgarian_patriarchate"
-		texturefile = "gfx/interface/goals/focus_BUL_restore_the_bulgarian_patriarchate.dds"
+		name = "GFX_focus_BST_restore_the_BSTgarian_patriarchate"
+		texturefile = "gfx/interface/goals/focus_BST_restore_the_BSTgarian_patriarchate.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_support_macedonian_organizations"
-		texturefile = "gfx/interface/goals/focus_BUL_support_macedonian_organizations.dds"
+		name = "GFX_focus_BST_support_macedonian_organizations"
+		texturefile = "gfx/interface/goals/focus_BST_support_macedonian_organizations.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_the_return_of_ferdinand"
-		texturefile = "gfx/interface/goals/focus_BUL_the_return_of_ferdinand.dds"
+		name = "GFX_focus_BST_the_return_of_ferdinand"
+		texturefile = "gfx/interface/goals/focus_BST_the_return_of_ferdinand.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_the_fate_of_the_balkans"
-		texturefile = "gfx/interface/goals/focus_BUL_the_fate_of_the_balkans.dds"
+		name = "GFX_focus_BST_the_fate_of_the_balkans"
+		texturefile = "gfx/interface/goals/focus_BST_the_fate_of_the_balkans.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_the_fatherland_front"
-		texturefile = "gfx/interface/goals/focus_BUL_the_fatherland_front.dds"
+		name = "GFX_focus_BST_the_fatherland_front"
+		texturefile = "gfx/interface/goals/focus_BST_the_fatherland_front.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_the_peoples_republic_of_bulgaria"
-		texturefile = "gfx/interface/goals/focus_BUL_the_peoples_republic_of_bulgaria.dds"
+		name = "GFX_focus_BST_the_peoples_republic_of_BSTgaria"
+		texturefile = "gfx/interface/goals/focus_BST_the_peoples_republic_of_BSTgaria.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_the_third_bulgarian_empire"
-		texturefile = "gfx/interface/goals/focus_BUL_the_third_bulgarian_empire.dds"
+		name = "GFX_focus_BST_the_third_BSTgarian_empire"
+		texturefile = "gfx/interface/goals/focus_BST_the_third_BSTgarian_empire.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_the_unification_of_the_balkans"
-		texturefile = "gfx/interface/goals/focus_BUL_the_unification_of_the_balkans.dds"
+		name = "GFX_focus_BST_the_unification_of_the_balkans"
+		texturefile = "gfx/interface/goals/focus_BST_the_unification_of_the_balkans.dds"
 	}
 
 	SpriteType = { 
-		name = "GFX_focus_BUL_destroy_the_zveno"
-		texturefile = "gfx/interface/goals/focus_BUL_destroy_the_zveno.dds"
+		name = "GFX_focus_BST_destroy_the_zveno"
+		texturefile = "gfx/interface/goals/focus_BST_destroy_the_zveno.dds"
 	}
 	
 	SpriteType = { 
-		name = "GFX_focus_BUL_supremacy_on_the_bosporus"
-		texturefile = "gfx/interface/goals/focus_BUL_supremacy_on_the_bosporus.dds"
+		name = "GFX_focus_BST_supremacy_on_the_bosporus"
+		texturefile = "gfx/interface/goals/focus_BST_supremacy_on_the_bosporus.dds"
 	}
 
 	SpriteType = { 

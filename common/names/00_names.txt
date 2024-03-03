@@ -72,7 +72,7 @@ EPI = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -95,7 +95,7 @@ KIR = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -118,7 +118,7 @@ FAL = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -156,7 +156,7 @@ BAL = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -179,7 +179,7 @@ BST = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -202,7 +202,7 @@ GAR = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -225,7 +225,7 @@ PER = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -248,7 +248,7 @@ PAR = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -271,7 +271,7 @@ VKB = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -294,7 +294,7 @@ SHL = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
@@ -317,7 +317,7 @@ EVD = {
 		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
 	}
 	surnames = {
-		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Allenby Thompson Beatty Beresford Brown BSTler Butler Campbell Cardigan Churchill
 		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
 		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
 		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin

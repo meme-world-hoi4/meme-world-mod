@@ -206,8 +206,8 @@ spriteTypes = {
 	### GER
 	
 	spriteType = {
-		name = "GFX_idea_ger_bulwark_against_bolshevism"
-		texturefile = "gfx/interface/ideas/idea_ger_bulwark_against_bolshevism.dds"
+		name = "GFX_idea_ger_BSTwark_against_bolshevism"
+		texturefile = "gfx/interface/ideas/idea_ger_BSTwark_against_bolshevism.dds"
 	}
 	
 	spriteType = {
@@ -4553,38 +4553,38 @@ spriteTypes = {
 			### BFTB ###
 	
 	spriteType = {
-		name = "GFX_idea_bul_ferdinand_kozovski"
-		texturefile = "gfx/interface/ideas/idea_bul_ferdinand_kozovski.dds"
+		name = "GFX_idea_BST_ferdinand_kozovski"
+		texturefile = "gfx/interface/ideas/idea_BST_ferdinand_kozovski.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_bul_dar"
-		texturefile = "gfx/interface/ideas/idea_bul_dar.dds"
+		name = "GFX_idea_BST_dar"
+		texturefile = "gfx/interface/ideas/idea_BST_dar.dds"
 	}
 
 	spriteType = {
-		name = "GFX_idea_bul_darzhavna_voenna_fabrika"
-		texturefile = "gfx/interface/ideas/idea_bul_darzhavna_voenna_fabrika.dds"
+		name = "GFX_idea_BST_darzhavna_voenna_fabrika"
+		texturefile = "gfx/interface/ideas/idea_BST_darzhavna_voenna_fabrika.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_bul_ira"
-		texturefile = "gfx/interface/ideas/idea_bul_ira.dds"
+		name = "GFX_idea_BST_ira"
+		texturefile = "gfx/interface/ideas/idea_BST_ira.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_bul_kaproni_bulgarski"
-		texturefile = "gfx/interface/ideas/idea_bul_kaproni_bulgarski.dds"
+		name = "GFX_idea_BST_kaproni_BSTgarski"
+		texturefile = "gfx/interface/ideas/idea_BST_kaproni_BSTgarski.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_bul_petrol_ad"
-		texturefile = "gfx/interface/ideas/idea_bul_petrol_ad.dds"
+		name = "GFX_idea_BST_petrol_ad"
+		texturefile = "gfx/interface/ideas/idea_BST_petrol_ad.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_idea_bul_pirin"
-		texturefile = "gfx/interface/ideas/idea_bul_pirin.dds"
+		name = "GFX_idea_BST_pirin"
+		texturefile = "gfx/interface/ideas/idea_BST_pirin.dds"
 	}
 	
 	spriteType = {
@@ -5178,228 +5178,228 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_idea_bul_second_national_catastrophe"
-		texturefile = "gfx/interface/ideas/idea_bul_second_national_catastrophe.dds"
+		name = "GFX_idea_BST_second_national_catastrophe"
+		texturefile = "gfx/interface/ideas/idea_BST_second_national_catastrophe.dds"
 	}	
 		
 	spriteType = {
-		name = "GFX_idea_bul_prussia_of_the_balkans"
-		texturefile = "gfx/interface/ideas/idea_bul_prussia_of_the_balkans.dds"
+		name = "GFX_idea_BST_prussia_of_the_balkans"
+		texturefile = "gfx/interface/ideas/idea_BST_prussia_of_the_balkans.dds"
 	}	
 		
 	spriteType = {
-		name = "GFX_idea_bul_ratniks"
-		texturefile = "gfx/interface/ideas/idea_bul_ratniks.dds"
+		name = "GFX_idea_BST_ratniks"
+		texturefile = "gfx/interface/ideas/idea_BST_ratniks.dds"
 	}
 			
 	spriteType = {
-		name = "GFX_idea_bul_tobacco_exports"
-		texturefile = "gfx/interface/ideas/idea_bul_tobacco_exports.dds"
+		name = "GFX_idea_BST_tobacco_exports"
+		texturefile = "gfx/interface/ideas/idea_BST_tobacco_exports.dds"
 	}	
 		
 	spriteType = {
-		name = "GFX_idea_bul_tsar_boris_negative"
-		texturefile = "gfx/interface/ideas/idea_bul_tsar_boris_negative.dds"
+		name = "GFX_idea_BST_tsar_boris_negative"
+		texturefile = "gfx/interface/ideas/idea_BST_tsar_boris_negative.dds"
 	}	
 		
 	spriteType = {
-		name = "GFX_idea_bul_tsar_boris_positive"
-		texturefile = "gfx/interface/ideas/idea_bul_tsar_boris_positive.dds"
+		name = "GFX_idea_BST_tsar_boris_positive"
+		texturefile = "gfx/interface/ideas/idea_BST_tsar_boris_positive.dds"
 	}	
 		
 	spriteType = {
-		name = "GFX_idea_bul_fatherland_front_negative"
-		texturefile = "gfx/interface/ideas/idea_bul_fatherland_front_negative.dds"
+		name = "GFX_idea_BST_fatherland_front_negative"
+		texturefile = "gfx/interface/ideas/idea_BST_fatherland_front_negative.dds"
 	}	
 		
 	spriteType = {
-		name = "GFX_idea_bul_fatherland_front_positive"
-		texturefile = "gfx/interface/ideas/idea_bul_fatherland_front_positive.dds"
+		name = "GFX_idea_BST_fatherland_front_positive"
+		texturefile = "gfx/interface/ideas/idea_BST_fatherland_front_positive.dds"
 	}
 			
 	spriteType = {
-		name = "GFX_idea_bul_sava_ivanov"
-		texturefile = "gfx/interface/ideas/idea_bul_sava_ivanov.dds"
+		name = "GFX_idea_BST_sava_ivanov"
+		texturefile = "gfx/interface/ideas/idea_BST_sava_ivanov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_stefan_tsanev"
-		texturefile = "gfx/interface/ideas/idea_bul_stefan_tsanev.dds"
+		name = "GFX_idea_BST_stefan_tsanev"
+		texturefile = "gfx/interface/ideas/idea_BST_stefan_tsanev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_georgi_petsov"
-		texturefile = "gfx/interface/ideas/idea_bul_georgi_petsov.dds"
+		name = "GFX_idea_BST_georgi_petsov"
+		texturefile = "gfx/interface/ideas/idea_BST_georgi_petsov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_asen_toshev"
-		texturefile = "gfx/interface/ideas/idea_bul_asen_toshev.dds"
+		name = "GFX_idea_BST_asen_toshev"
+		texturefile = "gfx/interface/ideas/idea_BST_asen_toshev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_ivan_variklechkov"
-		texturefile = "gfx/interface/ideas/idea_bul_ivan_variklechkov.dds"
+		name = "GFX_idea_BST_ivan_variklechkov"
+		texturefile = "gfx/interface/ideas/idea_BST_ivan_variklechkov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_kiril_yanchulev"
-		texturefile = "gfx/interface/ideas/idea_bul_kiril_yanchulev.dds"
+		name = "GFX_idea_BST_kiril_yanchulev"
+		texturefile = "gfx/interface/ideas/idea_BST_kiril_yanchulev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_stoyan_stoyanov"
-		texturefile = "gfx/interface/ideas/idea_bul_stoyan_stoyanov.dds"
+		name = "GFX_idea_BST_stoyan_stoyanov"
+		texturefile = "gfx/interface/ideas/idea_BST_stoyan_stoyanov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_gancho_manchev"
-		texturefile = "gfx/interface/ideas/idea_bul_gancho_manchev.dds"
+		name = "GFX_idea_BST_gancho_manchev"
+		texturefile = "gfx/interface/ideas/idea_BST_gancho_manchev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_georgi_drenikov"
-		texturefile = "gfx/interface/ideas/idea_bul_georgi_drenikov.dds"
+		name = "GFX_idea_BST_georgi_drenikov"
+		texturefile = "gfx/interface/ideas/idea_BST_georgi_drenikov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_dimitar_ayryanov"
-		texturefile = "gfx/interface/ideas/idea_bul_dimitar_ayryanov.dds"
+		name = "GFX_idea_BST_dimitar_ayryanov"
+		texturefile = "gfx/interface/ideas/idea_BST_dimitar_ayryanov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_stoyan_trendafilov"
-		texturefile = "gfx/interface/ideas/idea_bul_stoyan_trendafilov.dds"
+		name = "GFX_idea_BST_stoyan_trendafilov"
+		texturefile = "gfx/interface/ideas/idea_BST_stoyan_trendafilov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_ivan_sapundzhiev"
-		texturefile = "gfx/interface/ideas/idea_bul_ivan_sapundzhiev.dds"
+		name = "GFX_idea_BST_ivan_sapundzhiev"
+		texturefile = "gfx/interface/ideas/idea_BST_ivan_sapundzhiev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_atanas_zhilkov"
-		texturefile = "gfx/interface/ideas/idea_bul_atanas_zhilkov.dds"
+		name = "GFX_idea_BST_atanas_zhilkov"
+		texturefile = "gfx/interface/ideas/idea_BST_atanas_zhilkov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_trifon_trifonov"
-		texturefile = "gfx/interface/ideas/idea_bul_trifon_trifonov.dds"
+		name = "GFX_idea_BST_trifon_trifonov"
+		texturefile = "gfx/interface/ideas/idea_BST_trifon_trifonov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_vasil_boydev"
-		texturefile = "gfx/interface/ideas/idea_bul_vasil_boydev.dds"
+		name = "GFX_idea_BST_vasil_boydev"
+		texturefile = "gfx/interface/ideas/idea_BST_vasil_boydev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_nikola_hadzipetkov"
-		texturefile = "gfx/interface/ideas/idea_bul_nikola_hadzipetkov.dds"
+		name = "GFX_idea_BST_nikola_hadzipetkov"
+		texturefile = "gfx/interface/ideas/idea_BST_nikola_hadzipetkov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_konstantin_lukash"
-		texturefile = "gfx/interface/ideas/idea_bul_konstantin_lukash.dds"
+		name = "GFX_idea_BST_konstantin_lukash"
+		texturefile = "gfx/interface/ideas/idea_BST_konstantin_lukash.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_aleksandar_tsankov"
-		texturefile = "gfx/interface/ideas/idea_bul_aleksandar_tsankov.dds"
+		name = "GFX_idea_BST_aleksandar_tsankov"
+		texturefile = "gfx/interface/ideas/idea_BST_aleksandar_tsankov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_nikola_zhekov"
-		texturefile = "gfx/interface/ideas/idea_bul_nikola_zhekov.dds"
+		name = "GFX_idea_BST_nikola_zhekov"
+		texturefile = "gfx/interface/ideas/idea_BST_nikola_zhekov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_ivan_dochev"
-		texturefile = "gfx/interface/ideas/idea_bul_ivan_dochev.dds"
+		name = "GFX_idea_BST_ivan_dochev"
+		texturefile = "gfx/interface/ideas/idea_BST_ivan_dochev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_theodosi_daskalov"
-		texturefile = "gfx/interface/ideas/idea_bul_theodosi_daskalov.dds"
+		name = "GFX_idea_BST_theodosi_daskalov"
+		texturefile = "gfx/interface/ideas/idea_BST_theodosi_daskalov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_dobri_bozhilov"
-		texturefile = "gfx/interface/ideas/idea_bul_dobri_bozhilov.dds"
+		name = "GFX_idea_BST_dobri_bozhilov"
+		texturefile = "gfx/interface/ideas/idea_BST_dobri_bozhilov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_bogdan_filov"
-		texturefile = "gfx/interface/ideas/idea_bul_bogdan_filov.dds"
+		name = "GFX_idea_BST_bogdan_filov"
+		texturefile = "gfx/interface/ideas/idea_BST_bogdan_filov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_nikola_petkov"
-		texturefile = "gfx/interface/ideas/idea_bul_nikola_petkov.dds"
+		name = "GFX_idea_BST_nikola_petkov"
+		texturefile = "gfx/interface/ideas/idea_BST_nikola_petkov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_konstantin_muraviev"
-		texturefile = "gfx/interface/ideas/idea_bul_konstantin_muraviev.dds"
+		name = "GFX_idea_BST_konstantin_muraviev"
+		texturefile = "gfx/interface/ideas/idea_BST_konstantin_muraviev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_stefan_stefanov"
-		texturefile = "gfx/interface/ideas/idea_bul_stefan_stefanov.dds"
+		name = "GFX_idea_BST_stefan_stefanov"
+		texturefile = "gfx/interface/ideas/idea_BST_stefan_stefanov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_stoycho_mushanov"
-		texturefile = "gfx/interface/ideas/idea_bul_stoycho_mushanov.dds"
+		name = "GFX_idea_BST_stoycho_mushanov"
+		texturefile = "gfx/interface/ideas/idea_BST_stoycho_mushanov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_valko_chervenkov"
-		texturefile = "gfx/interface/ideas/idea_bul_valko_chervenkov.dds"
+		name = "GFX_idea_BST_valko_chervenkov"
+		texturefile = "gfx/interface/ideas/idea_BST_valko_chervenkov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_vasil_kolarov"
-		texturefile = "gfx/interface/ideas/idea_bul_vasil_kolarov.dds"
+		name = "GFX_idea_BST_vasil_kolarov"
+		texturefile = "gfx/interface/ideas/idea_BST_vasil_kolarov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_kiril_stanchev"
-		texturefile = "gfx/interface/ideas/idea_bul_kiril_stanchev.dds"
+		name = "GFX_idea_BST_kiril_stanchev"
+		texturefile = "gfx/interface/ideas/idea_BST_kiril_stanchev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_vladimir_stoychev"
-		texturefile = "gfx/interface/ideas/idea_bul_vladimir_stoychev.dds"
+		name = "GFX_idea_BST_vladimir_stoychev"
+		texturefile = "gfx/interface/ideas/idea_BST_vladimir_stoychev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_zachari_zachariev"
-		texturefile = "gfx/interface/ideas/idea_bul_zachari_zachariev.dds"
+		name = "GFX_idea_BST_zachari_zachariev"
+		texturefile = "gfx/interface/ideas/idea_BST_zachari_zachariev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_kimon_georgiev"
-		texturefile = "gfx/interface/ideas/idea_bul_kimon_georgiev.dds"
+		name = "GFX_idea_BST_kimon_georgiev"
+		texturefile = "gfx/interface/ideas/idea_BST_kimon_georgiev.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_dimitrana_ivanova"
-		texturefile = "gfx/interface/ideas/idea_bul_dimitrana_ivanova.dds"
+		name = "GFX_idea_BST_dimitrana_ivanova"
+		texturefile = "gfx/interface/ideas/idea_BST_dimitrana_ivanova.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_todor_pavlov"
-		texturefile = "gfx/interface/ideas/idea_bul_todor_pavlov.dds"
+		name = "GFX_idea_BST_todor_pavlov"
+		texturefile = "gfx/interface/ideas/idea_BST_todor_pavlov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_georgi_kyoseivanov"
-		texturefile = "gfx/interface/ideas/idea_bul_georgi_kyoseivanov.dds"
+		name = "GFX_idea_BST_georgi_kyoseivanov"
+		texturefile = "gfx/interface/ideas/idea_BST_georgi_kyoseivanov.dds"
 	}
 				
 	spriteType = {
-		name = "GFX_idea_bul_vladimir_zaimov"
-		texturefile = "gfx/interface/ideas/idea_BUL_vladimir_zaimov.dds"
+		name = "GFX_idea_BST_vladimir_zaimov"
+		texturefile = "gfx/interface/ideas/idea_BST_vladimir_zaimov.dds"
 	}
 					
 	spriteType = {
@@ -5468,28 +5468,28 @@ spriteTypes = {
 	}
 						
 	spriteType = {
-		name = "GFX_idea_bul_nationalized_industry"
-		texturefile = "gfx/interface/ideas/idea_bul_nationalized_industry.dds"
+		name = "GFX_idea_BST_nationalized_industry"
+		texturefile = "gfx/interface/ideas/idea_BST_nationalized_industry.dds"
 	}
 						
 	spriteType = {
-		name = "GFX_idea_bul_national_industry"
-		texturefile = "gfx/interface/ideas/idea_bul_national_industry.dds"
+		name = "GFX_idea_BST_national_industry"
+		texturefile = "gfx/interface/ideas/idea_BST_national_industry.dds"
 	}
 						
 	spriteType = {
-		name = "GFX_idea_bul_zveno"
-		texturefile = "gfx/interface/ideas/idea_bul_zveno.dds"
+		name = "GFX_idea_BST_zveno"
+		texturefile = "gfx/interface/ideas/idea_BST_zveno.dds"
 	}
 						
 	spriteType = {
-		name = "GFX_idea_bul_the_fate_of_the_balkans"
-		texturefile = "gfx/interface/ideas/idea_bul_the_fate_of_the_balkans.dds"
+		name = "GFX_idea_BST_the_fate_of_the_balkans"
+		texturefile = "gfx/interface/ideas/idea_BST_the_fate_of_the_balkans.dds"
 	}
 						
 	spriteType = {
-		name = "GFX_idea_bul_bulgarian_irredentism"
-		texturefile = "gfx/interface/ideas/idea_bul_bulgarian_irredentism.dds"
+		name = "GFX_idea_BST_BSTgarian_irredentism"
+		texturefile = "gfx/interface/ideas/idea_BST_BSTgarian_irredentism.dds"
 	}
 						
 	spriteType = {
@@ -5608,23 +5608,23 @@ spriteTypes = {
 	}
 										
 	spriteType = {
-		name = "GFX_idea_bul_third_bulgarian_state"
-		texturefile = "gfx/interface/ideas/idea_bul_third_bulgarian_state.dds"
+		name = "GFX_idea_BST_third_BSTgarian_state"
+		texturefile = "gfx/interface/ideas/idea_BST_third_BSTgarian_state.dds"
 	}
 										
 	spriteType = {
-		name = "GFX_idea_bul_supremacy_on_the_bosphorus"
-		texturefile = "gfx/interface/ideas/idea_bul_supremacy_on_the_bosphorus.dds"
+		name = "GFX_idea_BST_supremacy_on_the_bosphorus"
+		texturefile = "gfx/interface/ideas/idea_BST_supremacy_on_the_bosphorus.dds"
 	}
 										
 	spriteType = {
-		name = "GFX_idea_bul_imro"
-		texturefile = "gfx/interface/ideas/idea_bul_imro.dds"
+		name = "GFX_idea_BST_imro"
+		texturefile = "gfx/interface/ideas/idea_BST_imro.dds"
 	}
 										
 	spriteType = {
-		name = "GFX_idea_bul_bulgarian_shipping_chamber"
-		texturefile = "gfx/interface/ideas/idea_bul_bulgarian_shipping_chamber.dds"
+		name = "GFX_idea_BST_BSTgarian_shipping_chamber"
+		texturefile = "gfx/interface/ideas/idea_BST_BSTgarian_shipping_chamber.dds"
 	}
 										
 	spriteType = {

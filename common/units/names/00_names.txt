@@ -793,7 +793,7 @@ BRA = {
 	}
 }
 
-BUL = {
+BST = {
 	submarine = {
 		prefix = ""
 		generic = { "Podvodnitsa" }
@@ -845,13 +845,13 @@ BUL = {
 			"Nadezhda" "Struma" "Sofija" "Plovdiv" "Varna" "Burgas" "Ruse" "Stara Zagora" "Pleven" 
 		}
 	}
-	air_wing_names_template = AIR_WING_NAME_BUL_FALLBACK
+	air_wing_names_template = AIR_WING_NAME_BST_FALLBACK
 
 	#Air wings can only be named through archetype
 	small_plane_airframe = {
 		prefix = ""
 		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -859,7 +859,7 @@ BUL = {
 	jet_fighter_equipment = {
 		prefix = ""
 		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -867,7 +867,7 @@ BUL = {
 	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -875,7 +875,7 @@ BUL = {
 	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Shturmovi polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -883,7 +883,7 @@ BUL = {
 	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "Iztrebitelen polk" "Vyzdushen polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -891,14 +891,14 @@ BUL = {
 	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Shturmovi polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
 	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Vodosamoleten orljak" "Vodosamoleten polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -906,7 +906,7 @@ BUL = {
 	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Lineen polk" "Bombardirovatchen polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -914,7 +914,7 @@ BUL = {
 	jet_tac_bomber_equipment = {
 		prefix = ""
 		generic = { "Lineen polk" "Bombardirovatchen polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -922,7 +922,7 @@ BUL = {
 	small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "Vodosamoleten orljak" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -930,7 +930,7 @@ BUL = {
 	large_plane_airframe = {
 		prefix = ""
 		generic = { "Bombardirovatchen polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -938,7 +938,7 @@ BUL = {
 	jet_strat_bomber_equipment = {
 		prefix = ""
 		generic = { "Bombardirovatchen polk" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -946,7 +946,7 @@ BUL = {
 	transport_plane_equipment = {
 		prefix = ""
 		generic = { "Transportno jato" }
-		generic_pattern = AIR_WING_NAME_BUL_GENERIC
+		generic_pattern = AIR_WING_NAME_BST_GENERIC
 		unique = {
 		}	
 	}
@@ -2137,7 +2137,7 @@ HOL = {
 		unique = {
 			"Piet Hein" "Eversten" "Van Ghent" "Kortenaer" "Van Galen" "Witte de With" "Banckert" "Van Nes" "Gerard Callenburgh" "Isaac Sweers" "Tjerk Hiddes" "Philips van Almonde"
 			"Campbelltown" "Marnix" "Holland" "Zeeland" "Noord-Brabant" "Gelderland" "Friesland" "Groningen" "Limburg" "Overijssel" "Drenthe" "Utrecht" "Rotterdam" "Amsterdam"
-			"Wolf" "Fret" "Bulhond" "Jakhals" "Hermelijn" "Lynx" "Vos" "Panter" 
+			"Wolf" "Fret" "BSThond" "Jakhals" "Hermelijn" "Lynx" "Vos" "Panter" 
 		}
 	}
 	light_cruiser = {
@@ -4438,7 +4438,7 @@ TUR = {
 		generic = { "Destroyer" }
 		unique = {
 			"Peyk" "Berk" "Kocatepe" "Adatepe" "Zafer" "Tinaztepe" "Gayret" "Demirhisar" "Sultanhisar" "Muavenet" "Gaziantep" "Giresun" 
-			"Gelibolu" "Gemlik" "Alp Arslam" "Maresal Fevzi cakmak" "Kilic Ali Pasa" "Piyale Pasha" "Istanbul" "Izmir" "Ismit" "Iskenderun" 
+			"Gelibolu" "Gemlik" "Alp Arslam" "Maresal Fevzi cakmak" "Kilic Ali Pasa" "Piyale Pasha" "IstanBST" "Izmir" "Ismit" "Iskenderun" 
 			"Icel" "Yücetepe" "Savastepe" "Alcitepe" "Anittepe"
 		}
 	}
@@ -4462,14 +4462,14 @@ TUR = {
 		prefix = "TCG"
 		generic = { "Muharebe Kruvazör" }
 		unique = {
-			"Yavuz" "Batiray" "Yildiray" "Yavuzay" "Izmir" "Istanbul" "Samsun" "Trabzon" 
+			"Yavuz" "Batiray" "Yildiray" "Yavuzay" "Izmir" "IstanBST" "Samsun" "Trabzon" 
 		}
 	}
 	battleship = {
 		prefix = "TCG"
 		generic = { "Savas Gemisi" }
 		unique = {
-			"Izmir" "Istanbul" "Samsun" "Trabzon" "Turgud Reis" "Barbaros" "Salih Reis" "Kilic Ali Reis" "Saldiray" "Midilli" 
+			"Izmir" "IstanBST" "Samsun" "Trabzon" "Turgud Reis" "Barbaros" "Salih Reis" "Kilic Ali Reis" "Saldiray" "Midilli" 
 		}
 	}
 	carrier = {

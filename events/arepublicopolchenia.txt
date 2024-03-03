@@ -1,5 +1,5 @@
 ﻿###########################
-# Bulgarian Events
+# BSTgarian Events
 ###########################
 
 add_namespace = arepublicopolchenia

@@ -1,5 +1,5 @@
 focus_tree = {
-	id = bulbastan_focus
+	id = BSTbastan_focus
 	
 	country = {
 		factor = 0

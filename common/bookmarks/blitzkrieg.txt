@@ -94,7 +94,7 @@
 			minor = yes
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
-			"BUL"= {
+			"BST"= {
 			minor = yes
 			history = "OTHER_GATHERING_STORM_DESC"
 		}

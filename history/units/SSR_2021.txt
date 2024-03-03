@@ -1,0 +1,279 @@
+﻿division_template = {
+	name = "Strelkovaya Diviziya"
+
+	division_names_group = SSR_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Maloe Voennoe Formirovanie"
+
+	division_names_group = SSR_MVF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+
+division_template = {
+	name = "Motostrelkovaya Diviziya"
+	division_names_group = SSR_MOT_01
+						
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+units = {
+	division = {
+		#name = "Strelkovaya Diviziya 1"
+		division_name = { 
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3942
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+	}
+	division = {
+		#name = "Strelkovaya Diviziya 2"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 19592
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+	}
+		division = {
+		#name = "Strelkovaya Diviziya 3"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 5572
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+	}
+		division = {
+		#name = "Strelkovaya Diviziya 4"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6721
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+		}
+		division = {
+		#name = "Strelkovaya Diviziya 5"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 19425
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+	}
+		division = {
+		#name = "Strelkovaya Diviziya 6"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 19900
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+	
+	}
+	
+	division = {
+		#name = "Strelkovaya Diviziya 7"
+		division_name = { 
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 177
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+	}
+	division = {
+		#name = "Strelkovaya Diviziya 8"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 19933
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+	}
+		division = {
+		#name = "Strelkovaya Diviziya 9"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 4923
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+	}
+		division = {
+		#name = "Strelkovaya Diviziya 10"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 7290
+		division_template = "Strelkovaya Diviziya"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.2
+		}
+	
+	division = {
+		#name = "1"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 20293
+		division_template = "Maloe Voennoe Formirovanie"
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		#name = "2"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 19863
+		division_template = "Maloe Voennoe Formirovanie"
+		start_equipment_factor = 0.8
+
+	}	
+	
+	division = {
+		#name = "3"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 19768
+		division_template = "Maloe Voennoe Formirovanie"
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		#name = "4"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 19679
+		division_template = "Maloe Voennoe Formirovanie"
+		start_equipment_factor = 0.8
+
+	}
+	
+	division = {
+		#name = "1"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3942
+		division_template = "Motostrelkovaya Diviziya"
+		start_equipment_factor = 1
+
+	}
+	
+	division = {
+		#name = "2"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 19592
+		division_template = "Motostrelkovaya Diviziya"
+		start_equipment_factor = 1
+
+	}
+	
+		division = {
+		#name = "3"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6721
+		division_template = "Motostrelkovaya Diviziya"
+		start_equipment_factor = 1
+
+	}
+	
+		division = {
+		#name = "4"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4923
+		division_template = "Motostrelkovaya Diviziya"
+		start_equipment_factor = 1
+
+	}
+
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "SSR"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+		add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "SSR" 
+		}
+		requested_factories = 2
+		progress = 0.4
+		efficiency = 50
+	}
+}

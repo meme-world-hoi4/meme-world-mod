@@ -1,5 +1,5 @@
 ﻿###########################
-# BSTgarian Events
+# bulgarian Events
 ###########################
 
 add_namespace = keklandia
@@ -23,7 +23,7 @@ country_event = {
 	id = keklandia.2
 	title = keklandia.2.t
 	desc = keklandia.2.d
-	picture = GFX_report_event_BST_troops_dobrudja
+	picture = GFX_report_event_bul_troops_dobrudja
 	
 	is_triggered_only = yes
 	

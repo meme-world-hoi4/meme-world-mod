@@ -1,5 +1,5 @@
 ﻿###########################
-# BSTgarian Events
+# bulgarian Events
 ###########################
 
 add_namespace = opolchenie

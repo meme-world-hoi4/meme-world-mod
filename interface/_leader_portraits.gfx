@@ -81,7 +81,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_Portrait_Lovushkinsk_Sava_Perseev"
-		texturefile = "gfx/leaders/SSR/Portrait_Lovushkinsk_Seva_Perseyev.dds"
+		texturefile = "gfx/leaders/FAL/Portrait_Lovushkinsk_Seva_Perseyev.dds"
 	}
 	spriteType = {
 		name = "GFX_Portrait_ARO_Michael_Kekich"

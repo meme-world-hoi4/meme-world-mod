@@ -114,7 +114,7 @@ ideas = {
 							has_completed_focus = KEK_country_industrialisation
 							has_completed_focus = OPO_country_industrialisation
 							has_completed_focus = BAL_country_industrialisation
-							has_completed_focus = BLB_country_industrialisation
+							has_completed_focus = BUL_country_industrialisation
 							has_completed_focus = EPI_country_industrialisation
 							has_completed_focus = EVD_country_industrialisation
 							has_completed_focus = JJK_country_industrialisation
@@ -123,7 +123,7 @@ ideas = {
 							has_completed_focus = PAR_country_industrialisation
 							has_completed_focus = PER_country_industrialisation
 							has_completed_focus = SHL_country_industrialisation
-							has_completed_focus = FAL_country_industrialisation
+							has_completed_focus = SSR_country_industrialisation
 							has_completed_focus = VKB_country_industrialisation
 							has_completed_focus = country_industrialisation
 						}
@@ -172,7 +172,7 @@ ideas = {
 							has_completed_focus = PAR_country_industrialisation
 							has_completed_focus = PER_country_industrialisation
 							has_completed_focus = SHL_country_industrialisation
-							has_completed_focus = FAL_country_industrialisation
+							has_completed_focus = SSR_country_industrialisation
 							has_completed_focus = VKB_country_industrialisation
 							has_completed_focus = country_industrialisation
 						}

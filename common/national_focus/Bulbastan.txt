@@ -6,7 +6,7 @@ focus_tree = {
 		
 		modifier = {
 			add = 10
-			tag = BLB
+			tag = BUL
 		}
 	}
 	
@@ -15,7 +15,7 @@ focus_tree = {
 	continuous_focus_position = { x = 2350 y = 1150 }
 	
 	focus = {
-		id = BLB_policy_focuses
+		id = BUL_policy_focuses
 		icon = GFX_goal_generic_demand_territory
 		cost = 1,00
 		x = 13
@@ -25,7 +25,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_eco_country_reforms
+		id = BUL_eco_country_reforms
 		icon = GFX_focus_generic_industry_2
 		cost = 1,00
 		x = 27
@@ -36,7 +36,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BLB_navy_reform
+		id = BUL_navy_reform
 		icon = GFX_focus_ICE_modernizing_the_coast_guard
 		cost = 1,00
 		x = 52
@@ -55,16 +55,16 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BLB_country_industry_plans
+		id = BUL_country_industry_plans
 		icon = GFX_focus_NORDIC_com_capstone_civilian
 		cost = 1,00
 		x = 24
 		y = 2
 		prerequisite = {
-			focus = BLB_eco_country_reforms
+			focus = BUL_eco_country_reforms
 		}
 		mutually_exclusive = {
-			focus = BLB_economy_plan
+			focus = BUL_economy_plan
 		}
 		completion_reward = {
 		custom_effect_tooltip = facotry_bonus_industrial_base_tt
@@ -76,13 +76,13 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_develop_hard_industry
+		id = BUL_develop_hard_industry
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 1,00
 		x = 22
 		y = 4
 		prerequisite = {
-			focus = BLB_create_industry_base
+			focus = BUL_create_industry_base
 		}
 		completion_reward = {
 			random_owned_controlled_state = {
@@ -123,13 +123,13 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BLB_develop_light_industry
+		id = BUL_develop_light_industry
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 1,00
 		x = 26
 		y = 4
 		prerequisite = {
-			focus = BLB_create_industry_base
+			focus = BUL_create_industry_base
 		}
 	completion_reward = {
 			random_owned_controlled_state = {
@@ -169,11 +169,11 @@ focus_tree = {
 		}
 }
 	focus = {
-		id = BLB_new_ministr
+		id = BUL_new_ministr
 		icon = GFX_goal_generic_major_alliance
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_policy_focuses
+			focus = BUL_policy_focuses
 		}
 		x = 4
 		y = 2
@@ -186,11 +186,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_administrator
+		id = BUL_administrator
 		icon = GFX_focus_generic_improve_the_administration
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_new_ministr
+			focus = BUL_new_ministr
 		}
 		x = 4
 		y = 3
@@ -200,11 +200,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_revision_law
+		id = BUL_revision_law
 		icon = GFX_focus_renounce_the_treaty_of_triannon
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_administrator
+			focus = BUL_administrator
 		}
 		x = 4
 		y = 4
@@ -214,11 +214,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BLB_populism_gov
+		id = BUL_populism_gov
 		icon = GFX_goal_generic_propaganda
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_revision_law
+			focus = BUL_revision_law
 		}
 		x = 4
 		y = 5
@@ -229,16 +229,16 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BLB_support_commie
+		id = BUL_support_commie
 		icon = GFX_focus_yug_pan_slavic_congress
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_policy_focuses
+			focus = BUL_policy_focuses
 		}
 		mutually_exclusive = {
-			focus = BLB_democratic_reform
-			focus = BLB_protect_gov_power
-			focus = BLB_national_gov_idea
+			focus = BUL_democratic_reform
+			focus = BUL_protect_gov_power
+			focus = BUL_national_gov_idea
 		}
 		x = 7
 		y = 2
@@ -247,11 +247,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_work_union
+		id = BUL_work_union
 		icon = GFX_focus_ITA_the_italian_republic
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_support_commie
+			focus = BUL_support_commie
 		}
 		x = 7
 		y = 3
@@ -261,11 +261,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BLB_manifistations
+		id = BUL_manifistations
 		icon = GFX_focus_generic_workers
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_work_union
+			focus = BUL_work_union
 		}
 		x = 7
 		y = 4
@@ -278,11 +278,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_legalize_groups
+		id = BUL_legalize_groups
 		icon = GFX_focus_generic_join_comintern
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_manifistations
+			focus = BUL_manifistations
 		}
 		x = 7
 		y = 5
@@ -295,11 +295,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_farmer_money
+		id = BUL_farmer_money
 		icon = GFX_focus_generic_farmland
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_legalize_groups
+			focus = BUL_legalize_groups
 		}
 		x = 6
 		y = 6
@@ -314,11 +314,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_eight_hour_day
+		id = BUL_eight_hour_day
 		icon = GFX_goal_generic_soviet_construction
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_legalize_groups
+			focus = BUL_legalize_groups
 		}
 		x = 8
 		y = 6
@@ -330,14 +330,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_revolution
+		id = BUL_revolution
 		icon = GFX_focus_SWE_refuge_for_revolutionaries
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_farmer_money
+			focus = BUL_farmer_money
 		}
 		prerequisite = {
-			focus = BLB_eight_hour_day
+			focus = BUL_eight_hour_day
 		}
 		x = 7
 		y = 7
@@ -367,11 +367,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_farmer_reform
+		id = BUL_farmer_reform
 		icon = GFX_focus_prc_agrarian_socialism
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_revolution
+			focus = BUL_revolution
 		}
 		x = 5
 		y = 8
@@ -384,11 +384,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_idealogy_propaganda
+		id = BUL_idealogy_propaganda
 		icon = GFX_focus_por_workers_of_iberia
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_revolution
+			focus = BUL_revolution
 		}
 		x = 7
 		y = 8
@@ -397,16 +397,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_democratic_reform
+		id = BUL_democratic_reform
 		icon = GFX_focus_SWE_refuge_from_war
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_policy_focuses
+			focus = BUL_policy_focuses
 		}
 		mutually_exclusive = {
-			focus = BLB_protect_gov_power
-			focus = BLB_support_commie
-			focus = BLB_national_gov_idea
+			focus = BUL_protect_gov_power
+			focus = BUL_support_commie
+			focus = BUL_national_gov_idea
 		}
 		x = 11
 		y = 2
@@ -415,11 +415,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_create_new_const
+		id = BUL_create_new_const
 		icon = GFX_focus_generic_treaty
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_democratic_reform
+			focus = BUL_democratic_reform
 		}
 		x = 11
 		y = 3
@@ -429,11 +429,11 @@ focus_tree = {
 	}
 }
 	focus = {
-		id = BLB_law_state
+		id = BUL_law_state
 		icon = GFX_focus_generic_court
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_create_new_const
+			focus = BUL_create_new_const
 		}
 		x = 11
 		y = 4
@@ -443,11 +443,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_amnistia
+		id = BUL_amnistia
 		icon = GFX_goal_unknown
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_law_state
+			focus = BUL_law_state
 		}
 		x = 11
 		y = 5
@@ -461,11 +461,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_law_reform
+		id = BUL_law_reform
 		icon = GFX_goal_generic_neutrality_focus
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_amnistia
+			focus = BUL_amnistia
 		}
 		x = 10
 		y = 6
@@ -480,11 +480,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_free_news
+		id = BUL_free_news
 		icon = GFX_focus_SWI_establish_pro_helvetia
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_amnistia
+			focus = BUL_amnistia
 		}
 		x = 12
 		y = 6
@@ -495,14 +495,14 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_democratic_state
+		id = BUL_democratic_state
 		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_law_reform
+			focus = BUL_law_reform
 		}
 		prerequisite = {
-			focus = BLB_free_news
+			focus = BUL_free_news
 		}
 		x = 11
 		y = 7
@@ -531,12 +531,12 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_GEN_people_equality
+		id = BUL_GEN_people_equality
 		icon = GFX_goal_continuous_increase_nu
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_revolution
-			focus = BLB_democratic_state
+			focus = BUL_revolution
+			focus = BUL_democratic_state
 		}
 		x = 9
 		y = 8
@@ -549,15 +549,15 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_nationalisation_commie
+		id = BUL_nationalisation_commie
 		icon = GFX_focus_DEN_heavy_regulations
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_farmer_reform
-			focus = BLB_GEN_people_equality
+			focus = BUL_farmer_reform
+			focus = BUL_GEN_people_equality
 		}
 		prerequisite = {
-			focus = BLB_idealogy_propaganda
+			focus = BUL_idealogy_propaganda
 		}
 		x = 7
 		y = 9
@@ -638,11 +638,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_eliminate_opportunism
+		id = BUL_eliminate_opportunism
 		icon = GFX_focus_SOV_the_last_purge
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_nationalisation_commie
+			focus = BUL_nationalisation_commie
 		}
 		x = 8
 		y = 10
@@ -653,11 +653,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_true_elections
+		id = BUL_true_elections
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_democratic_state
+			focus = BUL_democratic_state
 		}
 		x = 11
 		y = 8
@@ -671,11 +671,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_pluralism_gov
+		id = BUL_pluralism_gov
 		icon = GFX_focus_generic_self_management
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_true_elections
+			focus = BUL_true_elections
 		}
 		x = 11
 		y = 9
@@ -685,11 +685,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_protect_business
+		id = BUL_protect_business
 		icon = GFX_focus_generic_the_giant_wakes
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_pluralism_gov
+			focus = BUL_pluralism_gov
 		}
 		x = 12
 		y = 10
@@ -732,16 +732,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_protect_gov_power
+		id = BUL_protect_gov_power
 		icon = GFX_goal_generic_defence
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_policy_focuses
+			focus = BUL_policy_focuses
 		}
 		mutually_exclusive = {
-			focus = BLB_democratic_reform
-			focus = BLB_national_gov_idea
-			focus = BLB_support_commie
+			focus = BUL_democratic_reform
+			focus = BUL_national_gov_idea
+			focus = BUL_support_commie
 		}
 		x = 15
 		y = 2
@@ -750,11 +750,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_find_alias
+		id = BUL_find_alias
 		icon = GFX_focus_generic_university_2
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_protect_gov_power
+			focus = BUL_protect_gov_power
 		}
 		x = 15
 		y = 3
@@ -764,11 +764,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_privatization
+		id = BUL_privatization
 		icon = GFX_focus_NOR_approach_kretsen
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_find_alias
+			focus = BUL_find_alias
 		}
 		x = 15
 		y = 4
@@ -782,11 +782,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_company_against_enemies
+		id = BUL_company_against_enemies
 		icon = GFX_goal_unknown
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_privatization
+			focus = BUL_privatization
 		}
 		x = 15
 		y = 5
@@ -799,11 +799,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_subdue_news
+		id = BUL_subdue_news
 		icon = GFX_focus_generic_secret_service_agency
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_company_against_enemies
+			focus = BUL_company_against_enemies
 		}
 		x = 14
 		y = 6
@@ -815,11 +815,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = BLB_police_reform
+		id = BUL_police_reform
 		icon = GFX_focus_generic_military_mission
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_company_against_enemies
+			focus = BUL_company_against_enemies
 		}
 		x = 16
 		y = 6
@@ -829,18 +829,18 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_autocracy_gov
+		id = BUL_autocracy_gov
 		icon = GFX_focus_rom_royal_dictatorship
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_police_reform
+			focus = BUL_police_reform
 		}
 		prerequisite = {
-			focus = BLB_subdue_news
+			focus = BUL_subdue_news
 		}
 		mutually_exclusive = {
-			focus = BLB_oligarchism_gov
-			focus = BLB_oligarchism_gov
+			focus = BUL_oligarchism_gov
+			focus = BUL_oligarchism_gov
 		}
 		x = 16
 		y = 7
@@ -869,16 +869,16 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_national_gov_idea
+		id = BUL_national_gov_idea
 		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_policy_focuses
+			focus = BUL_policy_focuses
 		}
 		mutually_exclusive = {
-			focus = BLB_protect_gov_power
-			focus = BLB_democratic_reform
-			focus = BLB_support_commie
+			focus = BUL_protect_gov_power
+			focus = BUL_democratic_reform
+			focus = BUL_support_commie
 		}
 		x = 19
 		y = 2
@@ -887,11 +887,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_national_policy
+		id = BUL_national_policy
 		icon = GFX_goal_generic_political_pressure
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_national_gov_idea
+			focus = BUL_national_gov_idea
 		}
 		x = 19
 		y = 3
@@ -902,11 +902,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_patriot_groups
+		id = BUL_patriot_groups
 		icon = GFX_focus_FIN_parmis_devils
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_national_policy
+			focus = BUL_national_policy
 		}
 		x = 19
 		y = 4
@@ -923,11 +923,11 @@ focus_tree = {
 	}
 }
 	focus = {
-		id = BLB_natioanal_goverment
+		id = BUL_natioanal_goverment
 		icon = GFX_focus_SWI_embrace_panoramaheim
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_patriot_groups
+			focus = BUL_patriot_groups
 		}
 		x = 19
 		y = 5
@@ -940,11 +940,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform
+		id = BUL_army_reform
 		icon = GFX_focus_generic_manpower
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_natioanal_goverment
+			focus = BUL_natioanal_goverment
 		}
 		x = 18
 		y = 6
@@ -955,11 +955,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_rights_for_local
+		id = BUL_rights_for_local
 		icon = GFX_goal_generic_major_alliance
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_natioanal_goverment
+			focus = BUL_natioanal_goverment
 		}
 		x = 20
 		y = 6
@@ -969,14 +969,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_millitary_reshuffle
+		id = BUL_millitary_reshuffle
 		icon = GFX_focus_generic_limited_social_mobilization
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform
+			focus = BUL_army_reform
 		}
 		prerequisite = {
-			focus = BLB_rights_for_local
+			focus = BUL_rights_for_local
 		}
 		x = 19
 		y = 7
@@ -1006,12 +1006,12 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_cult_leader
+		id = BUL_cult_leader
 		icon = GFX_goal_generic_air_doctrine
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_millitary_reshuffle
-			focus = BLB_autocracy_gov
+			focus = BUL_millitary_reshuffle
+			focus = BUL_autocracy_gov
 		}
 		x = 17
 		y = 8
@@ -1026,11 +1026,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_fascism_idealogy
+		id = BUL_fascism_idealogy
 		icon = GFX_focus_generic_fascist_propaganda
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_millitary_reshuffle
+			focus = BUL_millitary_reshuffle
 		}
 		x = 19
 		y = 8
@@ -1039,11 +1039,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_national_army
+		id = BUL_national_army
 		icon = GFX_focus_generic_fascist_troops
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_millitary_reshuffle
+			focus = BUL_millitary_reshuffle
 		}
 		x = 21
 		y = 8
@@ -1053,14 +1053,14 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_nationalisation_fascismm
+		id = BUL_nationalisation_fascismm
 		icon = GFX_focus_DEN_heavy_regulations
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_national_army
+			focus = BUL_national_army
 		}
 		prerequisite = {
-			focus = BLB_fascism_idealogy
+			focus = BUL_fascism_idealogy
 		}
 		x = 19
 		y = 9
@@ -1141,11 +1141,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_national_brigade
+		id = BUL_national_brigade
 		icon = GFX_goal_unknown
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_national_army
+			focus = BUL_national_army
 		}
 		x = 20
 		y = 10
@@ -1158,11 +1158,11 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = BLB_create_industry_base
+		id = BUL_create_industry_base
 		icon = GFX_focus_generic_socialist_science
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_country_industry_plans
+			focus = BUL_country_industry_plans
 		}
 		x = 24
 		y = 3
@@ -1177,11 +1177,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_indutry_railways
+		id = BUL_indutry_railways
 		icon = GFX_focus_POL_warsaw_main_station
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_create_industry_base
+			focus = BUL_create_industry_base
 		}
 		x = 24
 		y = 4
@@ -1218,14 +1218,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BLB_resources_industry
+		id = BUL_resources_industry
 		icon = GFX_focus_generic_mining_industry
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_develop_hard_industry
+			focus = BUL_develop_hard_industry
 		}
 		prerequisite = {
-			focus = BLB_indutry_railways
+			focus = BUL_indutry_railways
 		}
 		x = 23
 		y = 5
@@ -1311,14 +1311,14 @@ random_owned_controlled_state = {
 
 	}
 	focus = {
-		id = BLB_effect_industry
+		id = BUL_effect_industry
 		icon = GFX_focus_NORDIC_com_selector_civilian
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_develop_light_industry
+			focus = BUL_develop_light_industry
 		}
 		prerequisite = {
-			focus = BLB_indutry_railways
+			focus = BUL_indutry_railways
 		}
 		x = 25
 		y = 5
@@ -1327,14 +1327,14 @@ random_owned_controlled_state = {
 	}
 	}
 	focus = {
-		id = BLB_create_new_bussiness
+		id = BUL_create_new_bussiness
 		icon = GFX_focus_generic_energy
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_effect_industry
+			focus = BUL_effect_industry
 		}
 		prerequisite = {
-			focus = BLB_resources_industry
+			focus = BUL_resources_industry
 		}
 		x = 24
 		y = 6
@@ -1432,11 +1432,11 @@ random_owned_controlled_state = {
 	}
 }
 	focus = {
-		id = BLB_against_capitalism
+		id = BUL_against_capitalism
 		icon = GFX_focus_spr_class_war
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_nationalisation_commie
+			focus = BUL_nationalisation_commie
 		}
 		x = 6
 		y = 10
@@ -1447,14 +1447,14 @@ random_owned_controlled_state = {
 	}
 	}
 	focus = {
-		id = BLB_economy_plan
+		id = BUL_economy_plan
 		icon = GFX_goal_generic_positive_trade_relations
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_eco_country_reforms
+			focus = BUL_eco_country_reforms
 		}
 		mutually_exclusive = {
-			focus = BLB_country_industry_plans
+			focus = BUL_country_industry_plans
 		}
 		x = 30
 		y = 2
@@ -1468,14 +1468,14 @@ random_owned_controlled_state = {
 	}
 	}
 	focus = {
-		id = BLB_economic_plans
+		id = BUL_economic_plans
 		icon = GFX_focus_SOV_organize_wreckers
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_against_capitalism
+			focus = BUL_against_capitalism
 		}
 		prerequisite = {
-			focus = BLB_eliminate_opportunism
+			focus = BUL_eliminate_opportunism
 		}
 		x = 7
 		y = 11
@@ -1487,11 +1487,11 @@ random_owned_controlled_state = {
 	}
 	}
 	focus = {
-		id = BLB_call_for_investitions
+		id = BUL_call_for_investitions
 		icon = GFX_focus_generic_concessions
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_economy_plan
+			focus = BUL_economy_plan
 		}
 		x = 30
 		y = 3
@@ -1500,11 +1500,11 @@ random_owned_controlled_state = {
 	}
 	}
 	focus = {
-		id = BLB_credit_policy
+		id = BUL_credit_policy
 		icon = GFX_focus_mex_privatisation
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_call_for_investitions
+			focus = BUL_call_for_investitions
 		}
 		x = 28
 		y = 4
@@ -1516,11 +1516,11 @@ random_owned_controlled_state = {
 	}
 	}
 	focus = {
-		id = BLB_railways_development
+		id = BUL_railways_development
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_call_for_investitions
+			focus = BUL_call_for_investitions
 		}
 		x = 30
 		y = 4
@@ -1556,14 +1556,14 @@ random_owned_controlled_state = {
 	}
 	}
 	focus = {
-		id = BLB_sell_resources
+		id = BUL_sell_resources
 		icon = GFX_focus_oil_sell
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_credit_policy
+			focus = BUL_credit_policy
 		}
 		prerequisite = {
-			focus = BLB_railways_development
+			focus = BUL_railways_development
 		}
 		x = 29
 		y = 5
@@ -1621,12 +1621,12 @@ hidden_effect = {
 
 	}
 	focus = {
-		id = BLB_urbanization
+		id = BUL_urbanization
 		icon = GFX_focus_SWE_urbanization
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_sell_resources
-			focus = BLB_effect_industry
+			focus = BUL_sell_resources
+			focus = BUL_effect_industry
 		}
 		x = 27
 		y = 6
@@ -1638,11 +1638,11 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_tax_for_small_bus
+		id = BUL_tax_for_small_bus
 		icon = GFX_goal_generic_intelligence_exchange
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_call_for_investitions
+			focus = BUL_call_for_investitions
 		}
 		x = 32
 		y = 4
@@ -1654,14 +1654,14 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_investiotion_in_light_industry
+		id = BUL_investiotion_in_light_industry
 		icon = GFX_focus_generic_industry_1
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_railways_development
+			focus = BUL_railways_development
 		}
 		prerequisite = {
-			focus = BLB_tax_for_small_bus
+			focus = BUL_tax_for_small_bus
 		}
 		x = 31
 		y = 5
@@ -1703,14 +1703,14 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_tech_industry
+		id = BUL_tech_industry
 		icon = GFX_focus_NORDIC_com_selector_research
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_sell_resources
+			focus = BUL_sell_resources
 		}
 		prerequisite = {
-			focus = BLB_investiotion_in_light_industry
+			focus = BUL_investiotion_in_light_industry
 		}
 		x = 30
 		y = 6
@@ -1752,7 +1752,7 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_country_army_reform
+		id = BUL_country_army_reform
 		icon = GFX_goal_rhineland
 		cost = 1,00
 		x = 40
@@ -1762,11 +1762,11 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_shipyard_build
+		id = BUL_shipyard_build
 		icon = GFX_focus_generic_refit_civilian_ships
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_navy_reform
+			focus = BUL_navy_reform
 		}
 		x = 52
 		y = 2
@@ -1903,11 +1903,11 @@ hidden_effect = {
 
 }
 	focus = {
-		id = BLB_submarine_research
+		id = BUL_submarine_research
 		icon = GFX_goal_generic_navy_submarine
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_shipyard_build
+			focus = BUL_shipyard_build
 		}
 		x = 52
 		y = 3
@@ -1921,11 +1921,11 @@ hidden_effect = {
 }
 	}
 	focus = {
-		id = BLB_light_fleet_reform
+		id = BUL_light_fleet_reform
 		icon = GFX_focus_generic_destroyer
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_submarine_research
+			focus = BUL_submarine_research
 		}
 		x = 49
 		y = 4
@@ -1948,11 +1948,11 @@ hidden_effect = {
 }
 	}
 	focus = {
-		id = BLB_destroyer_research
+		id = BUL_destroyer_research
 		icon = GFX_goal_unknown
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_light_fleet_reform
+			focus = BUL_light_fleet_reform
 		}
 		x = 48
 		y = 5
@@ -1966,11 +1966,11 @@ hidden_effect = {
 		}
 	}
 	focus = {
-		id = BLB_light_cruiser_reseatch
+		id = BUL_light_cruiser_reseatch
 		icon = GFX_goal_unknown
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_light_fleet_reform
+			focus = BUL_light_fleet_reform
 		}
 		x = 50
 		y = 5
@@ -1984,11 +1984,11 @@ hidden_effect = {
 		}
 	}
 	focus = {
-		id = BLB_navy_tactic_reform
+		id = BUL_navy_tactic_reform
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_submarine_research
+			focus = BUL_submarine_research
 		}
 		x = 52
 		y = 4
@@ -2003,11 +2003,11 @@ hidden_effect = {
 		}
 	}
 	focus = {
-		id = BLB_navy_tactic_reform_two
+		id = BUL_navy_tactic_reform_two
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_navy_tactic_reform
+			focus = BUL_navy_tactic_reform
 		}
 		x = 52
 		y = 5
@@ -2022,11 +2022,11 @@ hidden_effect = {
 		}
 	}
 	focus = {
-		id = BLB_heavy_fleet_reform
+		id = BUL_heavy_fleet_reform
 		icon = GFX_focus_generic_cruiser2
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_submarine_research
+			focus = BUL_submarine_research
 		}
 		x = 55
 		y = 4
@@ -2049,11 +2049,11 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_battleship_reseacrh
+		id = BUL_battleship_reseacrh
 		icon = GFX_goal_generic_navy_battleship
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_heavy_fleet_reform
+			focus = BUL_heavy_fleet_reform
 		}
 		x = 56
 		y = 5
@@ -2069,18 +2069,18 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_oligarchism_gov
+		id = BUL_oligarchism_gov
 		icon = GFX_focus_generic_industrialists
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_subdue_news
+			focus = BUL_subdue_news
 		}
 		prerequisite = {
-			focus = BLB_police_reform
+			focus = BUL_police_reform
 		}
 		mutually_exclusive = {
-			focus = BLB_autocracy_gov
-			focus = BLB_autocracy_gov
+			focus = BUL_autocracy_gov
+			focus = BUL_autocracy_gov
 		}
 		x = 14
 		y = 7
@@ -2109,12 +2109,12 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_formal_election
+		id = BUL_formal_election
 		icon = GFX_focus_usa_voter_registration_act
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_oligarchism_gov
-			focus = BLB_autocracy_gov
+			focus = BUL_oligarchism_gov
+			focus = BUL_autocracy_gov
 		}
 		x = 15
 		y = 8
@@ -2133,12 +2133,12 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_industry_privileges
+		id = BUL_industry_privileges
 		icon = GFX_goal_unknown
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_oligarchism_gov
-			focus = BLB_democratic_state
+			focus = BUL_oligarchism_gov
+			focus = BUL_democratic_state
 		}
 		x = 13
 		y = 8
@@ -2151,17 +2151,17 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_country_general
+		id = BUL_country_general
 		icon = GFX_focus_LAT_banish_clemins
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_religion_gov
+			focus = BUL_religion_gov
 		}
 		prerequisite = {
-			focus = BLB_loyalty_servant
+			focus = BUL_loyalty_servant
 		}
 		mutually_exclusive = {
-			focus = BLB_coronation
+			focus = BUL_coronation
 		}
 		x = 15
 		y = 11
@@ -2182,17 +2182,17 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_coronation
+		id = BUL_coronation
 		icon = GFX_focus_hun_elect_a_king
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_loyalty_servant
+			focus = BUL_loyalty_servant
 		}
 		prerequisite = {
-			focus = BLB_religion_gov
+			focus = BUL_religion_gov
 		}
 		mutually_exclusive = {
-			focus = BLB_country_general
+			focus = BUL_country_general
 		}
 		x = 17
 		y = 11
@@ -2211,11 +2211,11 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_gov_power
+		id = BUL_gov_power
 		icon = GFX_focus_POL_complete_april_constitution
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_subjugate_opposition
+			focus = BUL_subjugate_opposition
 		}
 		x = 13
 		y = 11
@@ -2235,11 +2235,11 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_religion_gov
+		id = BUL_religion_gov
 		icon = GFX_focus_SOV_patriarch_of_all_russia
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_power_special_force
+			focus = BUL_power_special_force
 		}
 		x = 15
 		y = 10
@@ -2249,26 +2249,26 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_rights_for_migrants
+		id = BUL_rights_for_migrants
 		icon = GFX_focus_cze_german_puppet
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_nationalisation_fascismm
+			focus = BUL_nationalisation_fascismm
 		}
 		x = 18
 		y = 10
 
 	}
 	focus = {
-		id = BLB_power_special_force
+		id = BUL_power_special_force
 		icon = GFX_focus_generic_vatican_agents
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_industry_privileges
-			focus = BLB_cult_leader
+			focus = BUL_industry_privileges
+			focus = BUL_cult_leader
 		}
 		prerequisite = {
-			focus = BLB_formal_election
+			focus = BUL_formal_election
 		}
 		x = 15
 		y = 9
@@ -2279,14 +2279,14 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_furher_power
+		id = BUL_furher_power
 		icon = GFX_focus_ger_reichskommisariats
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_rights_for_migrants
+			focus = BUL_rights_for_migrants
 		}
 		prerequisite = {
-			focus = BLB_national_brigade
+			focus = BUL_national_brigade
 		}
 		x = 19
 		y = 11
@@ -2301,14 +2301,14 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_president_republic
+		id = BUL_president_republic
 		icon = GFX_goal_support_democracy
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_protect_business
+			focus = BUL_protect_business
 		}
 		prerequisite = {
-			focus = BLB_protect_freedoom_speech
+			focus = BUL_protect_freedoom_speech
 		}
 		x = 11
 		y = 11
@@ -2321,11 +2321,11 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_subjugate_opposition
+		id = BUL_subjugate_opposition
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_industry_privileges
+			focus = BUL_industry_privileges
 		}
 		x = 13
 		y = 9
@@ -2342,11 +2342,11 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_protect_freedoom_speech
+		id = BUL_protect_freedoom_speech
 		icon = GFX_goal_continuous_def_against_influence
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_pluralism_gov
+			focus = BUL_pluralism_gov
 		}
 		x = 10
 		y = 10
@@ -2358,14 +2358,14 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_loyalty_servant
+		id = BUL_loyalty_servant
 		icon = GFX_goal_generic_improve_relations
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_cult_leader
+			focus = BUL_cult_leader
 		}
 		prerequisite = {
-			focus = BLB_formal_election
+			focus = BUL_formal_election
 		}
 		x = 17
 		y = 9
@@ -2379,11 +2379,11 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_aircraft_carrier_reform
+		id = BUL_aircraft_carrier_reform
 		icon = GFX_goal_generic_navy_carrier
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_heavy_fleet_reform
+			focus = BUL_heavy_fleet_reform
 		}
 		x = 54
 		y = 5
@@ -2397,23 +2397,23 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_navy_country
+		id = BUL_navy_country
 		icon = GFX_goal_unknown
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_navy_tactic_reform_two
+			focus = BUL_navy_tactic_reform_two
 		}
 		prerequisite = {
-			focus = BLB_battleship_reseacrh
+			focus = BUL_battleship_reseacrh
 		}
 		prerequisite = {
-			focus = BLB_light_cruiser_reseatch
+			focus = BUL_light_cruiser_reseatch
 		}
 		prerequisite = {
-			focus = BLB_destroyer_research
+			focus = BUL_destroyer_research
 		}
 		prerequisite = {
-			focus = BLB_aircraft_carrier_reform
+			focus = BUL_aircraft_carrier_reform
 		}
 		x = 52
 		y = 6
@@ -2424,15 +2424,15 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_country_industrialisation
+		id = BUL_country_industrialisation
 		icon = GFX_focus_SWE_landsverk
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_tech_industry
-			focus = BLB_create_new_bussiness
+			focus = BUL_tech_industry
+			focus = BUL_create_new_bussiness
 		}
 		prerequisite = {
-			focus = BLB_urbanization
+			focus = BUL_urbanization
 		}
 		x = 27
 		y = 7
@@ -2446,12 +2446,12 @@ hidden_effect = {
 	}
 	
 	focus = {
-		id = BLB_army_reform16
+		id = BUL_army_reform16
 		text = army_reform16
 		icon = GFX_focus_secret_rearmament
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform1
+			focus = BUL_army_reform1
 		}
 		x = 37
 		y = 3
@@ -2465,12 +2465,12 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform8
+		id = BUL_army_reform8
 		text = army_reform8
 		icon = GFX_goal_generic_build_tank
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform16
+			focus = BUL_army_reform16
 		}
 		x = 35
 		y = 4
@@ -2484,12 +2484,12 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform7
+		id = BUL_army_reform7
 		text = army_reform7
 		icon = GFX_focus_SWE_let_fly_all_guns
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform16
+			focus = BUL_army_reform16
 		}
 		x = 37
 		y = 4
@@ -2503,12 +2503,12 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform6
+		id = BUL_army_reform6
 		text = army_reform6
 		icon = GFX_focus_generic_truck
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform3
+			focus = BUL_army_reform3
 		}
 		x = 43
 		y = 3
@@ -2522,13 +2522,13 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform2
+		id = BUL_army_reform2
 		text = army_reform2
 		icon = GFX_goal_generic_army_doctrines
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform6
-			focus = BLB_army_reform16
+			focus = BUL_army_reform6
+			focus = BUL_army_reform16
 		}
 		x = 40
 		y = 4
@@ -2543,12 +2543,12 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform14
+		id = BUL_army_reform14
 		text = army_reform14
 		icon = GFX_goal_generic_army_doctrines
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform2
+			focus = BUL_army_reform2
 		}
 		x = 40
 		y = 5
@@ -2563,12 +2563,12 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform5
+		id = BUL_army_reform5
 		text = army_reform5
 		icon = GFX_focus_NOR_rikstanken
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform6
+			focus = BUL_army_reform6
 		}
 		x = 43
 		y = 4
@@ -2582,12 +2582,12 @@ hidden_effect = {
 		}
 	}
 	focus = {
-		id = BLB_army_reform18
+		id = BUL_army_reform18
 		text = army_reform18
 		icon = GFX_focus_SWE_lynx_armored_car
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform6
+			focus = BUL_army_reform6
 		}
 		x = 45
 		y = 4
@@ -2601,15 +2601,15 @@ hidden_effect = {
 		}
 	}
 	focus = {
-		id = BLB_army_reform20
+		id = BUL_army_reform20
 		text = army_reform20
 		icon = GFX_goal_generic_army_tanks
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform5
+			focus = BUL_army_reform5
 		}
 		prerequisite = {
-			focus = BLB_army_reform18
+			focus = BUL_army_reform18
 		}
 		x = 44
 		y = 5
@@ -2618,18 +2618,18 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform23
+		id = BUL_army_reform23
 		text = army_reform23
 		icon = GFX_focus_SOV_mobilization_plan
 		cost = 1,00
 		prerequisite = {
-			focus = BLB_army_reform14
+			focus = BUL_army_reform14
 		}
 		prerequisite = {
-			focus = BLB_army_reform4
+			focus = BUL_army_reform4
 		}
 		prerequisite = {
-			focus = BLB_army_reform20
+			focus = BUL_army_reform20
 		}
 		x = 40
 		y = 6
@@ -2638,14 +2638,14 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform1
+		id = BUL_army_reform1
 		text = army_reform1
 		icon = GFX_goal_rhineland
 		cost = 1,00
 		x = 37
 		y = 2
 	prerequisite = {
-			focus = BLB_country_army_reform
+			focus = BUL_country_army_reform
 		}
 	completion_reward = {
 		hidden_effect = {
@@ -2656,14 +2656,14 @@ hidden_effect = {
 	}
 	
 	focus = {
-		id = BLB_army_reform3
+		id = BUL_army_reform3
 		text = army_reform3
 		icon = GFX_goal_generic_army_motorized
 		cost = 0.5,00
 		x = 43
 		y = 2
 		prerequisite = {
-			focus = BLB_country_army_reform
+			focus = BUL_country_army_reform
 		}
 	completion_reward = {
 		hidden_effect = {
@@ -2673,17 +2673,17 @@ hidden_effect = {
 	}
 	}
 	focus = {
-		id = BLB_army_reform4
+		id = BUL_army_reform4
 		text = army_reform4
 		icon = GFX_focus_generic_full_social_mobilization
 		cost = 1,00
 		x = 36
 		y = 5
 	prerequisite = {
-			focus = BLB_army_reform7
+			focus = BUL_army_reform7
 		}
 	prerequisite = {
-			focus = BLB_army_reform8
+			focus = BUL_army_reform8
 		}
 	completion_reward = {
 	add_ideas = attack_land_army_buff

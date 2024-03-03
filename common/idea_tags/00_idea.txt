@@ -27,9 +27,9 @@ idea_categories = {
 		character_slot = political_advisor
 		character_slot = political_advisor
 		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
-		slot = mobilization_laws
+		character_slot = army_chief
+		character_slot = high_command
+		character_slot = high_command
 		
 		ledger = civilian
 		
@@ -54,6 +54,10 @@ idea_categories = {
 	military_staff = {
 		slot = politicalparties
 		slot = politicalregimes
+		slot = ruleform
+		slot = traininglaw
+		slot = armycontrollaw
+		slot = mobilization_laws
 
 		ledger = civilian
 		

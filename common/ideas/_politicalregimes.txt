@@ -81,7 +81,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
-		war = {
+		war_junta_regime = {
 
 			cost = 150
 			removal_cost = -1

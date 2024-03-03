@@ -10,6 +10,43 @@ spriteTypes = {
 
 	### new tfv nat spirit icons
 
+
+	spriteType = {
+		name = "GFX_idea_oligarch"
+		texturefile = "gfx/interface/ideas/idea_oligarch.dds"
+	}		
+	
+	spriteType = {
+		name = "GFX_idea_theo"
+		texturefile = "gfx/interface/ideas/idea_theo.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_idea_totalit"
+		texturefile = "gfx/interface/ideas/idea_totalit.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_war_junta_regime"
+		texturefile = "gfx/interface/ideas/idea_war_junta_regime.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_democ"
+		texturefile = "gfx/interface/ideas/idea_democ.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_autorbur"
+		texturefile = "gfx/interface/ideas/idea_autorbur.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_anarch"
+		texturefile = "gfx/interface/ideas/idea_anarch.dds"
+	}
+
+
 	spriteType = {
 		name = "GFX_idea_generic_degauss_ship_hulls"
 		texturefile = "gfx/interface/ideas/idea_generic_degauss_ship_hulls.dds"
@@ -181,6 +218,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_ger_rebuild_the_nation"
 		texturefile = "gfx/interface/ideas/idea_ger_rebuild_the_nation.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_multiparty"
+		texturefile = "gfx/interface/ideas/idea_multiparty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_no_party"
+		texturefile = "gfx/interface/ideas/idea_no_party.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_monoparty"
+		texturefile = "gfx/interface/ideas/idea_monoparty.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_controlled_opposition"
+		texturefile = "gfx/interface/ideas/idea_controlled_opposition.dds"
 	}
 	
 	spriteType = {
@@ -8257,6 +8314,70 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_capitalism_economy_type"
 		texturefile = "gfx/interface/ideas/idea_capitalism_economy_type.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_absolute_monarchy"
+		texturefile = "gfx/interface/ideas/idea_absolute_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_parlament_monarchy"
+		texturefile = "gfx/interface/ideas/idea_parlament_monarchy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_parlament_republic"
+		texturefile = "gfx/interface/ideas/idea_parlament_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mixed_republic"
+		texturefile = "gfx/interface/ideas/idea_mixed_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_president_republic"
+		texturefile = "gfx/interface/ideas/idea_president_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_ruleform"
+		texturefile = "gfx/interface/ideas/idea_no_ruleform.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_advanced_training"
+		texturefile = "gfx/interface/ideas/idea_advanced_training.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_combat_training"
+		texturefile = "gfx/interface/ideas/idea_combat_training.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_default_training"
+		texturefile = "gfx/interface/ideas/idea_default_training.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minimum_training"
+		texturefile = "gfx/interface/ideas/idea_minimum_training.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_no_base_training"
+		texturefile = "gfx/interface/ideas/idea_no_base_training.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_total_army_control"
+		texturefile = "gfx/interface/ideas/idea_total_army_control.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_comissioners_brigade"
+		texturefile = "gfx/interface/ideas/idea_comissioners_brigade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_default_control_army_laws"
+		texturefile = "gfx/interface/ideas/idea_default_control_army_laws.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lack_of_control_army_laws"
+		texturefile = "gfx/interface/ideas/idea_lack_of_control_army_laws.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_encourage_violation"
+		texturefile = "gfx/interface/ideas/idea_encourage_violation.dds"
 	}
 
 }

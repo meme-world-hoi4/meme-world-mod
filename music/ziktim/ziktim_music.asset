@@ -29,12 +29,6 @@ music = {
 }
 
 music = {
-	name = "kazjonnyjjunitazarshejob"
-	file = "kazjonnyjjunitazarshejob.ogg"
-	volume = 0.75
-}
-
-music = {
 	name = "alonealonealonedivine"
 	file = "marchcleaner.ogg"
 	volume = 0.75

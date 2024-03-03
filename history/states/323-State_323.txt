@@ -7,9 +7,9 @@ state={
 	manpower = 4233600
 	state_category = metropolis
 	history = {
-		owner = BLB
-		controller = BLB
-		add_core_of = BLB
+		owner = BST
+		controller = BST
+		add_core_of = BST
 
 		
 		victory_points = {

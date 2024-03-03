@@ -11,6 +11,13 @@ state={
 		controller = FAL
 
 		victory_points = {
+			19050 10
+		}
+		victory_points = {
+			19176 5
+		}
+		victory_points = {
+			8067 5
 		}
 	}
 	state_category = large_town

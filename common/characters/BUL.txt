@@ -1,6 +1,6 @@
 characters={
-	BUL_Gregmor_Putifur={
-		name="BUL_Gregmor_Putifur"
+	BLB_Gregmor_Putifur={
+		name="BLB_Gregmor_Putifur"
 		portraits={
 			civilian={
 				large=GFX_Portrait_Bulba_Gregmor_Putifur

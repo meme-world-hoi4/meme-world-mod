@@ -89,7 +89,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_Portrait_Bulba_Gregmor_Putifur"
-		texturefile = "gfx/leaders/BUL/Portrait_Bulba_Gregmor_Putifur.dds"
+		texturefile = "gfx/leaders/BLB/Portrait_Bulba_Gregmor_Putifur.dds"
 	}
 	spriteType = {
 		name = "GFX_Portrait_Partizania_August_Henkel"

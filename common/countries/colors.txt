@@ -68,7 +68,7 @@ BAL = {
 	color_ui = rgb { 186  80  58 }
 }
 
-BUL = {
+BLB = {
 	color = rgb { 135  80  37  }
 	color_ui = rgb { 173  102  49 }
 }

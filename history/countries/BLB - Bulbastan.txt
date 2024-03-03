@@ -1,8 +1,8 @@
 capital = 323
 set_capital = 9333
 
-oob = "BUL_2021"
-set_naval_oob = "BUL_2021_naval_mtg"
+oob = "BLB_2021"
+set_naval_oob = "BLB_2021_naval_mtg"
 
 2021.1.1 = {
 
@@ -63,7 +63,7 @@ add_ideas = low_economic_mobilisation
 add_ideas = middle_education
 add_ideas = paid_medicine
 
-recruit_character = BUL_Gregmor_Putifur
+recruit_character = BLB_Gregmor_Putifur
 
 create_equipment_variant = {
 		name = "Destroyer Type A"

@@ -3,7 +3,7 @@ characters={
 		name="BST_Gregmor_Putifur"
 		portraits={
 			civilian={
-				large=GFX_Portrait_BSTba_Gregmor_Putifur
+				large=GFX_Portrait_Bulba_Gregmor_Putifur
 			}
 		}
 		country_leader={

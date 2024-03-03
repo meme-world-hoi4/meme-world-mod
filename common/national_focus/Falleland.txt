@@ -1,5 +1,5 @@
 focus_tree = {
-	id = souz_memnih_soc_respublik_focus
+	id = falleland_focus
 	
 	country = {
 		factor = 0

@@ -9,7 +9,7 @@ state={
 	history = {
 		owner = FAL
 		controller = FAL
-		add_core_core = FAL
+		add_core_of = FAL
 		
 		victory_points = {
 		2503 10

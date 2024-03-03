@@ -4,8 +4,8 @@ state={
 	name="STATE_612"
 
 	history={
-		owner = BLB
-		controller = BLB
+		owner = BST
+		controller = BST
 		victory_points = {
 
 		}

@@ -61,7 +61,7 @@ set_popularities = {
 	fascism = 5
 }
 
-create_faction = SSRMM
+create_faction = USRMW
 add_to_faction = FAL
 add_to_faction = EPI
 

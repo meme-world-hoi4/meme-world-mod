@@ -1,6 +1,6 @@
 characters={
-	SSR_Sava_Perseev={
-		name="SSR_Sava_Perseev"
+	FAL_Sava_Perseev={
+		name="FAL_Sava_Perseev"
 		portraits={
 			civilian={
 				large=GFX_Portrait_Lovushkinsk_Sava_Perseev

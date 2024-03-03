@@ -23,7 +23,7 @@ MOH_SUB = {
 	color_ui = rgb { 177  232  121 }
 }
 
-PAR_puppet_ssr = {
+PAR_puppet_fal = {
 	color = rgb { 164  48  64 }
 	color_ui = rgb { 220  69  89 }
 }

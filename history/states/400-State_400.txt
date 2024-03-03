@@ -10,6 +10,8 @@ state={
 		add_core_of = FAL
 		controller = FAL
 
+		victory_points = {
+		}
 	}
 	state_category = large_town
 

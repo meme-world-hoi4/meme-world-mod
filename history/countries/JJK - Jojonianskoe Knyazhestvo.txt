@@ -58,7 +58,6 @@ add_to_faction = KIR
 add_to_faction = ORD
 add_to_faction = PAR
 add_to_faction = SHL
-add_to_faction = KEZ
 
 set_autonomy = {
 		target = KIR

@@ -1,6 +1,16 @@
 state={
 	id=418
 	name="STATE_418"
+	history={
+		owner = MOH
+		controller = MOH
+		victory_points = {
+
+		}
+buildings = {
+			infrastructure = 1
+		}
+	}
 	provinces={
 		18873 18921 
 	}

@@ -1,9 +1,24 @@
 state={
 	id=451
 	name="STATE_451"
+	history={
+		owner = EPI
+		controller = EPI
+		victory_points = {
+
+		}
+buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			19278 = {
+			naval_base = 2
+			}
+			
+		}
+	}
 	provinces={
 		2343 2585 2602 3332 3528 3736 4380 7677 8030 8094 9178 9621 19173 19192 19208 19242 19243 19270 19271 19277 19278 19289 19303 
 	}
 	manpower = 10000
-	state_category = rural
+	state_category = town
 }

@@ -4,22 +4,13 @@ state={
 	provinces={
 		130 18282 18344 
 	}
-	manpower = 644000
-	state_category = town
+	manpower = 10000
+	state_category = rural
 	history = {
 		owner = PER
 		controller = PER
 		
 		victory_points = {
-		130 10
 		}
-buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 2
 }
-}
-resources={
-		steel = 8
-	}
 }

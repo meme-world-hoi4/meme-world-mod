@@ -1,8 +1,7 @@
 capital = 485
 set_capital = 19841
 
-oob = "VKB_2021"
-set_naval_oob = "VKB_2021_naval_mtg"
+oob = "VKBS_2021"
 
 2021.1.1 = {
 
@@ -10,35 +9,24 @@ set_research_slots = 2
 
 set_technology = {
 	infantry_weapons = 1
-}
-
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-		mtg_transport = 1
-		basic_dp_light_battery = 1
-	}
-}
-
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		transport = 1
-	}
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1  # PLACEHOLDER
+	early_fighter = 1
+	fighter1 = 1
+	early_bomber = 1
+	strategic_bomber1 = 1
+	naval_bomber1 = 1
+	mass_assault = 1
+	fleet_in_being = 1
 }
 
 set_politics = {
@@ -52,55 +40,14 @@ set_popularities = {
 	communism = 100
 }
 
-#create_country_leader = {
- #   name = "Vasil Zacharka"
- #   desc = ""
- #   picture = "gfx/leaders/Europe/Portrait_Europe_Generic_6.dds"
- #   expire = "2023.1.1"
- #   ideology = stalinism
- #   traits = {
- #       #
-  #  }
-#}
-
-
-add_ideas = based_political_power
-add_ideas = command_economy_type
-add_ideas = monoparty
-add_ideas = totalit
-add_ideas = absolute_monarchy
-add_ideas = combat_training
-add_ideas = comissioners_brigade
-
-create_equipment_variant = {
-		name = "Submarine Type A"
-		type = ship_hull_submarine_1
-		name_group = USA_SS_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_torpedo_slot = ship_torpedo_sub_1
-			fixed_ship_engine_slot = sub_ship_engine_1
-			rear_1_custom_slot = empty
-		}
-		obsolete = yes
-	}
-
-create_equipment_variant = {
-		name = "Destroyer Type A"
-		type = ship_hull_light_1
-		name_group = USA_DD_HISTORICAL
-		parent_version = 0
-		modules = {
-			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
-			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
-			fixed_ship_torpedo_slot = ship_torpedo_1
-			mid_1_custom_slot = ship_torpedo_1
-			rear_1_custom_slot = ship_depth_charge_1
-		}
-	}
-set_convoys = 30
-recruit_character = VKB_Ilya_Chursin
+create_country_leader = {
+    name = "Vasil Zacharka"
+    desc = ""
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_6.dds"
+    expire = "2023.1.1"
+    ideology = stalinism
+    traits = {
+        #
+    }
+}
 }

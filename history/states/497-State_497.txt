@@ -12,14 +12,5 @@ state={
 		add_core_of = PAR
 		victory_points = {
 		}
-buildings = {
-			infrastructure = 1
-			20260 = {
-			naval_base = 2
-			}
 }
-}
-resources={
-		tungsten = 2
-	}
 }

@@ -4,26 +4,6 @@ state={
 	provinces={
 		1062 1543 4703 4854 6545 8165 8374 8378 9300 9636 18524 18532 18612 18647 18684 18707 18708 18766 18825 18831 
 	}
-	manpower = 750000
-	history={
-		owner = REZ
-		controller = REZ
-		add_core_of = REZ
-		victory_points = {
-			8374 10 
-		}
-		victory_points = {
-			1543 20 
-		}
-buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			arms_factory = 1
-			1543 = {
-			naval_base = 2
-			}
-			
-		}
-	
-	state_category = town
+	manpower = 10000
+	state_category = rural
 }

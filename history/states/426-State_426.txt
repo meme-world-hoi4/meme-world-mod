@@ -8,13 +8,7 @@ history={
 		owner = MOH
 		controller = MOH
 		add_core_of = MOH
-buildings = {
-			infrastructure = 1
 }
-}
-	resources={
-		aluminium = 20
-	}
-	manpower = 243600
+	manpower = 47000
 	state_category = rural
 }

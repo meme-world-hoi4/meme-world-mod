@@ -4,22 +4,13 @@ state={
 	provinces={
 		4942 5710 19425 
 	}
-	manpower =1068000
-	state_category = city
+	manpower = 10000
+	state_category = rural
 	history = {
-		owner = FAL
-		controller = FAL
-		add_core_of = FAL
+		owner = SSR
+		controller = SSR
 		
 		victory_points = {
-		19425 5
 		}
-buildings = {
-			infrastructure = 3
-			industrial_complex = 1
 }
-}
-resources={
-		aluminium = 26
-	}
 }

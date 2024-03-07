@@ -9,6 +9,7 @@ set_research_slots = 2
 
 set_politics = {
 	ruling_party = neutrality
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -18,26 +19,15 @@ set_popularities = {
 	neutrality = 75
 }
 
-
-add_ideas = based_political_power
-add_ideas = no_party
-add_ideas = ccapitalism_economy_type
-add_ideas = oligarch
-add_ideas = absolute_monarchy
-add_ideas = default_training
-add_ideas = default_control_army_laws
-
-
-#create_country_leader = {
-#    name = "Vasil Zacharka"
-#    desc = ""
-#    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-#   expire = "2023.1.1"
-#    ideology = centrism
-#    traits = {
-#        #
-#    }
-#}
-recruit_character = REP_Mc_Kreker
-add_ideas = idea_kek_union
+create_country_leader = {
+    name = "Vasil Zacharka"
+    desc = ""
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+    expire = "2023.1.1"
+    ideology = centrism
+    traits = {
+        #
+    }
 }
+
+	add_political_power = 10

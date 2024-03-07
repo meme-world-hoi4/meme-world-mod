@@ -7,18 +7,11 @@ state={
 	history={
 		owner = ZEL
 		controller = ZEL
-		add_core_of = ZEL
 		
 		victory_points = {
 
 		}
-buildings = {
-			infrastructure = 1
-			4036 = {
-			naval_base = 2
-			}
 }
-}
-	manpower = 62000
+	manpower = 22000
 	state_category = rural
 }

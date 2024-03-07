@@ -10,11 +10,7 @@ state={
 		add_core_of = KEZ
 		victory_points = {
 		}
-buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-		}
 }
-	manpower = 646520
-	state_category = town
+	manpower = 75000
+	state_category = rural
 }

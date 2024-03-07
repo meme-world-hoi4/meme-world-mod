@@ -6,23 +6,17 @@ state={
 	history={
 		owner = KIR
 		controller = KIR
-		add_core_of = KIR
 		victory_points = {
 			8994 5 
 		}
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+
 	}
-}
+
 	provinces={
 		6710 7260 8989 8994 18589 18613 18650 
 	}
-	resources={
-		aluminium = 8
-	}
-	manpower=611570
+	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=0.000
 }

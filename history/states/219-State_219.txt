@@ -4,25 +4,14 @@ state={
 	provinces={
 		15593 
 	}
-	manpower = 7868000
-	state_category = megalopolis
+	manpower = 10000
+	state_category = rural
 	history={
 		owner = ARO
 		controller = ARO
-		add_core_of = DRO
 		
 		victory_points = {
-		15593 35
-		}
-buildings = {
-			infrastructure = 5
-			arms_factory = 4
-			industrial_complex = 6
-			air_base = 1
-			dockyard = 1
-		15593 = {
-			naval_base = 8
-		}
+		15593 10
 		}
 }
 }

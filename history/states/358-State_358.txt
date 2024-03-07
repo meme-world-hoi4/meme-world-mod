@@ -4,11 +4,6 @@ state={
 	provinces={
 		9432 17867 
 	}
-	manpower = 20000
-	history={
-		owner = REZ
-		controller = REZ
-		add_core_of = REZ
-		}
+	manpower = 10000
 	state_category = rural
 }

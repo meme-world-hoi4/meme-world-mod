@@ -7,29 +7,11 @@ state={
 	history={
 		owner = REP
 		controller = REP
-		add_core_of = REP
 		
 		victory_points = {
 		16836 30
 		}
-		victory_points = {
-		16767 15
-		}
-		victory_points = {
-		16883 10
-		}
-		victory_points = {
-		16894 10
-		}
-		victory_points = {
-		5670 10
-		}
-buildings = {
-			infrastructure = 4
-			arms_factory = 3
-			industrial_complex = 5
-		}
 }
-	manpower = 2772560
-	state_category = large_city
+	manpower = 546000
+	state_category = rural
 }

@@ -9,12 +9,6 @@ state={
 		controller = MOH
 		add_core_of = MOH
 }
-buildings = {
-			infrastructure = 1
-			4187 = {
-				naval_base = 1
-			}
-}
-	manpower = 22400
+	manpower = 8000
 	state_category = rural
 }

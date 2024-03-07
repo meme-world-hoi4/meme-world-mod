@@ -5,10 +5,5 @@ state={
 		7002 18611 18625 18672 18721 
 	}
 	manpower = 10000
-	history={
-		owner = REZ
-		controller = REZ
-		add_core_of = REZ
-		}
 	state_category = rural
 }

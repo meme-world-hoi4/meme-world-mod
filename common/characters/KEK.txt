@@ -5,6 +5,7 @@ characters={
 		portraits={
 			civilian={
 				large=GFX_Portrait_Kekland_Nikita_Sesonsky
+				small=GFX_idea_keklandia_nikita_sesonsky
 			}
 		}
 		country_leader={
@@ -12,6 +13,12 @@ characters={
 			expire="2029.1.1.1"
 			id=-1
 		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = nikita_sesonsky
+            ledger = political_advisor
+            traits = { political_dancer }
+        }
 	}
 	
 	KEK_Il_Kek_Duri={

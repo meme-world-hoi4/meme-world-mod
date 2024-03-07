@@ -742,9 +742,9 @@ NMilitary = {
 		0.50,
 	},
 
-	DIVISIONAL_COMMANDER_TRAIT_XP_REQUIREMENT = 400.0,	--Get a trait if any valid options & xp gained >= this
+	DIVISIONAL_COMMANDER_TRAIT_XP_REQUIREMENT = 250.0,	--Get a trait if any valid options & xp gained >= this
 	NUM_DAYS_FOR_OPERATION_ENTRY = 60,					--Number of days that a unit must have been on a particular active order instance to receive a history entry.
-	MAX_LEADERS_TO_SHOW = 50,							--Max officers to show in field officers list, sorted by field EXP. Divisions with awardable entries will potentially supercede this limit
+	MAX_LEADERS_TO_SHOW = 30,							--Max officers to show in field officers list, sorted by field EXP. Divisions with awardable entries will potentially supercede this limit
 	BASE_FEMALE_DIVISIONAL_COMMANDER_CHANCE = 0,		--Chance to receive a female divisonal commander. This is set to zero in the base game, as we do not have generic female portraits for many graphical culture groups.
 														--this expects a value between 0 and 1 and is added to by female_divisional_commander_chance. If you don't have female generic portraits defined, you -will- get silhouettes.
 
@@ -891,7 +891,7 @@ NMilitary = {
 	ARMY_EXP_BASE_LEVEL = 1,
 	UNIT_EXP_LEVELS = { 0.1, 0.3, 0.75, 0.9 },		-- Experience needed to progress to the next level
 	FIELD_EXPERIENCE_SCALE = 0.0015,
-	FIELD_EXPERIENCE_MAX_PER_DAY = 1.2,				-- Most xp you can gain per day
+	FIELD_EXPERIENCE_MAX_PER_DAY = 2.2,				-- Most xp you can gain per day
 	EXPEDITIONARY_FIELD_EXPERIENCE_SCALE = 0.3,		-- reduction factor in Xp from expeditionary forces
 	LEND_LEASE_FIELD_EXPERIENCE_SCALE = 0.0005,		-- Experience scale for lend leased equipment used in combat.
 	LEADER_EXPERIENCE_SCALE = 1.0,
@@ -931,7 +931,7 @@ NMilitary = {
 	OUT_OF_SUPPLY_MORALE = -0.2,                   -- max org regain reduction from supply
 	TRAINING_ATTRITION = 0.05,		  			   -- amount of extra attrition from being in training
 	TRAINING_MIN_STRENGTH = 0.1,					-- if strength is less than this, the unit will pause training until it's been reinforced
-	TRAINING_MAX_DAILY_COUNTRY_EXP = 0.12,			-- Maximum army XP gained per day from training
+	TRAINING_MAX_DAILY_COUNTRY_EXP = 0.22,			-- Maximum army XP gained per day from training
 	AIR_SUPPORT_BASE = 0.25,                        -- CAS bonus factor for air support moddifier for land unit in combat
 	LOW_SUPPLY = 0.99,							   -- When the supply status of an unit becomes low.
 	BORDER_WAR_ATTRITION_FACTOR = 0.1,			   -- How much of borderwar balance of power makes it into attrition
@@ -1297,8 +1297,8 @@ NAir = {
 	AIR_WING_XP_LOSS_WHEN_KILLED = 300,									--if a plane dies, the game assumes that a pilot with this amount of xp died and recalcs average.
 	AIR_WING_XP_TRAINING_MAX = 300.0, 									--Max average XP achieved with training.
 
-	AIR_WING_XP_TRAINING_MISSION_GAIN_DAILY = 8.0, 						--Daily gain when running training exercise mission
-	AIR_WING_XP_AIR_VS_AIR_COMBAT_GAIN = 0.8, 							--Wings in combat gain extra XP
+	AIR_WING_XP_TRAINING_MISSION_GAIN_DAILY = 10.0, 						--Daily gain when running training exercise mission
+	AIR_WING_XP_AIR_VS_AIR_COMBAT_GAIN = 1.0, 							--Wings in combat gain extra XP
 	AIR_WING_XP_GROUND_MISSION_COMPLETED_GAIN = 0.28, 					--Bombers bombing, CAS cassing, NBs nbing, kamikazees kamikazeeing, etc.
 	AIR_WING_XP_RECON_MISSION_COMPLETED_GAIN = 0.05, 					--recon mission
 
@@ -3233,13 +3233,13 @@ NFocus = {
 },
 
 NOperatives = {
-	AGENCY_CREATION_DAYS = 30,						-- Number of days needed to create an intelligence agency
-	AGENCY_UPGRADE_DAYS = 30,						-- Number of days needed to upgrade an intelligence agency
+	AGENCY_CREATION_DAYS = 15,						-- Number of days needed to create an intelligence agency
+	AGENCY_UPGRADE_DAYS = 15,						-- Number of days needed to upgrade an intelligence agency
 	AGENCY_CREATION_FACTORIES = 5,					-- Number of factories used to create an intelligence agency
 	AGENCY_AI_BASE_NUM_FACTORIES = 25.0,				-- Used by AI to pace the upgrades. Formula : if( AGENCY_AI_BASE_NUM_FACTORIES <= num_civ_factories - num_upgrades * AGENCY_AI_PER_UPGRADE_FACTORIES )
 	AGENCY_AI_PER_UPGRADE_FACTORIES = 6.0,			-- Used by AI to pace the upgrades. Formula : if( AGENCY_AI_BASE_NUM_FACTORIES <= num_civ_factories - num_upgrades * AGENCY_AI_PER_UPGRADE_FACTORIES )
 	AGENCY_UPGRADE_PER_OPERATIVE_SLOT = 5,			-- Number of upgrade needed to unlock an additional operative slot
-	MAX_OPERATIVE_SLOT_FROM_AGENCY_UPGRADES = 1,	-- max operative slots gained from upgrades
+	MAX_OPERATIVE_SLOT_FROM_AGENCY_UPGRADES = 2,	-- max operative slots gained from upgrades
 	AGENCY_OPERATIVE_RECRUITMENT_TIME = 30,			-- Number of days to wait to have operative to recruit when an operative slot first becomes available
 	BECOME_SPYMASTER_PP_COST = 50,					-- Number of political power used to become Spy Master
 	BECOME_SPYMASTER_MIN_UPGRADES = 3,				-- Number of agency upgrades you need before becoming Spy Master
@@ -3342,28 +3342,28 @@ NOperatives = {
 	DIPLOMATIC_PRESSURE_DAILY_XP_GAIN = 0.137,
 	MIN_NATIONAL_COVERAGE_FOR_BOOST_IDEOLOGY = 0.01,			-- Minimum network coverage required to start the mission (the code ensures that a network exists at all)
 	MIN_NATIONAL_COVERAGE_FOR_PROPAGANDA = 0.01,			-- Minimum network coverage required to start the mission (the code ensures that a network exists at all)
-	OPERATIVE_MIN_DAYS_HARMED = 30,						-- Minimum number of days an operative can be harmed. Applied after modifiers. Can be zero.
-	OPERATIVE_MAX_DAYS_HARMED = 120,						-- Maximum number of days an operative can be harmed. Applied after modifiers. Is ignored if negative
+	OPERATIVE_MIN_DAYS_HARMED = 15,						-- Minimum number of days an operative can be harmed. Applied after modifiers. Can be zero.
+	OPERATIVE_MAX_DAYS_HARMED = 60,						-- Maximum number of days an operative can be harmed. Applied after modifiers. Is ignored if negative
 	OPERATIVE_MIN_DAYS_FORCED_INTO_HIDING = 7,				-- Minimum number of days an operative can be forced into hiding. Applied after modifiers. Can be zero.
-	OPERATIVE_MAX_DAYS_FORCED_INTO_HIDING = 120,				-- Maximum number of days an operative can be forced into hiding. Applied after modifiers. Is ignored if negative
+	OPERATIVE_MAX_DAYS_FORCED_INTO_HIDING = 60,				-- Maximum number of days an operative can be forced into hiding. Applied after modifiers. Is ignored if negative
 	OPERATIVE_MAX_DAYS_TO_AUTO_RESUME_MISSION = 30,				-- Maximum number of days an operative has to be disabled before its mission is not automatically resumed once he is available again
 	MAX_RECRUITED_OPERATIVES = 10,
 
 	CRYPTO_BASE_CRYPTO_LEVEL = 12000,						-- base crypto strength for a country
-	CRYPTO_CRYPTO_LEVEL_PER_CRYPTO_UPGRADE = 4250,			-- crypto strength per crypto upgrade
+	CRYPTO_CRYPTO_LEVEL_PER_CRYPTO_UPGRADE = 5250,			-- crypto strength per crypto upgrade
 
-	CRYPTO_CRYPTO_ACTIVE_BONUS_DURATION = 30,				-- number of days the active decryption bonuses will be applied before enemy resets their intelligence
+	CRYPTO_CRYPTO_ACTIVE_BONUS_DURATION = 15,				-- number of days the active decryption bonuses will be applied before enemy resets their intelligence
 	CYRPTO_ACTIVE_BONUS_ACTIVATION_PROGRESS_RATIO = 0.5,	-- once bonus is activated, decryption progress will be reduced to this ratio
 
 	OPERATION_AI_MINIMUM_SCORE = 10.0,						-- Once an operation's AI weight falls below the minimum score it will be scrapped if it is being prepared
 	OPERATION_COMPLETION_XP = 18,
 
-	OPERATIVE_CAPTURE_DURATION_IN_DAYS = 9*30,
+	OPERATIVE_CAPTURE_DURATION_IN_DAYS = 9*10,
 
 	-- operation cost & time are increased by default this ratios for each
 	-- instance of operation that were already executed against same target.
 	-- can be overridden using time_multiplier & cost_multiplier in operation.
-	DEFAULT_OPERATION_COST_MULTIPLIER = 0.15,
+	DEFAULT_OPERATION_COST_MULTIPLIER = 0.1,
 	DEFAULT_OPERATION_TIME_MULTIPLIER = 0.0,
 
 	-- The following defines are multiplied to the number of operatives operating in the target country the activity level is computed for

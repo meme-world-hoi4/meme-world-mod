@@ -68,13 +68,16 @@ set_popularities = {
 	fascism = 15 ##Фашизм
 }
 
-add_ideas = agrarian_country
+
 add_ideas = based_political_power
 add_ideas = capitalism_economy_type
 add_ideas = low_economic_mobilisation
 add_ideas = middle_education
 add_ideas = paid_medicine
 add_ideas = particular_social_care
+add_ideas = mixed_republic
+add_ideas = default_training
+add_ideas = default_control_army_laws
 
 country_event = { id = arepublicopolchenia.3 days = 7 }
 

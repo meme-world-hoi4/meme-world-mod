@@ -8379,5 +8379,8 @@ spriteTypes = {
 		name = "GFX_idea_encourage_violation"
 		texturefile = "gfx/interface/ideas/idea_encourage_violation.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_keklandia_nikita_sesonsky"
+		texturefile = "gfx/interface/ideas/idea_keklandia_nikita_sesonsky.dds"
+	}
 }

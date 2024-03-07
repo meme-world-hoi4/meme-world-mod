@@ -51,11 +51,13 @@ set_popularities = {
 	fascism = 10
 }
 
-add_ideas = agrarian_country
+
 add_ideas = based_political_power
 add_ideas = paid_medicine
 add_ideas = particular_social_care
 add_ideas = social_capitalism_economy_type
+add_ideas = mixed_republic
+add_ideas = lack_of_control_army_laws
 
 #create_country_leader = {
 #   name = "Vasil Zacharka"

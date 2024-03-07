@@ -109,5 +109,24 @@ characters={
 			}
 	}
 	
+	EPI_Alina_Milova = {
+	name=EPI_Alina_Milova
+	portraits={
+			army={
+				large="GFX_Portrait_Epicana_Alina_Milova"
+			}
+		}
+
+		navy_leader = {
+			traits={ fleet_protector }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			maneuvering_skill = 2
+			coordination_skill = 2
+			legacy_id =0
+		}
+	}
+	
 	
 }

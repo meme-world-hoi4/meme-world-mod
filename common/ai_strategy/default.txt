@@ -1615,3 +1615,20 @@ we_dont_believe_in_mountain_tanks = {
 		value = -100
 	}
 }
+
+kek_always_conquer_repya = {
+	enable = {
+	threat > 0.5	
+	}
+	abort = {
+	threat < 0.5	
+	}
+	
+	KEK = {
+	ai_strategy = {
+		type = conquer
+		id = REP
+		value = 400
+	}
+	}
+}

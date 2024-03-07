@@ -15,7 +15,13 @@ ideas = {
 			}
 
 			modifier = {
-			
+			army_attack_factor = 0.1
+			army_defence_factor = 0.1
+			army_org_factor = -0.25
+			wounded_chance_factor = 0.25
+			experience_gain_factor = -0.15
+			resistance_activity = 0.2
+			political_power_factor = 0.1
 			}
 
 			cancel_if_invalid = no
@@ -32,7 +38,12 @@ ideas = {
 				}
 
 			modifier = {
-			
+			army_attack_factor = 0.05
+			army_defence_factor = 0.05
+			army_org_factor = -0.1
+			experience_gain_factor = -0.05
+			resistance_activity = 0.05
+			political_power_factor = 0.1
 			}
 
 			default = yes
@@ -51,7 +62,9 @@ ideas = {
 			}
 			
 			modifier = {
-			
+			army_org_factor = 0.05
+			experience_gain_factor = 0.05
+			political_power_factor = -0.05
 			}
 
 			cancel_if_invalid = no
@@ -68,7 +81,12 @@ ideas = {
 			level = 2
 
 			modifier = {
-			
+			army_attack_factor = -0.05
+			army_defence_factor = -0.05
+			army_org_factor = 0.1
+			experience_gain_factor = -0.05
+			resistance_activity = -0.05
+			political_power_factor = -0.1
 			}
 
 			cancel_if_invalid = no
@@ -85,7 +103,12 @@ ideas = {
 			level = 1
 
 			modifier = {
-			
+			army_attack_factor = -0.1
+			army_defence_factor = -0.1
+			army_org_factor = 0.25
+			experience_gain_factor = 0.1
+			resistance_activity = -0.15
+			political_power_factor = -0.3
 			}
 
 			cancel_if_invalid = no

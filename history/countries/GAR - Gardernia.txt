@@ -86,6 +86,9 @@ add_ideas = partial_economic_mobilisation
 add_ideas = middle_education
 add_ideas = default_medicine
 add_ideas = social_care
+add_ideas = mixed_republic
+add_ideas = combat_training
+add_ideas = default_control_army_laws
 
 #create_country_leader = {
 #    name = "Vasil Zacharka"

@@ -56,12 +56,17 @@ set_popularities = {
 	communism = 10
 }
 
-add_ideas = agrarian_country
+
 add_ideas = based_political_power
 add_ideas = ccapitalism_economy_type
 add_ideas = low_economic_mobilisation
 add_ideas = middle_education
 add_ideas = paid_medicine
+add_ideas = controlled_opposition
+add_ideas = autorbur
+add_ideas = absolute_monarchy
+add_ideas = default_training
+add_ideas = lack_of_control_army_laws
 
 recruit_character = BST_Gregmor_Putifur
 

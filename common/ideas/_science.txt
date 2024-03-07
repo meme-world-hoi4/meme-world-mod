@@ -6,7 +6,7 @@ ideas = {
 
 		lack_of_education = {
 
-			cost = 150
+			cost = 100
 			removal_cost = -1
 			level = 5
 
@@ -66,14 +66,14 @@ ideas = {
 			
 			}
 
-			cost = 150
+			cost = 200
 			removal_cost = -1
 			level = 2
 
 			modifier = {
 			research_speed_factor = 0.1
 			production_factory_max_efficiency_factor = 0.1
-			consumer_goods_factor = 0.15
+			consumer_goods_factor = 0.1
 			}
 
 			cancel_if_invalid = no
@@ -85,14 +85,14 @@ ideas = {
 			
 			}
 
-			cost = 150
+			cost = 200
 			removal_cost = -1
 			level = 1
 
 			modifier = {
 			research_speed_factor = 0.25
 			production_factory_max_efficiency_factor = 0.15
-			consumer_goods_factor = 0.25
+			consumer_goods_factor = 0.2
 			}
 
 			cancel_if_invalid = no

@@ -58,6 +58,7 @@ add_to_faction = KIR
 add_to_faction = ORD
 add_to_faction = PAR
 add_to_faction = SHL
+add_to_faction = KEZ
 
 set_autonomy = {
 		target = KIR
@@ -182,9 +183,14 @@ set_air_oob = "JJK_2021_air_legacy"
 			}
 	set_convoys = 30
 recruit_character = JJK_Araki_Five
-add_ideas = agrarian_country
+
 add_ideas = based_political_power
 add_ideas = ccapitalism_economy_type
 add_ideas = paid_medicine
 add_ideas = low_economic_mobilisation
+add_ideas = no_party
+add_ideas = autorbur
+add_ideas = absolute_monarchy
+add_ideas = combat_training
+add_ideas = default_control_army_laws
 }

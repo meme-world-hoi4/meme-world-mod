@@ -163,4 +163,8 @@ spriteTypes = {
 		name = "GFX_Portrait_Kekland_Mikhail_Mitrovski"
 		texturefile = "gfx/leaders/KEK/Portrait_Kekland_Mikhail_Mitrovski.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_Epicana_Alina_Milova"
+		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Alina_Milova.dds"
+	}
 }

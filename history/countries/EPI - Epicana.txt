@@ -56,13 +56,18 @@ set_popularities = {
 	communism = 25
 	fascism = 30
 }
-add_ideas = agrarian_country
+
 add_ideas = based_political_power
 add_ideas = ccapitalism_economy_type
 add_ideas = low_economic_mobilisation
 add_ideas = middle_education
 add_ideas = paid_medicine
 add_ideas = particular_social_care
+add_ideas = controlled_opposition
+add_ideas = autorbur
+add_ideas = absolute_monarchy
+add_ideas = combat_training
+add_ideas = default_control_army_laws
 
 create_equipment_variant = {
 		name = "Submarine Type A"
@@ -121,4 +126,5 @@ recruit_character = EPI_Sergey_Krutovikin
 recruit_character = EPI_Georg_Kolman
 recruit_character = EPI_Daria_Shihanova
 recruit_character = EPI_Nepokorim_Rasstrelyaev
+recruit_character = EPI_Alina_Milova
 }

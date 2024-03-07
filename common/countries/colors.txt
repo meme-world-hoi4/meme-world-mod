@@ -99,9 +99,8 @@ KEZ = {
 }
 
 REZ = {
-    color = rgb { 255  227  0 }
-    color_ui = rgb { 186  170  34 }
-
+    color = rgb { 189  167  0 }
+    color_ui = rgb { 138  129  3 }
 }
 
 XXX = {

@@ -1,0 +1,327 @@
+default = {
+	male = {
+		names = { "John" "Bob" "Lucas" "Marcus" "Alexander" "Alex" "Peter" "Jonas" "Jim" "Johannes"}
+		surnames = { }
+		callsigns = { }
+	}
+	female = {
+		names = { "Juliette" "Anna" }
+		surnames = { }
+	#	callsigns = { "Queen Of The Sky" "The Red Princess" }
+	}
+	surnames = { "Smith" "Jones" "Taylor" "Brown" "Williams" "Wilson" "Evans" "Walker" "White" "Roberts" }
+	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}
+}
+
+KEK = {
+	male = {
+		names = {
+			Kek Kekchik Kekardo Kik Oio Bib Kekolai Otto Kersh Kecarlo Nin Keksander Kekvon Kekantonio Kelim Keksim Ayaz Jeremy Shrekan Kukov Kekarrie Jokekein Kekoano
+		}
+	}
+	female = {
+		names = { Kekriana Fif Ana Kekomi Kekelizabeth }
+	}
+	surnames = {
+		Kekovich Kekov Kerkovich Keklazar Kekardov Kekarmstrong Kekin Sesovich Flexer Shvetsovksi Kerk Lulov Superkekov Kekulianov
+	}
+	callsigns = { Shadow Strike Kersh Jeremy Jew }
+}
+
+OPO = {
+	male = {
+		names = {
+			Kek Keksei Kekail Kekron Kekuard Kekstantin Jokekein Kekailo Kroks
+		}
+	}
+	female = {
+		names = { Kekriana Fif Ana Kekomi Kekelizabeth }
+	}
+	surnames = {
+		Kekailov Kekovski American Kekinesku Kekvitskiy Kekano Kekelman Shvetsovksi Kerk
+	}
+	callsigns = { Shadow Strike Kersh Jeremy Jew }
+}
+
+ARO = {
+	male = {
+		names = {
+			Kek Keklazar Kekstantin Kekail Kekuard Kekarrie Keksander Keklia
+		}
+	}
+	female = {
+		names = { Kekriana Fif Ana Kekomi Kekelizabeth }
+	}
+	surnames = {
+		Kekvitskiy Dobri Kekich Kekkels Keknovik Pushistik Kekyats
+	}
+	callsigns = { Shadow Strike Kersh Jeremy Jew }
+}
+
+EPI = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+KIR = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+FAL = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+JJK = {
+	male = {
+		names = {
+			Kira Pucci Dio Jotaro Joseph Joshua Giornno
+		}
+	}
+	female = {
+		names = { Trish Jolin }
+	}
+	surnames = {
+		Kujo Brando Jostar Diovich Josephich Taifunovich Jostarovich Yoshikage Yosikagovich Awaken Diavolovich
+	}
+	callsigns = { TaiFun Starplatinum Theworld Hermitpurple Stoneocean Kingcrimson Baitthedust Crazydiamond Goldenwind }
+}
+
+BAL = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+Bul = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+GAR = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+PER = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+PAR = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+VKB = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+SHL = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}
+
+EVD = {
+	male = {
+		names = {
+			Albert Alexander Alfred Archibald Arthur Bernard Charles Colbert
+			Colin Cyril David Donald Douglas Edmund Edward Fairfax Francis
+			Geoffrey George Graham Henrey Herbert Horatio Hubert Hugh Ian
+			James Jeremy John Leopold Lester Martin Nigel Oswald Max
+			Percy Reginald Richard Robert Russell Stanley Thomas Wallace William Winston Zachary Jake
+		}
+	}
+	female = {
+		names = { Elizabeth Anne Mary Nancy Sophie Sarah Deborah Helen Alice Monica Kathleen Edith Caroline Victoria }
+	}
+	surnames = {
+		Allenby Thompson Beatty Beresford Brown Buller Butler Campbell Cardigan Churchill
+		Cochrane Cockburn Dundas Fisher French Gough Grant Grenfell Haig Murphy Bond
+		Hamilton Hardinge Havelock Hope Edwards Kitchener Lyons Madden Milne Montgomery
+		Moresby Mundy Napier Plummer Ragland Roberts Seaton Seymour Collin
+		Smith Stewart Thesiger Tyron Tyrwhitt Williams Windsor Wolseley Wood Leiper Roberts
+	}
+	callsigns = { Stubborn Arrow "The King" Eagle Hangover Striker Chase "One Wing" Pickle Thief Thunder Lightning Storm Target Hawk Fox Dog Sparrow Sunrise "Night Owl" Butcher Cocky Hawkeye Killer Mick Brandy "The Baron" }
+}

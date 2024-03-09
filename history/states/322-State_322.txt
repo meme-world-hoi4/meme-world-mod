@@ -11,7 +11,15 @@ state={
 		victory_points = {
 		2345 20
 		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+		}
 }
-	manpower = 440000
-	state_category = rural
+	resources={
+		oil = 22
+	}
+	manpower = 2677360
+	state_category = city
 }

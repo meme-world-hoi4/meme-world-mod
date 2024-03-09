@@ -1,0 +1,117 @@
+ideas = {
+
+	socialsecurity = {
+		law = yes
+		use_list_view = yes
+
+		lack_of_social_care = {
+
+			cost = 150
+			removal_cost = -1
+			level = 4
+
+			default = yes
+			
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+
+			modifier = {
+			monthly_population = -0.05
+			stability_factor = -0.2
+			political_power_factor = -0.2
+			stability_weekly_factor = -0.015
+			consumer_goods_factor = -0.05
+			}
+
+			cancel_if_invalid = no
+		}
+
+		particular_social_care = {
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
+				}
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+			}
+			}
+
+			modifier = {
+				political_power_factor = 0.05
+				stability_weekly_factor = -0.005
+				consumer_goods_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		social_care = {
+
+			cost = 150
+			removal_cost = -1
+			level = 2
+
+			available = {
+				
+			}
+			
+			modifier = {
+				monthly_population = 0.05
+				stability_factor = 0.1
+				political_power_factor = 0.1
+				stability_weekly_factor = 0.005
+				consumer_goods_factor = 0.1
+			}
+
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+				
+				}
+			}
+
+			cancel_if_invalid = no
+		}
+
+		extra_social_care = {
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
+				#Special rules AST in TF
+			}
+			ai_will_do = {
+   				factor = 1
+
+				modifier = {
+				
+				}
+
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 1
+
+			modifier = {
+				monthly_population = 0.1
+				stability_factor = 0.2
+				political_power_factor = 0.15
+				stability_weekly_factor = 0.015
+				consumer_goods_factor = 0.2
+			}
+
+			cancel_if_invalid = no
+		}
+
+	}
+}
+
+}

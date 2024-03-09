@@ -4,8 +4,8 @@ state={
 	provinces={
 		355 1048 1742 2437 3240 3411 3485 3957 4229 4473 5553 5772 5853 7468 7874 7930 8525 8553 8921 12259 12271 12276 12277 12319 12325 12369 12383 12442 12473 12482 12521 12535 
 	}
-	manpower = 402225
-	state_category = rural
+	manpower = 1126230
+	state_category = large_city
 	history = {
 		owner = JJK
 		controller = JJK
@@ -21,5 +21,19 @@ state={
 		victory_points = {
 		12277 5
 		}
+buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			12442 = {
+			naval_base = 6
+			}
+			12521 = {
+			naval_base = 4
+			}
+		}
 }
+resources={
+		aluminium = 8
+	}
 }

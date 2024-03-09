@@ -1,0 +1,25 @@
+state={
+	id=358
+	name="STATE_358"
+	provinces={
+		9432 17867 
+	}
+	manpower = 20000
+	history={
+		owner = REZ
+		controller = REZ
+		add_core_of = REZ
+		victory_points = {
+			9432 5
+		}
+buildings = {
+			infrastructure = 1
+			9432 = {
+			naval_base = 1
+			}
+			}
+			
+		}
+		}
+	state_category = rural
+}

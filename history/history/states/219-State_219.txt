@@ -1,0 +1,17 @@
+state={
+	id=219
+	name="STATE_219"
+	provinces={
+		15593 
+	}
+	manpower = 10000
+	state_category = rural
+	history={
+		owner = ARO
+		controller = ARO
+		
+		victory_points = {
+		15593 10
+		}
+}
+}

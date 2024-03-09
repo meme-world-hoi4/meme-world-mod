@@ -7,6 +7,16 @@ oob = "KEZ_2021"
 
 set_research_slots = 2
 
+set_technology = {
+	infantry_weapons = 1
+	tech_trucks1 = 1
+	tech_trucks2 = 1
+	tech_support = 1
+	tech_logistics_company = 1
+}
+
+set_convoys = 30
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
@@ -16,18 +26,14 @@ set_politics = {
 
 set_popularities = {
 	democratic = 15 
-	neutrality = 85
+	neutrality = 75
+	fascism = 10
 }
 
-create_country_leader = {
-    name = "Vasil Zacharka"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-    expire = "2023.1.1"
-    ideology = despotism
-    traits = {
-        #
-    }
-}
+add_ideas = agrarian_country
+add_ideas = based_political_power
+add_ideas = ccapitalism_economy_type
 
-	add_political_power = 10
+recruit_character = KEZ_Abdul_Sluddah
+recruit_character = KEZ_Yurkey_Nikotinov
+recruit_character = KEZ_Negristo_Hitlechet

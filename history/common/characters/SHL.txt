@@ -1,0 +1,18 @@
+characters={
+	SHL_Nikolay_Kvokk={
+		name="SHL_Nikolay_Kvokk"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Shlepenia_Nikolay_Kvokk
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

@@ -1,0 +1,29 @@
+characters={
+	ARO_Michael_Kekich={
+		name="ARO_Michael_Kekich"
+		portraits={
+			civilian={
+				large=GFX_Portrait_ARO_Michael_Kekich
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2025.1.1.1"
+			id=-1
+		}
+	}
+	ARO_Antonio_Keklazar={
+		name="ARO_Antonio_Keklazar"
+		portraits={
+			civilian={
+				large=GFX_Portrait_DRO_Antonio_Keklazar
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+		
+}

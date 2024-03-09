@@ -1,0 +1,148 @@
+ideas = {
+
+	ruleform = {
+		law = yes
+		use_list_view = yes
+
+		president_republic = {
+
+			cost = 0
+			removal_cost = -1
+			level = 5
+
+			available = {
+			AND = {
+			NOT = { has_idea = parlament_republic }
+			NOT = { has_idea = mixed_republic }
+			NOT = { has_idea = parlament_monarchy }
+			NOT = { has_idea = absolute_monarchy }
+			NOT = { has_idea = no_ruleform }
+			}
+			}
+
+			modifier = {
+			
+			}
+
+			cancel_if_invalid = no
+		}
+
+		parlament_republic = {
+
+			cost = 0
+			removal_cost = -1
+			level = 4
+
+			available = {
+				AND = {
+			NOT = { has_idea = president_republic }
+			NOT = { has_idea = mixed_republic }
+			NOT = { has_idea = parlament_monarchy }
+			NOT = { has_idea = absolute_monarchy }
+			NOT = { has_idea = no_ruleform }
+			}
+				}
+
+			modifier = {
+			
+			}
+
+			default = yes
+
+			cancel_if_invalid = no
+		}
+
+		mixed_republic = {
+			
+			cost = 0
+			removal_cost = -1
+			level = 3
+
+			available = {
+			AND = {
+			NOT = { has_idea = president_republic }
+			NOT = { has_idea = parlament_republic }
+			NOT = { has_idea = parlament_monarchy }
+			NOT = { has_idea = absolute_monarchy }
+			NOT = { has_idea = no_ruleform }
+			}
+			}
+			
+			modifier = {
+			
+			}
+
+			cancel_if_invalid = no
+		}
+
+		parlament_monarchy = {
+
+			available = {
+			AND = {
+			NOT = { has_idea = president_republic }
+			NOT = { has_idea = parlament_republic }
+			NOT = { has_idea = mixed_republic }
+			NOT = { has_idea = absolute_monarchy }
+			NOT = { has_idea = no_ruleform }
+			}
+			}
+
+			cost = 0
+			removal_cost = -1
+			level = 2
+
+			modifier = {
+			
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		absolute_monarchy = {
+
+			available = {
+			AND = {
+			NOT = { has_idea = president_republic }
+			NOT = { has_idea = parlament_republic }
+			NOT = { has_idea = mixed_republic }
+			NOT = { has_idea = parlament_monarchy }
+			NOT = { has_idea = no_ruleform }
+			}
+			}
+
+			cost = 0
+			removal_cost = -1
+			level = 2
+
+			modifier = {
+			
+			}
+
+			cancel_if_invalid = no
+		}
+		
+		no_ruleform = {
+
+			available = {
+			AND = {
+			NOT = { has_idea = president_republic }
+			NOT = { has_idea = parlament_republic }
+			NOT = { has_idea = mixed_republic }
+			NOT = { has_idea = parlament_monarchy }
+			NOT = { has_idea = absolute_monarchy }
+			}
+			}
+
+			cost = 0
+			removal_cost = -1
+			level = 1
+
+			modifier = {
+			
+			}
+
+			cancel_if_invalid = no
+		}
+
+	}
+}

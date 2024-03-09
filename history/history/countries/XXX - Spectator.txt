@@ -1,0 +1,22 @@
+capital = 9865
+
+oob = "XXX_2021"
+
+2021.1.1 = {
+
+set_research_slots = 0
+
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+    name = "Vasil Zacharka"
+    desc = ""
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+    expire = "2023.1.1"
+    ideology = centrism
+    traits = {
+        #
+    }
+}

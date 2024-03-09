@@ -1,0 +1,26 @@
+characters={
+	EVD_Skvidik_Glory={
+		name="EVD_Skvidik_Glory"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Evdokimia_Gagik_Aslanyan
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	EVD_Evdok_Arakimenko={
+		name="EVD_Evdok_Arakimenko"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Evdokimia_Evdok_Arakimenko
+			}
+		}
+	}
+	
+	
+	
+}

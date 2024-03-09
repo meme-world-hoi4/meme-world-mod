@@ -1,0 +1,16 @@
+state={
+	id=485
+	name="STATE_485"
+	provinces={
+		1120 1528 1594 1595 3241 4166 4588 4775 5807 7415 7915 8679 9750 19895 19905 19906 19916 19962 19971 19991 20010 20026 20043 20044 20045 20074 20083 20094 20167 
+	}
+	manpower = 10000
+	state_category = rural
+	history = {
+		owner = VKB
+		controller = VKB
+		
+		victory_points = {
+		}
+}
+}

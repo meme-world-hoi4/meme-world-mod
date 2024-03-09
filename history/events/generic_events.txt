@@ -1,0 +1,26 @@
+﻿###########################
+#stability events
+###########################
+
+
+
+#low stability selector event, hidden
+country_event = {
+	id = memevent.1
+	title = memevent.1.t
+	desc = memevent.1.desc	#
+	picture = GFX_			# 
+	
+	hidden = no
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = memevent.1.a
+		ai_chance = {
+		
+		}
+		
+	}
+
+}

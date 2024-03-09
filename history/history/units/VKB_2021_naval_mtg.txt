@@ -1,0 +1,22 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	fleet = {
+		name = "Main Belyash Fleet"			
+		naval_base = 1849
+		task_force = {
+			name = "BEL Destroyer Type A Force"
+			location = 1849
+			ship = { name = "BEL Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Destroyer Type A" } } }
+			ship = { name = "BEL Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Destroyer Type A" } } }
+			ship = { name = "BEL Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Destroyer Type A" } } }
+			ship = { name = "BEL Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = BEL version_name = "Destroyer Type A" } } }
+
+	}
+}
+}
+
+#####################

@@ -8,7 +8,17 @@ state={
 		owner = MOH
 		controller = MOH
 		add_core_of = MOH
+buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			5974 = {
+				naval_base = 3
+			}
+			15160 = {
+				naval_base = 3
+			}
 }
-	manpower = 74000
+}
+	manpower = 437410
 	state_category = rural
 }

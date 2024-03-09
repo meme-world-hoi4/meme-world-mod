@@ -4,6 +4,21 @@ state={
 	provinces={
 		4925 6988 8562 15405 15496 
 	}
-	manpower = 10000
+history={
+		owner = ARO
+		controller = ARO
+		victory_points = {
+		}
+buildings = {
+			infrastructure = 1
+			6988 = {
+				naval_base = 3
+			}
+		}
+	}
+resources={
+		chromium = 6
+	}
+	manpower = 591600
 	state_category = rural
 }

@@ -1,0 +1,12 @@
+﻿KEK_RG_HISTORICAL = {
+	for_countries = { KEK }
+
+	type = railway_gun
+	
+	fallback_name = "%d Railway Kekland Artillery"
+
+	ordered = {
+		1 = {"%dst Railway Kekland Artillery"}
+		
+	}
+}

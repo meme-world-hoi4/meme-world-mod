@@ -1,0 +1,74 @@
+characters={
+	
+	OPO_Billy_Herrington={
+		name="OPO_Billy_Herrington"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Billy_Herrington
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	OPO_Otto_Kerk={
+		name="OPO_Otto_Kerk"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Otto_Kerk
+			}
+		}
+	}
+	OPO_Edward_Kekinesky={
+	name=OPO_Edward_Kekinesky
+	portraits={
+			army={
+				large="GFX_Portrait_Opolchenie_Edward_Kekinesky"
+			}
+			civilian={
+				large=GFX_Portrait_Opolchenie_Edward_Kekinesky
+			}
+		}
+
+		corps_commander={
+			traits={ politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+	
+	#OPO_Green_House={
+	#	name="OPO_Green_House"
+	#	portraits={
+	#		civilian={
+	#			large=GFX_Portrait_OPOland_Green_House
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology=liberalism
+	#		expire="2029.1.1.1"
+	#		id=-1
+	#	}
+	#}
+	
+	#OPO_Deoano_Kershuzvelt={
+	#	name="OPO_Deoano_Kershuzvelt"
+	#	portraits={
+	#		civilian={
+	#			large=GFX_Portrait_OPOland_Deoano_Kershuzvelt
+	#		}
+	#	}
+	#	country_leader={
+	#		ideology=conservatism
+	#		expire="2022.1.1.1"
+	#		id=-1
+	#	}
+	#}
+}

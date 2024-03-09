@@ -1,0 +1,20 @@
+state={
+	id=208
+	name="STATE_208"
+	provinces={
+		304 1342 3075 3515 4136 4410 8131 9417 9436 15214 15242 15250 15283 15299 15342 15347 15378 15386 
+	}
+	history={
+		owner = MOH
+		controller = MOH
+		add_core_of = MOH
+		victory_points = {
+		15386 10
+		}
+		victory_points = {
+		3515 10
+		}
+}
+	manpower = 269000
+	state_category = rural
+}

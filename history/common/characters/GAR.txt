@@ -1,0 +1,15 @@
+characters={
+	GAR_Anton_Yashnov={
+		name="GAR_Anton_Yashnov"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Gardernia_Anton_Yashnov
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+}

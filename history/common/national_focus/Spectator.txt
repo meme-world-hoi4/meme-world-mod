@@ -1,0 +1,19 @@
+focus_tree = {
+	id = spectator_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = XXX
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 2350 y = 1150 }
+	
+	focus = {
+	}
+}

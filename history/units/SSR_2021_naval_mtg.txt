@@ -1,0 +1,34 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	fleet = {
+		name = "Main Lovuskinsk Fleet"			
+		naval_base = 20221
+		task_force = {					
+			name = "LOV Light Crusier Force"
+			location = 20221
+			ship = { name = "Artem Klochkov" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LOV version_name = "Light Crusier Type A" } } }
+			ship = { name = "LOV Light Crusier Type A 1" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = LOV version_name = "Light Crusier Type A" } } }
+		}
+		task_force = {
+			name = "LOV Destroyer Type A Force"
+			location = 2021
+			ship = { name = "LOV Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+			ship = { name = "LOV Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+			ship = { name = "LOV Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+			ship = { name = "LOV Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+			ship = { name = "LOV Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+			ship = { name = "LOV Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+			ship = { name = "LOV Destroyer Type A 7" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+			ship = { name = "LOV Destroyer Type A 8" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+			ship = { name = "LOV Destroyer Type A 9" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+			ship = { name = "LOV Destroyer Type A 10" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = LOV version_name = "Destroyer Type A" } } }
+
+	}
+}
+}
+
+#####################

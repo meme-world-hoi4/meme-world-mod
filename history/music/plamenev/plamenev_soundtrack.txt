@@ -1,0 +1,37 @@
+
+music_station = "plamenev"
+
+music = {
+	song = "pavelplamenevnightbeforefight"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "pavelplamenevlastday"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "pavelplamenevrussiannotdefeat"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "pavelplamenevveteranbrigade"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "pavelplamenevbeyonddeath"
+	
+	chance = { factor = 1 }
+
+}

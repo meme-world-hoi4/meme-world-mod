@@ -1,0 +1,116 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	fleet = {
+		name = "Main Opolchenie Fleet"			
+		naval_base = 15620
+		task_force = {				
+			name = "Opolchenie Battleships Force"
+			location = 15620
+			### Battleship Division 1 ###			
+			ship = { name = "Mid Range Battleship 1" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = OPO version_name = "Mid Range Battleship" } } }			
+			ship = { name = "Vladimir Kekin" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.25 equipment = { ship_hull_heavy_1 = { amount = 1 owner = OPO version_name = "Mid Range Battleship" } } }				
+			### Battleship Division 2 ###			
+			}							
+		task_force = {					
+			name = "Carrier Battle Force"		
+			location = 15620
+			ship = { name = "OPO Epsilon" definition = carrier start_experience_factor = 0.2 equipment = { ship_hull_carrier_1 = { amount = 1 owner = OPO version_name = "Opolchenie Carrier Class" } } 
+				
+			}
+		}
+		
+		task_force = {					
+			name = "Opolchenie Light Crusier Force"
+			location = 15620
+			ship = { name = "OPO Light Crusier Type A 1" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }
+			ship = { name = "OPO Light Crusier Type A 2" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }		
+			ship = { name = "OPO Light Crusier Type A 3" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }		
+			ship = { name = "OPO Light Crusier Type A 4" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }		
+			ship = { name = "OPO Light Crusier Type A 5" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }		
+			ship = { name = "OPO Light Crusier Type A 6" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }		
+		}
+		
+		task_force = {
+			name = "Opolchenie Destroyer Type A Force"
+			location = 15620
+			ship = { name = "OPO Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+
+	}
+	
+	task_force = {
+			name = "Opolchenie Destroyer Type B Force"
+			location = 15620
+			ship = { name = "OPO Destroyer Type B 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type B" } } }
+			ship = { name = "OPO Destroyer Type B 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type B" } } }
+			ship = { name = "OPO Destroyer Type B 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type B" } } }
+			ship = { name = "OPO Destroyer Type B 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type B" } } }
+			ship = { name = "OPO Destroyer Type B 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type B" } } }
+			ship = { name = "OPO Destroyer Type B 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type B" } } }
+			ship = { name = "OPO Destroyer Type B 7" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type B" } } }
+			ship = { name = "OPO Destroyer Type B 8" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type B" } } }
+			
+
+	}
+	
+}
+		
+	fleet = {
+		name = "Colonial Fleet"			
+		naval_base = 5055
+		task_force = {					
+			name = "Kekland Light Crusier Force"
+			location = 5055
+			ship = { name = "OPO Light Crusier Type A 7" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }
+			ship = { name = "OPO Light Crusier Type A 8" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }		
+			ship = { name = "OPO Light Crusier Type A 9" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }		
+			ship = { name = "OPO Light Crusier Type A 10" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }		
+			ship = { name = "OPO Light Crusier Type A 11" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }
+			ship = { name = "OPO Light Crusier Type A 12" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = OPO version_name = "Light Crusier Type A" } } }	
+		}
+		task_force = {
+			name = "Kekland Destroyer Type A Force"
+			location = 5055
+			ship = { name = "OPO Destroyer Type A 7" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 8" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 9" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 10" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 11" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 12" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 13" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 14" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 15" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+			ship = { name = "OPO Destroyer Type A 16" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = OPO version_name = "Destroyer Type A" } } }
+
+	}
+}
+
+fleet = {
+		name = "Submarine Fleet"			
+		naval_base = 15615
+		task_force = {					
+			name = "Opolchenie Submarines"
+			location = 15615
+			ship = { name = "OPO Submarines Type A 1" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = OPO version_name = "Submarine Type A" } } }
+			ship = { name = "OPO Submarines Type A 2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = OPO version_name = "Submarine Type A" } } }
+			ship = { name = "OPO Submarines Type A 3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = OPO version_name = "Submarine Type A" } } }
+			ship = { name = "OPO Submarines Type A 4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = OPO version_name = "Submarine Type A" } } }
+			ship = { name = "OPO Submarines Type A 5" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = OPO version_name = "Submarine Type A" } } }
+			ship = { name = "OPO Submarines Type A 6" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = OPO version_name = "Submarine Type A" } } }
+			ship = { name = "OPO Submarines Type A 7" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = OPO version_name = "Submarine Type A" } } }
+			ship = { name = "OPO Submarines Type A 8" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = OPO version_name = "Submarine Type A" } } }
+
+}
+}
+
+}
+
+#####################

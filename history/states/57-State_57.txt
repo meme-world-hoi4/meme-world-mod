@@ -4,13 +4,26 @@ state={
 	provinces={
 		4804 11815 
 	}
-	manpower = 10000
-	state_category = rural
+	manpower = 313600
+	state_category = large_city
 	history = {
 		owner = GAR
 		controller = GAR
+		add_core_of = GAR
 		
 		victory_points = {
+		4804 15
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			4804 = {
+			naval_base = 6
+			}
 		}
 }
+resources={
+		steel = 2
+	}
 }

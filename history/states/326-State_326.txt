@@ -16,9 +16,28 @@ state={
 		victory_points = {
 		3248 5
 		}
+buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			5055 = {
+				naval_base = 5
+			}
+			3248 = {
+				naval_base = 4
+			}
+			17801 = {
+				naval_base = 2
+			}
+			3550 = {
+				naval_base = 2
+			}
+		}
 }
-	manpower=10000
+resources={
+		steel = 24
+	}
+	manpower=1212790
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

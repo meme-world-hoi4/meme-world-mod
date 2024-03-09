@@ -1,0 +1,18 @@
+characters={
+	REP_Mc_Kreker={
+		name="REP_Mc_Kreker"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Repya_Mc_Kreker
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

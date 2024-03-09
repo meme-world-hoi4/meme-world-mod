@@ -1,0 +1,18 @@
+characters={
+	KIR_Jokolai_Second={
+		name="KIR_Jokolai_Second"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kirovsk_Jokolai_Second
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		80 3403 4405 4594 4865 5400 6693 6984 7728 10470 10618 10661 10707 
+	}
+	manpower = 10000
+	state_category = rural
+	history = {
+		owner = BAL
+		controller = BAL
+		
+		victory_points = {
+		}
+}
+}

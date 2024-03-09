@@ -1,0 +1,17 @@
+state={
+	id=460
+	name="STATE_460"
+	provinces={
+		2503 3992 8575 19679 19689 19750 19770 
+	}
+	manpower = 10000
+	state_category = rural
+	history = {
+		owner = SSR
+		controller = SSR
+		
+		victory_points = {
+		3942 10
+		}
+}
+}

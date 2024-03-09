@@ -1,0 +1,89 @@
+ideas = {
+
+	healthcare = {
+		law = yes
+		use_list_view = yes
+
+		lack_of_health_care = {
+
+			cost = 150
+			removal_cost = -1
+			level = 4
+
+			available = {
+				#has_manpower_for_recruit_change_to = { value = 0.005 group = mobilization_laws }
+			}
+			
+			default = yes
+
+			modifier = {
+			monthly_population = -0.2
+			stability_factor = -0.1
+			political_power_factor = -0.1
+			consumer_goods_factor = -0.05
+			}
+
+			cancel_if_invalid = no
+		}
+
+		paid_medicine = {
+
+			cost = 150
+			removal_cost = -1
+			level = 3
+
+			available = {
+				#has_manpower_for_recruit_change_to =  { value = 0.015 group = mobilization_laws }
+				}
+
+			modifier = {
+			monthly_population = -0.1
+			stability_factor = -0.05
+			consumer_goods_factor = 0.05
+			}
+
+			cancel_if_invalid = no
+		}
+
+		default_medicine = {
+
+			cost = 150
+			removal_cost = -1
+			level = 2
+
+			available = {
+				
+			}
+			
+			modifier = {
+			monthly_population = 0.1
+			stability_factor = 0.05
+			political_power_factor = 0.05
+			consumer_goods_factor = 0.1
+			}
+
+			cancel_if_invalid = no
+		}
+
+		free_medicine = {
+
+			available = {
+			
+			}
+
+			cost = 150
+			removal_cost = -1
+			level = 1
+
+			modifier = {
+			monthly_population = 0.2
+			stability_factor = 0.15
+			political_power_factor = 0.1
+			consumer_goods_factor = 0.2
+			}
+
+			cancel_if_invalid = no
+		}
+
+	}
+}

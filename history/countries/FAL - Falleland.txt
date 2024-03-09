@@ -67,17 +67,13 @@ add_to_faction = EPI
 
 set_convoys = 30
 
-
+add_ideas = agrarian_country
 add_ideas = based_political_power
 add_ideas = capitalism_command_economy_type
 add_ideas = default_medicine
 add_ideas = social_care
 add_ideas = low_economic_mobilisation
 add_ideas = middle_education
-add_ideas = monoparty
-add_ideas = autorbur
-add_ideas = combat_training
-add_ideas = comissioners_brigade
 
 create_equipment_variant = {
 		name = "Submarine Type A"

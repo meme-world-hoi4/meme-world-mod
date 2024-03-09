@@ -1,0 +1,175 @@
+﻿division_template = {
+	name = "Strelkovaya Divizia"
+
+	division_names_group = ARO_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+#division_template = {
+#	name = "Maloe Voennoe Formirovanie"
+#
+#	division_names_group = ARO_MVF_01
+#
+#	regiments = {
+#		infantry = { x = 0 y = 0 }
+#		infantry = { x = 0 y = 1 }
+#		infantry = { x = 0 y = 2 }
+#		infantry = { x = 1 y = 0 }
+#		infantry = { x = 1 y = 1 }
+#		infantry = { x = 1 y = 2 }
+#	}
+#	priority = 1
+#}
+
+division_template = {
+	name = "Kolonialniya Divizia"
+
+	division_names_group = ARO_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		#name = "Strelkovaya Divizia 1"
+		division_name = { 
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 15593
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.4
+	}
+	division = {
+		#name = "Strelkovaya Divizia 2"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 15593
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.4
+	}
+		division = {
+		#name = "Strelkovaya Divizia 3"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 15593
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.4
+	}
+		division = {
+		#name = "Strelkovaya Divizia 4"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 15593
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.4
+		}
+		division = {
+		#name = "Strelkovaya Divizia 5"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 15593
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.4
+	}
+		division = {
+		#name = "Strelkovaya Divizia 6"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 15593
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.4
+	
+	}
+		division = {
+		#name = "Kolonialniya Divizia 1"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2396
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		#name = "Kolonialniya Divizia 2"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 15332
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		#name = "Kolonialniya Divizia 3"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6988
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		#name = "Kolonialniya Divizia 4"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6988
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ARO"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

@@ -1,0 +1,23 @@
+state={
+	id=331
+	name="STATE_331"
+	history={
+		owner = EPI
+		controller = EPI
+		victory_points = {
+
+		}
+buildings = {
+			infrastructure = 1
+			6097 = {
+			naval_base = 1
+			}
+			
+		}
+	}
+	provinces={
+		644 5372 6097 19307 19321 19335 19362 19368
+	}
+	manpower = 10000
+	state_category = rural
+}

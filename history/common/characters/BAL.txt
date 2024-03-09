@@ -1,0 +1,18 @@
+characters={
+	BAL_Salat_Ogzamov={
+		name="BAL_Salat_Ogzamov"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Baltikania_Salat_Ogzamov
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

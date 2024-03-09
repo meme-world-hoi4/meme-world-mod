@@ -1,0 +1,16 @@
+state={
+	id=443
+	name="STATE_443"
+	provinces={
+		5993 6298 7542 9024 19273 19297 19340 19364 19399 19402 19423 19454 
+	}
+	manpower = 10000
+	state_category = rural
+	history = {
+		owner = EPI
+		controller = EPI
+		
+		victory_points = {
+		}
+}
+}

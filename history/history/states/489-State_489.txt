@@ -1,0 +1,17 @@
+state={
+	id=489
+	name="STATE_489"
+	provinces={
+		9529 20052 20064 20114 20165 
+	}
+	manpower = 14000
+	state_category = rural
+	history = {
+		owner = PAR
+		controller = PAR
+		add_core_of = PAR
+		
+		victory_points = {
+		}
+}
+}

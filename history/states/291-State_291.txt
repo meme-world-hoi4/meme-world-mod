@@ -8,13 +8,31 @@ state={
 	history={
 		owner = REP
 		controller = REP
+		add_core_of = REP
 		
 		victory_points = {
-
+		16622 15
+		}
+		victory_points = {
+		6181 20
+		}
+		victory_points = {
+		2932 10
+		}
+		victory_points = {
+		16737 10
+		}
+buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
 		}
 }
-	manpower = 364000
+resources={
+	steel = 12
+	}
+	manpower = 1820000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 	local_supplies=0.000
 }

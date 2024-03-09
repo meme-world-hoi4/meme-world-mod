@@ -1,0 +1,16 @@
+state={
+	id=222
+	name="STATE_222"
+	provinces={
+		941 952 3239 4240 4329 5154 5203 5489 7239 7643 15704 15745 15746 15798 15818 15827 15868 15869 15882 15923 15939 15949 
+	}
+	manpower = 10000
+	state_category = rural
+history={
+		owner = KEK
+		controller = KEK
+		
+		victory_points = {
+		}
+}
+}

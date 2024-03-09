@@ -1,0 +1,22 @@
+
+state={
+	id=315
+	name="STATE_315"
+
+	history={
+		owner = KEK
+		controller = KEK
+		victory_points = {
+
+		}
+
+	}
+
+	provinces={
+		651 1057 2502 2810 4040 4736 5706 6896 17026 17032 17060 17070 17071 17085 17116 17125 17130 17134 17160 17161 17190 17202 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

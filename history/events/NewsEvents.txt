@@ -1,0 +1,127 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_memworld_news_event_002
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+	trigger = {
+		NOT = {
+				TAG = ARO
+				TAG = OPO
+				TAG = JJK
+				TAG = SHL
+				TAG = KEK
+				TAG = PAR
+				TAG = GAR
+				TAG = ORD
+				TAG = BAL
+	}
+	}
+	}
+	option = {
+		name = news.2.b
+		trigger = { 
+			original_tag = OPO
+		}
+	}
+	option = {
+		name = news.2.c
+		trigger = { 
+			original_tag = ARO
+		}
+	}
+	option = {
+		name = news.2.i
+		trigger = { 
+			original_tag = KEK
+		}
+	}
+	option = {
+		name = news.2.e
+		trigger = { 
+		OR = {
+			original_tag = JJK
+			original_tag = BAL
+			original_tag = PAR
+			original_tag = SHL
+			original_tag = ORD
+			original_tag = MOH
+		}
+	}
+	}
+	option = {
+		name = news.2.f
+		trigger = { 
+			original_tag = GAR
+		}
+	}
+}
+
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_memworld_news_event_003
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.a
+	trigger = {
+		NOT = {
+				TAG = ARO
+				TAG = OPO
+				TAG = KEK
+				TAG = GAR
+				TAG = REP
+	}
+	}
+	}
+	option = {
+		name = news.2.b
+		trigger = { 
+			original_tag = OPO
+		}
+	}
+	option = {
+		name = news.2.c
+		trigger = { 
+			original_tag = ARO
+		}
+	}
+	option = {
+		name = news.2.e
+		trigger = { 
+			original_tag = REP
+		}
+	}
+	option = {
+		name = news.2.i
+		trigger = { 
+			original_tag = KEK
+		}
+	}
+	option = {
+		name = news.2.f
+		trigger = { 
+			original_tag = GAR
+		}
+	}
+}
+
+
+

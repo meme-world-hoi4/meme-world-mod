@@ -1,0 +1,222 @@
+﻿division_template = {
+	name = "Strelkovayaa Diviziya"
+
+	division_names_group = AFG_ARM_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Kolonialniya Diviziya"
+
+	division_names_group = VKB_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Kavaleriyskayaa Diviziya"
+	division_names_group = VKB_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	priority = 1
+}
+
+units = {
+	division = {
+		#name = "Strelkovayaa Diviziya 1"
+		division_name = { 
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 19841
+		division_template = "Strelkovayaa Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "Strelkovayaa Diviziya 2"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 1978
+		division_template = "Strelkovayaa Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+		division = {
+		#name = "Strelkovayaa Diviziya 3"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 20218
+		division_template = "Strelkovayaa Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+		division = {
+		#name = "Strelkovayaa Diviziya 4"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 20236
+		division_template = "Strelkovayaa Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+		}
+		division = {
+		#name = "Strelkovayaa Diviziya 5"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 20074
+		division_template = "Strelkovayaa Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+		division = {
+		#name = "Strelkovayaa Diviziya 6"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 20010
+		division_template = "Strelkovayaa Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	
+	}
+		division = {
+		#name = "Strelkovayaa Diviziya 7"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 19637
+		division_template = "Strelkovayaa Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+		division = {
+		#name = "Strelkovayaa Diviziya 8"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		}
+		location = 19494
+		division_template = "Strelkovayaa Diviziya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	
+	}
+	division = {
+		#name = "Kolonialniya Diviziya 1"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 18255
+		division_template = "Kavaleriyskayaa Diviziya"
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		#name = "Kolonialniya Diviziya 2"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 618
+		division_template = "Kavaleriyskayaa Diviziya"
+		start_equipment_factor = 0.4
+
+	}	
+	
+	division = {
+		#name = "Kolonialniya Diviziya 3"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 18175
+		division_template = "Kavaleriyskayaa Diviziya"
+		start_equipment_factor = 0.4
+
+	}	
+	
+	division = {
+		#name = "Kolonialniya Diviziya 4"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3934
+		division_template = "Kavaleriyskayaa Diviziya"
+		start_equipment_factor = 0.3
+
+	}	
+
+	division = {
+		#name = "Kavaleriyskayaa Diviziya 4"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 19905
+		division_template = "Kavaleriyskayaa Diviziya"
+		start_equipment_factor = 0.3
+
+	}
+	
+	division = {
+		#name = "Kavaleriyskayaa Diviziya 4"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 19895
+		division_template = "Kavaleriyskayaa Diviziya"
+		start_equipment_factor = 0.3
+
+	}
+
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "VKB"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

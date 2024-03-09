@@ -1,0 +1,13 @@
+﻿
+
+air_wings = {
+	###
+	96 = {
+		#
+		#
+		fighter_equipment_1 =  {
+			owner = "JJK" 
+			amount = 35
+		}
+	}
+}

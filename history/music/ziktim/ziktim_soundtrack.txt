@@ -1,0 +1,65 @@
+
+music_station = "ziktim"
+
+music = {
+	song = "marchcleaner"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "baudeputat"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "baudoorintver"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "bauexpiredrot"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "bauvenskymail"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "alonealonealonedivine"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "anthemordenstadt"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "vnvnationfiume"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "unknownsong"
+	
+	chance = { factor = 1 }
+
+}

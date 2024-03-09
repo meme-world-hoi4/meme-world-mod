@@ -1,0 +1,9 @@
+state={
+	id=60
+	name="STATE_60"
+	provinces={
+	7885
+	}
+	manpower = 10000
+	state_category = rural
+}

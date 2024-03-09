@@ -4,8 +4,8 @@ state={
 	provinces={
 		5659 6916 7710 8442 8468 9729 15457 15471 15520 15539 15547 15586 15615 15620 15653 15654 15684 
 	}
-	manpower = 3050000
-	state_category = rural
+	manpower = 16259900
+	state_category = megalopolis
 	history={
 		owner = OPO
 		controller = OPO
@@ -31,5 +31,24 @@ state={
 		victory_points = {
 		15539 5
 		}
+		buildings = {
+			infrastructure = 5
+			arms_factory = 10
+			industrial_complex = 14
+			air_base = 1
+			dockyard = 5
+			15620 = {
+				naval_base = 8
+			}
+			15615 = {
+				naval_base = 5
+			}
+			15457 = {
+				naval_base = 8
+			}
+	}
+}
+resources={
+		steel=8
 	}
 }

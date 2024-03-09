@@ -1,0 +1,54 @@
+music = {
+	name = "marchcleaner"
+	file = "marchcleaner.ogg"
+	volume = 0.85
+}
+
+music = {
+	name = "baudeputat"
+	file = "baudeputat.ogg"
+	volume = 0.75
+}
+
+music = {
+	name = "baudoorintver"
+	file = "baudoorintver.ogg"
+	volume = 0.75
+}
+
+music = {
+	name = "bauexpiredrot"
+	file = "bauexpiredrot.ogg"
+	volume = 0.75
+}
+
+music = {
+	name = "bauvenskymail"
+	file = "bauvenskymail.ogg"
+	volume = 0.75
+}
+
+music = {
+	name = "alonealonealonedivine"
+	file = "marchcleaner.ogg"
+	volume = 0.75
+}
+
+music = {
+	name = "anthemordenstadt"
+	file = "marchcleaner.ogg"
+	volume = 0.75
+}
+
+music = {
+	name = "vnvnationfiume"
+	file = "vnvnationfiume.ogg"
+	volume = 0.75
+}
+
+music = {
+	name = "unknownsong"
+	file = "unknownsong.ogg"
+	volume = 0.75
+}
+

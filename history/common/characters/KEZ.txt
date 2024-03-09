@@ -1,0 +1,44 @@
+characters={
+	KEZ_Abdul_Sluddah={
+		name="KEZ_Abdul_Sluddah"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kekzahstan_Abdul_Sluddah
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+	KEZ_Yurkey_Nikotinov={
+		name="KEZ_Yurkey_Nikotinov"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kekzahstan_Yurkey_Nikotinov
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+	KEZ_Negristo_Hitlechet={
+		name="KEZ_Negristo_Hitlechet"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kekzahstan_Negristo_Hitlechet
+			}
+		}
+		country_leader={
+			ideology=communism
+			expire="2024.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

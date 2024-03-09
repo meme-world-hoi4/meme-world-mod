@@ -1,0 +1,16 @@
+state={
+	id=461
+	name="STATE_461"
+	provinces={
+		346 739 757 978 1381 3444 3942 5572 6721 8003 8278 8333 8649 8909 19483 19514 19527 19585 19591 19592 19624 19625 19640 19692 19717 
+	}
+	manpower = 10000
+	state_category = rural
+	history = {
+		owner = SSR
+		controller = SSR
+		
+		victory_points = {
+		}
+}
+}

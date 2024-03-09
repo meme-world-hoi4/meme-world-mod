@@ -1,0 +1,22 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = BAL
+		controller = BAL
+		victory_points = {
+
+		}
+
+	}
+
+	provinces={
+		83 1078 3806 8364 8545 8948 11005 11053 11058 11126 11191 11241 11259 11355 11402 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -9,9 +9,15 @@ state={
 		owner = MOH
 		controller = MOH
 		add_core_of = MOH
+buildings = {
+			infrastructure = 1
+			934 = {
+			naval_base = 3
+			}
 }
-	manpower=68000
+}
+	manpower=358400
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

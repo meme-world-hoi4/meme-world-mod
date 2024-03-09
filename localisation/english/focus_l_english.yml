@@ -1,0 +1,1876 @@
+﻿l_english:
+ WHILE_FOCUSING: "When this focus is selected, the following effects will occur:\n$EFF$"
+ TREE_FILTER_TOGGLE: "§GClick§! - on/off display of additional filters"
+ confirm_cancel_national_focus: "Cancel national focus"
+ confirm_cancel_national_focus_progress_loss_singular: "You will lose §R$LOST_DAYS$§! day of development."
+ confirm_cancel_national_focus_progress_loss_plural: "You will lose §R$LOST_DAYS$§! day of development."
+ confirm_cancel_national_focus_desc: "Do you really want to cancel the national focus §H$FOCUS_NAME$§!"?"
+ policy_focuses: "Policy reforms"
+ eco_country_reforms: "Economic reforms."
+ navy_reform: "Naval Reforms".
+ country_industry_plans: "Industrial plans".
+ develop_hard_industry: "Development of heavy industry"
+ develop_light_industry: "Development of light industry."
+ new_ministr: "New Ministers".
+ administrator: "Reform of administration"
+ revision_law: "Revision of laws"
+ populism_gov: "Political populism"
+ support_commie: "Support for workers"
+ work_union: "Trade unions."
+ manifistations: "Allow demonstrations."
+ legalize_groups: "Legalise circles."
+ farmer_money: "Farmers' benefits."
+ eight_hour_day: "Eight-hour working day."
+ revolution: "Revolution."
+ farmer_reform: "Agricultural reform."
+ idealogy_propaganda: "Ideological propaganda."
+ democratic_reform: "democratisation"
+ create_new_const: "New Constitution"
+ law_state: "Rule of law"
+ amnistia: "Amnesty"
+ law_reform: "Legislative reform"
+ free_news: "Media liberalisation"
+ democratic_state: "Democratic state"
+ GEN_people_equality: "Equality of people"
+ nationalisation_commie: "Nationalisation"
+ eliminate_opportunism: "Eliminate opportunism"
+ true_elections: "Validate elections"
+ pluralism_gov: "State pluralism"
+ protect_business: "Protect small business"
+ protect_gov_power: "Strengthen power."
+ find_alias: "Find like-minded people."
+ privatisation: "Partial privatization"
+ company_against_enemies: "Campaign against opponents"
+ subdue_news: "Subdue the media."
+ police_reform: "Police reform."
+ autocracy_gov: "autocratic state"
+ national_gov_idea: "National Idea".
+ national_policy: "National Policy"
+ patriot_groups: "Allow patriotic brigades".
+ natioanal_goverment: "Nationalists in government"
+ army_reform: "Expand the power of the military"
+ rights_for_local: "Expand rights for locals."
+ millitary_reshuffle: "Military coup."
+ cult_leader: "Cult of personality."
+ fascism_idealogy: "Propaganda of ideology."
+ national_army: "National army."
+ nationalisation_fascismm: "Nationalisation".
+ national_brigade: "Chieftain's squads."
+ create_industry_base: "Engineering base"
+ indutry_railways: "Industrial Infrastructure"
+ resources_industry: "Development of extractive industry"
+ effect_industry: "Labour productivity"
+ create_new_bussiness: "New enterprises"
+ gossektor_in_economy: "Increase of public sector".
+ anti_capitalism: "Destroy capitalism."
+ economy_plan: "Market Reform."
+ economic_plans: "Five-year plans."
+ call_for_investitions: "Attract investment."
+ credit_policy: "Monetary reform."
+ railways_development: "Infrastructure development"
+ sell_resources: "Resource enterprises"
+ urbanisation: "Urbanisation"
+ tax_for_small_bus: "Small Business Relief"
+ investiotion_in_light_industry: "Investments in light industry"
+ tech_industry: "High-tech enterprises"
+ country_army_reform: "Military reform."
+ shipyard_build: "Shipyard construction"
+ submarine_research: "Submarine research"
+ light_fleet_reform: "Light Fleet Course."
+ destroyer_research: "destroyer studies."
+ light_cruiser_reseatch: "Light cruiser studies".
+ navy_tactic_reform: "Naval Doctrine Reform."
+ navy_tactic_reform_two: "Naval Doctrine Reform II."
+ heavy_fleet_reform: "Heavy Fleet Reform."
+ battleship_reseacrh: "Study of heavy cruisers."
+ oligarchism_gov: "Oligarchism."
+ formal_election: "Formal Election."
+ industry_privileges: "Domestic production"
+ country_general: "The country of one general."
+ coronation: "Coronation"
+ gov_power: "Power of the oligarchy."
+ religion_gov: "Religious state".
+ rights_for_migrants: "Restrict the rights of migrants."
+ power_special_force: "Power of the secret services."
+ furher_power: "A country of one leader."
+ president_republic: "Presidential Republic."
+ subjugate_opposition: "Suppress opposition."
+ protect_freedoom_speech: "Protect freedom of speech."
+ loyalty_servant: "Loyal subordinates."
+ aircraft_carrier_reform: "Study of aircraft carriers."
+ navy_country: "Naval Power"
+ country_industrialisation: "Industrialisation"
+ offshore_country: "Offshore country."
+ army_reform1: "Infantry Betting."
+ army_reform3: "Motorisation."
+ army_reform4: "Infantry tactics."
+ army_reform20: "Mechanised Tactics."
+ army_reform2: "Army Doctrine I"
+ army_reform14: "Army Doctrine II"
+ army_reform16: "Study of Infantry Equipment".
+ army_reform6: "Study of Motor Transport".
+ army_reform5: "Study of Tank Equipment"
+ army_reform18: "Study of Armoured Motor Transport"
+ army_reform8: "Study of Infantry Equipment"
+ army_reform7: "Study of Artillery"
+ army_reform23: "Militaristic Power"
+ 
+ ARO_policy_focuses: "Political Reforms"
+ ARO_eco_country_reforms: "Economic Reforms"
+ ARO_navy_reform: "Naval reforms"
+ ARO_country_industry_plans: "Industrial Plans"
+ ARO_develop_hard_industry: "Development of heavy industry"
+ ARO_develop_light_industry: "Development of light industry"
+ ARO_new_ministr: "New Ministers"
+ ARO_administrator: "Governance Reform"
+ ARO_revision_law: "Revision of Laws".
+ ARO_populism_gov: "Political populism"
+ ARO_support_commie: "Worker support."
+ ARO_work_union: "Trade Unions"
+ ARO_manifistations: "Allow demonstrations".
+ ARO_legalise_groups: "Legalize circles"
+ ARO_farmer_money: "Farmers' benefits".
+ ARO_eight_hour_day: "Eight-hour working day".
+ ARO_revolution: "Revolution."
+ ARO_farmer_reform: "Farm Reform".
+ ARO_idealogy_propaganda: "Ideological propaganda".
+ ARO_democratic_reform: "Democratisation"
+ ARO_create_new_const: "New Constitution"
+ ARO_law_state: "Rule of law"
+ ARO_amnistia: "Amnesty".
+ ARO_law_reform: "Legislative reform"
+ ARO_free_news: "Media Liberalisation"
+ ARO_democratic_state: "Democratic State"
+ ARO_GEN_people_equality: "Equality of people"
+ ARO_nationalisation_commie: "Nationalisation"
+ ARO_eliminate_opportunism: "Destroy opportunism"
+ ARO_true_elections: "Approve elections"
+ ARO_pluralism_gov: "State pluralism".
+ ARO_protect_business: "Protect small business"
+ ARO_protect_gov_power: "Strengthen power"
+ ARO_find_alias: "Find like-minded people".
+ ARO_privatization: "Partial privatisation"
+ ARO_company_against_enemies: "Campaign against opponents"
+ ARO_subdue_news: "Subdue the media".
+ ARO_police_reform: "Police reform"
+ ARO_autocracy_gov: "Autocratic state"
+ ARO_national_gov_idea: "National Idea".
+ ARO_national_policy: "National Policy"
+ ARO_patriot_groups: "Allow patriotic brigades"
+ ARO_natioanal_goverment: "Nationalists in government"
+ ARO_army_reform: "Expand the power of the military"
+ ARO_rights_for_local: "Expand rights for the local"
+ ARO_millitary_reshuffle: "Military coup"
+ ARO_cult_leader: "Cult of personality."
+ ARO_fascism_idealogy: "Propaganda of ideology"
+ ARO_national_army: "National army".
+ ARO_nationalisation_fascismm: "Nationalisation"
+ ARO_national_brigade: "Chieftain's units".
+ ARO_create_industry_base: "Engineering base"
+ ARO_indutry_railways: "Industrial Infrastructure"
+ ARO_resources_industry: "Develop extractive industry"
+ ARO_effect_industry: "Labour Productivity"
+ ARO_create_new_bussiness: "New enterprises"
+ ARO_gossektor_in_economy: "Increase public sector".
+ ARO_against_capitalism: "Destroy capitalism"
+ ARO_economy_plan: "Market reform"
+ ARO_economic_plans: "Five-year plans"
+ ARO_call_for_investitions: "Attract investment"
+ ARO_credit_policy: "Monetary reform"
+ ARO_railways_development: "Infrastructure development"
+ ARO_sell_resources: "Resource enterprises".
+ ARO_urbanisation: "Urbanisation"
+ ARO_tax_for_small_bus: "Small Business Incentives"
+ ARO_investiotion_in_light_industry: "Light Industry Investment"
+ ARO_tech_industry: "High-tech enterprises"
+ ARO_country_army_reform: "Military Reform"
+ ARO_shipyard_build: "Shipyard construction"
+ ARO_submarine_research: "Submarine research".
+ ARO_light_fleet_reform: "Light Fleet".
+ ARO_destroyer_research: "Exploring destroyers"
+ ARO_light_cruiser_reseatch: "Light Cruiser Study".
+ ARO_navy_tactic_reform: "Naval Doctrine Reform".
+ ARO_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ ARO_heavy_fleet_reform: "Heavy Fleet Reform".
+ ARO_battleship_reseacrh: "Study of Heavy Cruisers".
+ ARO_oligarchism_gov: "Oligarchism".
+ ARO_formal_election: "Formal Election".
+ ARO_industry_privileges: "Domestic Production".
+ ARO_country_general: "The country of one general."
+ ARO_coronation: "Coronation".
+ ARO_gov_power: "Power of the Oligarchy"
+ ARO_religion_gov: "Religious State".
+ ARO_rights_for_migrants: "Restrict the rights of migrants".
+ ARO_power_special_force: "Power of the intelligence services"
+ ARO_furher_power: "A country of one leader"
+ ARO_president_republic: "Presidential Republic"
+ ARO_subjugate_opposition: "Suppress opposition"
+ ARO_protect_freedoom_speech: "Defence of free speech"
+ ARO_loyalty_servant: "Loyal subordinates".
+ ARO_aircraft_carrier_reform: "Study of aircraft carriers"
+ ARO_navy_country: "Naval Power"
+ ARO_country_industrialisation: "Industrialisation"
+ ARO_offshore_country: "Offshore country"
+ ARO_army_reform1: "Bet on infantry" 
+ ARO_army_reform3: "Bet on Motorisation"
+ ARO_army_reform4: "Infantry Tactics."
+ ARO_army_reform20: "Mechanised Tactics"
+ ARO_army_reform2: "Army Doctrine I"
+ ARO_army_reform14: "Land Doctrine II" 
+ ARO_army_reform16: "Study of Infantry Equipment"
+ ARO_army_reform6: "Study of Motor Transport"
+ ARO_army_reform5: "Study of Tank Equipment"
+ ARO_army_reform18: "Study of Armoured Vehicles"
+ ARO_army_reform8: "Study of Infantry Equipment"
+ ARO_army_reform7: "Study of Artillery"
+ ARO_army_reform23: "Militaristic Power"
+ 
+ BAL_policy_focuses: "Political Reforms"
+ BAL_eco_country_reforms: "Economic reforms"
+ BAL_navy_reform: "Naval reforms"
+ BAL_country_industry_plans: "Industrial Plans"
+ BAL_develop_hard_industry: "Development of heavy industry"
+ BAL_develop_light_industry: "Development of light industry"
+ BAL_new_ministrator: "New Ministers"
+ BAL_administrator: "Governance Reform"
+ BAL_revision_law: "Revision of Laws"
+ BAL_populism_gov: "Political populism"
+ BAL_support_commie: "Support for workers"
+ BAL_work_union: "Trade Unions"
+ BAL_manifistations: "Allow demonstrations"
+ BAL_legalize_groups: "Legalise circles"
+ BAL_farmer_money: "Farmers' benefits".
+ BAL_eight_hour_day: "Eight-hour working day"
+ BAL_revolution: "Revolution."
+ BAL_farmer_reform: "Agricultural Reform"
+ BAL_idealogy_propaganda: "Ideological propaganda."
+ BAL_democratic_reform: "Democratisation"
+ BAL_create_new_const: "New constitution"
+ BAL_law_state: "Rule of law"
+ BAL_amnistia: "Amnesty".
+ BAL_law_reform: "Legislative reform"
+ BAL_free_news: "Media liberalisation"
+ BAL_democratic_state: "Democratic state"
+ BAL_GEN_people_equality: "Equality of people"
+ BAL_nationalisation_commie: "Nationalisation"
+ BAL_eliminate_opportunism: "Eliminate opportunism"
+ BAL_true_elections: "Approve elections"
+ BAL_pluralism_gov: "State pluralism"
+ BAL_protect_business: "Protect small business"
+ BAL_protect_gov_power: "Strengthen power"
+ BAL_find_alias: "Find like-minded people."
+ BAL_privatization: "Partial privatisation"
+ BAL_company_against_enemies: "Campaign against opponents"
+ BAL_subdue_news: "Subdue the media"
+ BAL_police_reform: "Police reform"
+ BAL_autocracy_gov: "Autocratic state"
+ BAL_national_gov_idea: "National Idea".
+ BAL_national_policy: "National policy"
+ BAL_patriot_groups: "Allow patriotic brigades"
+ BAL_natioanal_goverment: "Nationalists in government"
+ BAL_army_reform: "Expand the power of the military"
+ BAL_rights_for_local: "Expand rights for the local"
+ BAL_millitary_reshuffle: "Military coup"
+ BAL_cult_leader: "Cult of personality".
+ BAL_fascism_idealogy: "Propaganda of ideology"
+ BAL_national_army: "National army"
+ BAL_nationalisation_fascismm: "Nationalisation"
+ BAL_national_brigade: "Chieftaincy units".
+ BAL_create_industry_base: "Engineering base"
+ BAL_indutry_railways: "Industrial Infrastructure"
+ BAL_resources_industry: "Develop extractive industry"
+ BAL_effect_industry: "Labour Productivity"
+ BAL_create_new_bussiness: "New enterprises"
+ BAL_gossektor_in_economy: "Increase in public sector".
+ BAL_against_capitalism: "Destroy capitalism"
+ BAL_economy_plan: "Market reform"
+ BAL_economic_plans: "Five-year plans"
+ BAL_call_for_investitions: "Attract investment"
+ BAL_credit_policy: "Monetary reform"
+ BAL_railways_development: "Infrastructure development"
+ BAL_sell_resources: "Resource enterprises"
+ BAL_urbanisation: "Urbanization"
+ BAL_tax_for_small_bus: "Small Business Benefits"
+ BAL_investiotion_in_light_industry: "Investments in light industry".
+ BAL_tech_industry: "High-tech enterprises".
+ BAL_country_army_reform: "Military Reform"
+ BAL_shipyard_build: "Shipyard construction"
+ BAL_submarine_research: "Submarine research"
+ BAL_light_fleet_reform: "Light Fleet".
+ BAL_destroyer_research: "Exploring destroyers"
+ BAL_light_cruiser_reseatch: "Light Cruiser Study"
+ BAL_navy_tactic_reform: "Maritime Doctrine Reform"
+ BAL_navy_tactic_reform_two: "Naval Doctrine Reform II"
+ BAL_heavy_fleet_reform: "Heavy Fleet Reform".
+ BAL_battleship_reseacrh: "Study of heavy cruisers"
+ BAL_oligarchism_gov: "Oligarchism."
+ BAL_formal_election: "Formal election"
+ BAL_industry_privileges: "Domestic manufacturing".
+ BAL_country_general: "The country of one general."
+ BAL_coronation: "Coronation."
+ BAL_gov_power: "The power of the oligarchy."
+ BAL_religion_gov: "Religious state."
+ BAL_rights_for_migrants: "Restrict the rights of migrants"
+ BAL_power_special_force: "The power of the secret services."
+ BAL_furher_power: "A country of one leader."
+ BAL_president_republic: "Presidential Republic"
+ BAL_subjugate_opposition: "Suppress opposition"
+ BAL_protect_freedoom_speech: "Defence of free speech"
+ BAL_loyalty_servant: "Loyal subordinates"
+ BAL_aircraft_carrier_reform: "Study of aircraft carriers"
+ BAL_navy_country: "Naval power"
+ BAL_country_industrialisation: "Industrialisation"
+ BAL_offshore_country: "Offshore country"
+ BAL_army_reform1: "Bet on infantry"
+ BAL_army_reform3: "Bet on Motorisation"
+ BAL_army_reform4: "Infantry tactics."
+ BAL_army_reform20: "Mechanised Tactics"
+ BAL_army_reform2: "Army Doctrine I"
+ BAL_army_reform14: "Land Doctrine II"
+ BAL_army_reform16: "Study of Infantry Equipment"
+ BAL_army_reform6: "Study of Motor Transport"
+ BAL_army_reform5: "Study of Tank Equipment"
+ BAL_army_reform18: "Study of Armoured Motor Vehicles"
+ BAL_army_reform8: "Study of Infantry Equipment"
+ BAL_army_reform7: "Study of Artillery"
+ BAL_army_reform23: "Militaristic Power"
+ 
+ KIR_policy_focuses: "Political reforms"
+ KIR_eco_country_reforms: "Economic reforms"
+ KIR_navy_reform: "Naval reforms"
+ KIR_country_industry_plans: "Industrial plans"
+ KIR_develop_hard_industry: "Development of Heavy Industry"
+ KIR_develop_light_industry: "Development of Light Industry"
+ KIR_new_ministr: "New Ministers"
+ KIR_administrator: "Governance Reform"
+ KIR_revision_law: "Revision of Laws"
+ KIR_populism_gov: "Political populism"
+ KIR_support_commie: "Support for workers"
+ KIR_work_union: "Trade unions"
+ KIR_manifistations: "Allow demonstrations"
+ KIR_legalize_groups: "Legalise circles"
+ KIR_farmer_money: "Farmers' benefits".
+ KIR_eight_hour_day: "Eight-hour working day"
+ KIR_revolution: "Revolution."
+ KIR_farmer_reform: "Agricultural Reform"
+ KIR_idealogy_propaganda: "Ideological propaganda."
+ KIR_democratic_reform: "Democratisation"
+ KIR_create_new_const: "New constitution"
+ KIR_law_state: "Rule of law"
+ KIR_amnistia: "Amnesty"
+ KIR_law_reform: "Legislative reform"
+ KIR_free_news: "Media liberalisation"
+ KIR_democratic_state: "Democratic state"
+ KIR_GEN_people_equality: "Equality of people"
+ KIR_nationalisation_commie: "Nationalisation"
+ KIR_eliminate_opportunism: "Destroy opportunism"
+ KIR_true_elections: "Approve elections"
+ KIR_pluralism_gov: "State pluralism"
+ KIR_protect_business: "Protect small business"
+ KIR_protect_gov_power: "Strengthen power"
+ KIR_find_alias: "Find like-minded people."
+ KIR_privatization: "Partial privatisation"
+ KIR_company_against_enemies: "Campaign against opponents"
+ KIR_subdue_news: "Subdue the media"
+ KIR_police_reform: "Police reform"
+ KIR_autocracy_gov: "Autocratic state"
+ KIR_national_gov_idea: "National Idea".
+ KIR_national_policy: "National policy"
+ KIR_patriot_groups: "Allow patriotic brigades"
+ KIR_natioanal_goverment: "Nationalists in government"
+ KIR_army_reform: "Expand the power of the military"
+ KIR_rights_for_local: "Expand rights for the local"
+ KIR_millitary_reshuffle: "Military coup"
+ KIR_cult_leader: "Cult of personality."
+ KIR_fascism_idealogy: "Propaganda of ideology"
+ KIR_national_army: "National army"
+ KIR_nationalisation_fascismm: "Nationalisation"
+ KIR_national_brigade: "Chieftaincy units".
+ KIR_create_industry_base: "Engineering base"
+ KIR_indutry_railways: "Industrial Infrastructure"
+ KIR_resources_industry: "Development of extractive industries"
+ KIR_effect_industry: "Labour productivity"
+ KIR_create_new_bussiness: "New enterprises"
+ KIR_gossektor_in_economy: "Increase in public sector"
+ KIR_against_capitalism: "Destroy capitalism"
+ KIR_economy_plan: "Market reform"
+ KIR_economic_plans: "Five-year plans"
+ KIR_call_for_investitions: "Attract investment"
+ KIR_credit_policy: "Monetary reform"
+ KIR_railways_development: "Infrastructure development"
+ KIR_sell_resources: "Resource enterprises"
+ KIR_urbanisation: "Urbanization"
+ KIR_tax_for_small_bus: "Benefits for small businesses"
+ KIR_investiotion_in_light_industry: "Investments in light industry"
+ KIR_tech_industry: "High-tech enterprises"
+ KIR_country_army_reform: "Military reform"
+ KIR_shipyard_build: "Shipyard construction"
+ KIR_submarine_research: "Submarine research"
+ KIR_light_fleet_reform: "Light Fleet".
+ KIR_destroyer_research: "Exploring destroyers"
+ KIR_light_cruiser_reseatch: "Light Cruiser Study"
+ KIR_navy_tactic_reform: "Naval Doctrine Reform".
+ KIR_navy_tactic_reform_two: "Naval Doctrine Reform II"
+ KIR_heavy_fleet_reform: "Heavy Fleet Reform".
+ KIR_battleship_reseacrh: "Study of heavy cruisers"
+ KIR_oligarchism_gov: "Oligarchism".
+ KIR_formal_election: "Formal election"
+ KIR_industry_privileges: "Domestic manufacturing"
+ KIR_country_general: "The country of one general."
+ KIR_coronation: "Coronation."
+ KIR_gov_power: "The power of the oligarchy."
+ KIR_religion_gov: "Religious State".
+ KIR_rights_for_migrants: "Restrict the rights of migrants"
+ KIR_power_special_force: "Power of special services"
+ KIR_furher_power: "A country of one leader"
+ KIR_president_republic: "Presidential Republic"
+ KIR_subjugate_opposition: "Suppress opposition"
+ KIR_protect_freedoom_speech: "Defence of free speech"
+ KIR_loyalty_servant: "Loyal subordinates"
+ KIR_aircraft_carrier_reform: "Study of aircraft carriers"
+ KIR_navy_country: "Naval power."
+ KIR_country_industrialisation: "Industrialisation"
+ KIR_offshore_country: "Offshore country"
+ KIR_army_reform1: "Bet on infantry" 
+ KIR_army_reform3: "Bet on Motorisation"
+ KIR_army_reform4: "Infantry Tactics."
+ KIR_army_reform20: "Mechanised Tactics" 
+ KIR_army_reform2: "Army Doctrine I"
+ KIR_army_reform14: "Land Doctrine II"
+ KIR_army_reform16: "Study of Infantry Equipment"
+ KIR_army_reform6: "Study of Motor Transport"
+ KIR_army_reform5: "Study of Tank Equipment"
+ KIR_army_reform18: "Study of armoured motor vehicles" 
+ KIR_army_reform8: "Study of Infantry Equipment" 
+ KIR_army_reform7: "Study of Artillery" 
+ KIR_army_reform23: "Militaristic Power"
+ 
+ SHL_policy_focuses: "Political Reforms".
+ SHL_eco_country_reforms: "Economic Reforms"
+ SHL_navy_reform: "Naval reforms".
+ SHL_country_country_industry_plans: "Industrial Plans"
+ SHL_develop_hard_industry: "Development of heavy industry".
+ SHL_develop_light_industry: "Development of light industry".
+ SHL_new_ministrator: "New Ministers".
+ SHL_administrator: "Governance Reform".
+ SHL_revision_law: "Revision of laws".
+ SHL_populism_gov: "Political populism"
+ SHL_support_commie: "Worker support."
+ SHL_work_union: "Trade unions".
+ SHL_manifistations: "Allow demonstrations".
+ SHL_legalize_groups: "Legalise circles".
+ SHL_farmer_money: "Farmers' benefits".
+ SHL_eight_hour_day: "Eight-hour working day".
+ SHL_revolution: "Revolution".
+ SHL_farmer_reform: "Agricultural Reform"
+ SHL_idealogy_propaganda: "Ideological propaganda".
+ SHL_democratic_reform: "Democratisation"
+ SHL_create_new_const: "New constitution".
+ SHL_law_state: "Rule of law".
+ SHL_amnistia: "Amnesty".
+ SHL_law_reform: "Legislative reform" 
+ SHL_free_news: "Media liberalisation"
+ SHL_democratic_state: "Democratic state".
+ SHL_GEN_people_equality: "Equality of people".
+ SHL_nationalisation_commie: "Nationalisation"
+ SHL_eliminate_opportunism: "Eliminate opportunism".
+ SHL_true_elections: "Approve elections".
+ SHL_pluralism_gov: "State pluralism".
+ SHL_protect_business: "Protect small business"
+ SHL_protect_gov_power: "Strengthen power"
+ SHL_find_alias: "Find like-minded people".
+ SHL_privatization: "Partial privatisation"
+ SHL_company_against_enemies: "Campaign against opponents"
+ SHL_subdue_news: "Subdue the media"
+ SHL_police_reform: "Police reform"
+ SHL_autocracy_gov: "Autocratic state"
+ SHL_national_gov_idea: "National Idea".
+ SHL_national_policy: "National Policy"
+ SHL_patriot_groups: "Allow patriot brigades"
+ SHL_natioanal_goverment: "Nationalists in government".
+ SHL_army_reform: "Expand the power of the military"
+ SHL_rights_for_local: "Expand rights for the local"
+ SHL_millitary_reshuffle: "Military coup".
+ SHL_cult_leader: "Cult of personality."
+ SHL_fascism_idealogy: "Propaganda of ideology".
+ SHL_national_army: "National army".
+ SHL_nationalisation_fascismm: "Nationalisation".
+ SHL_national_brigade: "Chieftaincy units".
+ SHL_create_industry_base: "Engineering base".
+ SHL_indutry_railways: "Industrial Infrastructure"
+ SHL_resources_industry: "Develop extractive industries"
+ SHL_effect_industry: "Labour Productivity"
+ SHL_create_new_bussiness: "New Businesses"
+ SHL_gossektor_in_economy: "Increase the public sector"
+ SHL_against_capitalism: "Destroy capitalism".
+ SHL_economy_plan: "Market reform".
+ SHL_economic_plans: "Five-year plans".
+ SHL_call_for_investitions: "Attract investment"
+ SHL_credit_policy: "Monetary reform".
+ SHL_railways_development: "Infrastructure development"
+ SHL_sell_resources: "Resource enterprises".
+ SHL_urbanisation: "Urbanization".
+ SHL_tax_for_small_bus: "Small business incentives" 
+ SHL_investiotion_in_light_industry: "Light Industry Investment"
+ SHL_tech_industry: "High-tech businesses".
+ SHL_country_army_reform: "Military reform"
+ SHL_shipyard_build: "Shipyard construction".
+ SHL_submarine_research: "Submarine research".
+ SHL_light_fleet_reform: "Light Fleet".
+ SHL_destroyer_research: "Exploring destroyers"
+ SHL_light_cruiser_reseatch: "Light cruiser research".
+ SHL_navy_tactic_reform: "Naval Doctrine Reform".
+ SHL_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ SHL_heavy_fleet_reform: "Heavy Fleet Reform".
+ SHL_battleship_reseacrh: "Study of Heavy Cruisers".
+ SHL_oligarchism_gov: "Oligarchism".
+ SHL_formal_election: "Formal Election".
+ SHL_industry_privileges: "Domestic manufacturing".
+ SHL_country_general: "Country of One General"
+ SHL_coronation: "Coronation".
+ SHL_gov_power: "Power of the Oligarchy".
+ SHL_religion_gov: "Religious State".
+ SHL_rights_for_migrants: "Restrict the rights of migrants"
+ SHL_power_special_force: "Power of the secret services".
+ SHL_furher_power: "One leader country"
+ SHL_president_republic: "Presidential Republic".
+ SHL_subjugate_opposition: "Suppress opposition".
+ SHL_protect_freedoom_speech: "Defence of free speech"
+ SHL_loyalty_servant: "Loyal subordinates".
+ SHL_aircraft_carrier_reform: "Study of aircraft carriers"
+ SHL_navy_country: "Naval power".
+ SHL_country_industrialisation: "Industrialisation"
+ SHL_offshore_country: "Offshore country".
+ SHL_army_reform1: "Infantry Betting" SHL_army_reform1: "Infantry Betting"
+ SHL_army_reform3: "Bet on Motorisation" SHL_army_reform3: "Bet on Motorisation"
+ SHL_army_reform4: "Infantry Tactics".
+ SHL_army_reform20: "Mechanised Tactics".
+ SHL_army_reform2: "Army Doctrine I"
+ SHL_army_reform14: "Land Doctrine II".
+ SHL_army_reform16: "Study of Infantry Equipment".
+ SHL_army_reform6: "Study of Motorised Transport" 
+ SHL_army_reform5: "Study of Tank Equipment" 
+ SHL_army_reform18: "Study of Armoured Vehicles" 
+ SHL_army_reform8: "Study of Infantry Equipment" 
+ SHL_army_reform7: "Study of Artillery".
+ SHL_army_reform23: "Militaristic Power".
+ 
+ VKB_policy_focuses: "Political Reforms".
+ VKB_eco_country_reforms: "Economic Reforms".
+ VKB_navy_reform: "Naval reforms"
+ VKB_country_industry_plans: "Industrial plans".
+ VKB_develop_hard_industry: "Development of Heavy Industry"
+ VKB_develop_light_industry: "Development of light industry".
+ VKB_new_ministr: "New Ministers".
+ VKB_administrator: "Governance Reform"
+ VKB_revision_law: "Revision of Laws"
+ VKB_populism_gov: "Political populism"
+ VKB_support_commie: "Support for workers".
+ VKB_work_union: "Trade Unions".
+ VKB_manifistations: "Allow demonstrations".
+ VKB_legalize_groups: "Legalise circles".
+ VKB_farmer_money: "Farmers' benefits".
+ VKB_eight_hour_day: "Eight-hour working day".
+ VKB_revolution: "Revolution."
+ VKB_farmer_reform: "Agricultural Reform."
+ VKB_idealogy_propaganda: "Ideological propaganda."
+ VKB_democratic_reform: "Democratisation"
+ VKB_create_new_const: "New constitution".
+ VKB_law_state: "Rule of law".
+ VKB_amnistia: "Amnesty".
+ VKB_law_reform: "Legislative Reform"
+ VKB_free_news: "Media Liberalisation"
+ VKB_democratic_state: "Democratic State"
+ VKB_GEN_people_equality: "Equality of people"
+ VKB_nationalisation_commie: "Nationalisation"
+ VKB_eliminate_opportunism: "Destroy opportunism".
+ VKB_true_elections: "Approve elections".
+ VKB_pluralism_gov: "State pluralism".
+ VKB_protect_business: "Protect small business".
+ VKB_protect_gov_power: "Strengthen power."
+ VKB_find_alias: "Find like-minded people".
+ VKB_privatization: "Partial privatisation"
+ VKB_company_against_enemies: "Campaign against opponents".
+ VKB_subdue_news: "Subdue the media".
+ VKB_police_reform: "Police reform"
+ VKB_autocracy_gov: "Autocratic state"
+ VKB_national_gov_idea: "National Idea".
+ VKB_national_policy: "National Policy"
+ VKB_patriot_groups: "Allow patriotic brigades"
+ VKB_natioanal_goverment: "Nationalists in government".
+ VKB_army_reform: "Expand the power of the military"
+ VKB_rights_for_local: "Expand rights for the local."
+ VKB_millitary_reshuffle: "Military coup."
+ VKB_cult_leader: "Cult of personality".
+ VKB_fascism_idealogy: "Propaganda of ideology"
+ VKB_national_army: "National Army".
+ VKB_nationalisation_fascismm: "Nationalisation".
+ VKB_national_brigade: "Chieftain's units".
+ VKB_create_industry_base: "Engineering base"
+ VKB_indutry_railways: "Industrial infrastructure"
+ VKB_resources_industry: "Development of extractive industry"
+ VKB_effect_industry: "Labour Productivity"
+ VKB_create_new_bussiness: "New enterprises".
+ VKB_gossektor_in_economy: "Increase of public sector".
+ VKB_against_capitalism: "Destroy capitalism".
+ VKB_economy_plan: "Market reform".
+ VKB_economic_plans: "Five-year plans".
+ VKB_call_for_investitions: "Attract investment".
+ VKB_credit_policy: "Monetary Reform"
+ VKB_railways_development: "Infrastructure development"
+ VKB_sell_resources: "Resource enterprises".
+ VKB_urbanisation: "Urbanization"
+ VKB_tax_for_small_bus: "Small business incentives".
+ VKB_investiotion_in_light_industry: "Investments in light industry".
+ VKB_tech_industry: "High-tech enterprises".
+ VKB_country_army_reform: "Military Reform".
+ VKB_shipyard_build: "Shipyard construction"
+ VKB_submarine_research: "Submarine Research"
+ VKB_light_fleet_reform: "Light Fleet".
+ VKB_destroyer_research: "Exploring destroyers"
+ VKB_light_cruiser_reseatch: "Light cruiser research".
+ VKB_navy_tactic_reform: "Naval Doctrine Reform".
+ VKB_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ VKB_heavy_fleet_reform: "Heavy Fleet Reform".
+ VKB_battleship_reseacrh: "Study of Heavy Cruisers".
+ VKB_oligarchism_gov: "Oligarchism".
+ VKB_formal_election: "Formal election".
+ VKB_industry_privileges: "Domestic production".
+ VKB_country_general: "The country of one general".
+ VKB_coronation: "Coronation".
+ VKB_gov_power: "Power of the Oligarchy".
+ VKB_religion_gov: "Religious State."
+ VKB_rights_for_migrants: "Restrict the rights of migrants."
+ VKB_power_special_force: "Power of special services"
+ VKB_furher_power: "A country of one leader."
+ VKB_president_republic: "Presidential Republic."
+ VKB_subjugate_opposition: "Suppress opposition".
+ VKB_protect_freedoom_speech: "Defence of free speech"
+ VKB_loyalty_servant: "Loyal subordinates".
+ VKB_aircraft_carrier_reform: "Study of aircraft carriers"
+ VKB_navy_country: "Naval Power."
+ VKB_country_industrialisation: "Industrialisation"
+ VKB_offshore_country: "Offshore country"
+ VKB_army_reform1: "Infantry Betting".
+ VKB_army_reform3: "Bet on motorisation" VKB_army_reform3: "Bet on motorisation"
+ VKB_army_reform4: "Infantry Tactics."
+ VKB_army_reform20: "Mechanised Tactics".
+ VKB_army_reform2: "Land Doctrine I"
+ VKB_army_reform14: "Land Doctrine II".
+ VKB_army_reform16: "Study of Infantry Equipment".
+ VKB_army_reform6: "Study of Motor Transport" 
+ VKB_army_reform5: "Study of Tank Equipment"
+ VKB_army_reform18: "Study of armoured vehicles" 
+ VKB_army_reform8: "Study of Infantry Equipment" 
+ VKB_army_reform7: "Study of Artillery"
+ VKB_army_reform23: "Militaristic Power".
+ 
+ GAR_policy_focuses: "Political Reforms"
+ GAR_eco_country_reforms: "Economic Reforms"
+ GAR_navy_reform: "Naval reforms"
+ GAR_country_industry_plans: "Industrial Plans"
+ GAR_develop_hard_industry: "Development of heavy industry"
+ GAR_develop_light_industry: "Development of light industry"
+ GAR_new_ministr: "New Ministers".
+ GAR_administrator: "Governance Reform"
+ GAR_revision_law: "Revision of Laws".
+ GAR_populism_gov: "Political populism"
+ GAR_support_commie: "Worker support."
+ GAR_work_union: "Trade Unions"
+ GAR_manifistations: "Allow demonstrations"
+ GAR_legalize_groups: "Legalise circles"
+ GAR_farmer_money: "Farmers' benefits".
+ GAR_eight_hour_day: "Eight-hour working day"
+ GAR_revolution: "Revolution."
+ GAR_farmer_reform: "Agricultural Reform"
+ GAR_idealogy_propaganda: "Ideological propaganda".
+ GAR_democratic_reform: "Democratisation"
+ GAR_create_new_const: "New Constitution"
+ GAR_law_state: "Rule of law"
+ GAR_amnistia: "Amnesty".
+ GAR_law_reform: "Legislative reform"
+ GAR_free_news: "Media Liberalisation"
+ GAR_democratic_state: "Democratic State"
+ GAR_GEN_people_equality: "Equality of people"
+ GAR_nationalisation_commie: "Nationalisation"
+ GAR_eliminate_opportunism: "Destroy opportunism"
+ GAR_true_elections: "Approve elections"
+ GAR_pluralism_gov: "State pluralism".
+ GAR_protect_business: "Protect small business"
+ GAR_protect_gov_power: "Strengthen power"
+ GAR_find_alias: "Find like-minded people."
+ GAR_privatisation: "Partial privatization"
+ GAR_company_against_enemies: "Campaign against opponents"
+ GAR_subdue_news: "Subdue the media"
+ GAR_police_reform: "Police reform"
+ GAR_autocracy_gov: "autocratic state"
+ GAR_national_gov_idea: "National Idea".
+ GAR_national_policy: "National Policy"
+ GAR_patriot_groups: "Allow patriot brigades"
+ GAR_natioanal_goverment: "Nationalists in government"
+ GAR_army_reform: "Expand the power of the military"
+ GAR_rights_for_local: "Expand rights for the local"
+ GAR_millitary_reshuffle: "Military coup"
+ GAR_cult_leader: "Cult of personality."
+ GAR_fascism_idealogy: "Propaganda ideology"
+ GAR_national_army: "National Army"
+ GAR_nationalisation_fascismm: "Nationalisation"
+ GAR_national_brigade: "Chieftain's units".
+ GAR_create_industry_base: "Engineering base"
+ GAR_indutry_railways: "Industrial Infrastructure"
+ GAR_resources_industry: "Develop extractive industry"
+ GAR_effect_industry: "Labour productivity"
+ GAR_create_new_bussiness: "New enterprises"
+ GAR_gossektor_in_economy: "Increase in public sector".
+ GAR_against_capitalism: "Destroy capitalism"
+ GAR_economy_plan: "Market reform"
+ GAR_economic_plans: "Five-year plans".
+ GAR_call_for_investitions: "Attract investment"
+ GAR_credit_policy: "Monetary reform"
+ GAR_railways_development: "Infrastructure development"
+ GAR_sell_resources: "Resource enterprises"
+ GAR_urbanisation: "Urbanization"
+ GAR_tax_for_small_bus: "Small Business Incentives".
+ GAR_investiotion_in_light_industry: "Light Industry Investment".
+ GAR_tech_industry: "High-tech enterprises".
+ GAR_country_army_reform: "Military reform"
+ GAR_shipyard_build: "Shipyard construction"
+ GAR_submarine_research: "Submarine research"
+ GAR_light_fleet_reform: "Light Fleet".
+ GAR_destroyer_research: "Exploring destroyers"
+ GAR_light_cruiser_reseatch: "Light Cruiser Study".
+ GAR_navy_tactic_reform: "Naval Doctrine Reform".
+ GAR_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ GAR_heavy_fleet_reform: "Heavy Fleet Reform".
+ GAR_battleship_reseacrh: "Study of Heavy Cruisers"
+ GAR_oligarchism_gov: "Oligarchism".
+ GAR_formal_election: "Formal Election"
+ GAR_industry_privileges: "Domestic Production"
+ GAR_country_general: "The country of one general."
+ GAR_coronation: "Coronation".
+ GAR_gov_power: "Power of the Oligarchy"
+ GAR_religion_gov: "Religious state."
+ GAR_rights_for_migrants: "Restrict the rights of migrants"
+ GAR_power_special_force: "The power of the secret services."
+ GAR_furher_power: "A country of one leader"
+ GAR_president_republic: "Presidential Republic"
+ GAR_subjugate_opposition: "Suppress opposition"
+ GAR_protect_freedoom_speech: "Defence of free speech"
+ GAR_loyalty_servant: "Loyal subordinates"
+ GAR_aircraft_carrier_reform: "Study of aircraft carriers"
+ GAR_navy_country: "Naval Power"
+ GAR_country_industrialisation: "Industrialisation"
+ GAR_offshore_country: "Offshore country"
+ GAR_army_reform1: "Infantry Betting"
+ GAR_army_reform3: "Bet on Motorisation"
+ GAR_army_reform4: "Infantry Tactics"
+ GAR_army_reform20: "Mechanised Tactics"
+ GAR_army_reform2: "Army Doctrine I"
+ GAR_army_reform14: "Land Doctrine II"
+ GAR_army_reform16: "Study of Infantry Equipment"
+ GAR_army_reform6: "Study of Motor Transport"
+ GAR_army_reform5: "Study of Tank Equipment"
+ GAR_army_reform18: "Study of Armoured Motor Vehicles" 
+ GAR_army_reform8: "Study of Infantry Equipment"
+ GAR_army_reform7: "Study of Artillery"
+ GAR_army_reform23: "Militaristic Power"
+ 
+ JJK_policy_focuses: "Political Reforms"
+ JJK_eco_country_reforms: "Economic Reforms"
+ JJK_navy_reform: "Naval reforms"
+ JJK_country_industry_plans: "Industrial plans"
+ JJK_develop_hard_industry: "Development of heavy industry"
+ JJK_develop_light_industry: "Development of light industry"
+ JJK_new_ministr: "New Ministers".
+ JJK_administrator: "Governance Reform"
+ JJK_revision_law: "Revision of laws."
+ JJK_populism_gov: "Political populism"
+ JJK_support_commie: "Worker support."
+ JJK_work_union: "Trade unions."
+ JJK_manifistations: "Allow demonstrations".
+ JJK_legalize_groups: "Legalise circles".
+ JJK_farmer_money: "Farmers' benefits".
+ JJK_eight_hour_day: "Eight-hour working day".
+ JJK_revolution: "Revolution."
+ JJK_farmer_reform: "Agricultural reform."
+ JJK_idealogy_propaganda: "Ideological propaganda."
+ JJK_democratic_reform: "Democratisation"
+ JJK_create_new_const: "New constitution"
+ JJK_law_state: "Rule of law".
+ JJK_amnistia: "Amnesty".
+ JJK_law_reform: "Legislative reform"
+ JJK_free_news: "Media liberalisation"
+ JJK_democratic_state: "Democratic state"
+ JJK_GEN_people_equality: "Equality of people"
+ JJK_nationalisation_commie: "Nationalisation"
+ JJK_eliminate_opportunism: "Eliminate opportunism"
+ JJK_true_elections: "Approve elections"
+ JJK_pluralism_gov: "State pluralism"
+ JJK_protect_business: "Protect small business"
+ JJK_protect_gov_power: "Strengthen power"
+ JJK_find_alias: "Find like-minded people."
+ JJK_privatization: "Partial privatisation"
+ JJK_company_against_enemies: "Campaign against opponents"
+ JJK_subdue_news: "Subdue the media."
+ JJK_police_reform: "Police reform"
+ JJK_autocracy_gov: "Autocratic state"
+ JJK_national_gov_idea: "National Idea".
+ JJK_national_policy: "National policy"
+ JJK_patriot_groups: "Allow patriot brigades"
+ JJK_natioanal_goverment: "Nationalists in government"
+ JJK_army_reform: "Expand the power of the military"
+ JJK_rights_for_local: "Expand rights for the local."
+ JJK_millitary_reshuffle: "Military coup"
+ JJK_cult_leader: "Cult of personality."
+ JJK_fascism_idealogy: "Propaganda of ideology"
+ JJK_national_army: "National army".
+ JJK_nationalisation_fascismm: "Nationalisation"
+ JJK_national_brigade: "Chieftaincy units".
+ JJK_create_industry_base: "Engineering base"
+ JJK_indutry_railways: "Industrial infrastructure"
+ JJK_resources_industry: "Develop extractive industry"
+ JJK_effect_industry: "Labour productivity"
+ JJK_create_new_bussiness: "New enterprises"
+ JJK_gossektor_in_economy: "Increase in public sector"
+ JJK_against_capitalism: "Destroy capitalism"
+ JJK_economy_plan: "Market reform".
+ JJK_economic_plans: "Five-year plans"
+ JJK_call_for_investitions: "Attract investment"
+ JJK_credit_policy: "Monetary reform"
+ JJK_railways_development: "Infrastructure development"
+ JJK_sell_resources: "Resource enterprises"
+ JJK_urbanisation: "Urbanization"
+ JJK_tax_for_small_bus: "Small business incentives"
+ JJK_investiotion_in_light_industry: "Light Industry Investment"
+ JJK_tech_industry: "High-tech enterprises"
+ JJK_country_army_reform: "Military reform"
+ JJK_shipyard_build: "Shipyard construction".
+ JJK_submarine_research: "Submarine research"
+ JJK_light_fleet_reform: "Light Fleet".
+ JJK_destroyer_research: "Exploring destroyers"
+ JJK_light_cruiser_reseatch: "Light Cruiser Study".
+ JJK_navy_tactic_reform: "Naval Doctrine Reform".
+ JJK_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ JJK_heavy_fleet_reform: "Heavy Fleet Reform".
+ JJK_battleship_reseacrh: "Heavy Cruiser Study"
+ JJK_oligarchism_gov: "Oligarchism."
+ JJK_formal_election: "Formal election".
+ JJK_industry_privileges: "Domestic manufacturing".
+ JJK_country_general: "One General's Country."
+ JJK_coronation: "Coronation."
+ JJK_gov_power: "The power of the oligarchy."
+ JJK_religion_gov: "Religious State."
+ JJK_rights_for_migrants: "Restrict the rights of migrants"
+ JJK_power_special_force: "The power of the intelligence services."
+ JJK_furher_power: "One leader's country."
+ JJK_president_republic: "Presidential Republic"
+ JJK_subjugate_opposition: "Suppress opposition".
+ JJK_protect_freedoom_speech: "Defence of free speech"
+ JJK_loyalty_servant: "Loyal subordinates".
+ JJK_aircraft_carrier_reform: "Study of aircraft carriers"
+ JJK_navy_country: "Naval power".
+ JJK_country_industrialisation: "Industrialisation"
+ JJK_offshore_country: "Offshore country"
+ JJK_army_reform1: "Betting on infantry."
+ JJK_army_reform3: "Bet on motorisation" 
+ JJK_army_reform4: "Infantry tactics."
+ JJK_army_reform20: "Mechanised tactics".
+ JJK_army_reform2: "Army Doctrine I"
+ JJK_army_reform14: "Land Doctrine II".
+ JJK_army_reform16: "Study of Infantry Equipment"
+ JJK_army_reform6: "Study of Motor Transport."
+ JJK_army_reform5: "Study of Tank Equipment"
+ JJK_army_reform18: "Study of Armoured Vehicles"  
+ JJK_army_reform8: "Study of Infantry Equipment"
+ JJK_army_reform7: "Study of Artillery"
+ JJK_army_reform23: "Militaristic Power".
+ 
+ JJK_policy_focuses: "Political Reforms"
+ JJK_eco_country_reforms: "Economic reforms"
+ JJK_navy_reform: "Naval reforms"
+ JJK_country_industry_plans: "Industrial plans"
+ JJK_develop_hard_industry: "Development of heavy industry"
+ JJK_develop_light_industry: "Development of light industry"
+ JJK_new_ministr: "New Ministers".
+ JJK_administrator: "Governance Reform"
+ JJK_revision_law: "Revision of laws."
+ JJK_populism_gov: "Political populism"
+ JJK_support_commie: "Worker support."
+ JJK_work_union: "Trade unions."
+ JJK_manifistations: "Allow demonstrations".
+ JJK_legalize_groups: "Legalise circles".
+ JJK_farmer_money: "Farmers' benefits".
+ JJK_eight_hour_day: "Eight-hour working day".
+ JJK_revolution: "Revolution."
+ JJK_farmer_reform: "Agricultural reform."
+ JJK_idealogy_propaganda: "Ideological propaganda."
+ JJK_democratic_reform: "Democratisation"
+ JJK_create_new_const: "New constitution"
+ JJK_law_state: "Rule of law".
+ JJK_amnistia: "Amnesty".
+ JJK_law_reform: "Legislative reform"
+ JJK_free_news: "Media liberalisation"
+ JJK_democratic_state: "Democratic state"
+ JJK_GEN_people_equality: "Equality of people"
+ JJK_nationalisation_commie: "Nationalisation"
+ JJK_eliminate_opportunism: "Destroy opportunism"
+ JJK_true_elections: "Approve elections"
+ JJK_pluralism_gov: "State pluralism"
+ JJK_protect_business: "Protect small business."
+ JJK_protect_gov_power: "Strengthen power"
+ JJK_find_alias: "Find like-minded people."
+ JJK_privatization: "Partial privatisation"
+ JJK_company_against_enemies: "Campaign against opponents"
+ JJK_subdue_news: "Subdue the media."
+ JJK_police_reform: "Police reform"
+ JJK_autocracy_gov: "Autocratic state"
+ JJK_national_gov_idea: "National Idea".
+ JJK_national_policy: "National policy"
+ JJK_patriot_groups: "Allow patriot brigades"
+ JJK_natioanal_goverment: "Nationalists in government"
+ JJK_army_reform: "Expand the power of the military"
+ JJK_rights_for_local: "Expand rights for the local."
+ JJK_millitary_reshuffle: "Military coup"
+ JJK_cult_leader: "Cult of personality."
+ JJK_fascism_idealogy: "Propaganda of ideology"
+ JJK_national_army: "National army".
+ JJK_nationalisation_fascismm: "Nationalisation"
+ JJK_national_brigade: "Chieftaincy units".
+ JJK_create_industry_base: "Engineering base"
+ JJK_indutry_railways: "Industrial infrastructure"
+ JJK_resources_industry: "Develop extractive industry"
+ JJK_effect_industry: "Labour productivity"
+ JJK_create_new_bussiness: "New enterprises"
+ JJK_gossektor_in_economy: "Increase in public sector"
+ JJK_against_capitalism: "Destroy capitalism"
+ JJK_economy_plan: "Market reform".
+ JJK_economic_plans: "Five-year plans"
+ JJK_call_for_investitions: "Attract investment"
+ JJK_credit_policy: "Monetary reform"
+ JJK_railways_development: "Infrastructure development"
+ JJK_sell_resources: "Resource enterprises"
+ JJK_urbanisation: "Urbanization"
+ JJK_tax_for_small_bus: "Small business incentives"
+ JJK_investiotion_in_light_industry: "Light Industry Investment"
+ JJK_tech_industry: "High-tech enterprises"
+ JJK_country_army_reform: "Military reform"
+ JJK_shipyard_build: "Shipyard construction".
+ JJK_submarine_research: "Submarine research"
+ JJK_light_fleet_reform: "Light Fleet".
+ JJK_destroyer_research: "Exploring destroyers"
+ JJK_light_cruiser_reseatch: "Light Cruiser Study".
+ JJK_navy_tactic_reform: "Naval Doctrine Reform".
+ JJK_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ JJK_heavy_fleet_reform: "Heavy Fleet Reform".
+ JJK_battleship_reseacrh: "Heavy Cruiser Study"
+ JJK_oligarchism_gov: "Oligarchism."
+ JJK_formal_election: "Formal election".
+ JJK_industry_privileges: "Domestic manufacturing".
+ JJK_country_general: "One General's Country."
+ JJK_coronation: "Coronation."
+ JJK_gov_power: "The power of the oligarchy."
+ JJK_religion_gov: "Religious State."
+ JJK_rights_for_migrants: "Restrict the rights of migrants"
+ JJK_power_special_force: "The power of the intelligence services."
+ JJK_furher_power: "One leader's country."
+ JJK_president_republic: "Presidential Republic"
+ JJK_subjugate_opposition: "Suppress opposition".
+ JJK_protect_freedoom_speech: "Defence of free speech"
+ JJK_loyalty_servant: "Loyal subordinates".
+ JJK_aircraft_carrier_reform: "Study of aircraft carriers"
+ JJK_navy_country: "Naval power".
+ JJK_country_industrialisation: "Industrialisation"
+ JJK_offshore_country: "Offshore country"
+ JJK_army_reform1: "Betting on infantry."
+ JJK_army_reform3: "Bet on motorisation"
+ JJK_army_reform4: "Infantry tactics."
+ JJK_army_reform20: "Mechanised tactics".
+ JJK_army_reform2: "Army Doctrine I"
+ JJK_army_reform14: "Land Doctrine II".
+ JJK_army_reform16: "Study of Infantry Equipment"
+ JJK_army_reform6: "Study of Motor Transport."
+ JJK_army_reform5: "Study of Tank Equipment"
+ JJK_army_reform18: "Study of Armoured Vehicles"
+ JJK_army_reform8: "Study of Infantry Equipment" 
+ JJK_army_reform7: "Study of Artillery"
+ JJK_army_reform23: "Militaristic Power"
+ 
+ OPO_policy_focuses: "Political Reforms"
+ OPO_eco_country_reforms: "Economic Reforms"
+ OPO_navy_reform: "Naval reforms"
+ OPO_country_industry_plans: "Industrial Plans"
+ OPO_develop_hard_industry: "Development of heavy industry"
+ OPO_develop_light_industry: "Development of Light Industry"
+ OPO_new_ministr: "New Ministers".
+ OPO_administrator: "Governance Reform"
+ OPO_revision_law: "Revision of Laws".
+ OPO_populism_gov: "Political populism"
+ OPO_support_commie: "Support for workers"
+ OPO_work_union: "Trade Unions"
+ OPO_manifistations: "Allow demonstrations"
+ OPO_legalize_groups: "Legalise circles".
+ OPO_farmer_money: "Farmers' benefits".
+ OPO_eight_hour_day: "Eight-hour working day".
+ OPO_revolution: "Revolution."
+ OPO_farmer_reform: "Agricultural Reform."
+ OPO_idealogy_propaganda: "Ideological propaganda."
+ OPO_democratic_reform: "Democratisation"
+ OPO_create_new_const: "New constitution".
+ OPO_law_state: "Rule of law".
+ OPO_amnistia: "Amnesty".
+ OPO_law_reform: "Legislative reform"
+ OPO_free_news: "Media Liberalisation"
+ OPO_democratic_state: "Democratic State"
+ OPO_GEN_people_equality: "Equality of people".
+ OPO_nationalisation_commie: "Nationalisation"
+ OPO_eliminate_opportunism: "Destroy opportunism"
+ OPO_true_elections: "Approve elections".
+ OPO_pluralism_gov: "State pluralism".
+ OPO_protect_business: "Protect small business".
+ OPO_protect_gov_power: "Strengthen power"
+ OPO_find_alias: "Find like-minded people."
+ OPO_privatization: "Partial privatisation"
+ OPO_company_against_enemies: "Campaign against opponents"
+ OPO_subdue_news: "Subdue the media".
+ OPO_police_reform: "Police reform"
+ OPO_autocracy_gov: "Autocratic state"
+ OPO_national_gov_idea: "National Idea".
+ OPO_national_policy: "National Policy"
+ OPO_patriot_groups: "Allow patriotic brigades"
+ OPO_natioanal_goverment: "Nationalists in government"
+ OPO_army_reform: "Expand the power of the military"
+ OPO_rights_for_local: "Expand rights for the local"
+ OPO_millitary_reshuffle: "Military coup"
+ OPO_cult_leader: "Cult of personality."
+ OPO_fascism_idealogy: "Propaganda of ideology."
+ OPO_national_army: "National army."
+ OPO_nationalisation_fascismm: "Nationalisation".
+ OPO_national_brigade: "Chief's units".
+ OPO_create_industry_base: "Engineering base"
+ OPO_indutry_railways: "Industrial Infrastructure"
+ OPO_resources_industry: "Develop extractive industry"
+ OPO_effect_industry: "Labour Productivity"
+ OPO_create_new_bussiness: "New enterprises"
+ OPO_gossektor_in_economy: "Increase public sector".
+ OPO_against_capitalism: "Destroy capitalism"
+ OPO_economy_plan: "Market Reform"
+ OPO_economic_plans: "Five-year plans".
+ OPO_call_for_investitions: "Attract investment"
+ OPO_credit_policy: "Monetary reform"
+ OPO_railways_development: "Infrastructure development"
+ OPO_sell_resources: "Resource enterprises".
+ OPO_urbanisation: "Urbanisation"
+ OPO_tax_for_small_bus: "Small Business Incentives" 
+ OPO_investiotion_in_light_industry: "Investing in light industry".
+ OPO_tech_industry: "High-tech enterprises"
+ OPO_country_army_reform: "Military Reform"
+ OPO_shipyard_build: "Shipyard construction".
+ OPO_submarine_research: "Submarine research".
+ OPO_light_fleet_reform: "Light Fleet".
+ OPO_destroyer_research: "Exploring destroyers"
+ OPO_light_cruiser_reseatch: "Light cruiser research".
+ OPO_navy_tactic_reform: "Naval Doctrine Reform".
+ OPO_navy_tactic_reform_two: "Naval Doctrine Reform II"
+ OPO_heavy_fleet_reform: "Heavy Fleet Reform".
+ OPO_battleship_reseacrh: "Study of Heavy Cruisers"
+ OPO_oligarchism_gov: "Oligarchism."
+ OPO_formal_election: "Formal Election".
+ OPO_industry_privileges: "Domestic Production".
+ OPO_country_general: "The country of one general."
+ OPO_coronation: "Coronation."
+ OPO_gov_power: "The power of the oligarchy."
+ OPO_religion_gov: "Religious State."
+ OPO_rights_for_migrants: "Restrict the rights of migrants."
+ OPO_power_special_force: "Power of special services"
+ OPO_furher_power: "A country of one leader."
+ OPO_president_republic: "Presidential Republic."
+ OPO_subjugate_opposition: "Suppress opposition"
+ OPO_protect_freedoom_speech: "Defence of free speech"
+ OPO_loyalty_servant: "Loyal subordinates".
+ OPO_aircraft_carrier_reform: "Study of aircraft carriers"
+ OPO_navy_country: "Naval power."
+ OPO_country_industrialisation: "Industrialisation"
+ OPO_offshore_country: "Offshore country"
+ OPO_army_reform1: "Bet on infantry" 
+ OPO_army_reform3: "Bet on Motorisation"
+ OPO_army_reform4: "Infantry Tactics."
+ OPO_army_reform20: "Mechanised Tactics".
+ OPO_army_reform2: "Army Doctrine I"
+ OPO_army_reform14: "Land Doctrine II"
+ OPO_army_reform16: "Study of Infantry Equipment"
+ OPO_army_reform6: "Study of Motor Transport"
+ OPO_army_reform5: "Study of Tank Equipment"
+ OPO_army_reform18: "Study of Armoured Vehicles" 
+ OPO_army_reform8: "Study of Infantry Equipment" 
+ OPO_army_reform7: "Study of Artillery"
+ OPO_army_reform23: "Militaristic Power"
+ 
+ BST_policy_focuses: "Political Reforms"
+ BST_eco_country_reforms: "Economic Reforms"
+ BST_navy_reform: "Naval Reforms"
+ BST_country_industry_plans: "Industrial Plans"
+ BST_develop_hard_industry: "Development of heavy industry"
+ BST_develop_light_industry: "Development of light industry"
+ BST_new_ministrator: "New Ministers"
+ BST_administrator: "Governance Reform"
+ BST_revision_law: "Revision of Laws"
+ BST_populism_gov: "Political populism"
+ BST_support_commie: "Support for workers"
+ BST_work_union: "Trade unions"
+ BST_manifistations: "Allow demonstrations"
+ BST_legalize_groups: "Legalise circles"
+ BST_farmer_money: "Farmers' benefits".
+ BST_eight_hour_day: "Eight-hour working day".
+ BST_revolution: "Revolution."
+ BST_farmer_reform: "Agricultural reform"
+ BST_idealogy_propaganda: "Ideological propaganda".
+ BST_democratic_reform: "Democratisation"
+ BST_create_new_const: "New constitution"
+ BST_law_state: "Rule of law"
+ BST_amnistia: "Amnesty".
+ BST_law_reform: "Legislative reform"
+ BST_free_news: "Media liberalisation"
+ BST_democratic_state: "Democratic state"
+ BST_GEN_people_equality: "Equality of people"
+ BST_nationalisation_commie: "Nationalisation"
+ BST_eliminate_opportunism: "Destroy opportunism"
+ BST_true_elections: "Approve elections"
+ BST_pluralism_gov: "State pluralism"
+ BST_protect_business: "Protect small business"
+ BST_protect_gov_power: "Strengthen power"
+ BST_find_alias: "Find like-minded people."
+ BST_privatization: "Partial privatisation"
+ BST_company_against_enemies: "Campaign against opponents"
+ BST_subdue_news: "Subdue the media"
+ BST_police_reform: "Police reform"
+ BST_autocracy_gov: "Autocratic state"
+ BST_national_gov_idea: "National Idea".
+ BST_national_policy: "National policy"
+ BST_patriot_groups: "Allow patriotic brigades"
+ BST_natioanal_goverment: "Nationalists in government"
+ BST_army_reform: "Expand the power of the military"
+ BST_rights_for_local: "Expand rights for the local"
+ BST_millitary_reshuffle: "Military coup"
+ BST_cult_leader: "Cult of personality".
+ BST_fascism_idealogy: "Propaganda ideology"
+ BST_national_army: "National army"
+ BST_nationalisation_fascismm: "Nationalisation"
+ BST_national_brigade: "Chieftaincy units".
+ BST_create_industry_base: "Engineering base"
+ BST_indutry_railways: "Industrial Infrastructure"
+ BST_resources_industry: "Develop extractive industries"
+ BST_effect_industry: "Labour productivity"
+ BST_create_new_bussiness: "New enterprises"
+ BST_gossektor_in_economy: "Increase public sector".
+ BST_against_capitalism: "Destroy capitalism"
+ BST_economy_plan: "Market reform"
+ BST_economic_plans: "Five-year plans"
+ BST_call_for_investitions: "Attract investment"
+ BST_credit_policy: "Monetary reform"
+ BST_railways_development: "Infrastructure development"
+ BST_sell_resources: "Resource enterprises"
+ BST_urbanisation: "Urbanization"
+ BST_tax_for_small_bus: "Small Business Benefits"
+ BST_investiotion_in_light_industry: "Light Industry Investment"
+ BST_tech_industry: "High-tech enterprises"
+ BST_country_army_reform: "Military reform"
+ BST_shipyard_build: "Building shipyards"
+ BST_submarine_research: "Submarine research"
+ BST_light_fleet_reform: "Light Fleet".
+ BST_destroyer_research: "Exploring destroyers"
+ BST_light_cruiser_reseatch: "Light Cruiser Study".
+ BST_navy_tactic_reform: "Naval Doctrine Reform"
+ BST_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ BST_heavy_fleet_reform: "Heavy Fleet Reform".
+ BST_battleship_reseacrh: "Study of heavy cruisers"
+ BST_oligarchism_gov: "Oligarchism".
+ BST_formal_election: "Formal election"
+ BST_industry_privileges: "Domestic manufacturing"
+ BST_country_general: "The country of one general."
+ BST_coronation: "Coronation."
+ BST_gov_power: "The power of the oligarchy."
+ BST_religion_gov: "Religious state".
+ BST_rights_for_migrants: "Restrict the rights of migrants"
+ BST_power_special_force: "The power of the secret services."
+ BST_furher_power: "A country of one leader"
+ BST_president_republic: "Presidential Republic"
+ BST_subjugate_opposition: "Suppress opposition"
+ BST_protect_freedoom_speech: "Defence of free speech"
+ BST_loyalty_servant: "Loyal subordinates"
+ BST_aircraft_carrier_reform: "Study of aircraft carriers"
+ BST_navy_country: "Naval power"
+ BST_country_industrialisation: "Industrialisation"
+ BST_offshore_country: "Offshore country"
+ BST_army_reform1: "Bet on infantry"
+ BST_army_reform3: "Bet on motorisation"
+ BST_army_reform4: "Infantry Tactics."
+ BST_army_reform20: "Mechanised Tactics"
+ BST_army_reform2: "Army Doctrine I"
+ BST_army_reform14: "Land Doctrine II"
+ BST_army_reform16: "Study of Infantry Equipment"
+ BST_army_reform6: "Study of Motor Vehicles"
+ BST_army_reform5: "Study of Tank Vehicles"
+ BST_army_reform18: "Study of Armoured Motor Vehicles"
+ BST_army_reform8: "Study of Infantry Equipment"
+ BST_army_reform7: "Study of Artillery"
+ BST_army_reform23: "Militaristic Power"
+ 
+ PER_policy_focuses: "Political Reforms"
+ PER_eco_country_reforms: "Economic Reforms"
+ PER_navy_reform: "Naval reforms"
+ PER_country_industry_plans: "Industrial plans"
+ PER_develop_hard_industry: "Development of heavy industry"
+ PER_develop_light_industry: "Development of light industry".
+ PER_new_ministr: "New Ministers".
+ PER_administrator: "Governance Reform".
+ PER_revision_law: "Revision of laws".
+ PER_populism_gov: "Political populism"
+ PER_support_commie: "Support for workers"
+ PER_work_union: "Trade Unions"
+ PER_manifistations: "Allow demonstrations".
+ PER_legalize_groups: "Legalise circles"
+ PER_farmer_money: "Farmers' benefits".
+ PER_eight_hour_day: "Eight-hour working day"
+ PER_revolution: "Revolution."
+ PER_farmer_reform: "Agricultural Reform."
+ PER_idealogy_propaganda: "Ideological propaganda."
+ PER_democratic_reform: "Democratisation"
+ PER_create_new_const: "New constitution".
+ PER_law_state: "Legal State"
+ PER_amnistia: "Amnesty"
+ PER_law_reform: "Legislative reform" 
+ PER_free_news: "Media liberalisation" 
+ PER_democratic_state: "Democratic state"
+ PER_GEN_people_equality: "Equality of people"
+ PER_nationalisation_commie: "Nationalisation"
+ PER_eliminate_opportunism: "Destroy opportunism"
+ PER_true_elections: "Approve elections".
+ PER_pluralism_gov: "State pluralism"
+ PER_protect_business: "Protect small business"
+ PER_protect_gov_power: "Strengthen power"
+ PER_find_alias: "Find like-minded people."
+ PER_privatization: "Partial privatisation"
+ PER_company_against_enemies: "Campaign against opponents"
+ PER_subdue_news: "Subdue the media"
+ PER_police_reform: "Police reform"
+ PER_autocracy_gov: "Autocratic state"
+ PER_national_gov_idea: "National Idea".
+ PER_national_policy: "National policy"
+ PER_patriot_groups: "Allow patriotic brigades"
+ PER_natioanal_goverment: "Nationalists in government"
+ PER_army_reform: "Expand the power of the military"
+ PER_rights_for_local: "Expand rights for the local"
+ PER_millitary_reshuffle: "Military coup".
+ PER_cult_leader: "Cult of personality".
+ PER_fascism_idealogy: "Propaganda ideology"
+ PER_national_army: "National army"
+ PER_nationalisation_fascismm: "Nationalisation".
+ PER_national_brigade: "Chieftaincy units".
+ PER_create_industry_base: "Engineering base"
+ PER_indutry_railways: "Industrial Infrastructure"
+ PER_resources_industry: "Develop extractive industry"
+ PER_effect_industry: "Labour productivity"
+ PER_create_new_bussiness: "New enterprises"
+ PER_gossektor_in_economy: "Increase in public sector"
+ PER_against_capitalism: "Destroy capitalism"
+ PER_economy_plan: "Market reform."
+ PER_economic_plans: "Five-year plans".
+ PER_call_for_investitions: "Attract investment"
+ PER_credit_policy: "Monetary reform"
+ PER_railways_development: "Infrastructure development"
+ PER_sell_resources: "Resource enterprises"
+ PER_urbanisation: "Urbanisation"
+ PER_tax_for_small_bus: "Small business incentives"
+ PER_investiotion_in_light_industry: "Investments in light industry".
+ PER_tech_industry: "High-tech companies".
+ PER_country_army_reform: "Military reform"
+ PER_shipyard_build: "Shipyard construction".
+ PER_submarine_research: "Submarine research"
+ PER_light_fleet_reform: "Light Fleet".
+ PER_destroyer_research: "Exploring destroyers"
+ PER_light_cruiser_reseatch: "Light Cruiser Study".
+ PER_navy_tactic_reform: "Naval Doctrine Reform".
+ PER_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ PER_heavy_fleet_reform: "Heavy Fleet Reform".
+ PER_battleship_reseacrh: "Study of Heavy Cruisers"
+ PER_oligarchism_gov: "Oligarchism".
+ PER_formal_election: "Formal Election"
+ PER_industry_privileges: "Domestic Production"
+ PER_country_general: "The country of one general."
+ PER_coronation: "Coronation."
+ PER_gov_power: "The power of the oligarchy."
+ PER_religion_gov: "Religious state."
+ PER_rights_for_migrants: "Restrict the rights of migrants."
+ PER_power_special_force: "The power of the secret services."
+ PER_furher_power: "A country of one leader."
+ PER_president_republic: "Presidential Republic".
+ PER_subjugate_opposition: "Suppress opposition"
+ PER_protect_freedoom_speech: "Defence of free speech"
+ PER_loyalty_servant: "Loyal subordinates"
+ PER_aircraft_carrier_reform: "Study of aircraft carriers"
+ PER_navy_country: "Naval Power."
+ PER_country_industrialisation: "Industrialisation"
+ PER_offshore_country: "Offshore country"
+ PER_army_reform1: "Infantry Bet"
+ PER_army_reform3: "Bet on Motorisation"
+ PER_army_reform4: "Infantry tactics."
+ PER_army_reform20: "Mechanised tactics".
+ PER_army_reform2: "Army Doctrine I"
+ PER_army_reform14: "Land Doctrine II"
+ PER_army_reform16: "Study of Infantry Equipment"
+ PER_army_reform6: "Study of Motor Transport".
+ PER_army_reform5: "Study of Tank Equipment"
+ PER_army_reform18: "Study of Armoured Vehicles" 
+ PER_army_reform8: "Study of Infantry Equipment"
+ PER_army_reform7: "Study of Artillery"
+ PER_army_reform23: "Militaristic Power"
+ 
+ PAR_policy_focuses: "Political Reforms"
+ PAR_eco_country_reforms: "Economic reforms"
+ PAR_navy_reform: "Naval reforms"
+ PAR_country_industry_plans: "Industrial plans"
+ PAR_develop_hard_industry: "Development of heavy industry"
+ PAR_develop_light_industry: "Development of light industry"
+ PAR_new_ministr: "New Ministers".
+ PAR_administrator: "Governance Reform"
+ PAR_revision_law: "Revision of Laws".
+ PAR_populism_gov: "Political populism"
+ PAR_support_commie: "Support for workers"
+ PAR_work_union: "Trade Unions"
+ PAR_manifistations: "Allow demonstrations".
+ PAR_legalize_groups: "Legalise circles"
+ PAR_farmer_money: "Farmers' benefits".
+ PAR_eight_hour_day: "Eight-hour working day"
+ PAR_revolution: "Revolution".
+ PAR_farmer_reform: "Agricultural reform".
+ PAR_idealogy_propaganda: "Ideological propaganda".
+ PAR_democratic_reform: "Democratisation"
+ PAR_create_new_const: "New constitution".
+ PAR_law_state: "Rule of law"
+ PAR_amnistia: "Amnesty"
+ PAR_law_reform: "Legislative reform" 
+ PAR_free_news: "Media liberalisation"
+ PAR_democratic_state: "Democratic state"
+ PAR_GEN_people_equality: "Equality of people"
+ PAR_nationalisation_commie: "Nationalisation"
+ PAR_eliminate_opportunism: "Destroy opportunism"
+ PAR_true_elections: "Approve elections"
+ PAR_pluralism_gov: "State pluralism"
+ PAR_protect_business: "Protect small business"
+ PAR_protect_gov_power: "Strengthen power"
+ PAR_find_alias: "Find like-minded people"
+ PAR_privatization: "Partial privatisation"
+ PAR_company_against_enemies: "Campaign against opponents"
+ PAR_subdue_news: "Subdue the media"
+ PAR_police_reform: "Police reform"
+ PAR_autocracy_gov: "Autocratic state"
+ PAR_national_gov_idea: "National Idea".
+ PAR_national_policy: "National policy"
+ PAR_patriot_groups: "Allow patriotic brigades"
+ PAR_natioanal_goverment: "Nationalists in government"
+ PAR_army_reform: "Expand the power of the military"
+ PAR_rights_for_local: "Expand rights for the local"
+ PAR_millitary_reshuffle: "Military coup"
+ PAR_cult_leader: "Cult of personality".
+ PAR_fascism_idealogy: "Propaganda of ideology"
+ PAR_national_army: "National army"
+ PAR_nationalisation_fascismm: "Nationalisation"
+ PAR_national_brigade: "Chief's units"
+ PAR_create_industry_base: "Engineering base"
+ PAR_indutry_railways: "Industrial infrastructure"
+ PAR_resources_industry: "Development of extractive industries"
+ PAR_effect_industry: "Labour productivity"
+ PAR_create_new_bussiness: "New enterprises"
+ PAR_gossektor_in_economy: "Increase in public sector" 
+ PAR_against_capitalism: "Destroy capitalism"
+ PAR_economy_plan: "Market reform"
+ PAR_economic_plans: "Five-year plans"
+ PAR_call_for_investitions: "Attract investment"
+ PAR_credit_policy: "Monetary reform"
+ PAR_railways_development: "Infrastructure development"
+ PAR_sell_resources: "Resource enterprises"
+ PAR_urbanisation: "Urbanization"
+ PAR_tax_for_small_bus: "Small business incentives".
+ PAR_investiotion_in_light_industry: "Investment in light industry"
+ PAR_tech_industry: "High-tech enterprises"
+ PAR_country_army_reform: "Military reform"
+ PAR_shipyard_build: "Shipyard construction"
+ PAR_submarine_research: "Submarine research"
+ PAR_light_fleet_reform: "Light Fleet Course".
+ PAR_destroyer_research: "Exploring destroyers"
+ PAR_light_cruiser_reseatch: "Light cruiser study".
+ PAR_navy_tactic_reform: "Naval Doctrine Reform"
+ PAR_navy_tactic_reform_two: "Naval Doctrine Reform II"
+ PAR_heavy_fleet_reform: "Heavy Fleet Reform".
+ PAR_battleship_reseacrh: "Study of heavy cruisers"
+ PAR_oligarchism_gov: "Oligarchism."
+ PAR_formal_election: "Formal election"
+ PAR_industry_privileges: "Domestic manufacturing"
+ PAR_country_general: "Country of One General"
+ PAR_coronation: "Coronation".
+ PAR_gov_power: "Power of the oligarchy"
+ PAR_religion_gov: "Religious State"
+ PAR_rights_for_migrants: "Restrict the rights of migrants"
+ PAR_power_special_force: "The power of the intelligence services"
+ PAR_furher_power: "A country of one leader".
+ PAR_president_republic: "Presidential Republic"
+ PAR_subjugate_opposition: "Suppress opposition"
+ PAR_protect_freedoom_speech: "Defence of free speech"
+ PAR_loyalty_servant: "Loyal subordinates"
+ PAR_aircraft_carrier_reform: "Study of aircraft carriers"
+ PAR_navy_country: "Naval power"
+ PAR_country_industrialisation: "Industrialisation"
+ PAR_offshore_country: "Offshore country"
+ PAR_army_reform1: "Bet on infantry"
+ PAR_army_reform3: "Bet on Motorisation"
+ PAR_army_reform4: "Infantry Tactics."
+ PAR_army_reform20: "Mechanised tactics".
+ PAR_army_reform2: "Army Doctrine I"
+ PAR_army_reform14: "Land Doctrine II"
+ PAR_army_reform16: "Study of Infantry Equipment"
+ PAR_army_reform6: "Motor Transport Studies"
+ PAR_army_reform5: "Study of Tank Equipment"
+ PAR_army_reform18: "Study of Armoured Vehicles" 
+ PAR_army_reform8: "Infantry Equipment Study"
+ PAR_army_reform7: "Study of Artillery".
+ PAR_army_reform23: "Militaristic Power"
+ 
+ EPI_policy_focuses: "Political Reforms"
+ EPI_eco_country_reforms: "Economic Reforms"
+ EPI_navy_reform: "Naval reforms"
+ EPI_country_industry_plans: "Industrial plans"
+ EPI_develop_hard_industry: "Development of heavy industry"
+ EPI_develop_light_industry: "Development of light industry"
+ EPI_new_ministr: "New Ministers".
+ EPI_administrator: "Governance Reform"
+ EPI_revision_law: "Revision of Laws"
+ EPI_populism_gov: "Political populism"
+ EPI_support_commie: "Support for workers"
+ EPI_work_union: "Trade Unions"
+ EPI_manifistations: "Allow demonstrations".
+ EPI_legalize_groups: "Legalise circles"
+ EPI_farmer_money: "Farmers' benefits".
+ EPI_eight_hour_day: "Eight-hour working day".
+ EPI_revolution: "Revolution."
+ EPI_farmer_reform: "Agricultural Reform."
+ EPI_idealogy_propaganda: "Ideological propaganda".
+ EPI_democratic_reform: "Democratisation"
+ EPI_create_new_const: "New constitution"
+ EPI_law_state: "Rule of law"
+ EPI_amnistia: "Amnesty".
+ EPI_law_reform: "Legislative reform"
+ EPI_free_news: "Media liberalisation"
+ EPI_democratic_state: "Democratic state"
+ EPI_GEN_people_equality: "Equality of people"
+ EPI_nationalisation_commie: "Nationalisation"
+ EPI_eliminate_opportunism: "Destroy opportunism"
+ EPI_true_elections: "Approve elections"
+ EPI_pluralism_gov: "State pluralism".
+ EPI_protect_business: "Protect small business"
+ EPI_protect_gov_power: "Strengthen power"
+ EPI_find_alias: "Find like-minded people"
+ EPI_privatization: "Partial privatisation"
+ EPI_company_against_enemies: "Campaign against opponents"
+ EPI_subdue_news: "Subdue the media"
+ EPI_police_reform: "Police reform"
+ EPI_autocracy_gov: "Autocratic state"
+ EPI_national_gov_idea: "National Idea."
+ EPI_national_policy: "National policy"
+ EPI_patriot_groups: "Allow patriot brigades"
+ EPI_natioanal_goverment: "Nationalists in government"
+ EPI_army_reform: "Expand the power of the military"
+ EPI_rights_for_local: "Expand rights for the local"
+ EPI_millitary_reshuffle: "Military coup"
+ EPI_cult_leader: "Cult of personality."
+ EPI_fascism_idealogy: "Propaganda of ideology"
+ EPI_national_army: "National Army"
+ EPI_nationalisation_fascismm: "Nationalisation"
+ EPI_national_brigade: "Chieftaincy units".
+ EPI_create_industry_base: "Engineering base"
+ EPI_indutry_railways: "Industrial Infrastructure"
+ EPI_resources_industry: "Extractive Industry Development"
+ EPI_effect_industry: "Labour Productivity"
+ EPI_create_new_bussiness: "New enterprises"
+ EPI_gossektor_in_economy: "Increase public sector"
+ EPI_against_capitalism: "Destroy capitalism"
+ EPI_economy_plan: "Market Reform"
+ EPI_economic_plans: "Five-year plans"
+ EPI_call_for_investitions: "Attract investment"
+ EPI_credit_policy: "Monetary reform"
+ EPI_railways_development: "Infrastructure development"
+ EPI_sell_resources: "Resource enterprises"
+ EPI_urbanisation: "Urbanization"
+ EPI_tax_for_small_bus: "Small Business Benefits"
+ EPI_investiotion_in_light_industry: "Investing in light industry".
+ EPI_tech_industry: "High-tech enterprises".
+ EPI_country_army_reform: "Military Reform"
+ EPI_shipyard_build: "Building shipyards"
+ EPI_submarine_research: "Submarine research"
+ EPI_light_fleet_reform: "Light Fleet".
+ EPI_destroyer_research: "Exploring destroyers"
+ EPI_light_cruiser_reseatch: "Light cruiser research".
+ EPI_navy_tactic_reform: "Naval Doctrine Reform"
+ EPI_navy_tactic_reform_two: "Naval Doctrine Reform II"
+ EPI_heavy_fleet_reform: "Heavy Fleet Course"
+ EPI_battleship_reseacrh: "Study of heavy cruisers"
+ EPI_oligarchism_gov: "Oligarchism".
+ EPI_formal_election: "Formal Election"
+ EPI_industry_privileges: "Domestic manufacturing"
+ EPI_country_general: "One General's Country".
+ EPI_coronation: "Coronation".
+ EPI_gov_power: "Power of the Oligarchy."
+ EPI_religion_gov: "Religious State".
+ EPI_rights_for_migrants: "Restrict the rights of migrants"
+ EPI_power_special_force: "Power of the intelligence services"
+ EPI_furher_power: "A country of one leader"
+ EPI_president_republic: "Presidential Republic"
+ EPI_subjugate_opposition: "Suppress opposition"
+ EPI_protect_freedoom_speech: "Defence of free speech"
+ EPI_loyalty_servant: "Loyal subordinates".
+ EPI_aircraft_carrier_reform: "Study of aircraft carriers"
+ EPI_navy_country: "Naval Power"
+ EPI_country_industrialisation: "Industrialisation"
+ EPI_offshore_country: "Offshore country"
+ EPI_army_reform1: "Bet on infantry"
+ EPI_army_reform3: "Bet on motorisation"
+ EPI_army_reform4: "Infantry Tactics".
+ EPI_army_reform20: "Mechanised Tactics".
+ EPI_army_reform2: "Land Doctrine I"
+ EPI_army_reform14: "Land Doctrine II".
+ EPI_army_reform16: "Study of Infantry Equipment"
+ EPI_army_reform6: "Motor Transport Studies"
+ EPI_army_reform5: "Study of Tank Equipment"
+ EPI_army_reform18: "Study of Armoured Vehicles"
+ EPI_army_reform8: "Study of Infantry Equipment"
+ EPI_army_reform7: "Study of Artillery"
+ EPI_army_reform23: "Militaristic Power"
+ 
+ EVD_policy_focuses: "Political reforms"
+ EVD_eco_country_reforms: "Economic reforms"
+ EVD_navy_reform: "Naval reforms"
+ EVD_country_industry_plans: "Industrial plans"
+ EVD_develop_hard_industry: "Development of heavy industry"
+ EVD_develop_light_industry: "Development of light industry"
+ EVD_new_ministr: "New Ministers".
+ EVD_administrator: "Reform of governance"
+ EVD_revision_law: "Revision of laws"
+ EVD_populism_gov: "Political populism"
+ EVD_support_commie: "Support for workers"
+ EVD_work_union: "Trade Unions"
+ EVD_manifistations: "Allow demonstrations".
+ EVD_legalise_groups: "Legalize circles"
+ EVD_farmer_money: "Farmers' benefits".
+ EVD_eight_hour_day: "Eight-hour working day".
+ EVD_revolution: "Revolution."
+ EVD_farmer_reform: "Agricultural reform".
+ EVD_idealogy_propaganda: "Ideological propaganda".
+ EVD_democratic_reform: "Democratisation"
+ EVD_create_new_const: "New constitution"
+ EVD_law_state: "Rule of law".
+ EVD_amnistia: "Amnesty".
+ EVD_law_reform: "Legislative reform"
+ EVD_free_news: "Media liberalisation"
+ EVD_democratic_state: "Democratic state"
+ EVD_GEN_people_equality: "Equality of people"
+ EVD_nationalisation_commie: "Nationalisation"
+ EVD_eliminate_opportunism: "Eliminate opportunism"
+ EVD_true_elections: "Approve elections".
+ EVD_pluralism_gov: "State pluralism".
+ EVD_protect_business: "Protect small business"
+ EVD_protect_gov_power: "Strengthen power"
+ EVD_find_alias: "Find like-minded people"
+ EVD_privatisation: "Partial privatization"
+ EVD_company_against_enemies: "Campaign against opponents"
+ EVD_subdue_news: "Subdue the media"
+ EVD_police_reform: "Police reform"
+ EVD_autocracy_gov: "Autocratic state"
+ EVD_national_gov_idea: "National Idea".
+ EVD_national_policy: "National policy"
+ EVD_patriot_groups: "Allow patriotic brigades"
+ EVD_natioanal_goverment: "Nationalists in government"
+ EVD_army_reform: "Expand the power of the military"
+ EVD_rights_for_local: "Expand rights for the local"
+ EVD_millitary_reshuffle: "Military coup"
+ EVD_cult_leader: "Cult of personality".
+ EVD_fascism_idealogy: "Propaganda of ideology"
+ EVD_national_army: "National army".
+ EVD_nationalisation_fascismm: "Nationalisation"
+ EVD_national_brigade: "Chief's units".
+ EVD_create_industry_base: "Engineering base"
+ EVD_indutry_railways: "Industrial infrastructure"
+ EVD_resources_industry: "Develop extractive industry"
+ EVD_effect_industry: "Labour productivity"
+ EVD_create_new_bussiness: "New enterprises"
+ EVD_gossektor_in_economy: "Increase public sector".
+ EVD_against_capitalism: "Destroy capitalism"
+ EVD_economy_plan: "Market reform"
+ EVD_economic_plans: "Five-year plans".
+ EVD_call_for_investitions: "Attract investment"
+ EVD_credit_policy: "Monetary reform"
+ EVD_railways_development: "Infrastructure development"
+ EVD_sell_resources: "Resource enterprises"
+ EVD_urbanisation: "Urbanisation"
+ EVD_tax_for_small_bus: "Small business incentives"
+ EVD_investiotion_in_light_industry: "Investments in light industry"
+ EVD_tech_industry: "High-tech enterprises"
+ EVD_country_army_reform: "Military reform"
+ EVD_shipyard_build: "Shipyard construction"
+ EVD_submarine_research: "Submarine research"
+ EVD_light_fleet_reform: "Light Fleet".
+ EVD_destroyer_research: "Exploring destroyers"
+ EVD_light_cruiser_reseatch: "Light cruiser research".
+ EVD_navy_tactic_reform: "Naval Doctrine Reform".
+ EVD_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ EVD_heavy_fleet_reform: "Heavy Fleet Reform".
+ EVD_battleship_reseacrh: "Study of heavy cruisers"
+ EVD_oligarchism_gov: "Oligarchism".
+ EVD_formal_election: "Formal election".
+ EVD_industry_privileges: "Domestic manufacturing"
+ EVD_country_general: "One General's Country".
+ EVD_coronation: "Coronation".
+ EVD_gov_power: "Power of the Oligarchy".
+ EVD_religion_gov: "Religious State".
+ EVD_rights_for_migrants: "Restrict the rights of migrants"
+ EVD_power_special_force: "Power of special services"
+ EVD_furher_power: "A country of one leader"
+ EVD_president_republic: "Presidential Republic"
+ EVD_subjugate_opposition: "Suppress opposition"
+ EVD_protect_freedoom_speech: "Defence of free speech"
+ EVD_loyalty_servant: "Loyal subordinates".
+ EVD_aircraft_carrier_reform: "Study of aircraft carriers"
+ EVD_navy_country: "Naval power".
+ EVD_country_industrialisation: "Industrialisation"
+ EVD_offshore_country: "Offshore country"
+ EVD_army_reform1: "Infantry Betting".
+ EVD_army_reform3: "Bet on motorisation"
+ EVD_army_reform4: "Infantry tactics".
+ EVD_army_reform20: "Mechanised tactics".
+ EVD_army_reform2: "Land Doctrine I".
+ EVD_army_reform14: "Land Doctrine II".
+ EVD_army_reform16: "Study of Infantry Equipment"
+ EVD_army_reform6: "Study of Motorised Transport".
+ EVD_army_reform5: "Study of tank equipment"
+ EVD_army_reform18: "Study of armoured vehicles"
+ EVD_army_reform8: "Study of infantry equipment"
+ EVD_army_reform7: "Study of Artillery"
+ EVD_army_reform23: "Militaristic Power".
+ 
+ FAL_policy_focuses: "Political reforms"
+ FAL_eco_country_reforms: "Economic Reforms".
+ FAL_navy_reform: "Naval reforms"
+ FAL_country_industry_plans: "Industrial plans".
+ FAL_develop_hard_industry: "Development of heavy industry"
+ FAL_develop_light_industry: "Development of light industry"
+ FAL_new_ministr: "New Ministers".
+ FAL_administrator: "Governance Reform"
+ FAL_revision_law: "Revision of Laws".
+ FAL_populism_gov: "Political populism"
+ FAL_support_commie: "Worker support."
+ FAL_work_union: "Trade Unions".
+ FAL_manifistations: "Allow demonstrations".
+ FAL_legalize_groups: "Legalise circles"
+ FAL_farmer_money: "Farmer benefits".
+ FAL_eight_hour_day: "Eight-hour working day"
+ FAL_revolution: "Revolution."
+ FAL_farmer_reform: "Farm Reform".
+ FAL_idealogy_propaganda: "Ideological propaganda".
+ FAL_democratic_reform: "Democratisation"
+ FAL_create_new_const: "New constitution".
+ FAL_law_state: "Rule of law".
+ FAL_amnistia: "Amnesty".
+ FAL_law_reform: "Legislative reform"
+ FAL_free_news: "Media liberalisation"
+ FAL_democratic_state: "Democratic state"
+ FAL_GEN_people_equality: "Equality of people"
+ FAL_nationalisation_commie: "Nationalisation"
+ FAL_eliminate_opportunism: "Destroy opportunism"
+ FAL_true_elections: "Approve elections".
+ FAL_pluralism_gov: "State pluralism".
+ FAL_protect_business: "Protect small business"
+ FAL_protect_gov_power: "Strengthen power"
+ FAL_find_alias: "Find like-minded people."
+ FAL_privatization: "Partial privatisation"
+ FAL_company_against_enemies: "Campaign against opponents"
+ FAL_subdue_news: "Subdue the media".
+ FAL_police_reform: "Police reform"
+ FAL_autocracy_gov: "Autocratic state"
+ FAL_national_gov_idea: "National Idea".
+ FAL_national_policy: "National Policy"
+ FAL_patriot_groups: "Allow patriotic brigades"
+ FAL_natioanal_goverment: "Nationalists in government"
+ FAL_army_reform: "Expand the power of the military"
+ FAL_rights_for_local: "Expand rights for the local"
+ FAL_millitary_reshuffle: "Military coup"
+ FAL_cult_leader: "Cult of personality".
+ FAL_fascism_idealogy: "Propaganda of ideology".
+ FAL_national_army: "National army".
+ FAL_nationalisation_fascismm: "Nationalisation".
+ FAL_national_brigade: "Chieftain's units".
+ FAL_create_industry_base: "Engineering Base"
+ FAL_indutry_railways: "Industrial Infrastructure"
+ FAL_resources_industry: "Develop extractive industry"
+ FAL_effect_industry: "Labour productivity"
+ FAL_create_new_bussiness: "New enterprises"
+ FAL_gossektor_in_economy: "Increase in public sector".
+ FAL_against_capitalism: "Destroy capitalism"
+ FAL_economy_plan: "Market Reform"
+ FAL_economic_plans: "Five-year plans"
+ FAL_call_for_investitions: "Attract investment"
+ FAL_credit_policy: "Monetary reform"
+ FAL_railways_development: "Infrastructure development"
+ FAL_sell_resources: "Resource enterprises"
+ FAL_urbanisation: "Urbanization"
+ FAL_tax_for_small_bus: "Small Business Incentives".
+ FAL_investiotion_in_light_industry: "Investment in light industry"
+ FAL_tech_industry: "High-tech enterprises".
+ FAL_country_army_reform: "Military reform".
+ FAL_shipyard_build: "Shipyard construction".
+ FAL_submarine_research: "Submarine research".
+ FAL_light_fleet_reform: "Light Fleet".
+ FAL_destroyer_research: "Exploring destroyers"
+ FAL_light_cruiser_reseatch: "Light cruiser research".
+ FAL_navy_tactic_reform: "Naval Doctrine Reform".
+ FAL_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ FAL_heavy_fleet_reform: "Heavy Fleet Reform".
+ FAL_battleship_reseacrh: "Study of Heavy Cruisers".
+ FAL_oligarchism_gov: "Oligarchism".
+ FAL_formal_election: "Formal election"
+ FAL_industry_privileges: "Domestic production".
+ FAL_country_general: "Country of One General".
+ FAL_coronation: "Coronation".
+ FAL_gov_power: "Power of the Oligarchy".
+ FAL_religion_gov: "Religious state".
+ FAL_rights_for_migrants: "Restrict the rights of migrants."
+ FAL_power_special_force: "The power of the secret services."
+ FAL_furher_power: "A country of one leader"
+ FAL_president_republic: "Presidential Republic".
+ FAL_subjugate_opposition: "Suppress opposition".
+ FAL_protect_freedoom_speech: "Defence of free speech"
+ FAL_loyalty_servant: "Loyal subordinates".
+ FAL_aircraft_carrier_reform: "Study of aircraft carriers"
+ FAL_navy_country: "Naval power".
+ FAL_country_industrialisation: "Industrialisation"
+ FAL_offshore_country: "Offshore country"
+ FAL_army_reform1: "Infantry Betting".
+ FAL_army_reform3: "Bet on Motorisation"
+ FAL_army_reform4: "Infantry Tactics."
+ FAL_army_reform20: "Mechanised Tactics".
+ FAL_army_reform2: "Army Doctrine I"
+ FAL_army_reform14: "Land Doctrine II".
+ FAL_army_reform16: "Study of Infantry Equipment"
+ FAL_army_reform6: "Vehicle Studies"
+ FAL_army_reform5: "Study of Tank Equipment"
+ FAL_army_reform18: "Study of Armoured Vehicles"
+ FAL_army_reform8: "Study of Infantry Equipment"
+ FAL_army_reform7: "Study of Artillery"
+ FAL_army_reform23: "Militaristic Power"
+ 
+ KEK_policy_focuses: "Political Reforms"
+ KEK_eco_country_reforms: "Economic reforms"
+ KEK_navy_reform: "Naval reforms"
+ KEK_country_industry_plans: "Industrial plans"
+ KEK_develop_hard_industry: "Development of heavy industry"
+ KEK_develop_light_industry: "Development of light industry".
+ KEK_new_ministr: "New Ministers".
+ KEK_administrator: "Governance Reform"
+ KEK_revision_law: "Revision of Laws"
+ KEK_populism_gov: "Political populism"
+ KEK_support_commie: "Worker support."
+ KEK_work_union: "Trade Unions"
+ KEK_manifistations: "Allow demonstrations".
+ KEK_legalize_groups: "Legalise circles"
+ KEK_farmer_money: "Farmers' benefits".
+ KEK_eight_hour_day: "Eight-hour working day"
+ KEK_revolution: "Revolution."
+ KEK_farmer_reform: "Agricultural reform."
+ KEK_idealogy_propaganda: "Ideological propaganda."
+ KEK_democratic_reform: "Democratisation"
+ KEK_create_new_const: "New constitution"
+ KEK_law_state: "Rule of law"
+ KEK_amnistia: "Amnesty".
+ KEK_law_reform: "Legislative reform"
+ KEK_free_news: "Media liberalisation"
+ KEK_democratic_state: "Democratic state"
+ KEK_GEN_people_equality: "Equality of people"
+ KEK_nationalisation_commie: "Nationalisation"
+ KEK_eliminate_opportunism: "Destroy opportunism"
+ KEK_true_elections: "Approve elections"
+ KEK_pluralism_gov: "State pluralism"
+ KEK_protect_business: "Protect small business"
+ KEK_protect_gov_power: "Strengthen power"
+ KEK_find_alias: "Find like-minded people."
+ KEK_privatization: "Partial privatisation"
+ KEK_company_against_enemies: "Campaign against opponents"
+ KEK_subdue_news: "Subdue the media"
+ KEK_police_reform: "Police reform"
+ KEK_autocracy_gov: "Autocratic state"
+ KEK_national_gov_idea: "National Idea".
+ KEK_national_policy: "National policy"
+ KEK_patriot_groups: "Allow patriotic brigades"
+ KEK_natioanal_goverment: "Nationalists in government"
+ KEK_army_reform: "Expand the power of the military"
+ KEK_rights_for_local: "Expand rights for the local."
+ KEK_millitary_reshuffle: "Military coup."
+ KEK_cult_leader: "Cult of personality."
+ KEK_fascism_idealogy: "Propaganda of ideology"
+ KEK_national_army: "National Army".
+ KEK_nationalisation_fascismm: "Nationalisation"
+ KEK_national_brigade: "Chief's units"
+ KEK_create_industry_base: "Engineering base"
+ KEK_indutry_railways: "Industrial infrastructure"
+ KEK_resources_industry: "Extractive Industry Development"
+ KEK_effect_industry: "Labour productivity"
+ KEK_create_new_bussiness: "New enterprises"
+ KEK_gossektor_in_economy: "Increase public sector".
+ KEK_against_capitalism: "Destroy capitalism"
+ KEK_economy_plan: "Market reform"
+ KEK_economic_plans: "Five-year plans"
+ KEK_call_for_investitions: "Attract investment"
+ KEK_credit_policy: "Monetary reform"
+ KEK_railways_development: "Infrastructure development"
+ KEK_sell_resources: "Resource enterprises"
+ KEK_urbanisation: "Urbanization"
+ KEK_tax_for_small_bus: "Small business incentives"
+ KEK_investiotion_in_light_industry: "Investments in light industry".
+ KEK_tech_industry: "High-tech enterprises"
+ KEK_country_army_reform: "Military reform"
+ KEK_shipyard_build: "Shipyard construction"
+ KEK_submarine_research: "Submarine research"
+ KEK_light_fleet_reform: "Light Fleet".
+ KEK_destroyer_research: "Exploring destroyers"
+ KEK_light_cruiser_reseatch: "Light cruiser research".
+ KEK_navy_tactic_reform: "Naval Doctrine Reform".
+ KEK_navy_tactic_reform_two: "Naval Doctrine Reform II".
+ KEK_heavy_fleet_reform: "Heavy Fleet Reform".
+ KEK_battleship_reseacrh: "Study of Heavy Cruisers".
+ KEK_oligarchism_gov: "Oligarchism".
+ KEK_formal_election: "Formal election".
+ KEK_industry_privileges: "Domestic manufacturing".
+ KEK_country_general: "The country of one general."
+ KEK_coronation: "Coronation".
+ KEK_gov_power: "The power of the oligarchy."
+ KEK_religion_gov: "Religious State."
+ KEK_rights_for_migrants: "Restrict the rights of migrants"
+ KEK_power_special_force: "Power of special services"
+ KEK_furher_power: "A country of one leader."
+ KEK_president_republic: "Presidential Republic"
+ KEK_subjugate_opposition: "Suppress opposition"
+ KEK_protect_freedoom_speech: "Defence of free speech"
+ KEK_loyalty_servant: "Loyal subordinates".
+ KEK_aircraft_carrier_reform: "Study of aircraft carriers"
+ KEK_navy_country: "Naval power."
+ KEK_country_industrialisation: "Industrialisation"
+ KEK_offshore_country: "Offshore country"
+ KEK_army_reform1: "Bet on infantry".
+ KEK_army_reform3: "Bet on motorisation" 
+ KEK_army_reform4: "Infantry tactics."
+ KEK_army_reform20: "Mechanised tactics".
+ KEK_army_reform2: "Land Doctrine I"
+ KEK_army_reform14: "Land Doctrine II".
+ KEK_army_reform16: "Study of Infantry Equipment".
+ KEK_army_reform6: "Study of Motor Transport"
+ KEK_army_reform5: "Study of Tank Equipment"
+ KEK_army_reform18: "Study of Armoured Vehicles" 
+ KEK_army_reform8: "Study of Infantry Equipment" 
+ KEK_army_reform7: "Study of Artillery"
+ KEK_army_reform23: "Militaristic Power"

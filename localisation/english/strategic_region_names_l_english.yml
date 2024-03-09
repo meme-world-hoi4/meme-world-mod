@@ -1,0 +1,144 @@
+﻿l_english:
+ STRATEGICREGION_1:1 "Badlands"
+ STRATEGICREGION_2:1 "Sea of Catfish"
+ STRATEGICREGION_3:1 "South Loud Sea"
+ STRATEGICREGION_4:1 "North Loud Sea" 
+ STRATEGICREGION_5:1 "Air Force KEK Ocean".
+ STRATEGICREGION_6:1 "Shadrini Ocean".
+ STRATEGICREGION_7:1 "East Loud Ocean"
+ STRATEGICREGION_8:1 "Gulf of Lobotomie"
+ STRATEGICREGION_9:1 "South Loudon Ocean" 
+ STRATEGICREGION_10:1 "Very Cold Ocean"
+ STRATEGICREGION_11:1 "Western Loud Ocean".
+ STRATEGICREGION_12:1 "Sea of Viv Mim"
+ STRATEGICREGION_13:1 "Sea of Offniks"
+ STRATEGICREGION_14:1 "Sea of Negroshet"
+ STRATEGICREGION_15:1 "Old Persia".
+ STRATEGICREGION_16:2 "Sea of Mashuk"
+ STRATEGICREGION_17:1 "Sea of Susov"
+ STRATEGICREGION_18:1 "Sea of Anonymous"
+ STRATEGICREGION_19:1 "South Highlands Sea".
+ STRATEGICREGION_20:1 "Sea of Schleppen".
+ STRATEGICREGION_21:1 "Lute Ocean"
+ STRATEGICREGION_22:1 "Sea of Reznius"
+ STRATEGICREGION_23:1 "Mem Bay"
+ STRATEGICREGION_24:1 "Zuzi Ocean".
+ STRATEGICREGION_25:1 "North Highlands Sea".
+ STRATEGICREGION_26:1 "Strait of Yktimborey"
+ STRATEGICREGION_27:1 "Sea of Maine".
+ STRATEGICREGION_28:1 "Coffin Sea"
+ STRATEGICREGION_29:1 "Cartographer's Ocean".
+ STRATEGICREGION_30:1 "Sea of Doge"
+ STRATEGICREGION_31:1 "Kosher Sea"
+ STRATEGICREGION_32:1 "Gulf of Kekmunt" 
+ STRATEGICREGION_33:1 "Mediterranean Sea".
+ STRATEGICREGION_34:1 "Memno-Atlantic Ocean" 
+ STRATEGICREGION_35:1 "Sea of Kekin"
+ STRATEGICREGION_36:1 "Stakan Sea".
+ STRATEGICREGION_37:1 "Alliance Southern Ocean".
+ STRATEGICREGION_38:1 "Superkek Strait"
+ STRATEGICREGION_39:1 "Bugrov Sea"
+ STRATEGICREGION_40:1 "Tropical Sea" 
+ STRATEGICREGION_41:1 "Skybir Ocean" 
+ STRATEGICREGION_42:1 "Eastern Balkan Ocean" 
+ STRATEGICREGION_43:1 "Keck Sea".
+ STRATEGICREGION_44:1 "Eastern Ocean of the Horde".
+ STRATEGICREGION_45:1 "Ferret Strait"
+ STRATEGICREGION_46:1 "Kikta Ocean"
+ STRATEGICREGION_47:1 "Ocean of Newfags."
+ STRATEGICREGION_48:1 "Danatera Sea"
+ STRATEGICREGION_49:1 "Central Kick Sea"
+ STRATEGICREGION_50:1 "Alliance North Ocean".
+ STRATEGICREGION_51:1 "Western Ocean of the Horde".
+ STRATEGICREGION_52:1 "Sea of Ripa".
+ STRATEGICREGION_53:1 "Western Baltic Ocean".
+ STRATEGICREGION_54:1 "Baltic Sea"
+ STRATEGICREGION_55:1 "Paholodi Vaha Sea" 
+ STRATEGICREGION_56:1 "North Eudokim Sea" 
+ STRATEGICREGION_57:1 "North Jojonian Sea" 
+ STRATEGICREGION_58:1 "Sesov Ocean".
+ STRATEGICREGION_59:1 "Smaukich Sea".
+ STRATEGICREGION_60:1 "Gardernian Sea"
+ STRATEGICREGION_61:1 "Sea of Coppaland".
+ STRATEGICREGION_62:0 "Isle of Partizania".
+ STRATEGICREGION_63:1 "Militia"
+ STRATEGICREGION_64:1 "Abob Island"
+ STRATEGICREGION_65:2 "Slaughter Island"
+ STRATEGICREGION_66:1 "Kelim Islands"
+ STRATEGICREGION_67:1 "Amogusia".
+ STRATEGICREGION_68:1 "Kekpon Islands".
+ STRATEGICREGION_69:1 "Northern Kekan Islands".
+ STRATEGICREGION_70:1 "Piteria".
+ STRATEGICREGION_71:1 "Southern Jojonian Islands" 
+ STRATEGICREGION_72:1 "Goi-Yesi".
+ STRATEGICREGION_73:1 "Tropico".
+ STRATEGICREGION_74:0 "Darpicana".
+ STRATEGICREGION_75:1 "Persia".
+ STRATEGICREGION_76:0 "Bulbastan".
+ STRATEGICREGION_77:0 "Belash Islands"
+ STRATEGICREGION_78:0 "Shevtsovsky Island".
+ STRATEGICREGION_79:0 "Severo-Belyashskie Islands" 
+ STRATEGICREGION_80:0 "Americana"
+ STRATEGICREGION_81:1 "Central Cape Islands" 
+ STRATEGICREGION_82:0 "Gardernian Islands" 
+ STRATEGICREGION_83:1 "Kiel Island".
+ STRATEGICREGION_84:1 "Western Amogus Islands".
+ STRATEGICREGION_85:0 "Anonymous"
+ STRATEGICREGION_86:0 "Uganda Island".
+ STRATEGICREGION_87:0 "East Jojonian Islands" 
+ STRATEGICREGION_88:0 "South Kekan Islands".
+ STRATEGICREGION_89:0 "Old Gardernia".
+ STRATEGICREGION_90:0 "Smoke".
+ STRATEGICREGION_91:0 "Northern Jozhnaya Rus"
+ STRATEGICREGION_92:0 "Northern County"
+ STRATEGICREGION_93:1 "Oldspice".
+ STRATEGICREGION_94:1 "Bulbostan Tropics".
+ STRATEGICREGION_95:0 "North Central Islands".
+ STRATEGICREGION_96:1 "South Smoak".
+ STRATEGICREGION_97:0 "Dolgov Island".
+ STRATEGICREGION_98:0 "Ferret Island".
+ STRATEGICREGION_99:0 "Kekmud Island".
+ STRATEGICREGION_100:0 "Desert Islands"
+ STRATEGICREGION_101:1 "Troll Archipelago"
+ STRATEGICREGION_102:0 "Eastern Jojo"
+ STRATEGICREGION_103:0 "Western Eudokimia".
+ STRATEGICREGION_104:0 "Schlöpländia".
+ STRATEGICREGION_105:0 "Memarctica".
+ STRATEGICREGION_106:0 "Lovushkinsk".
+ STRATEGICREGION_107:1 "Novaya Superkekiya" 
+ STRATEGICREGION_108:1 "Jyeton Wastes" 
+ STRATEGICREGION_109:0 "Yezhland".
+ STRATEGICREGION_110:1 "Epicana".
+ STRATEGICREGION_111:1 "Tralmania".
+ STRATEGICREGION_112:1 "Blandia".
+ STRATEGICREGION_113:1 "Morshustania"
+ STRATEGICREGION_114:0 "Autodomia Sky"
+ STRATEGICREGION_115:0 "Kommonstria"
+ STRATEGICREGION_116:0 "Shvetsovskie Yuga".
+ STRATEGICREGION_117:0 "Stakanovskie Wasteland"
+ STRATEGICREGION_118:0 "Central Plateau"
+ STRATEGICREGION_119:0 "Kirovsk".
+ STRATEGICREGION_120:0 "Chimsland".
+ STRATEGICREGION_121:0 "Keklichstein Forests" 
+ STRATEGICREGION_122:0 "The Order".
+ STRATEGICREGION_123:0 "Kyrgyzstan"
+ STRATEGICREGION_124:0 "Furinland"
+ STRATEGICREGION_125:0 "Southern Kekan Lands"
+ STRATEGICREGION_126:0 "Kekzakhstan".
+ STRATEGICREGION_127:0 "Long Kekayland".
+ STRATEGICREGION_128:0 "Rapia".
+ STRATEGICREGION_129:0 "Little Kekland".
+ STRATEGICREGION_130:0 "Eastern Edge"
+ STRATEGICREGION_131:0 "Superkekia" 
+ STRATEGICREGION_132:0 "Kerchia".
+ STRATEGICREGION_133:0 "Borderland".
+ STRATEGICREGION_134:0 "Outcasts of Keki."
+ STRATEGICREGION_135:0 "Rakushia".
+ STRATEGICREGION_136:0 "Familia Kekia"
+ STRATEGICREGION_137:0 "Zhozhnaya Rus".
+ STRATEGICREGION_138:0 "Kekmunt"
+ STRATEGICREGION_139:0 "Kektranshye".
+ STRATEGICREGION_140:0 "Old Massacre"
+ STRATEGICREGION_141:0 "Northern Balticania"
+ STRATEGICREGION_142:0 "Southern Balticania"
+ STRATEGICREGION_143:0 "Eastern Balticania"

@@ -55,7 +55,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-add_ideas = agrarian_country
+
 add_ideas = based_political_power
 add_ideas = ccapitalism_economy_type
 add_ideas = paid_medicine

@@ -51,7 +51,7 @@ set_popularities = {
 	communism = 30
 }
 
-add_ideas = agrarian_country
+
 add_ideas = based_political_power
 add_ideas = social_capitalism_economy_type
 

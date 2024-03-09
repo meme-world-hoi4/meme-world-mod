@@ -63,7 +63,7 @@ set_popularities = {
   #  }
 #}
 
-add_ideas = agrarian_country
+
 add_ideas = based_political_power
 add_ideas = command_economy_type
 

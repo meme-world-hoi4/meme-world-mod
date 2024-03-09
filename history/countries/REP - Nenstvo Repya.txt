@@ -18,7 +18,7 @@ set_popularities = {
 	neutrality = 75
 }
 
-add_ideas = agrarian_country
+
 add_ideas = based_political_power
 add_ideas = ccapitalism_economy_type
 

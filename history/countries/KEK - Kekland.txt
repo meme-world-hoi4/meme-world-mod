@@ -85,7 +85,10 @@ add_ideas = capitalism_economy_type
 add_ideas = low_economic_mobilisation
 add_ideas = middle_education
 add_ideas = paid_medicine
-add_ideas = particular_social_care
+add_ideas = multiparty
+add_ideas = president_republic
+add_ideas = combat_training
+add_ideas = default_control_army_laws
 
 country_event = { id = keklandia.2 days = 17 }
 

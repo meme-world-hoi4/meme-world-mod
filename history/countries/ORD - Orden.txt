@@ -21,6 +21,10 @@ set_popularities = {
 
 add_ideas = based_political_power
 add_ideas = capitalism_economy_type
+add_ideas = no_party
+add_ideas = oligarch
+add_ideas = absolute_monarchy
+add_ideas = no_base_training
 
 create_country_leader = {
     name = "Unknown Leader"

@@ -6,7 +6,7 @@ set_naval_oob = "BAL_2021_naval_mtg"
 
 2021.1.1 = {
 
-set_research_slots = 2
+set_research_slots = 3
 
 
 set_technology = {
@@ -91,6 +91,11 @@ add_ideas = low_economic_mobilisation
 add_ideas = middle_education
 add_ideas = paid_medicine
 add_ideas = particular_social_care
+add_ideas = controlled_opposition
+add_ideas = oligarch
+add_ideas = parlament_monarchy
+add_ideas = default_control_army_laws
+add_ideas = default_training
 
 create_equipment_variant = {
 		name = "Submarine Type A"

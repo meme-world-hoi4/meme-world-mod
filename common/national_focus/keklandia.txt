@@ -349,7 +349,7 @@ focus_tree = {
 		y = 7
 	available = {
 	is_subject = no
-	communism > 0.5
+	communism > 0.3
 	}
 	
 	bypass = {
@@ -357,12 +357,39 @@ focus_tree = {
 		}
 		
 	completion_reward = {
+	hidden_effect = {
+	if = {
+		limit = {
+			communism < 0.5
+		}
+	set_variable = {
+					var = civil_war_mem_var
+					value = party_popularity@communism
+				}
+	
+	start_civil_war = {
+				ruling_party = communism
+				ideology = ROOT
+				size = civil_war_mem_var
+			}
+	set_country_flag = civil_war_country
+	}
+	}
+	custom_effect_tooltip = if_country_have_less_50_communism
+	custom_effect_tooltip = design_gap_tt
+	
+	if = {
+		limit = {
+			NO { communism < 0.5 }
+		}
 		add_popularity = { ideology = communism popularity = 0.1 }
 		set_politics = {
 				ruling_party = communism
 				elections_allowed = no
 			}
 		add_stability = -0.15
+
+	}
 	custom_effect_tooltip = design_gap_tt
 	if = {
 				limit = {
@@ -514,7 +541,7 @@ focus_tree = {
 		y = 7
 	available = {
 	is_subject = no
-	democratic > 0.5
+	democratic > 0.3
 	}
 	
 	bypass = {
@@ -522,11 +549,38 @@ focus_tree = {
 		}
 		
 	completion_reward = {
+	hidden_effect = {
+	if = {
+		limit = {
+			democratic < 0.5
+		}
+	set_variable = {
+					var = civil_war_mem_var
+					value = party_popularity@democratic
+				}
+	
+	start_civil_war = {
+				ruling_party = democratic
+				ideology = ROOT
+				size = civil_war_mem_var
+			}
+	set_country_flag = civil_war_country
+	}
+	}
+	custom_effect_tooltip = if_country_have_less_50_democratic
+	custom_effect_tooltip = design_gap_tt
+	
+	if = {
+		limit = {
+			NO { democratic < 0.5 }
+		}
 		add_popularity = { ideology = democratic popularity = 0.1 }
 		set_politics = {
 				ruling_party = democratic
 				elections_allowed = no
 			}
+
+	}
 	custom_effect_tooltip = design_gap_tt
 	if = {
 				limit = {
@@ -852,7 +906,7 @@ focus_tree = {
 		y = 7
 	available = {
 	is_subject = no
-	neutrality > 0.5
+	neutrality > 0.3
 	}
 	
 	bypass = {
@@ -860,11 +914,38 @@ focus_tree = {
 		}
 		
 	completion_reward = {
+	hidden_effect = {
+	if = {
+		limit = {
+			neutrality < 0.5
+		}
+	set_variable = {
+					var = civil_war_mem_var
+					value = party_popularity@neutrality
+				}
+	
+	start_civil_war = {
+				ruling_party = neutrality
+				ideology = ROOT
+				size = civil_war_mem_var
+			}
+	set_country_flag = civil_war_country
+	}
+	}
+	custom_effect_tooltip = if_country_have_less_50_neutrality
+	custom_effect_tooltip = design_gap_tt
+	
+	if = {
+		limit = {
+			NO { neutrality < 0.5 }
+		}
 		add_popularity = { ideology = neutrality popularity = 0.1 }
 		set_politics = {
 				ruling_party = neutrality
 				elections_allowed = no
 			}
+
+	}
 	custom_effect_tooltip = design_gap_tt
 	if = {
 				limit = {
@@ -994,7 +1075,7 @@ focus_tree = {
 		y = 7
 	available = {
 	is_subject = no
-	fascism > 0.5
+	fascism > 0.3
 	}
 	
 	bypass = {
@@ -1002,12 +1083,39 @@ focus_tree = {
 		}
 		
 	completion_reward = {
+	hidden_effect = {
+	if = {
+		limit = {
+			fascism < 0.5
+		}
+	set_variable = {
+					var = civil_war_mem_var
+					value = party_popularity@fascism
+				}
+	
+	start_civil_war = {
+				ruling_party = fascism
+				ideology = ROOT
+				size = civil_war_mem_var
+			}
+	set_country_flag = civil_war_country
+	}
+	}
+	custom_effect_tooltip = if_country_have_less_50_fascism
+	custom_effect_tooltip = design_gap_tt
+	
+	if = {
+		limit = {
+			NO { fascism < 0.5 }
+		}
 		add_popularity = { ideology = fascism popularity = 0.1 }
 		set_politics = {
 				ruling_party = fascism
 				elections_allowed = no
 			}
 		add_stability = -0.15
+
+	}
 		custom_effect_tooltip = design_gap_tt
 		if = {
 				limit = {
@@ -2098,7 +2206,7 @@ hidden_effect = {
 		y = 7
 	available = {
 	is_subject = no
-	neutrality > 0.5
+	neutrality > 0.3
 	}
 	
 	bypass = {
@@ -2106,11 +2214,38 @@ hidden_effect = {
 		}
 		
 	completion_reward = {
+	hidden_effect = {
+	if = {
+		limit = {
+			neutrality < 0.5
+		}
+	set_variable = {
+					var = civil_war_mem_var
+					value = party_popularity@neutrality
+				}
+	
+	start_civil_war = {
+				ruling_party = neutrality
+				ideology = ROOT
+				size = civil_war_mem_var
+			}
+	set_country_flag = civil_war_country
+	}
+	}
+	custom_effect_tooltip = if_country_have_less_50_neutrality
+	custom_effect_tooltip = design_gap_tt
+	
+	if = {
+		limit = {
+			NO { neutrality < 0.5 }
+		}
 		add_popularity = { ideology = neutrality popularity = 0.1 }
 		set_politics = {
 				ruling_party = neutrality
 				elections_allowed = no
 			}
+
+	}
 	custom_effect_tooltip = design_gap_tt
 	if = {
 				limit = {

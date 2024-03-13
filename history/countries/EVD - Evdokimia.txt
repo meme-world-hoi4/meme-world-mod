@@ -73,6 +73,11 @@ add_ideas = low_economic_mobilisation
 add_ideas = middle_education
 add_ideas = paid_medicine
 add_ideas = particular_social_care
+add_ideas = no_party
+add_ideas = oligarch
+add_ideas = president_republic
+add_ideas = default_training
+add_ideas = default_control_army_laws
 
 create_equipment_variant = {
 		name = "Submarine Type A"

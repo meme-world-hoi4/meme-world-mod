@@ -4,7 +4,8 @@ state={
 	provinces={
 		7002 18611 18625 18672 18721 
 	}
-	manpower = 10000
+	manpower = 46200
+	state_category = rural
 	history={
 		owner = REZ
 		controller = REZ
@@ -20,6 +21,4 @@ buildings = {
 			}
 			
 		}
-		}
-	state_category = rural
 }

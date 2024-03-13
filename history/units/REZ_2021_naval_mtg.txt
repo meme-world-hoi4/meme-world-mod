@@ -8,14 +8,17 @@ units= {
 		name = "Main Reznia Fleet"			
 		naval_base = 813
 		task_force = {
-			name = "KIR Destroyer Type A Force"
+			name = "REZ Destroyer Type A Force"
 			location = 813
-			ship = { name = "KIR Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KIR version_name = "Destroyer Type A" } } }
-			ship = { name = "KIR Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KIR version_name = "Destroyer Type A" } } }
-			ship = { name = "KIR Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KIR version_name = "Destroyer Type A" } } }
-			ship = { name = "KIR Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KIR version_name = "Destroyer Type A" } } }
-			ship = { name = "KIR Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KIR version_name = "Destroyer Type A" } } }
-			ship = { name = "KIR Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KIR version_name = "Destroyer Type A" } } }
+			ship = { name = "REZ Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = REZ version_name = "Destroyer Type A" } } }
+			ship = { name = "REZ Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = REZ version_name = "Destroyer Type A" } } }
+			ship = { name = "REZ Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = REZ version_name = "Destroyer Type A" } } }
+			ship = { name = "REZ Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = REZ version_name = "Destroyer Type A" } } }
+			ship = { name = "REZ Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = REZ version_name = "Destroyer Type A" } } }
+			ship = { name = "REZ Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = REZ version_name = "Destroyer Type A" } } }
+			ship = { name = "REZ Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = REZ version_name = "Destroyer Type A" } } }
+			ship = { name = "REZ Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = REZ version_name = "Destroyer Type A" } } }
+			ship = { name = "Reznikov" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = REZ version_name = "Light Crusier Type A" } } }
 
 	}
 }

@@ -4456,6 +4456,63 @@ on_actions = {
 		}
 	}
 	
+	on_government_change = {
+		effect = {
+			#Make sure Soviet can always create factions
+			if = {
+				limit = {
+					has_country_flag = civil_war_country
+					has_government = communism
+				}
+				clr_country_flag = my_flag = civil_war_country
+				add_ideas = warcommie_economy_type
+			}
+			
+		}
+	}
+	on_government_change = {
+		effect = {
+			#Make sure Soviet can always create factions
+			if = {
+				limit = {
+					has_country_flag = civil_war_country
+					has_government = fascism
+				}
+				clr_country_flag = my_flag = civil_war_country
+				add_ideas = ccapitalism_economy_type
+			}
+			
+		}
+	}
+	on_government_change = {
+		effect = {
+			#Make sure Soviet can always create factions
+			if = {
+				limit = {
+					has_country_flag = civil_war_country
+					has_government = neutrality
+				}
+				clr_country_flag = my_flag = civil_war_country
+				add_ideas = ccapitalism_economy_type
+			}
+			
+		}
+	}
+	on_government_change = {
+		effect = {
+			#Make sure Soviet can always create factions
+			if = {
+				limit = {
+					has_country_flag = civil_war_country
+					has_government = democratic
+				}
+				clr_country_flag = my_flag = civil_war_country
+				add_ideas = capitalism_economy_type
+			}
+			
+		}
+	}
+	
 	on_monthly = {
 		effect = {
 			if = {
@@ -4495,6 +4552,17 @@ on_actions = {
 				}
 			}
 		}
+	}
+	
+	on_daily = {
+		effect = {
+		if = {
+				limit = {
+				has_idea = ITA_mafia_on_the_rise
+				}
+			remove_ideas = ITA_mafia_on_the_rise
+		}
+	}
 	}
 	
 	on_monthly = {

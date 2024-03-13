@@ -187,4 +187,9 @@ add_ideas = based_political_power
 add_ideas = ccapitalism_economy_type
 add_ideas = paid_medicine
 add_ideas = low_economic_mobilisation
+add_ideas = no_party
+add_ideas = autorbur
+add_ideas = absolute_monarchy
+add_ideas = combat_training
+add_ideas = default_control_army_laws
 }

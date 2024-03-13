@@ -8383,4 +8383,20 @@ spriteTypes = {
 		name = "GFX_idea_keklandia_nikita_sesonsky"
 		texturefile = "gfx/interface/ideas/idea_keklandia_nikita_sesonsky.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_kekin_gift"
+		texturefile = "gfx/interface/ideas/idea_kekin_gift.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_agrarian_paradise"
+		texturefile = "gfx/interface/ideas/idea_agrarian_paradise.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_strong_old_regime"
+		texturefile = "gfx/interface/ideas/idea_strong_old_regime.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ses_minority"
+		texturefile = "gfx/interface/ideas/idea_ses_minority.dds"
+	}
 }

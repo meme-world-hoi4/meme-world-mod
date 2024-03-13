@@ -1,0 +1,96 @@
+ideas = {
+
+	hidden_ideas = {
+		
+	}
+
+	# Special ones that can be applied on other countries through focus system.
+	country = {
+	
+	millitary_country_bonus = {
+	picture = mex_politicised_army_2
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+		production_factory_max_efficiency_factor = 0.15
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+			}
+	}
+	
+	ses_minority = {
+	picture = ses_minority
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+		stability_weekly = 0.003
+		stability_factor = -0.15
+		conscription_factor = -0.1
+			}
+	}
+	
+	strong_old_regime = {
+	picture = strong_old_regime
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+		political_power_factor = -0.2
+			}
+	}
+	
+	agrarian_paradise = {
+	picture = agrarian_paradise
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = no
+			}
+		removal_cost = -1
+		
+		modifier = {
+		min_export = 0.05
+		industrial_capacity_factory = -0.1
+			}
+	}
+	
+	kekin_gift = {
+	picture = kekin_gift
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+		political_power_factor = 0.2
+			}
+	}
+		
+	}
+}

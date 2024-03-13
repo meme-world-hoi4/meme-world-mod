@@ -4,7 +4,7 @@ state={
 	provinces={
 		3953 8756 17553 17615 17678 
 	}
-	manpower = 90000
+	manpower = 28320
 	history={
 		owner = REZ
 		controller = REZ

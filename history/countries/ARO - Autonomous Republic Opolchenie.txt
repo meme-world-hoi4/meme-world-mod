@@ -75,6 +75,9 @@ add_ideas = low_economic_mobilisation
 add_ideas = middle_education
 add_ideas = paid_medicine
 add_ideas = particular_social_care
+add_ideas = mixed_republic
+add_ideas = default_training
+add_ideas = default_control_army_laws
 
 country_event = { id = arepublicopolchenia.3 days = 7 }
 

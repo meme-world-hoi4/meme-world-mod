@@ -167,4 +167,8 @@ spriteTypes = {
 		name = "GFX_Portrait_Epicana_Alina_Milova"
 		texturefile = "gfx/leaders/EPI/Portrait_Epicana_Alina_Milova.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Enver_Kekir"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Enver_Kekir.dds"
+	}
 }

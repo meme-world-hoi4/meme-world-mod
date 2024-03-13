@@ -97,6 +97,8 @@ recruit_character = KEK_Nikita_Sesonsky
 recruit_character = KEK_Green_House
 recruit_character = KEK_Al_Kekone
 recruit_character = KEK_Mikhail_Mitrovski
+recruit_character = KEK_Kexello_Kekeng
+recruit_character = KEK_Dmitry_Berloga
 
 set_convoys = 30
 

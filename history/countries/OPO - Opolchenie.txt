@@ -121,6 +121,10 @@ recruit_character = OPO_Enver_Kekir
 recruit_character = OPO_Billy_Herrington
 recruit_character = OPO_Otto_Kerk
 recruit_character = OPO_Edward_Kekinesky
+recruit_character = OPO_Andrew_American
+recruit_character = OPO_Kek_Donbassovich
+recruit_character = OPO_Ernst_Kekelman
+recruit_character = OPO_Keklian_Keyuzfavich
 
 create_equipment_variant = {
 		name = "Submarine Type A"

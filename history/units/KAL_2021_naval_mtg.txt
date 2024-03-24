@@ -1,0 +1,27 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	##### PACIFIC FLEET #####
+	### BATTLE FLEET ###
+	fleet = {
+		name = "Main Kalinia Fleet"			
+		naval_base = 21087
+		task_force = {
+			name = "KAL Destroyer Type A Force"
+			location = 21087
+			ship = { name = "KAL Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KAL version_name = "Destroyer Type A" } } }
+			ship = { name = "KAL Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KAL version_name = "Destroyer Type A" } } }
+			ship = { name = "KAL Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KAL version_name = "Destroyer Type A" } } }
+			ship = { name = "KAL Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KAL version_name = "Destroyer Type A" } } }
+			ship = { name = "KAL Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KAL version_name = "Destroyer Type A" } } }
+			ship = { name = "KAL Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KAL version_name = "Destroyer Type A" } } }
+			ship = { name = "KAL Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KAL version_name = "Destroyer Type A" } } }
+			ship = { name = "KAL Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = KAL version_name = "Destroyer Type A" } } }
+			ship = { name = "Kalinikov" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KAL version_name = "Light Crusier Type A" } } }
+
+	}
+}
+}
+
+#####################

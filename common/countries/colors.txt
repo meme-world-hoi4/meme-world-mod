@@ -98,6 +98,11 @@ KEZ = {
 	color_ui = rgb { 237  234  29 }
 }
 
+KAL = {
+    color = rgb { 219  56  47 }
+    color_ui = rgb { 144  37  42 }
+}
+
 REZ = {
     color = rgb { 189  167  0 }
     color_ui = rgb { 138  129  3 }

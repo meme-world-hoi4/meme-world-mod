@@ -171,32 +171,4 @@ spriteTypes = {
 		name = "GFX_Portrait_Opolchenie_Enver_Kekir"
 		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Enver_Kekir.dds"
 	}
-	spriteType = {
-		name = "GFX_Portrait_Jojo_Araki_Five_Millitary"
-		texturefile = "gfx/leaders/JJK/Portrait_Jojo_Araki_Five_Millitary.dds"
-	}
-	spriteType = {
-		name = "GFX_Portrait_Jojo_Tai_Fun"
-		texturefile = "gfx/leaders/JJK/Portrait_Jojo_Tai_Fun.dds"
-	}
-	spriteType = {
-		name = "GFX_Portrait_Postreborniya_Unknown_Elite"
-		texturefile = "gfx/leaders/POS/Portrait_Postreborniya_Unknown_Elite.dds"
-	}
-	spriteType = {
-		name = "GFX_Portrait_Morhustan_Anarkia"
-		texturefile = "gfx/leaders/MOH/Portrait_Morhustan_Anarkia.dds"
-	}
-	spriteType = {
-		name = "GFX_Portrait_Reznya_Rubitel_Reznikov"
-		texturefile = "gfx/leaders/REZ/Portrait_Reznya_Rubitel_Reznikov.dds"
-	}
-	spriteType = {
-		name = "GFX_Portrait_Sersiya_Sersislav_Sersolev"
-		texturefile = "gfx/leaders/SER/Portrait_Sersiya_Sersislav_Sersolev.dds"
-	}
-	spriteType = {
-		name = "GFX_Portrait_Morhustan_Adolf_Morshutler"
-		texturefile = "gfx/leaders/MOH/Portrait_Morhustan_Adolf_Morshutler.dds"
-	}
 }

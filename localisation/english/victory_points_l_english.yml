@@ -1,17 +1,17 @@
 ﻿l_english:
  VICTORY_POINTS_TOOLTIP: "§G$NAME$§! victory points = §Y$POINTS$§!"
- VICTORY_POINTS_19954: "Kandelabrowsk"
- VICTORY_POINTS_8475: "Hochland"
- VICTORY_POINTS_19529: "Partiliningrad"
- VICTORY_POINTS_6069: "Partiz-izi"
+ VICTORY_POINTS_19954: "Kandelabrowsk."
+ VICTORY_POINTS_8475: "Hochland."
+ VICTORY_POINTS_19529: "Partiliningrad".
+ VICTORY_POINTS_6069: "Partiz-izi".
  VICTORY_POINTS_1039: "Bublovsk"
- VICTORY_POINTS_9322: "Farshinsk"
- VICTORY_POINTS_20276: "Junsipiysk"
- VICTORY_POINTS_681: "Mazurevsk"
+ VICTORY_POINTS_9322: "Farshinsk".
+ VICTORY_POINTS_20276: "Junsipiysk".
+ VICTORY_POINTS_681: "Mazurevsk".
  VICTORY_POINTS_8373: "St. Jozburg" 
- VICTORY_POINTS_8994: "Shigechevsk"
- VICTORY_POINTS_18799: "Arakeevsk"
- VICTORY_POINTS_8729: "Alexandrov-Morsky"
+ VICTORY_POINTS_8994: "Shigechevsk".
+ VICTORY_POINTS_18799: "Arakeevsk".
+ VICTORY_POINTS_8729: "Alexandrov-Morsky".
  VICTORY_POINTS_9609: "Mimem".
  VICTORY_POINTS_18987: "Fikal".
  VICTORY_POINTS_12308: "Aracasiti".
@@ -23,7 +23,7 @@
  VICTORY_POINTS_15593: "Kekziland".
  VICTORY_POINTS_15520: "Kekingrad".
  VICTORY_POINTS_15457: "Kekorlian".
- VICTORY_POINTS_15615: "Ses-Na-Lolge"
+ VICTORY_POINTS_15615: "Сес-На-Лолге"
  VICTORY_POINTS_15654: "Adrikekopol".
  VICTORY_POINTS_15653: "Kekzan"
  VICTORY_POINTS_15620: "Los Quecas".
@@ -60,8 +60,6 @@
  VICTORY_POINTS_12429: "Josephburg".
  VICTORY_POINTS_3251: "Shadrinovki".
  VICTORY_POINTS_12277: "Žozhzhejevka".
- VICTORY_POINTS_16713: "Port Žozhsk"
- VICTORY_POINTS_16542: "New Jojoburg"
  
  VICTORY_POINTS_17146: "Kek-Sultan"
  VICTORY_POINTS_17274: "Kekstana"
@@ -78,8 +76,7 @@
  VICTORY_POINTS_15312: "Furinsk"
  VICTORY_POINTS_6558: "Mim"
  VICTORY_POINTS_15056: "Morshu".
- VICTORY_POINTS_5445: "Kektrans"
- VICTORY_POINTS_1040: "South Camp"
+ VICTORY_POINTS_5445: "Kektrans".
  
  VICTORY_POINTS_12039: "Evdarivu"
  VICTORY_POINTS_685: "Great Imaki."
@@ -375,7 +372,6 @@
  VICTORY_POINTS_8853: "Keky".
  VICTORY_POINTS_16008: "Cook".
  VICTORY_POINTS_14760: "Pahruki"
-
  VICTORY_POINTS_18398: "Reznegrad".
  VICTORY_POINTS_6015: "Rezneburg".
  VICTORY_POINTS_18248: "Novoreznick".
@@ -390,3 +386,19 @@
  VICTORY_POINTS_17438: "Chancellorsville."
  VICTORY_POINTS_18899: "Varshlad"
  VICTORY_POINTS_18672: "Warfalomeitov".
+ 
+
+VICTORY_POINTS_18398: "Reznegrad".
+VICTORY_POINTS_6015: "Rezneburg".
+VICTORY_POINTS_18248: "Novoreznick".
+VICTORY_POINTS_813: "Smertovsk".
+VICTORY_POINTS_18260: "New Reeznya".
+VICTORY_POINTS_8374: "Extrablenfurt".
+VICTORY_POINTS_1543: "Reznick".
+VICTORY_POINTS_17973: "Vatake-Pal"
+VICTORY_POINTS_18003: "Gnevniy"
+VICTORY_POINTS_8245: "Boyn-Mes"
+VICTORY_POINTS_9432: "Reznerenivu."
+VICTORY_POINTS_17438: "Chancellorsville."
+VICTORY_POINTS_18899: "Varshlad"
+VICTORY_POINTS_18672: "Warfalomeitov".

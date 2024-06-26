@@ -2,9 +2,9 @@ state={
 	id=219
 	name="STATE_219"
 	provinces={
-		15593 21566
+		15593 
 	}
-	manpower = 7468000
+	manpower = 7868000
 	state_category = megalopolis
 	history={
 		owner = ARO
@@ -13,10 +13,6 @@ state={
 		
 		victory_points = {
 		15593 35
-		}
-	add_dynamic_modifier = {
-			modifier = OPO_hard_placement
-
 		}
 buildings = {
 			infrastructure = 5

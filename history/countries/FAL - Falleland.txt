@@ -64,17 +64,6 @@ set_popularities = {
 create_faction = USRMW
 add_to_faction = FAL
 add_to_faction = EPI
-add_to_faction = KMH
-
-add_opinion_modifier = {
-		target = MOH
-		modifier = FAL_start_bad_ideology
-	}
-
-declare_war_on = {
-		target = OMH
-		type = civil_war
-	}
 
 set_convoys = 30
 

@@ -59,6 +59,20 @@ ideas = {
 			available = {
 			}
 			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 10
+					has_war_support > 0.2
+				}
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 10
+					has_war_support < 0.2
+				}
+
+			}
+			
 			modifier = {
 			army_attack_factor = 0.02
 			army_defence_factor = 0.02
@@ -77,6 +91,25 @@ ideas = {
 			cost = 150
 			removal_cost = -150
 			level = 2
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 15
+					has_war_support > 0.5
+				}
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 5
+					has_war_support < 0.5
+				}
+
+				modifier = {
+					factor = 50
+					has_war = yes
+				}
+
+			}
 
 			modifier = {
 			army_attack_factor = 0.05
@@ -100,6 +133,29 @@ ideas = {
 			cost = 150
 			removal_cost = -150
 			level = 1
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 20
+					AND = {
+					has_war_support > 0.8
+					num_of_available_civilian_factories > 25
+					}
+				}
+				modifier = {
+					#Lower chance if has decent amount
+					factor = 2
+					has_war_support < 0.8
+					num_of_available_civilian_factories < 25
+				}
+
+				modifier = {
+					factor = 50
+					has_war = yes
+				}
+
+			}
 
 			modifier = {
 			army_attack_factor = 0.1

@@ -281,3 +281,16 @@ music = {
 		}		
 	}	
 }
+
+music = {
+	song = "Geometrical_dominator_Waterflame"
+	
+	chance = {
+		modifier = {
+			factor = 100
+			ROOT = {
+				has_war_with = JJK
+			}
+		}		
+	}	
+}

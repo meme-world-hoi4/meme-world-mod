@@ -1,0 +1,9 @@
+scripted_gui = {
+
+	personal_factories_window = {
+		parent_window_token = construction_tab
+		window_name = "personal_factories_window_menu"
+	}
+	
+}
+

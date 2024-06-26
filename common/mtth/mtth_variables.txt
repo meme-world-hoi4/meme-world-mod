@@ -1,0 +1,19 @@
+
+# this mtth entries can be used as variables
+# example set_variable = { a = mtth:entry_name }
+# and define entry_name here
+#
+# entry_name = {
+# 	base = 50
+# 	
+# 	modifier = {
+# 		tag = GER
+# 		add = 50
+# 	}
+# }
+
+special_variable_name = {
+ 	base = 10
+ 	factor = 0.5
+    add = 10
+ }

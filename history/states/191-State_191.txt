@@ -5,8 +5,9 @@ state={
 		4187 14842 14873 
 	}
 	history={
-		owner = MOH
-		controller = MOH
+		owner = OMH
+		controller = OMH
+		add_core_of = OMH
 		add_core_of = MOH
 }
 buildings = {

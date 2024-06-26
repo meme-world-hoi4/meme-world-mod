@@ -9,6 +9,10 @@ set_naval_oob = "KEK_2021_naval_mtg"
 
 set_research_slots = 3
 
+set_variable = { special_variable = 5550 }
+set_variable = { gordon = 1200 }
+set_variable = { extra_slot_high_education = 0 }
+
 set_technology = {
 	infantry_weapons = 1
 }
@@ -64,11 +68,28 @@ if = {
 	}
 }
 
+set_technology = {
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	support_weapons = 1
+	marines = 1
+	paratroopers = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	basic_train = 1
+	gw_artillery = 1
+	radio = 1
+	electronic_mechanical_engineering = 1
+	fuel_silos = 1
+}
+
 set_politics = {
 	ruling_party = democratic ##Рулевая партия
-	last_election = "1936.1.1" ##Последние выборы (если есть)
-	election_frequency = 48 ##Через сколько проводят выборы
-	elections_allowed = no ##Есть ли выборы
+	last_election = "2021.1.1"
+	election_frequency = 1 ##Через сколько проводят выборы
+	elections_allowed = yes ##Есть ли выборы
 }
 
 set_popularities = {
@@ -97,8 +118,119 @@ recruit_character = KEK_Nikita_Sesonsky
 recruit_character = KEK_Green_House
 recruit_character = KEK_Al_Kekone
 recruit_character = KEK_Mikhail_Mitrovski
-recruit_character = KEK_Kexello_Kekeng
-recruit_character = KEK_Dmitry_Berloga
+
+add_opinion_modifier = { 
+		target = OPO
+		modifier = KEK_start_hard_realationships
+	}
+add_opinion_modifier = { 
+		target = OPO
+		modifier = KEK_start_rjev_union
+	}
+add_opinion_modifier = { 
+		target = OPO
+		modifier = KEK_start_kekan_state
+	}
+add_opinion_modifier = { 
+		target = REP
+		modifier = KEK_start_postreborniya_competition
+	}
+add_opinion_modifier = { 
+		target = REP
+		modifier = KEK_start_postreborniya_union
+	}
+add_opinion_modifier = { 
+		target = REP
+		modifier = KEK_start_kekan_state
+	}
+add_opinion_modifier = { 
+		target = ARO
+		modifier = KEK_start_kekan_state
+	}
+add_opinion_modifier = { 
+		target = ARO
+		modifier = KEK_start_loyal_dro_government
+	}
+add_opinion_modifier = { 
+		target = KEZ
+		modifier = KEK_start_kekan_state
+	}
+add_opinion_modifier = { 
+		target = GAR
+		modifier = KEK_start_president_friendship
+	}
+add_opinion_modifier = { 
+		target = GAR
+		modifier = KEK_start_ancient_competition
+	}
+add_opinion_modifier = { 
+		target = ORD
+		modifier = KEK_start_old_autonomy
+	}
+add_opinion_modifier = { 
+		target = ORD
+		modifier = KEK_start_member_of_non_loyalty_faction
+	}
+add_opinion_modifier = { 
+		target = JJK
+		modifier = KEK_start_potential_competitor
+	}
+add_opinion_modifier = { 
+		target = JJK
+		modifier = KEK_start_they_destroy_our_influence_sphere
+	}
+add_opinion_modifier = { 
+		target = JJK
+		modifier = KEK_start_leader_of_non_loyalty_faction
+	}
+add_opinion_modifier = { 
+		target = EVD
+		modifier = KEK_start_non_bad_realationship
+	}
+add_opinion_modifier = { 
+		target = BAL
+		modifier = KEK_start_non_bad_realationship
+	}
+add_opinion_modifier = { 
+		target = BAL
+		modifier = KEK_start_government_old_friends
+	}
+add_opinion_modifier = { 
+		target = BAL
+		modifier = KEK_start_member_of_non_loyalty_faction
+	}
+add_opinion_modifier = { 
+		target = FAL
+		modifier = KEK_start_non_bad_realationship
+	}
+add_opinion_modifier = { 
+		target = EPI
+		modifier = KEK_start_non_bad_realationship
+	}
+add_opinion_modifier = { 
+		target = EPI
+		modifier = KEK_start_government_old_friends
+	}
+add_opinion_modifier = { 
+		target = VKB
+		modifier = KEK_start_non_friend_government
+	}
+add_opinion_modifier = { 
+		target = PAR
+		modifier = KEK_start_member_of_non_loyalty_faction
+	}
+add_opinion_modifier = { 
+		target = KIR
+		modifier = KEK_start_member_of_non_loyalty_faction
+	}
+add_opinion_modifier = { 
+		target = KIR
+		modifier = KEK_start_puppet_non_loyalty_state
+	}
+add_opinion_modifier = { 
+		target = ZEL
+		modifier = KEK_start_kekan_state
+	}
 
 set_convoys = 30
 

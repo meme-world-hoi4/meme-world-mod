@@ -1,0 +1,7 @@
+# modifiers used in static_modifiers needs to be predefined here
+
+add_extra_research_slot_for_education = {
+	color_type = good
+	value_type = number
+	precision = 0
+}

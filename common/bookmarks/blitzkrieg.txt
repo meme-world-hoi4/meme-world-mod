@@ -109,7 +109,7 @@
 		}
 			"OPO"= {
 			minor = yes
-			history = "OPO_GATHERING_STORM_DESC"
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
 			"ARO"= {
 			minor = yes

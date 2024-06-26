@@ -50,3 +50,12 @@ ITA_mafia_on_the_rise = {
 	}
 
 }
+
+OPO_hard_placement = {
+	enable = { always = yes }
+	
+	icon = GFX_modifiers_ETH_state_development
+	
+	local_building_slots = 3
+
+}

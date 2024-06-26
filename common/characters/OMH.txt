@@ -1,0 +1,18 @@
+characters={
+	MOH_Adolf_Morhutler={
+		name="MOH_Adolf_Morhutler"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Morhustan_Adolf_Morshutler
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

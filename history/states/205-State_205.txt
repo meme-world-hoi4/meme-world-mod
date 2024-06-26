@@ -8,6 +8,7 @@ state={
 		owner = MOH
 		controller = MOH
 		add_core_of = MOH
+		add_core_of = OMH
 		
 		victory_points = {
 		15387 15
@@ -19,7 +20,7 @@ state={
 		15184 10
 		}
 		victory_points = {
-		4396 10
+		15629 10
 		}
 	buildings = {
 			infrastructure = 2

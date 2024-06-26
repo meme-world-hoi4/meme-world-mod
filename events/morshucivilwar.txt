@@ -1,0 +1,193 @@
+﻿###########################
+# bulgarian Events
+###########################
+
+add_namespace = morshucivilwar
+
+# Присоединение коммунистов
+country_event = {
+	id = morshucivilwar.1
+	title = morshucivilwar.1.t
+	desc = morshucivilwar.1.d
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = morshucivilwar.1.a
+		ai_chance = {
+			base = 0
+			modifier = {
+			add = 5
+				OR = {
+				FAL = { is_ai = no }
+				EPI = { is_ai = no }
+		}
+	}
+	}
+	declare_war_on = {
+		target = MOH
+		type = civil_war
+	}
+	}
+	
+	option = {
+		name = morshucivilwar.1.b
+		ai_chance = {
+			base = 1
+			modifier = {
+			add = 5
+				MOH = { is_ai = no }
+		}
+	}
+	custom_effect_tooltip = send_agree_for_peace_tt
+	MOH = { country_event = morshucivilwar.3 }
+	hidden_effect = {
+		FAL = { country_event = { id = morshucivilwar.5 days = 3 } }
+		}
+	}
+}
+
+# Взятие столицы
+country_event = {
+	id = morshucivilwar.2
+	title = morshucivilwar.2.t
+	desc = morshucivilwar.2.d
+	picture = GFX_report_event_generic_battle
+	
+	trigger = {
+		197 = { is_controlled_by = MOH }
+		197 = { is_owned_by = OMH }
+		MOH = { has_war_with = OMH }
+		NOT = { has_global_flag = fall_of_morshu }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_morshu
+	}
+	
+	option = {
+		name = morshucivilwar.2.a
+	MOH = {
+	set_capital = {
+			state = 197
+			remember_old_capital = no
+	}
+	}
+	KMH = { country_event = { id = morshucivilwar.1 days = 1 } }
+	}
+}
+
+#Принятие присоединения
+country_event = {
+	id = morshucivilwar.3
+	title = morshucivilwar.3.t
+	desc = morshucivilwar.3.d
+	picture = GFX_report_event_generic_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = morshucivilwar.3.a
+		MOH = {
+			transfer_state = 426
+		}
+		MOH = {
+			start_peace_conference = {
+			tag = OMH
+			score_factor = 1
+		}
+		}
+		hidden_effect = {
+		MOH = { country_event = { id = morshucivilwar.6 days = 2 } }
+		}
+	}
+}
+
+#Отказ присоединения
+country_event = {
+	id = morshucivilwar.4
+	title = morshucivilwar.4.t
+	desc = morshucivilwar.4.d
+	picture = GFX_report_event_generic_riot
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = morshucivilwar.4.a
+	}
+}
+
+#Ловушкинску после присоединения коммунистов
+country_event = {
+	id = morshucivilwar.5
+	title = morshucivilwar.5.t
+	desc = morshucivilwar.5.d
+	picture = GFX_report_event_generic_rifles
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = morshucivilwar.5.a
+	hidden_effect = {
+		division_template = {
+			name = "Morshuanskaya Krasnaya Armiya"
+			is_locked = yes
+			division_cap = 3 
+			division_names_group = MOH_INF_01
+			priority = 0
+			template_counter = 0
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+		infantry = { x = 0 y = 2 }
+    }
+    support = {
+        military_police = { x = 0 y = 0 }
+    }
+	}
+	capital_scope = {
+		create_unit = { 
+			division = "name = \"Pervaya Morshuanskaya Krasnaya Diviziya.\" division_template = \"Morshuanskaya Krasnaya Armiya\" start_experience_factor = 0.2 start_equipment_factor = 0.5" owner = FAL
+					}
+		create_unit = { 
+			division = "name = \"Vtoraya Morshuanskaya Krasnaya Diviziya.\" division_template = \"Morshuanskaya Krasnaya Armiya\" start_experience_factor = 0.2 start_equipment_factor = 0.5" owner = FAL
+					}
+		create_unit = { 
+			division = "name = \"Tretiya Morshuanskaya Krasnaya Diviziya.\" division_template = \"Morshuanskaya Krasnaya Armiya\" start_experience_factor = 0.2 start_equipment_factor = 0.5" owner = FAL
+					}
+	}
+	}
+	custom_effect_tooltip = create_three_units_fal_tt
+	add_manpower = 5000
+	add_political_power = -50
+	add_war_support = -0.1
+}
+}
+
+country_event = {
+	id = morshucivilwar.6
+	title = morshucivilwar.6.t
+	desc = morshucivilwar.6.d
+	picture = GFX_report_event_gre_athens
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = morshucivilwar.6.a
+		remove_ideas = revolution_idea
+		custom_effect_tooltip = demobilization_narodnoe_voisko_tt
+		hidden_effect = {
+		delete_unit_template_and_units = {
+			division_template = "Narodnoe Voisko"
+			disband = yes
+		}
+		}
+		add_political_power = 100
+		add_war_support = -0.2
+		set_cosmetic_tag = MOH_anarchists_neutrality
+	}
+}
+

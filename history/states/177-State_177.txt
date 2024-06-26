@@ -2,11 +2,7 @@
 state={
 	id=177
 	name="STATE_177"
-	provinces={
-		216 3053 5305 6649 21110 21566 21567 
-	}
-	manpower = 1250000
-	state_category = city
+
 	history={
 		owner = KAL
 		controller = KAL
@@ -23,14 +19,24 @@ state={
 		victory_points = {
 			3053 10 
 		}
-buildings = {
+		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
 			arms_factory = 1
 			21566 = {
-			naval_base = 1
+				naval_base = 1
+
 			}
-			
+
 		}
-}
+
+	}
+
+	provinces={
+		216 3053 5305 6649 21110 
+	}
+	manpower=1250000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

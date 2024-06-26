@@ -40,3 +40,33 @@ country_event = {
 	}
 }
 }
+
+country_event = {
+	id = genericc.4
+	title = genericc.4.t
+	desc = genericc.2.d
+	picture = GFX_report_event_generic_handshake
+
+	trigger = {
+		check_variable = { extra_slot_high_education = 7 }
+	}
+
+	option = {
+		add_research_slot = -1
+	}
+}
+
+country_event = {
+	id = genericc.3
+	title = genericc.3.t
+	desc = genericc.2.d
+	picture = GFX_report_event_generic_handshake
+
+	trigger = {
+		check_variable = { extra_slot_high_education = 4 }
+	}
+
+	option = {
+		add_research_slot = 1
+	}
+}

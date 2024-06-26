@@ -73,6 +73,9 @@ add_ideas = combat_training
 add_ideas = comissioners_brigade
 add_ideas = limited_conscription
 
+create_faction = Aliance_Of_New_Era
+add_to_faction = VKB
+
 create_equipment_variant = {
 		name = "Submarine Type A"
 		type = ship_hull_submarine_1

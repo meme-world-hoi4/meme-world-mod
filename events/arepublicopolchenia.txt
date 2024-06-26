@@ -72,7 +72,7 @@ country_event = {
     }	
 			defender = {
 				state = 219
-				num_provinces = 1
+				num_provinces = 2
 				on_win = arepublicopolchenia.5
 				on_lose = arepublicopolchenia.6
 				on_cancel = japan_border_conflict.5

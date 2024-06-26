@@ -63,7 +63,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 19592
+		location = 8868
 		division_template = "Strelkovaya Diviziya"
 		start_equipment_factor = 0.85
 		start_experience_factor = 0.2
@@ -85,7 +85,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 6721
+		location = 8504
 		division_template = "Strelkovaya Diviziya"
 		start_equipment_factor = 0.85
 		start_experience_factor = 0.2
@@ -96,7 +96,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 19425
+		location = 19098
 		division_template = "Strelkovaya Diviziya"
 		start_equipment_factor = 0.85
 		start_experience_factor = 0.2
@@ -120,7 +120,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 7
 		}
-		location = 177
+		location = 18966
 		division_template = "Strelkovaya Diviziya"
 		start_equipment_factor = 0.85
 		start_experience_factor = 0.2
@@ -177,7 +177,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 19863
+		location = 4120
 		division_template = "Maloe Voennoe Formirovanie"
 		start_equipment_factor = 0.8
 
@@ -189,7 +189,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 19768
+		location = 18966
 		division_template = "Maloe Voennoe Formirovanie"
 		start_equipment_factor = 0.8
 
@@ -200,7 +200,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 19679
+		location = 19160
 		division_template = "Maloe Voennoe Formirovanie"
 		start_equipment_factor = 0.8
 
@@ -224,7 +224,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 19592
+		location = 3794
 		division_template = "Motostrelkovaya Diviziya"
 		start_equipment_factor = 1
 
@@ -236,7 +236,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 6721
+		location = 8134
 		division_template = "Motostrelkovaya Diviziya"
 		start_equipment_factor = 1
 
@@ -248,7 +248,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 4923
+		location = 18979
 		division_template = "Motostrelkovaya Diviziya"
 		start_equipment_factor = 1
 

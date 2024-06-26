@@ -69,8 +69,8 @@ set_technology = {
 set_politics = {
 	ruling_party = democratic
 	#last_election = "2021.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	election_frequency = 1
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -89,6 +89,9 @@ add_ideas = social_care
 add_ideas = mixed_republic
 add_ideas = combat_training
 add_ideas = default_control_army_laws
+
+create_faction = New_Aliance_Of_New_Era
+add_to_faction = GAR
 
 #create_country_leader = {
 #    name = "Vasil Zacharka"

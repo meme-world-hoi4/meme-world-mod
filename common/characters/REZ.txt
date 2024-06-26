@@ -1,0 +1,18 @@
+characters={
+	REZ_Rubitel_Reznikov={
+		name="REZ_Rubitel_Reznikov"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Reznya_Rubitel_Reznikov
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

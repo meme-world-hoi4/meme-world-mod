@@ -1,0 +1,23 @@
+characters={
+	POS_Unknown_Elite={
+		name="POS_Unknown_Elite"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Postreborniya_Unknown_Elite
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="2029.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=liberalism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

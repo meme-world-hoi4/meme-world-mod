@@ -92,33 +92,514 @@ news_event = {
 	}
 	}
 	option = {
-		name = news.2.b
+		name = news.3.b
 		trigger = { 
 			original_tag = OPO
 		}
 	}
 	option = {
-		name = news.2.c
+		name = news.3.c
 		trigger = { 
 			original_tag = ARO
 		}
 	}
 	option = {
-		name = news.2.e
+		name = news.3.e
 		trigger = { 
 			original_tag = REP
 		}
 	}
 	option = {
-		name = news.2.i
+		name = news.3.i
 		trigger = { 
 			original_tag = KEK
 		}
 	}
 	option = {
-		name = news.2.f
+		name = news.3.f
 		trigger = { 
 			original_tag = GAR
+		}
+	}
+}
+
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_memworld_news_event_004
+	
+	major = yes
+	
+	trigger = {
+		56 = { is_controlled_by = KEK }
+		56 = { is_owned_by = GAR }
+		KEK = { has_war_with = GAR }
+		NOT = { has_global_flag = fall_of_edenia_KEK }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_edenia_KEK
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = news.4.a
+		trigger = { 
+			original_tag = KEK
+			KEK = {
+			NOT = { is_ally_with = GAR }
+			}
+		}
+	}
+	option = {
+		name = news.4.b
+		trigger = {
+			original_tag = OPO
+			OPO = {
+			NOT = { is_ally_with = GAR }
+			}
+		}
+	}
+	option = {
+		name = news.4.c
+		trigger = { 
+			original_tag = GAR
+		}
+	}
+	option = {
+		name = news.4.e
+		trigger = { 
+			is_ally_with = GAR
+			NOT = { TAG = GAR }
+		}
+	}
+	option = {
+		name = news.4.f
+		trigger = {
+			NOT = { 
+			is_ally_with = GAR 
+			TAG = OPO
+			TAG = KEK
+			TAG = GAR
+			TAG = JJK
+			TAG = PAR
+			TAG = BAL
+			TAG = ORD
+			TAG = KEZ
+			TAG = KIR
+			TAG = EVD
+			has_government = democratic
+			}
+		}
+	}
+	option = {
+		name = news.4.g
+		trigger = {
+			OR = {
+			TAG = JJK
+			TAG = PAR
+			TAG = BAL
+			TAG = ORD
+			TAG = KEZ
+			TAG = KIR
+			TAG = EVD
+			}
+			NOT = { is_ally_with = GAR }
+		}
+	}
+	
+	option = {
+		name = news.4.h
+		trigger = {
+			NOT = {
+			TAG = OPO
+			TAG = KEK
+			TAG = GAR
+			TAG = JJK
+			TAG = PAR
+			TAG = BAL
+			TAG = ORD
+			TAG = KEZ
+			TAG = KIR
+			TAG = EVD
+			is_ally_with = GAR 
+			}
+			has_government = democratic
+		}
+	}
+}
+
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_memworld_news_event_005
+	
+	major = yes
+	
+	trigger = {
+		56 = { is_controlled_by = BAL }
+		56 = { is_owned_by = GAR }
+		BAL = { has_war_with = GAR }
+		NOT = { has_global_flag = fall_of_edenia_BAL }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_edenia_BAL
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = news.5.a
+		trigger = { 
+			original_tag = KEK
+			KEK = {
+			NOT = { is_ally_with = GAR }
+			NOT = { is_ally_with = BAL }
+			}
+		}
+	}
+	option = {
+		name = news.5.b
+		trigger = {
+			original_tag = OPO
+			OPO = {
+			NOT = { is_ally_with = GAR }
+			NOT = { is_ally_with = BAL }
+			}
+		}
+	}
+	option = {
+		name = news.5.c
+		trigger = { 
+			original_tag = GAR
+		}
+	}
+	option = {
+		name = news.5.e
+		trigger = { 
+			is_ally_with = GAR
+			NOT = { TAG = GAR }
+		}
+	}
+	option = {
+		name = news.5.f
+		trigger = {
+			original_tag = BAL
+		}
+	}
+	option = {
+		name = news.5.g
+		trigger = {
+			NOT = { is_ally_with = GAR }
+			NOT = { TAG = BAL }
+			NOT = { TAG = GAR }
+			is_ally_with = BAL
+		}
+	}
+	
+	option = {
+		name = news.5.h
+		trigger = {
+			NOT = {
+			TAG = OPO
+			TAG = KEK
+			TAG = GAR
+			TAG = BAL
+			TAG = EVD
+			TAG = FAL
+			TAG = EPI
+			TAG = VKB
+			TAG = REZ
+			is_ally_with = GAR
+			is_ally_with = BAL
+			}
+			has_government = democratic
+		}
+	}
+	
+	option = {
+		name = news.5.i
+		trigger = {
+			NOT = {
+			TAG = OPO
+			TAG = KEK
+			TAG = GAR
+			TAG = BAL
+			TAG = EVD
+			TAG = FAL
+			TAG = EPI
+			TAG = REZ
+			is_ally_with = GAR
+			is_ally_with = BAL
+			has_government = democratic
+			}
+		}
+	}
+	
+	option = {
+		name = news.5.k
+		trigger = {
+			NOT = {
+			is_ally_with = GAR
+			is_ally_with = BAL
+			}
+			OR = {
+			original_tag = REZ
+			original_tag = VKB
+			}
+		}
+	}
+	
+	option = {
+		name = news.5.j
+		trigger = {
+			NOT = {
+			is_ally_with = GAR
+			is_ally_with = BAL
+			}
+			OR = {
+			original_tag = FAL
+			original_tag = EVD
+			original_tag = EPI
+			}
+		}
+	}
+}
+
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_memworld_news_event_006
+	
+	major = yes
+	
+	trigger = {
+		56 = { is_controlled_by = JJK }
+		56 = { is_owned_by = GAR }
+		JJK = { has_war_with = GAR }
+		NOT = { has_global_flag = fall_of_edenia_JJK }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_edenia_JJK
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = news.6.a
+		trigger = { 
+			original_tag = KEK
+			KEK = {
+			NOT = { is_ally_with = GAR }
+			NOT = { is_ally_with = JJK }
+			}
+		}
+	}
+	option = {
+		name = news.6.b
+		trigger = {
+			original_tag = OPO
+			OPO = {
+			NOT = { is_ally_with = GAR }
+			NOT = { is_ally_with = JJK }
+			}
+		}
+	}
+	option = {
+		name = news.6.c
+		trigger = { 
+			original_tag = GAR
+		}
+	}
+	option = {
+		name = news.6.e
+		trigger = { 
+			is_ally_with = GAR
+			NOT = { TAG = GAR }
+		}
+	}
+	option = {
+		name = news.6.f
+		trigger = {
+			original_tag = JJK
+			has_government = neutrality
+		}
+	}
+	option = {
+		name = news.6.g
+		trigger = {
+			NOT = { is_ally_with = GAR }
+			NOT = { original_tag = KIR }
+			NOT = { original_tag = JJK }
+			is_ally_with = JJK
+		}
+	}
+	
+	option = {
+		name = news.6.h
+		trigger = {
+			NOT = {
+			TAG = OPO
+			TAG = KEK
+			TAG = GAR
+			TAG = JJK
+			TAG = EVD
+			TAG = FAL
+			TAG = KIR
+			TAG = VKB
+			TAG = REZ
+			TAG = PER
+			TAG = KEZ
+			is_ally_with = GAR
+			is_ally_with = JJK
+			}
+		}
+	}
+	
+	option = {
+		name = news.6.i
+		trigger = {
+			original_tag = JJK
+			has_government = fascism
+			NOT = {
+			has_government = neutrality
+			}
+		}
+	}
+	
+	option = {
+		name = news.6.k
+		trigger = {
+			NOT = {
+			is_ally_with = GAR
+			is_ally_with = JJK
+			}
+			OR = {
+			original_tag = REZ
+			original_tag = VKB
+			original_tag = PER
+			original_tag = KEZ
+			}
+		}
+	}
+	
+	option = {
+		name = news.6.j
+		trigger = {
+			NOT = {
+			is_ally_with = GAR
+			is_ally_with = JJK
+			}
+			original_tag = FAL
+			}
+		}
+		
+	option = {
+		name = news.6.l
+		trigger = {
+			NOT = {
+			is_ally_with = GAR
+			is_ally_with = JJK
+			}
+			original_tag = EVD
+			}
+		}
+		
+	option = {
+		name = news.6.m
+		trigger = {
+			NOT = {
+			is_ally_with = GAR
+			}
+			original_tag = KIR
+			}
+		}
+	
+	option = {
+		name = news.6.n
+		trigger = {
+			original_tag = JJK
+			OR = {
+			has_government = communism
+			has_government = democratic
+			}
+			NOT = {
+			has_government = neutrality
+			}
+			}
+		}
+}
+
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_memworld_news_event_006
+	
+	major = yes
+	
+	trigger = {
+		OMH = {
+		exists = no
+		}
+		MOH = {
+		has_war = no
+		}
+		NOT = { has_global_flag = civil_war_in_morshu_over_anarchist_victory }
+	}
+	
+	immediate = {
+		set_global_flag = civil_war_in_morshu_over_anarchist_victory
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = news.7.a
+		trigger = {
+			NOT = {
+			original_tag = FAL
+			original_tag = BST
+			original_tag = MOH
+			}
+		}
+	}
+	option = {
+		name = news.7.b
+		trigger = {
+			original_tag = FAL
+			FAL = {
+			NOT = { is_ally_with = MOH }
+			}
+		}
+	}
+	option = {
+		name = news.7.c
+		trigger = {
+			original_tag = BST
+			BST = {
+			NOT = { is_ally_with = MOH }
+			}
+		}
+	}
+	option = {
+		name = news.7.e
+		trigger = {
+			original_tag = MOH
 		}
 	}
 }

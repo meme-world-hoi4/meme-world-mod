@@ -1,5 +1,5 @@
-capital = 197
-set_capital = 15056
+capital = 205
+set_capital = 15387
 
 oob = "MOH_2021"
 set_naval_oob = "MOH_2021_naval_mtg"
@@ -27,6 +27,17 @@ if = {
 }
 
 if = {
+	limit = {
+		has_start_date < 2021.01.02
+	}
+
+	declare_war_on = {
+		target = OMH
+		type = civil_war
+	}
+}
+
+if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	set_technology = {
 		early_submarine = 1
@@ -45,30 +56,54 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 10
-	neutrality = 40
-	fascism = 20
-	communism = 30
+	democratic = 5
+	neutrality = 45
+	fascism = 10
+	communism = 40
 }
 
-
+if = {
+	limit = {
+		AND = {
+			KMH = { is_ai = yes }
+			OMH = { is_ai = yes }
+			MOH = { is_ai = yes }
+		}
+	}
+	add_ideas = anarchist_speed_buff
+}
+add_ideas = idea_anarhic_morshu_council
+add_ideas = revolution_idea
 add_ideas = based_political_power
-add_ideas = social_capitalism_economy_type
-add_ideas = monoparty
-add_ideas = autorbur
-add_ideas = president_republic
-add_ideas = default_control_army_laws
+add_ideas = free_trade
+add_ideas = capitalism_economy_type
+add_ideas = no_party
+add_ideas = anarch
+add_ideas = no_ruleform
+add_ideas = no_base_training
+add_ideas = lack_of_control_army_laws
+add_ideas = lack_of_education
 
-create_country_leader = {
-    name = "Unknown Leader"
-    desc = ""
-    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-    expire = "2023.1.1"
-    ideology = oligarchism
-    traits = {
-        #
-    }
-}
+set_stability = 0.15
+
+recruit_character = MOH_Anarkia
+
+add_opinion_modifier = {
+		target = FAL
+		modifier = FAL_start_bad_ideology
+	}
+add_opinion_modifier = {
+		target = KMH
+		modifier = FAL_start_bad_ideology
+	}
+add_opinion_modifier = {
+		target = FAL
+		modifier = OPO_start_support_dro
+	}
+add_opinion_modifier = {
+		target = EPI
+		modifier = OPO_start_support_dro
+	}
 
 create_equipment_variant = {
 		name = "Submarine Type A"

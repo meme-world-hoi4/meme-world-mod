@@ -3,35 +3,10 @@ state={
 	id=181
 	name="STATE_181"
 	provinces={
-		5980 7034 9420 20984 21010 21026 21043 21053 21072 21087 
+		10085 
 	}
-	manpower = 2885700
-	state_category = city
-	history={
-		owner = KAL
-		controller = KAL
-		add_core_of = KAL
-		victory_points = {
-			21087 30
-		}
-		victory_points = {
-			21010 5 
-		}
-		victory_points = {
-			5980 20 
-		}
-		victory_points = {
-			21072 15 
-		}
-buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-			arms_factory = 3
-			dockyard = 2
-			21087 = {
-			naval_base = 3
-			}
-			
-		}
-}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

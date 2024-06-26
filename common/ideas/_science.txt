@@ -52,6 +52,15 @@ ideas = {
 			
 			}
 			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 40
+					num_of_civilian_factories > 15
+				}
+
+			}
+			
 			modifier = {
 			research_speed_factor = -0.05
 			consumer_goods_factor = 0.05
@@ -69,8 +78,18 @@ ideas = {
 			cost = 200
 			removal_cost = -1
 			level = 2
+			
+			ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 60
+					num_of_civilian_factories > 25
+				}
+
+			}
 
 			modifier = {
+			add_extra_research_slot_for_education = 4
 			research_speed_factor = 0.1
 			production_factory_max_efficiency_factor = 0.1
 			consumer_goods_factor = 0.1
@@ -88,8 +107,19 @@ ideas = {
 			cost = 200
 			removal_cost = -1
 			level = 1
+			
+		ai_will_do = {
+   				factor = 1
+				modifier = {
+					factor = 80
+					num_of_civilian_factories > 40
+					has_stability > 0.7
+				}
+
+			}
 
 			modifier = {
+			add_extra_research_slot_for_education = 1
 			research_speed_factor = 0.25
 			production_factory_max_efficiency_factor = 0.15
 			consumer_goods_factor = 0.2

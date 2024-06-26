@@ -4,21 +4,22 @@ state={
 	provinces={
 		603 2034 2045 2283 2946 3303 3767 4086 4455 5217 10681 10773 10819 10845 10855 10857 10970 11014 11020 11057 11114 
 	}
-	manpower = 431200
+	manpower = 1890278
 	state_category = large_city
 	history = {
-		owner = BAL
-		controller = BAL
+		owner = SER
+		controller = SER
+		add_core_of = SER
 		add_core_of = BAL
 
 		victory_points = {
-		10845 15
+		10845 30
 		}
 		victory_points = {
 		603 15
 		}
 		victory_points = {
-		4455 5
+		4455 10
 		}
 		victory_points = {
 		10819 5
@@ -26,9 +27,9 @@ state={
 buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 1
+			industrial_complex = 2
 			2034 = {
-			naval_base = 4
+			naval_base = 5
 			}
 			dockyard = 1
 		}

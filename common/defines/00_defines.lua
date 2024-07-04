@@ -2662,10 +2662,10 @@ NAI = {
 
 	AVERAGE_SUPPLY_USE_PESSIMISM = 1.5,					-- Multiplier for when AI calculates average supply use of entire army.
 
-	PROPOSE_LEND_LEASE_AIDESIRE_SAME_IDEOLOGY = 40,				-- Added to AI desire to propose lend lease if recipent is same ideology (and AI can't declare war on recipient)
-	PROPOSE_LEND_LEASE_AIDESIRE_SAME_IDEOLOGY_CIVIL_WAR = 25,	-- Added to AI desire to propose lend lease if recipent is same ideology and they are currently in civil war
-	SEND_VOLUNTEER_AIDESIRE_SAME_IDEOLOGY = 40,					-- Added to AI desire to send volunteers if recipent is same ideology (and AI can't declare war on recipient)
-	SEND_VOLUNTEER_AIDESIRE_SAME_IDEOLOGY_CIVIL_WAR = 25,		-- Added to AI desire to send volunteers if recipent is same ideology and they are currently in civil war
+	PROPOSE_LEND_LEASE_AIDESIRE_SAME_IDEOLOGY = 120,				-- Added to AI desire to propose lend lease if recipent is same ideology (and AI can't declare war on recipient)
+	PROPOSE_LEND_LEASE_AIDESIRE_SAME_IDEOLOGY_CIVIL_WAR = 120,	-- Added to AI desire to propose lend lease if recipent is same ideology and they are currently in civil war
+	SEND_VOLUNTEER_AIDESIRE_SAME_IDEOLOGY = 100,					-- Added to AI desire to send volunteers if recipent is same ideology (and AI can't declare war on recipient)
+	SEND_VOLUNTEER_AIDESIRE_SAME_IDEOLOGY_CIVIL_WAR = 100,		-- Added to AI desire to send volunteers if recipent is same ideology and they are currently in civil war
 
 	REQUEST_LEND_LEASE_PROTECT_VALUE = 75,				-- Limit for protect enemy desire for reducing lend lease desire
 	REQUEST_LEND_LEASE_CONTAINS_VALUE = 100,			-- Limit of contain enemy desire for boosting friendly help

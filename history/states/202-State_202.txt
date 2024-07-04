@@ -8,6 +8,7 @@ state={
 		owner = MOH
 		controller = MOH
 		add_core_of = MOH
+		add_core_of = OMH
 		
 		victory_points = {
 		15312 15

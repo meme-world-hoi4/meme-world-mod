@@ -911,15 +911,15 @@ guiTypes = {
 		#	format = centre
 		#}
 
-		#instantTextBoxType = {
-		#	name = "history"
-		#	position = { x = 810 y = 445 }
-		#	font = "hoi4_typewriter16"
-		#	borderSize = {x = 0 y = 0}
-		#	maxWidth = 385
-		#	maxHeight = 30
-		#	format = left
-		#}
+		instantTextBoxType = {
+			name = "history"
+			position = { x = 810 y = 445 }
+			font = "hoi4_typewriter16"
+			borderSize = {x = 0 y = 0}
+			maxWidth = 385
+			maxHeight = 30
+			format = left
+		}
 		
 		iconType = {
 				name = "countryselection_clickcover_singleentry"

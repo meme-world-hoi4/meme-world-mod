@@ -4,7 +4,7 @@ state={
 	provinces={
 		135 186 3168 3298 4573 7069 7536 8460 9910 9954 9978 9990 10021 10117 10125 10167 10202 
 	}
-	manpower = 510760
+	manpower = 410760
 	state_category = large_city
 	history = {
 		owner = BAL

@@ -3,10 +3,26 @@ state={
 	id=185
 	name="STATE_185"
 	provinces={
-		7590 
+		16713 
 	}
 	manpower=10000
+	history = {
+		owner = JJK
+		controller = JJK
+		add_core_of = JJK
+	victory_points = {
+		16713 10
+		}
+	}
+	buildings = {
+		infrastructure = 3
+		16713 = {
+			naval_base = 4
+			}
+		dockyard = 1
+	}
+	}
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 	local_supplies=0.000
 }

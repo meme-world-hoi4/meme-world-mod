@@ -1,19 +1,37 @@
+
 state={
 	id=412
 	name="STATE_412"
+
 	history={
-		owner = MOH
-		controller = MOH
+		owner = OPO
+		controller = OPO
+		add_core_of = OPO
 		victory_points = {
+			15615 10 
+		}
+		victory_points = {
+			15654 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 1
+		15615 = {
+				naval_base = 5
+
+			}
 
 		}
-buildings = {
-			infrastructure = 1
-		}
+
 	}
+
 	provinces={
-		7492 18796 
+		6916 8442 15615 15654 
 	}
-	manpower = 10000
-	state_category = rural
+	manpower=1790170
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
 }

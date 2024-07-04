@@ -5,12 +5,43 @@ characters={
 			civilian={
 				large=GFX_Portrait_Jojo_Araki_Five
 			}
+			army={
+				large="GFX_Portrait_Jojo_Araki_Five_Millitary"
+			}
 		}
 		country_leader={
 			ideology=despotism
 			expire="2029.1.1.1"
 			id=-1
 		}
+		field_marshal = {
+				traits={ inspirational_leader }
+				skill=2
+				attack_skill=2
+				defense_skill=2
+				planning_skill=2
+				logistics_skill=2
+				legacy_id=0
+			}
+	}
+	
+	JJK_Tai_Fun = {
+	name=JJK_Tai_Fun
+	portraits={
+			army={
+				large="GFX_Portrait_Jojo_Tai_Fun"
+			}
+		}
+
+		corps_commander = {
+				traits={ urban_assault_specialist }
+				skill=2
+				attack_skill=2
+				defense_skill=2
+				planning_skill=2
+				logistics_skill=1
+				legacy_id=0
+			}
 	}
 	
 	

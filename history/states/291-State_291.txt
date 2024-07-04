@@ -9,6 +9,7 @@ state={
 		owner = REP
 		controller = REP
 		add_core_of = REP
+		add_core_of = POS
 		
 		victory_points = {
 		16622 15

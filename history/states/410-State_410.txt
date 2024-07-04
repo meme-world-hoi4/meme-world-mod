@@ -1,25 +1,30 @@
+
 state={
 	id=410
 	name="STATE_410"
+
 	history={
 		owner = MOH
 		controller = MOH
 		victory_points = {
 
 		}
-buildings = {
+		buildings = {
 			infrastructure = 1
-			
 			5924 = {
-			naval_base = 1
+				naval_base = 1
+
 			}
+
 		}
+
 	}
-	
-	
+
 	provinces={
-		422 2463 5248 5642 5924 8966 18912 18959 18960 18992 19003 19031 19038 
+		422 1403 2463 5248 5642 5705 5924 7492 8966 18795 18796 18861 18873 18912 18921 18959 18960 18992 19003 19031 19038 
 	}
-	manpower = 10000
-	state_category = rural
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
 }

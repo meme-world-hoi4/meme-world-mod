@@ -70,7 +70,7 @@ country_event = {
 				terrain_factor = 0
     }	
 			defender = {
-				state = 215
+				state = 418
 				num_provinces = 3
 				on_win = 
 				on_lose = 

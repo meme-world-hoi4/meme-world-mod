@@ -3457,16 +3457,4 @@ spriteTypes = {
 		name = "GFX_memworld_news_event_003"
 		texturefile = "gfx/event_pictures/memworld_news_event_003.dds"
 	}
-	spriteType = {
-		name = "GFX_memworld_news_event_004"
-		texturefile = "gfx/event_pictures/memworld_news_event_004.dds"
-	}
-	spriteType = {
-		name = "GFX_memworld_news_event_005"
-		texturefile = "gfx/event_pictures/memworld_news_event_005.dds"
-	}
-	spriteType = {
-		name = "GFX_memworld_news_event_006"
-		texturefile = "gfx/event_pictures/memworld_news_event_006.dds"
-	}
 }

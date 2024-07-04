@@ -5,14 +5,6 @@ ideas = {
 		use_list_view = yes
 
 		president_republic = {
-		
-		allowed_to_remove = {
-				IF = {
-					limit = {
-						has_country_flag = can_remove_regimes_actually_not
-					}
-				}
-			}
 
 			cost = 0
 			removal_cost = -1
@@ -36,14 +28,6 @@ ideas = {
 		}
 
 		parlament_republic = {
-		
-		allowed_to_remove = {
-				IF = {
-					limit = {
-						has_country_flag = can_remove_regimes_actually_not
-					}
-				}
-			}
 
 			cost = 0
 			removal_cost = -1
@@ -69,14 +53,6 @@ ideas = {
 		}
 
 		mixed_republic = {
-		
-		allowed_to_remove = {
-				IF = {
-					limit = {
-						has_country_flag = can_remove_regimes_actually_not
-					}
-				}
-			}
 			
 			cost = 0
 			removal_cost = -1
@@ -100,14 +76,6 @@ ideas = {
 		}
 
 		parlament_monarchy = {
-		
-		allowed_to_remove = {
-				IF = {
-					limit = {
-						has_country_flag = can_remove_regimes_actually_not
-					}
-				}
-			}
 
 			available = {
 			AND = {
@@ -131,14 +99,6 @@ ideas = {
 		}
 		
 		absolute_monarchy = {
-		
-		allowed_to_remove = {
-				IF = {
-					limit = {
-						has_country_flag = can_remove_regimes_actually_not
-					}
-				}
-			}
 
 			available = {
 			AND = {
@@ -162,14 +122,6 @@ ideas = {
 		}
 		
 		no_ruleform = {
-		
-		allowed_to_remove = {
-				IF = {
-					limit = {
-						has_country_flag = can_remove_regimes_actually_not
-					}
-				}
-			}
 
 			available = {
 			AND = {

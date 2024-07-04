@@ -89,18 +89,8 @@ REP = {
 }
 
 MOH = {
-	color = rgb { 77  77  77 }
-	color_ui = rgb { 135  135  135 }
-}
-
-OMH = {
 	color = rgb { 171  170  141 }
 	color_ui = rgb { 237  236  191 }
-}
-
-KMH = {
-	color = rgb { 164  48  64 }
-	color_ui = rgb { 220  69  89 }
 }
 
 KEZ = {
@@ -108,24 +98,14 @@ KEZ = {
 	color_ui = rgb { 237  234  29 }
 }
 
-REZ = {
-    color = rgb { 189  167  0 }
-    color_ui = rgb { 138  129  3 }
-}
-
-POS = {
-	color = rgb { 82  148  19 }
-	color_ui = rgb { 112  199  29 }
-}
-
-SER = {
-	color = rgb { 122  122  122 }
-	color_ui = rgb { 209  209  209 }
-}
-
 KAL = {
     color = rgb { 219  56  47 }
     color_ui = rgb { 144  37  42 }
+}
+
+REZ = {
+    color = rgb { 189  167  0 }
+    color_ui = rgb { 138  129  3 }
 }
 
 D01 = {

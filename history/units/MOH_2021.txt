@@ -1,16 +1,20 @@
 ﻿division_template = {
-	name = "Narodnoe Voisko"
+	name = "Strelkovaya Divizia"
 
-	division_names_group = MOH_NAR_01
+	division_names_group = MOH_ARM_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
-	priority = 0
-	is_locked = yes
+	priority = 1
 }
 #division_template = {
 #	name = "Maloe Voennoe Formirovanie"
@@ -29,153 +33,204 @@
 #}
 
 division_template = {
-	name = "Chyornaya Gvardiya"
+	name = "Kolonialniya Divizia"
 
-	division_names_group = MOH_GVR_01
+	division_names_group = MOH_GAR_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 0 }
 		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
 	}
-	priority = 1
+	priority = 0
 }
 
 units = {
 	division = {
-		name = "Polk Narodnogo Voiska 1"
-		location = 6558
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 2"
-		location = 15312
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 3"
-		location = 15436
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 5"
-		location = 15436
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 6"
-		location = 15629
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 7"
-		location = 15184
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 8"
-		location = 15387
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 9"
-		location = 15387
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 10"
-		location = 15386
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 11"
-		location = 3515
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-	division = {
-		name = "Polk Narodnogo Voiska 12"
-		location = 1219
-		division_template = "Narodnoe Voisko"
-		start_equipment_factor = 0.35
-	}
-		division = {
-		#name = "Chyornaya Gvardiya"
-		division_name = {
+		#name = "Strelkovaya Divizia 1"
+		division_name = { 
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 7300
-		division_template = "Chyornaya Gvardiya"
-		start_equipment_factor = 0.9
-		start_experience_factor = 0.2
-	
+		location = 4396
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
 	}
-		division = {
-		#name = "Chyornaya Gvardiya"
+	division = {
+		#name = "Strelkovaya Divizia 2"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 489
-		division_template = "Chyornaya Gvardiya"
+		location = 15184
+		division_template = "Strelkovaya Divizia"
 		start_equipment_factor = 0.85
-		start_experience_factor = 0.2
 	}
-	division = {
-		#name = "Chyornaya Gvardiya"
+		division = {
+		#name = "Strelkovaya Divizia 3"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 489
-		division_template = "Chyornaya Gvardiya"
+		location = 15387
+		division_template = "Strelkovaya Divizia"
 		start_equipment_factor = 0.85
-		start_experience_factor = 0.2
 	}
 		division = {
-		#name = "Chyornaya Gvardiya"
+		#name = "Strelkovaya Divizia 4"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 4
 		}
-		location = 4839
-		division_template = "Chyornaya Gvardiya"
+		location = 15312
+		division_template = "Strelkovaya Divizia"
 		start_equipment_factor = 0.85
-		start_experience_factor = 0.2
-	}
+		}
 		division = {
-		#name = "Chyornaya Gvardiya"
-		division_name = {
+		#name = "Strelkovaya Divizia 5"
+		division_name = {    # New syntax for compatibility with name lists
 			is_name_ordered = yes
 			name_order = 5
 		}
-		location = 4839
-		division_template = "Chyornaya Gvardiya"
+		location = 3977
+		division_template = "Strelkovaya Divizia"
 		start_equipment_factor = 0.85
-		start_experience_factor = 0.2
 	}
-	division = {
-		#name = "Chyornaya Gvardiya"
+		division = {
+		#name = "Strelkovaya Divizia 6"
 		division_name = {
 			is_name_ordered = yes
 			name_order = 6
 		}
-		location = 7038
-		division_template = "Chyornaya Gvardiya"
-		start_equipment_factor = 0.9
-		start_experience_factor = 0.2
+		location = 7543
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+	
+	}
+	
+	division = {
+		#name = "Strelkovaya Divizia 6"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3515
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+	}
+		division = {
+		#name = "Strelkovaya Divizia 7"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 15386
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+	
+	}
+	
+	division = {
+		#name = "Strelkovaya Divizia 8"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 15074
+		division_template = "Strelkovaya Divizia"
+		start_equipment_factor = 0.85
+		start_experience_factor = 0.4
+	
+	}
+		division = {
+		#name = "Kolonialniya Divizia 1"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 15200
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		#name = "Kolonialniya Divizia 2"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6777
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		#name = "Kolonialniya Divizia 3"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 15499
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		#name = "Kolonialniya Divizia 4"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 16630
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+	
+	division = {
+		#name = "Kolonialniya Divizia 5"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 5445
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		#name = "Kolonialniya Divizia 6"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 15209
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		#name = "Kolonialniya Divizia 7"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 15098
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
+	}
+		division = {
+		#name = "Kolonialniya Divizia 8"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 934
+		division_template = "Kolonialniya Divizia"
+		start_equipment_factor = 0.5
+
 	}
 
 }

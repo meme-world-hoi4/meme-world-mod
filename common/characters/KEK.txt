@@ -90,6 +90,38 @@ characters={
 			}
 	}
 	
+	KEK_Kexello_Kekeng={
+		name=KEK_Kexello_Kekeng
+		portraits={
+			civilian={
+				small=GFX_idea_keklandia_kexello_kekeng
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = kexello_kekeng
+            ledger = political_advisor
+            traits = { prince_of_terror }
+        }
+	}
+	
+	KEK_Dmitry_Berloga={
+		name=KEK_Dmitry_Berloga
+		portraits={
+			civilian={
+				small=GFX_idea_keklandia_dmitry_berloga
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = dmitry_berloga
+            ledger = political_advisor
+            traits = { compassionate_gentleman }
+        }
+	}
+	
 	#KEK_Deoano_Kershuzvelt={
 	#	name="KEK_Deoano_Kershuzvelt"
 	#	portraits={

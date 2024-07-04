@@ -182,7 +182,6 @@ set_air_oob = "JJK_2021_air_legacy"
 			}
 	set_convoys = 30
 recruit_character = JJK_Araki_Five
-recruit_character = JJK_Tai_Fun
 
 add_ideas = based_political_power
 add_ideas = ccapitalism_economy_type

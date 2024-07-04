@@ -1,29 +1,9 @@
-
 state={
 	id=108
 	name="STATE_108"
 	provinces={
-		248 1954 2257 3522 4568 6273 6278 6328 6974 7504 7724 7777 8630 12450 12457 12517 12568 12600 12640 12661 12671 12690 12697 12722 12804 12830 12858 
+		1954 6273 6328 7504 7724 7777 12450 12457 12517 12568 12600 12640 
 	}
-	history = {
-		owner = BST
-		controller = BST
-		add_core_of = BST
-		
-		victory_points = {
-		}
-	buildings = {
-			infrastructure = 2
-			3522 = {
-			naval_base = 4
-			}
-		}
-}
-	resources={
-		rubber = 18
-	}
-	manpower= 213500
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	manpower = 10000
+	state_category = rural
 }

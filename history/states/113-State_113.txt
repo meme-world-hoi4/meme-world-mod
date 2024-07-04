@@ -1,26 +1,9 @@
-
 state={
 	id=113
 	name="STATE_113"
 	provinces={
-		489 1219 4596 4839 5867 6084 7300 15074 15135 15167 15244 
+		248 2257 3522 6974 8630 12661 12671 12690 12697 12722 
 	}
-history = {
-		owner = MOH
-		controller = MOH
-		add_core_of = MOH
-		add_core_of = OMH
-buildings = {
-			infrastructure = 3
-			arms_factory = 1
-	15074 = {
-				naval_base = 3
-
-			}
-}
-}
-	manpower=298500
-	buildings_max_level_factor=1.000
-	state_category=town
-	local_supplies=0.000
+	manpower = 10000
+	state_category = rural
 }

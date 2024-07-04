@@ -57,7 +57,71 @@ characters={
 			legacy_id=0
 		}
 	}
+
+    OPO_Andrew_American={
+		name=OPO_Andrew_American
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_andrew_american
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = andrew_american
+            ledger = political_advisor
+            traits = { captain_of_industry }
+        }
+	}
 	
+	OPO_Kek_Donbassovich={
+		name=OPO_Kek_Donbassovich
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_kek_donbassovich
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = kek_donbassovich
+            ledger = political_advisor
+            traits = { prince_of_terror }
+        }
+	}
+	
+	OPO_Ernst_Kekelman={
+		name=OPO_Ernst_Kekelman
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_ernst_kekelman
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = ernst_kekelman
+            ledger = political_advisor
+            traits = { silent_workhorse }
+        }
+	}
+	
+	OPO_Keklian_Keyuzfavich={
+		name=OPO_Keklian_Keyuzfavich
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_keklian_keyuzfavich
+			}
+		
+		}
+		 advisor = {
+            slot = political_advisor
+            idea_token = keklian_keyuzfavich
+            ledger = political_advisor
+            traits = { communist_revolutionary }
+        }
+	}
+
 	#OPO_Green_House={
 	#	name="OPO_Green_House"
 	#	portraits={

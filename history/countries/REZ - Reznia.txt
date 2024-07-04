@@ -67,7 +67,7 @@ add_ideas = totalit
 add_ideas = total_army_control
 add_ideas = extensive_conscription
 
-recruit_character = REZ_Rubitel_Reznikov
+recruit_character = REZ_Reznia_Second
 
 create_equipment_variant = {
 		name = "Submarine Type A"

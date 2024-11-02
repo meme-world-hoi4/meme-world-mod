@@ -8399,4 +8399,8 @@ spriteTypes = {
 		name = "GFX_idea_ses_minority"
 		texturefile = "gfx/interface/ideas/idea_ses_minority.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_kekron"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_kekron.dds"
+	}
 }

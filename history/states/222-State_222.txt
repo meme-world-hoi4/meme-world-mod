@@ -32,4 +32,5 @@ buildings = {
 resources={
 		steel=14
 	}
+local_supplies=9.0
 }

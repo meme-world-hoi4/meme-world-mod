@@ -128,6 +128,11 @@ KAL = {
     color_ui = rgb { 144  37  42 }
 }
 
+CHM = {
+    color = rgb { 130  75  20 }
+    color_ui = rgb { 175  100  26 }
+}
+
 D01 = {
 	color = rgb { 69 157 208 }
 	color_ui = rgb { 90 204 255 }

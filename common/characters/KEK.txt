@@ -11,7 +11,7 @@ characters={
 		country_leader={
 			ideology=oligarchism
 			expire="2029.1.1.1"
-			id=-1
+			id=4
 		}
 		 advisor = {
             slot = political_advisor
@@ -33,8 +33,9 @@ characters={
 		}
 		country_leader={
 			ideology=nazism
+			traits={ dislikes_garderniya }
 			expire="2029.1.1.1"
-			id=-1
+			id=5
 		}
 		field_marshal = {
 				traits={  }
@@ -43,7 +44,7 @@ characters={
 				defense_skill=2
 				planning_skill=3
 				logistics_skill=2
-				legacy_id=0
+				legacy_id=1
 			}
 	}
 	
@@ -58,7 +59,7 @@ characters={
 			ideology=liberalism
 			desc = KEK_Green_House_desc
 			expire="2029.1.1.1"
-			id=-1
+			id=6
 		}
 	}
 	
@@ -86,40 +87,8 @@ characters={
 				defense_skill=2
 				planning_skill=2
 				logistics_skill=2
-				legacy_id=0
+				legacy_id=2
 			}
-	}
-	
-	KEK_Kexello_Kekeng={
-		name=KEK_Kexello_Kekeng
-		portraits={
-			civilian={
-				small=GFX_idea_keklandia_kexello_kekeng
-			}
-		
-		}
-		 advisor = {
-            slot = political_advisor
-            idea_token = kexello_kekeng
-            ledger = political_advisor
-            traits = { prince_of_terror }
-        }
-	}
-	
-	KEK_Dmitry_Berloga={
-		name=KEK_Dmitry_Berloga
-		portraits={
-			civilian={
-				small=GFX_idea_keklandia_dmitry_berloga
-			}
-		
-		}
-		 advisor = {
-            slot = political_advisor
-            idea_token = dmitry_berloga
-            ledger = political_advisor
-            traits = { compassionate_gentleman }
-        }
 	}
 	
 	#KEK_Deoano_Kershuzvelt={

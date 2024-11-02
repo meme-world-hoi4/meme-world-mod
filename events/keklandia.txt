@@ -88,3 +88,147 @@ country_event = {
 }
 }
 }
+
+country_event = {
+	id = keklandia.4
+	title = keklandia.4.t
+	desc = keklandia.4.d
+	picture = GFX_report_event_generic_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keklandia.4.a
+		custom_effect_tooltip = nothing_can_do_otto_kerk_tt
+		hidden_effect = {
+		if = {
+		limit = {
+		has_country_flag = kek_duri_captured_kek
+		}
+		KEK ={
+		country_event = { id = keklandia.6 days = 7 }
+		}
+		}
+}
+}
+	option = {
+		name = keklandia.4.b
+		custom_effect_tooltip = do_special_save_operation_otto_kerk_tt
+		custom_effect_tooltip = need_special_agency_tt
+		hidden_effect = {
+		if = {
+		limit = {
+		has_country_flag = kek_duri_captured_kek
+		}
+		KEK ={
+		country_event = { id = keklandia.6 days = 7 }
+		}
+		}
+}
+}
+	option = {
+		name = keklandia.4.c
+		trigger = {
+			has_country_flag = kek_duri_captured_kek
+			}
+		custom_effect_tooltip = change_kek_duri_for_otto_kerk_tt
+}
+}
+
+country_event = {
+	id = keklandia.5
+	title = keklandia.5.t
+	desc = keklandia.5.d
+	picture = GFX_report_event_generic_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keklandia.5.a
+		custom_effect_tooltip = kek_duri_run_to_opo_tt
+		custom_effect_tooltip = design_gap_tt
+		retire_character = KEK_Il_Kek_Duri
+		remove_unit_leader = 1
+	hidden_effect = {
+		OPO = { country_event = opolchenie.8 }
+}
+}
+	option = {
+		name = keklandia.5.b
+		add_political_power = -50
+		add_manpower = -500
+		custom_effect_tooltip = design_gap_tt
+		retire_character = KEK_Il_Kek_Duri
+		remove_unit_leader = 1
+		hidden_effect = {
+		set_country_flag = kek_duri_captured_kek
+}
+}
+}
+
+country_event = {
+	id = keklandia.6
+	title = keklandia.6.t
+	desc = keklandia.6.d
+	picture = GFX_report_event_generic_army
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = keklandia.6.a
+		custom_effect_tooltip = kek_duri_will_be_killed_tt
+		add_political_power = 25
+}
+	option = {
+		name = keklandia.6.b
+		promote_character = {
+		character = KEK_Il_Kek_Duri
+		ideology = nazism
+		}
+		add_political_power = -25
+		hidden_effect = {
+		create_country_leader = {
+		name = KEK_Il_Kek_Duri
+		picture = GFX_Portrait_Kekland_Il_Kek_Duri
+		expire = "2029.1.1"
+		ideology = nazism
+		traits = {
+		}
+		}
+		}
+}
+
+	option = {
+		name = keklandia.6.c
+		custom_effect_tooltip = kek_duri_will_be_field_another_tt
+		add_political_power = -25
+		add_stability = -0.1
+		custom_effect_tooltip = kek_duri_will_be_field_tt
+		promote_character = {
+		character = KEK_Il_Kek_Duri
+		ideology = nazism
+		}
+	hidden_effect = {
+	create_field_marshal = {
+	name = "KEK_Il_Kek_Duri"
+	portrait_path = "GFX_Portrait_Kekland_Il_Kek_Duri"
+	traits={  }
+				skill=3
+				attack_skill=3
+				defense_skill=2
+				planning_skill=3
+				logistics_skill=2
+				legacy_id=2
+		}
+		
+	create_country_leader = {
+		name = KEK_Il_Kek_Duri
+		picture = GFX_Portrait_Kekland_Il_Kek_Duri
+		expire = "2029.1.1"
+		ideology = nazism
+	traits = {
+	}
+	}
+	}
+}
+}

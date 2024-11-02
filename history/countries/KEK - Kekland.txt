@@ -101,6 +101,8 @@ set_popularities = {
 
 add_ideas = idea_kek_union
 
+give_guarantee = ARO
+
 add_ideas = based_political_power
 add_ideas = capitalism_economy_type
 add_ideas = low_economic_mobilisation
@@ -118,121 +120,6 @@ recruit_character = KEK_Nikita_Sesonsky
 recruit_character = KEK_Green_House
 recruit_character = KEK_Al_Kekone
 recruit_character = KEK_Mikhail_Mitrovski
-recruit_character = KEK_Kexello_Kekeng
-recruit_character = KEK_Dmitry_Berloga
-
-add_opinion_modifier = { 
-		target = OPO
-		modifier = KEK_start_hard_realationships
-	}
-add_opinion_modifier = { 
-		target = OPO
-		modifier = KEK_start_rjev_union
-	}
-add_opinion_modifier = { 
-		target = OPO
-		modifier = KEK_start_kekan_state
-	}
-add_opinion_modifier = { 
-		target = REP
-		modifier = KEK_start_postreborniya_competition
-	}
-add_opinion_modifier = { 
-		target = REP
-		modifier = KEK_start_postreborniya_union
-	}
-add_opinion_modifier = { 
-		target = REP
-		modifier = KEK_start_kekan_state
-	}
-add_opinion_modifier = { 
-		target = ARO
-		modifier = KEK_start_kekan_state
-	}
-add_opinion_modifier = { 
-		target = ARO
-		modifier = KEK_start_loyal_dro_government
-	}
-add_opinion_modifier = { 
-		target = KEZ
-		modifier = KEK_start_kekan_state
-	}
-add_opinion_modifier = { 
-		target = GAR
-		modifier = KEK_start_president_friendship
-	}
-add_opinion_modifier = { 
-		target = GAR
-		modifier = KEK_start_ancient_competition
-	}
-add_opinion_modifier = { 
-		target = ORD
-		modifier = KEK_start_old_autonomy
-	}
-add_opinion_modifier = { 
-		target = ORD
-		modifier = KEK_start_member_of_non_loyalty_faction
-	}
-add_opinion_modifier = { 
-		target = JJK
-		modifier = KEK_start_potential_competitor
-	}
-add_opinion_modifier = { 
-		target = JJK
-		modifier = KEK_start_they_destroy_our_influence_sphere
-	}
-add_opinion_modifier = { 
-		target = JJK
-		modifier = KEK_start_leader_of_non_loyalty_faction
-	}
-add_opinion_modifier = { 
-		target = EVD
-		modifier = KEK_start_non_bad_realationship
-	}
-add_opinion_modifier = { 
-		target = BAL
-		modifier = KEK_start_non_bad_realationship
-	}
-add_opinion_modifier = { 
-		target = BAL
-		modifier = KEK_start_government_old_friends
-	}
-add_opinion_modifier = { 
-		target = BAL
-		modifier = KEK_start_member_of_non_loyalty_faction
-	}
-add_opinion_modifier = { 
-		target = FAL
-		modifier = KEK_start_non_bad_realationship
-	}
-add_opinion_modifier = { 
-		target = EPI
-		modifier = KEK_start_non_bad_realationship
-	}
-add_opinion_modifier = { 
-		target = EPI
-		modifier = KEK_start_government_old_friends
-	}
-add_opinion_modifier = { 
-		target = VKB
-		modifier = KEK_start_non_friend_government
-	}
-add_opinion_modifier = { 
-		target = PAR
-		modifier = KEK_start_member_of_non_loyalty_faction
-	}
-add_opinion_modifier = { 
-		target = KIR
-		modifier = KEK_start_member_of_non_loyalty_faction
-	}
-add_opinion_modifier = { 
-		target = KIR
-		modifier = KEK_start_puppet_non_loyalty_state
-	}
-add_opinion_modifier = { 
-		target = ZEL
-		modifier = KEK_start_kekan_state
-	}
 
 add_opinion_modifier = { 
 		target = OPO

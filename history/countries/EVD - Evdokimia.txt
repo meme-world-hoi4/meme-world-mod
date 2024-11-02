@@ -60,6 +60,7 @@ set_politics = {
 create_faction = Alliance_of_Cool_Members
 add_to_faction = EVD
 add_to_faction = IEI
+add_to_faction = CHM
 
 set_popularities = {
 	democratic = 50 

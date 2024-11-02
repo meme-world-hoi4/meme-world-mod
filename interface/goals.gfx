@@ -5132,5 +5132,49 @@ spriteTypes = {
 		name = "GFX_focus_oil_sell"
 		texturefile = "gfx/interface/goals/focus_oil_sell.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_protect_opo"
+		texturefile = "gfx/interface/goals/focus_protect_opo.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_destiny_of_dro"
+		texturefile = "gfx/interface/goals/focus_destiny_of_dro.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_liberation_dro"
+		texturefile = "gfx/interface/goals/focus_liberation_dro.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_occupation_dro"
+		texturefile = "gfx/interface/goals/focus_occupation_dro.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_lose_in_kekziland"
+		texturefile = "gfx/interface/goals/focus_lose_in_kekziland.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_doctine_of_unity"
+		texturefile = "gfx/interface/goals/focus_doctine_of_unity.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_total_war_opo"
+		texturefile = "gfx/interface/goals/focus_total_war_opo.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_declare_war_dro"
+		texturefile = "gfx/interface/goals/focus_total_war_opo.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_call_help_from_aliances"
+		texturefile = "gfx/interface/goals/focus_call_help_from_aliances.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_opo_focus_on_colony"
+		texturefile = "gfx/interface/goals/focus_opo_focus_on_colony.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_opo_focus_on_metropoly"
+		texturefile = "gfx/interface/goals/focus_opo_focus_on_metropoly.dds"
+	}
 
 }

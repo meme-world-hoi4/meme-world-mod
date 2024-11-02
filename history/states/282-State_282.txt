@@ -8,7 +8,6 @@ state={
 	history={
 		owner = KEK
 		controller = KEK
-		add_core_of = KEK
 		victory_points = {
 		16951 10
 		}

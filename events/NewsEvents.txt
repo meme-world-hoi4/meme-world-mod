@@ -604,5 +604,100 @@ news_event = {
 	}
 }
 
+news_event = {
+	id = news.8
+	title = news.8.t
+	desc = news.8.d
+	picture = GFX_memworld_news_event_008
+	
+	major = yes
+	
+	trigger = {
+		KEK = {
+		exists = no
+		}
+		NOT = { has_global_flag = civil_war_in_morshu_over_anarchist_victory }
+	}
+	
+	immediate = {
+		set_global_flag = civil_war_in_morshu_over_anarchist_victory
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = news.8.a
+		trigger = {
+			NOT = {
+			original_tag = GAR
+			original_tag = SHL
+			original_tag = VKB
+			original_tag = BAL
+			original_tag = JJK
+			original_tag = REZ
+			is_ally_with = GAR
+			is_ally_with = SHL
+			}
+		}
+	}
+	option = {
+		name = news.8.b
+		trigger = {
+			original_tag = VKB
+			VKB = {
+			NOT = { is_ally_with = SHL }
+			}
+		}
+	}
+	option = {
+		name = news.8.c
+		trigger = {
+			original_tag = REZ
+			REZ = {
+			NOT = { is_ally_with = SHL }
+			}
+		}
+	}
+	option = {
+		name = news.8.e
+		trigger = {
+			OR = {
+			original_tag = SHL
+			original_tag = GAR
+			}
+		}
+	}
+	option = {
+		name = news.8.f
+		trigger = {
+			OR = {
+			is_ally_with = GAR
+			AND = {
+			is_ally_with = SHL
+			NOT = {
+			original_tag = JJK
+			original_tag = BAL
+			}
+			}
+			}
+			NOT = {
+			original_tag = SHL
+			original_tag = GAR
+			}
+		}
+	}
+	option = {
+		name = news.8.h
+		trigger = {
+			OR = {
+			original_tag = JJK
+			original_tag = BAL
+			}
+		}
+	}
+}
+
 
 

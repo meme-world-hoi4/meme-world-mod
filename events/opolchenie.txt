@@ -15,12 +15,12 @@ country_event = {
 	
 	option = {
 		name = opolchenie.1.a
-		retire_ideology_leader = neutrality
+		retire_ideology_leader = democratic
 		add_country_leader_role = {
 			character = OPO_Otto_Kerk
 			promote_leader = yes
 		country_leader = {
-			ideology = centrism
+			ideology = conservatism
 			expire = "2024.1.1"
 			traits = { }
 		}
@@ -32,24 +32,53 @@ country_event = {
 	id = opolchenie.2
 	title = opolchenie.2.t
 	desc = opolchenie.2.d
-	picture = GFX_report_event_generic_conference
+	picture = GFX_report_event_por_salazar_franco1
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = opolchenie.2.a
-		retire_ideology_leader = neutrality
+		
+		effect_tooltip = {
+		retire_ideology_leader = democratic
 		add_country_leader_role = {
 			character = OPO_Edward_Kekinesky
 			promote_leader = yes
 		country_leader = {
-			ideology = centrism
+			ideology = oligarchism
+			traits={ dislikes_garderniya }
 			expire = "2024.1.1"
-			traits = { }
 		}
 	}
+	}
+	set_country_flag = president_opo_has_been_arrested
 	add_war_support = 0.1
 	add_stability = -0.1
+	hidden_effect = {
+	retire_ideology_leader = neutrality
+	retire_ideology_leader = democratic
+		KEK = {
+		country_event = keklandia.4
+		days = 1
+		}
+	set_politics = {
+		ruling_party = neutrality
+		elections_allowed = no
+		last_election = "2021.9.13"
+		long_name = OPO_kekinesky_party_long
+		name = OPO_kekinesky_party
+}
+	add_country_leader_role = {
+			character = OPO_Edward_Kekinesky
+			promote_leader = yes
+		country_leader = {
+			ideology = oligarchism
+			traits={ dislikes_garderniya }
+			expire = "2024.1.1"
+		}
+	}
+	add_popularity = { ideology = neutrality popularity = 0.05 }
+		}
 }
 }
 
@@ -153,8 +182,227 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-	name = opolchenie.4.a
-	add_war_support = -0.15
-	add_stability = -0.15
+	name = opolchenie.7.a
+	custom_effect_tooltip = start_peace_conference_opo_tt
+	hidden_effect = {
+	set_country_flag = defeat_in_kekziland_battle_tt
+	}
+}
+}
+
+country_event = {
+	id = opolchenie.8
+	title = opolchenie.8.t
+	desc = opolchenie.8.d
+	picture = GFX_report_event_hol_cabinet_gerbrandy
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.8.a
+	custom_effect_tooltip = kek_duri_will_be_field_tt
+	hidden_effect = {
+	create_field_marshal = {
+	name = "KEK_Il_Kek_Duri"
+	portrait_path = "GFX_Portrait_Kekland_Il_Kek_Duri"
+	traits={  }
+				skill=3
+				attack_skill=3
+				defense_skill=2
+				planning_skill=3
+				logistics_skill=2
+				legacy_id=2
+		}
+	}
+	}
+}
+
+country_event = {
+	id = opolchenie.9
+	title = opolchenie.9.t
+	desc = opolchenie.9.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.9.a
+	custom_effect_tooltip = elections_coming_opo_tt
+	hidden_effect = {
+	OPO ={
+		country_event = { id = opolchenie.1 days = 5 }
+		}
+	}
+}
+}
+
+country_event = {
+	id = opolchenie.10
+	title = opolchenie.10.t
+	desc = opolchenie.10.d
+	picture = GFX_report_event_hol_cabinet_gerbrandy
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.10.a
+	OPO ={
+		country_event = { id = opolchenie.3 days = 3 }
+		}
+}
+}
+
+country_event = {
+	id = opolchenie.11
+	title = opolchenie.11.t
+	desc = opolchenie.11.d
+	picture = GFX_report_event_hol_cabinet_gerbrandy
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.11.a
+}
+}
+
+country_event = {
+	id = opolchenie.12
+	title = opolchenie.12.t
+	desc = opolchenie.12.d
+	picture = GFX_report_event_lithuanian_ultimatum
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.12.a
+	remove_unit_leader = 3
+	custom_effect_tooltip = kill_eduard_kekinesky_tt
+}
+}
+
+country_event = {
+	id = opolchenie.13
+	title = opolchenie.13.t
+	desc = opolchenie.13.d
+	picture = GFX_report_event_german_reichstag_bombed
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.13.a
+	215 = {
+	damage_building = {
+    type = industrial_complex
+    damage = 1.5
+	}
+	damage_building = {
+    type = arms_factory
+    damage = 1
+	}
+	}
+	418 = {
+	damage_building = {
+    type = industrial_complex
+    damage = 1
+	}
+	damage_building = {
+    type = arms_factory
+    damage = 1
+	}
+	}
+	411 = {
+	damage_building = {
+    type = industrial_complex
+    damage = 0.25
+	}
+	damage_building = {
+    type = arms_factory
+    damage = 0.25
+	}
+	}
+	412 = {
+	damage_building = {
+    type = industrial_complex
+    damage = 0.1
+	}
+	}
+}
+}
+
+country_event = {
+	id = opolchenie.14
+	title = opolchenie.14.t
+	desc = opolchenie.14.d
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.14.a
+	custom_effect_tooltip = soon_declare_war_tt
+	effect_tooltip = {
+	declare_war_on = {
+    target = ARO
+    type = annex_everything
+	}
+	}
+	hidden_effect = {
+	OPO ={
+		country_event = { id = opolchenie.15 days = 1 }
+		}
+	}
+}
+}
+
+country_event = {
+	id = opolchenie.15
+	title = opolchenie.15.t
+	desc = opolchenie.15.d
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+	name = opolchenie.15.a
+	OPO = {
+	declare_war_on = {
+    target = ARO
+    type = annex_everything
+	}
+	}
+}
+}
+
+country_event = {
+	id = opolchenie.16
+	title = opolchenie.16.t
+	desc = opolchenie.16.d
+	picture = GFX_report_event_royal_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = opolchenie.16.a
+	set_country_flag = president_opo_has_been_arrested
+	effect_tooltip = {
+	retire_ideology_leader = democratic
+		add_country_leader_role = {
+			character = OPO_Emperor_Kekron
+			promote_leader = yes
+		country_leader = {
+			ideology = despotism
+			expire = "2024.1.1"
+			traits = { }
+		}
+	}
+	}
+	hidden_effect = {
+		add_popularity = { ideology = neutrality popularity = 0.05 }
+		set_politics = {
+		ruling_party = neutrality
+		}
+		}
 }
 }

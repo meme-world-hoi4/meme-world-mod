@@ -140,3 +140,20 @@ morhu_dont_want_attack = {
     value = 1000
 	}
 }
+kekland_always_want_coquer_repya = {
+	allowed = {
+		original_tag = KEK
+	}
+	enable = {
+		threat < 0.5
+	}
+	abort = {
+		threat > 0.5
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = conquer
+		id = OMH
+		value = 400
+	}
+}

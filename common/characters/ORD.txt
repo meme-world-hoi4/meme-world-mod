@@ -1,0 +1,18 @@
+characters={
+	ORD_Gagik_Aslanyan={
+		name="ORD_Gagik_Aslanyan"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Orden_Gagik_Aslanyan
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

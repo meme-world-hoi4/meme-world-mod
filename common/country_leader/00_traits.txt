@@ -10788,4 +10788,79 @@ leader_traits = {
 			}
 		}
 	}
+	dislikes_garderniya = {
+		random = no
+		ai_strategy = {
+			type = antagonize
+			id = "GAR"
+			value = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dislikes_jojo = {
+		random = no
+		ai_strategy = {
+			type = antagonize
+			id = "JJK"
+			value = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	dislikes_kek = {
+		random = no
+		ai_strategy = {
+			type = antagonize
+			id = "KEK"
+			value = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	likes_kek = {
+		random = no
+		ai_strategy = {
+			type = alliance
+			id = "KEK"
+			value = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	likes_jojo = {
+		random = no
+		ai_strategy = {
+			type = alliance
+			id = "JJK"
+			value = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	likes_garderniya = {
+		random = no
+		ai_strategy = {
+			type = alliance
+			id = "GAR"
+			value = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	member_emperor_family = {
+		random = no
+		political_power_factor = 0.15
+		neutrality_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

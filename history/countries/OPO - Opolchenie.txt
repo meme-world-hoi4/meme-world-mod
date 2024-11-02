@@ -12,6 +12,12 @@ set_research_slots = 3
 
 set_technology = {
 	infantry_weapons = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	tech_support = 1
+	unit_engineer = 1
+	basic_train = 1
+	gw_artillery = 1
 }
 
 if = {
@@ -110,21 +116,14 @@ add_ideas = strong_old_regime
 add_ideas = ses_minority
 
 OPO = {
-country_event = { id = opolchenie.1 days = 10 }
-country_event = { id = opolchenie.2 days = 12 }
-country_event = { id = opolchenie.5 days = 13 }
-country_event = { id = opolchenie.3 days = 11 }
-country_event = { id = opolchenie.4 days = 6 }
+country_event = { id = opolchenie.4 days = 4 }
 }
 
 recruit_character = OPO_Enver_Kekir
 recruit_character = OPO_Billy_Herrington
 recruit_character = OPO_Otto_Kerk
 recruit_character = OPO_Edward_Kekinesky
-recruit_character = OPO_Andrew_American
-recruit_character = OPO_Kek_Donbassovich
-recruit_character = OPO_Ernst_Kekelman
-recruit_character = OPO_Keklian_Keyuzfavich
+recruit_character = OPO_Emperor_Kekron
 
 add_opinion_modifier = { 
 		target = KEK

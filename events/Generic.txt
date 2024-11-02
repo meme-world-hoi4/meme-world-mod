@@ -70,3 +70,37 @@ country_event = {
 		add_research_slot = 1
 	}
 }
+
+country_event = {
+	id = genericc.5
+	title = genericc.5.t
+	desc = genericc.5.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = genericc.5.a
+		281 = {
+		set_state_controller_to = KEK
+		add_core_of = KEK
+		set_state_owner_to = KEK
+		force_update_map_mode = {
+	}
+		}
+}
+}
+
+country_event = {
+	id = genericc.6
+	title = genericc.6.t
+	desc = genericc.6.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = genericc.6.a
+		281 = { transfer_state_to = JJK }
+}
+}

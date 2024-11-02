@@ -199,4 +199,12 @@ spriteTypes = {
 		name = "GFX_Portrait_Morhustan_Adolf_Morshutler"
 		texturefile = "gfx/leaders/MOH/Portrait_Morhustan_Adolf_Morshutler.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Emperor_Kekron"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Emperor_Kekron.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Orden_Gagik_Aslanyan"
+		texturefile = "gfx/leaders/ORD/Portrait_Orden_Gagik_Aslanyan.dds"
+	}
 }

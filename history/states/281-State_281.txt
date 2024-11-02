@@ -1,9 +1,41 @@
+
 state={
 	id=281
 	name="STATE_281"
 	provinces={
 		819 3600 3855 5944 6199 6393 7719 7843 16504 16517 16537 16558 16576 16585 16602 16629 16636 16656 16657 16708 16731 16732 16834 16858 
 	}
-	manpower = 10000
-	state_category = rural
+	history={
+		owner = CHM
+		controller = CHM
+		add_core_of = CHM
+		
+		victory_points = {
+		16657 20
+		}
+		victory_points = {
+		16558 10
+		}
+		victory_points = {
+		16834 5
+		}
+	buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+	16834 = {
+				naval_base = 3
+			}
+			dockyard = 1
+		}
+
+	}
+	resources={
+		oil = 4
+		steel = 4
+	}
+	manpower = 1959700
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

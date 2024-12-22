@@ -5176,5 +5176,25 @@ spriteTypes = {
 		name = "GFX_focus_opo_focus_on_metropoly"
 		texturefile = "gfx/interface/goals/focus_opo_focus_on_metropoly.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_opo_old_band"
+		texturefile = "gfx/interface/goals/focus_opo_old_band.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_new_leader_opo"
+		texturefile = "gfx/interface/goals/focus_new_leader_opo.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_opo_radical_path"
+		texturefile = "gfx/interface/goals/focus_opo_radical_path.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_opo_reform_path"
+		texturefile = "gfx/interface/goals/focus_opo_reform_path.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_opo_disarm_rebels"
+		texturefile = "gfx/interface/goals/focus_opo_disarm_rebels.dds"
+	}
 
 }

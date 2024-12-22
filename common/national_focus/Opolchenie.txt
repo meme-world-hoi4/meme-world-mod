@@ -436,48 +436,360 @@ focus_tree = {
 		y = 8
 
 	}
+	
 	focus = {
-		id = OPO_riots_continiue
+		id = OPO_start_riots
 		icon = GFX_focus_BRA_utilize_security_law
-		cost = 1.44
-		x = 23
+		cost = 1.00
+		x = 27
 		y = 0
 
 	}
 	focus = {
-		id = OPO_focus_on_colony
-		icon = GFX_focus_opo_focus_on_colony
+		id = OPO_old_reform_path
+		icon = GFX_focus_opo_old_band
 		cost = 1.00
 		prerequisite = {
-			focus = OPO_riots_continiue
+			focus = OPO_start_riots
 		}
-		x = 22
+		mutually_exclusive = {
+			focus = OPO_new_revolution_path
+		}
+		x = 26
 		y = 1
 
 	}
 	focus = {
-		id = OPO_focus_on_metropoly
+		id = OPO_old_band
+		icon = GFX_focus_opo_reform_path
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_old_reform_path
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = OPO_reduce_party_influence
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_old_band
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = OPO_powerup_police
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_old_band
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = OPO_call_help_others
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_reduce_party_influence
+		}
+		prerequisite = {
+			focus = OPO_powerup_police
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = OPO_increase_autonomy
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_call_help_others
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = OPO_reshuffle_command
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_old_band
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = OPO_reform_law
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_powerup_police
+		}
+		prerequisite = {
+			focus = OPO_reshuffle_command
+		}
+		x = 23
+		y = 4
+
+	}
+	focus = {
+		id = OPO_limit_radicals
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_reform_law
+		}
+		x = 23
+		y = 5
+
+	}
+	focus = {
+		id = OPO_group_plan
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_increase_autonomy
+		}
+		prerequisite = {
+			focus = OPO_limit_radicals
+		}
+		x = 22
+		y = 6
+
+	}
+	focus = {
+		id = OPO_new_revolution_path
+		icon = GFX_focus_new_leader_opo
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_start_riots
+		}
+		mutually_exclusive = {
+			focus = OPO_old_reform_path
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = OPO_focus_on_riots
+		icon = GFX_focus_spr_masters_of_our_own_fate
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_old_reform_path
+			focus = OPO_new_revolution_path
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = OPO_enter_army_opo
 		icon = GFX_focus_opo_focus_on_metropoly
 		cost = 1.00
 		prerequisite = {
-			focus = OPO_riots_continiue
+			focus = OPO_focus_on_riots
 		}
-		x = 24
-		y = 1
+		x = 26
+		y = 3
 
 	}
 	focus = {
-		id = OPO_bet_on_army
-		icon = GFX_focus_generic_manpower
-		cost = 0.44
+		id = OPO_enter_army_colony
+		icon = GFX_focus_opo_focus_on_colony
+		cost = 1.00
 		prerequisite = {
-			focus = OPO_focus_on_colony
+			focus = OPO_focus_on_riots
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = OPO_enter_war_regime
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_enter_army_colony
 		}
 		prerequisite = {
-			focus = OPO_focus_on_metropoly
+			focus = OPO_enter_army_opo
 		}
-		x = 23
+		x = 27
+		y = 4
+
+	}
+	focus = {
+		id = OPO_try_to_dialog
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_enter_war_regime
+		}
+		mutually_exclusive = {
+			focus = OPO_brutally_suppress
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = OPO_brutally_suppress
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_enter_war_regime
+		}
+		mutually_exclusive = {
+			focus = OPO_try_to_dialog
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = OPO_disarm_rebels
+		icon = GFX_focus_opo_disarm_rebels
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_try_to_dialog
+			focus = OPO_brutally_suppress
+		}
+		x = 27
+		y = 6
+
+	}
+	focus = {
+		id = OPO_new_president
+		icon = GFX_focus_opo_radical_path
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_new_revolution_path
+		}
+		x = 32
 		y = 2
+
+	}
+	focus = {
+		id = OPO_high_command
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_new_president
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = OPO_new_religion
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_new_president
+		}
+		x = 32
+		y = 3
+
+	}
+	focus = {
+		id = OPO_high_purge
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_high_command
+		}
+		prerequisite = {
+			focus = OPO_new_religion
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = OPO_total_purge
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_high_purge
+		}
+		x = 31
+		y = 5
+
+	}
+	focus = {
+		id = OPO_all_power_pres
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_new_president
+		}
+		x = 34
+		y = 3
+
+	}
+	focus = {
+		id = OPO_only_one_nation
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_new_religion
+		}
+		prerequisite = {
+			focus = OPO_all_power_pres
+		}
+		x = 33
+		y = 4
+
+	}
+	focus = {
+		id = OPO_gencide_others
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_only_one_nation
+		}
+		x = 33
+		y = 5
+
+	}
+	focus = {
+		id = OPO_president_plan
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_total_purge
+		}
+		prerequisite = {
+			focus = OPO_gencide_others
+		}
+		x = 32
+		y = 6
+
+	}
+	focus = {
+		id = OPO_hard_times_coming
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_group_plan
+			focus = OPO_president_plan
+		}
+		prerequisite = {
+			focus = OPO_disarm_rebels
+		}
+		x = 27
+		y = 7
 
 	}
 }

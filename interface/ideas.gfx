@@ -8403,4 +8403,8 @@ spriteTypes = {
 		name = "GFX_idea_opolchenie_kekron"
 		texturefile = "gfx/interface/ideas/idea_opolchenie_kekron.dds"
 	}
+	spriteType = {
+		name = "GFX_decision_category_OPO_senat"
+		texturefile = "gfx/interface/decision/decision_category_OPO_senat.dds"
+	}
 }

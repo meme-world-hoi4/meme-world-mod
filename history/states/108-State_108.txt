@@ -10,8 +10,6 @@ state={
 		controller = BST
 		add_core_of = BST
 		
-		victory_points = {
-		}
 	buildings = {
 			infrastructure = 2
 			3522 = {

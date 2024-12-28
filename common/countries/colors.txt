@@ -4,13 +4,13 @@ KEK = {
 }
 
 ARO = {
-	color = rgb { 20  98  56 }
-	color_ui = rgb { 29  125  74 }
+	color = rgb { 22  106  60 }
+	color_ui = rgb { 31  134  79 }
 }
 
 OPO = {
-	color = rgb { 20  98  56 }
-	color_ui = rgb { 29  125  74 }
+	color = rgb { 22  106  60 }
+	color_ui = rgb { 31  134  79 }
 }
 
 EVD = {

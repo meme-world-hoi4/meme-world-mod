@@ -2,17 +2,18 @@ state={
 	id=219
 	name="STATE_219"
 	provinces={
-		15593 21566
+		15593 21566 21577 
 	}
-	manpower = 7468000
-	state_category = megalopolis
 	history={
 		owner = ARO
 		controller = ARO
 		add_core_of = DRO
 		
 		victory_points = {
-		15593 35
+		15593 30
+		}
+		victory_points = {
+		21566 10
 		}
 	add_dynamic_modifier = {
 			modifier = OPO_hard_placement
@@ -29,4 +30,8 @@ buildings = {
 		}
 		}
 }
+	manpower=7468000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
 }

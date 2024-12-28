@@ -9,7 +9,7 @@ state={
 		add_core_of = MOH
 		add_core_of = OMH
 		victory_points = {
-			15056 30 
+			15056 30
 		}
 		buildings = {
 			infrastructure = 3

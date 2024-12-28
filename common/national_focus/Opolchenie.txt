@@ -443,7 +443,9 @@ focus_tree = {
 		cost = 1.00
 		x = 27
 		y = 0
-
+	available = {
+			date > 2021.12.1
+		}
 	}
 	focus = {
 		id = OPO_old_reform_path

@@ -33,7 +33,7 @@ state={
 }
 
 resources={
-		steel = 16
+		rubber = 8
 		chromium = 6
 	}
 	manpower=1557696

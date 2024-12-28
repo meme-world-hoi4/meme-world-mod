@@ -34,7 +34,8 @@ buildings = {
 		}
 }
 resources={
-		steel = 24
+		steel = 20
+		oil = 16
 	}
 	manpower=1212790
 	buildings_max_level_factor=1.000

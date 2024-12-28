@@ -2,18 +2,12 @@
 state={
 	id=215
 	name="STATE_215"
-	resources={
-		steel=8.000
-	}
 
 	history={
 		owner = OPO
 		controller = OPO
 		victory_points = {
-			15520 30 
-		}
-		victory_points = {
-			15620 10 
+			15471 30 
 		}
 		buildings = {
 			infrastructure = 5

@@ -23,5 +23,6 @@ buildings = {
 	}
 resources={
 		chromium = 12
+		rubber = 12
 	}
 }

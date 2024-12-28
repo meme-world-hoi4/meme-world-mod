@@ -1,14 +1,18 @@
-
 state={
 	id=418
 	name="STATE_418"
-
+	provinces={
+		15547 15653 21568 21569 21579 21592 21593 21594 21595 21596 21601
+	}
 	history={
 		owner = OPO
 		controller = OPO
 		add_core_of = OPO
 		victory_points = {
-			15653 10 
+			15653 15 
+		}
+		victory_points = {
+			21568 5
 		}
 		buildings = {
 			infrastructure = 4
@@ -16,10 +20,6 @@ state={
 			industrial_complex = 3
 		}
 
-	}
-
-	provinces={
-		15547 15653 21568 21569 
 	}
 	manpower=3684264
 	buildings_max_level_factor=1.000

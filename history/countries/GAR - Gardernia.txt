@@ -58,13 +58,67 @@ if = {
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	fleet_in_being = 1
+	electronic_mechanical_engineering = 1
+	radio = 1
+	fuel_silos = 1
+	fuel_refining = 1
 }
-set_technology = {
-		early_fighter = 1
-		naval_bomber1 = 1
-		early_bomber = 1
-		
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
 	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_technology = {
+			aa_lmg = 1
+			engines_1 = 1
+			engines_2 = 1
+			early_bombs = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+			iw_medium_airframe = 1
+			iw_large_airframe = 1
+			air_torpedoe_1 = 1
+			bba_early_transport_plane = 1
+		}
+	else = {
+		set_technology = {
+			early_fighter = 1
+			cv_early_fighter = 1
+			cv_naval_bomber1 = 1
+			naval_bomber1 = 1
+			early_bomber = 1
+			CAS1 = 1
+			early_transport_plane = 1
+		}
+	}
+}
+
+
 
 set_politics = {
 	ruling_party = democratic
@@ -80,6 +134,7 @@ set_popularities = {
 	communism = 15
 }
 add_ideas = industrial_country
+add_ideas = GAR_unskilled_head_of_navy
 add_ideas = based_political_power
 add_ideas = social_capitalism_economy_type
 add_ideas = partial_economic_mobilisation
@@ -92,6 +147,143 @@ add_ideas = default_control_army_laws
 
 create_faction = New_Aliance_Of_New_Era
 add_to_faction = GAR
+
+if = {
+	limit = {
+	SER = { has_government = democratic }
+	}
+give_market_access = SER
+}
+
+if = {
+	limit = {
+	ZEL = { has_government = democratic }
+	}
+give_market_access = ZEL
+}
+
+if = {
+	limit = {
+	OR = {
+	KEK = { has_government = democratic }
+	NOT = { is_in_faction_with = JJK }
+	}
+}
+give_market_access = KEK
+}
+
+if = {
+	limit = {
+	PAR = {
+	OR = {
+	NOT = { has_government = fascism }
+	NOT = { is_in_faction_with = JJK }
+	}
+	}
+}
+give_market_access = PAR
+}
+
+if = {
+	limit = {
+	PAR = {
+	NOT = { has_government = fascism }
+	}
+	}
+give_market_access = ZEL
+}
+
+if = {
+	limit = {
+	AMG = {
+	NOT = { has_government = fascism }
+	}
+	}
+give_market_access = AMG
+}
+
+add_opinion_modifier = { 
+		target = FAL
+		modifier = GAR_leaders_good_relationship
+	}
+add_opinion_modifier = { 
+		target = FAL
+		modifier = GAR_falleland_potential_alias
+	}
+add_opinion_modifier = { 
+		target = FAL
+		modifier = OPO_leader_of_friendly_faction
+	}
+add_opinion_modifier = { 
+		target = EPI
+		modifier = KEK_start_ancient_competition
+	}
+add_opinion_modifier = { 
+		target = EPI
+		modifier = OPO_start_non_loyal_leader
+	}
+add_opinion_modifier = { 
+		target = EPI
+		modifier = OPO_start_bad_government
+	}
+add_opinion_modifier = { 
+		target = EPI
+		modifier = OPO_member_of_friendly_faction
+	}
+add_opinion_modifier = { 
+		target = JJK
+		modifier = KEK_start_potential_competitor
+	}
+add_opinion_modifier = { 
+		target = KEK
+		modifier = KEK_start_potential_competitor
+	}
+add_opinion_modifier = { 
+		target = OPO
+		modifier = KEK_start_potential_competitor
+	}
+add_opinion_modifier = { 
+		target = OPO
+		modifier = KEK_start_non_friend_government
+	}
+add_opinion_modifier = { 
+		target = OPO
+		modifier = KEK_start_ancient_competition
+	}
+add_opinion_modifier = { 
+		target = EVD
+		modifier = KEK_start_potential_competitor
+	}
+add_opinion_modifier = { 
+		target = EVD
+		modifier = KEK_start_non_friend_government
+	}
+add_opinion_modifier = { 
+		target = VKB
+		modifier = KEK_start_non_friend_government
+	}
+add_opinion_modifier = { 
+		target = VKB
+		modifier = KEK_start_leader_of_non_loyalty_faction
+	}
+add_opinion_modifier = { 
+		target = VKB
+		modifier = KEK_start_ancient_competition
+	}
+add_opinion_modifier = { 
+		target = VKB
+		modifier = OPO_start_non_loyal_leader
+	}
+add_opinion_modifier = { 
+		target = SHL
+		modifier = GAR_falleland_potential_alias
+	}
+add_opinion_modifier = { 
+		target = BST
+		modifier = GAR_falleland_potential_alias
+	}
+	
+###Дополнить Кекляндию и ДРО по отношениям
 
 #create_country_leader = {
 #    name = "Vasil Zacharka"

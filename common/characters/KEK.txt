@@ -38,7 +38,7 @@ characters={
 			id=5
 		}
 		field_marshal = {
-				traits={  }
+				traits={ fast_planner }
 				skill=3
 				attack_skill=3
 				defense_skill=2
@@ -48,11 +48,11 @@ characters={
 			}
 	}
 	
-	KEK_Green_House={
-		name="KEK_Green_House"
+	KEK_Fisting_Boy={
+		name="KEK_Fisting_Boy"
 		portraits={
 			civilian={
-				large=GFX_Portrait_Kekland_Green_House
+				large=GFX_Portrait_Kekland_Fisting_Boy
 			}
 		}
 		country_leader={
@@ -60,6 +60,14 @@ characters={
 			desc = KEK_Green_House_desc
 			expire="2029.1.1.1"
 			id=6
+		}
+	}
+	KEK_Green_House={
+		name="KEK_Green_House"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Kekland_Green_House
+			}
 		}
 	}
 	
@@ -88,6 +96,25 @@ characters={
 				planning_skill=2
 				logistics_skill=2
 				legacy_id=2
+			}
+	}
+	
+	KEK_Kekalavat_Kekzamov = {
+	name=KEK_Kekalavat_Kekzamov
+	portraits={
+			army={
+				large="GFX_Portrait_Kekland_Kekalavat_Kekzamov"
+			}
+		}
+
+		corps_commander = {
+				traits={ war_hero }
+				skill=2
+				attack_skill=3
+				defense_skill=2
+				planning_skill=1
+				logistics_skill=2
+				legacy_id=3
 			}
 	}
 	

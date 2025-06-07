@@ -2,10 +2,10 @@ state={
 	id=465
 	name="STATE_465"
 	provinces={
-		5303 8428 19545 19553 19565 19604 19632 19637 
+		1849 5303 5744 6584 8428 8653 19442 19494 19519 19545 19553 19565 19566 19604 19622 19632 19637 19645 
 	}
-	manpower = 660800
-	state_category = city
+	manpower = 1340000
+	state_category = town
 	history = {
 		owner = VKB
 		controller = VKB
@@ -14,10 +14,24 @@ state={
 		victory_points = {
 		19637 10
 		}
+		victory_points = {
+		19494 5
+		}
+		victory_points = {
+		1849 10
+		}
+		
 buildings = {
 			infrastructure = 3
 			arms_factory = 1
+			industrial_complex = 1
 			8428 = {
+			naval_base = 3
+			}
+			19494 = {
+			naval_base = 4
+			}
+			1849 = {
 			naval_base = 3
 			}
 		}

@@ -37,9 +37,9 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-		stability_weekly = 0.003
-		stability_factor = -0.15
-		conscription_factor = -0.1
+			custom_modifier_tooltip = ses_minority_influence_on_riots_tt
+			custom_modifier_tooltip = ses_minority_reduces_stability_and_conscription_tt
+			war_support_factor = -0.1
 			}
 	}
 	
@@ -71,8 +71,8 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-		min_export = 0.05
-		industrial_capacity_factory = -0.1
+		min_export = 0.1
+		industrial_capacity_factory = -0.15
 			}
 	}
 	
@@ -88,14 +88,18 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-		political_power_factor = 0.2
+		production_speed_buildings_factor = 0.15
+		industrial_capacity_factory = 0.1
+		drift_defence_factor = 0.05
 			}
 	}
 	
 	army_general_country_opolchenie = {
 	picture = tur_kemalist_officers
 	allowed = {
-				always = no
+				has_country_leader = {
+				id = 6
+				}
 			}
 
 			allowed_civil_war = {
@@ -112,7 +116,9 @@ ideas = {
 	emperor_country_opolchenie = {
 	picture = HUN_hungarian_monarchy
 	allowed = {
-				always = no
+				has_country_leader = {
+				id = 7
+				}
 			}
 
 			allowed_civil_war = {
@@ -139,10 +145,63 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-		conscription_factor = 0.25
-		production_factory_efficiency_gain_factor = 0.2
+		production_factory_efficiency_gain_factor = 0.25
+		conscription_factor = 0.1
 		stability_factor = -0.15
 		
+			}
+	}
+	
+	repair_kekingrad_opo = {
+	picture = generic_production_bonus
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+		industry_repair_factor = 0.50
+		consumer_goods_factor = -0.25
+			}
+	}
+	
+	united_opolchenie = {
+	picture = generic_manpower_bonus
+	allowed = {
+				always = no
+			219 = {
+			is_controlled_by = OPO
+			}
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+		local_manpower = 0.1
+			}
+	}
+	
+	opo_solo_war_idea = {
+	picture = generic_reserve_divisions
+	allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+		army_attack_factor = 0.15
+		army_defence_factor = 0.15
 			}
 	}
 	

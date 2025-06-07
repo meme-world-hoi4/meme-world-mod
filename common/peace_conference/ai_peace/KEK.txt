@@ -1,0 +1,189 @@
+# Scripted AI desire for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_ai_desires = {
+	
+	KEK_wants_annex_opo_lands = {
+	peace_action_type = take_state
+	 enable = {
+			ROOT = {
+                original_tag = KEK
+			NOT = {
+				has_government = democratic
+			}
+			NOT = {
+				has_government = communism
+			}
+			}
+            ROOT.FROM.FROM.FROM = {
+                OR = {
+                    state = 411
+                    state = 412
+                    state = 418
+					state = 126
+                    state = 215
+					state = 326
+					state = 217
+                    state = 172
+                }
+            }
+            ROOT.FROM = { tag = KEK }
+        }
+        ai_desire = 300
+	}
+	
+	KEK_wants_postrebornya = {
+        peace_action_type = take_states
+        enable = {
+			ROOT = {
+            tag = KEK
+			}			
+            FROM = { tag = REP }  # And the negotiator is also taking for themselves
+            FROM.FROM.FROM = { is_core_of = KEK }
+        }
+
+        ai_desire = 500
+    }
+	
+	KEK_wants_kektrans = {
+        peace_action_type = take_states
+        enable = {
+            ROOT = {
+            tag = KEK
+			}
+            FROM = { tag = MOH }  # And the negotiator is also taking for themselves
+            FROM.FROM.FROM = { is_core_of = KEK }
+        }
+
+        ai_desire = 300
+    }
+	
+	KEK_want_controll_chimsland = {
+        peace_action_type = puppet
+        enable = {
+            tag = KEK
+			ROOT = {
+			NOT = {
+				has_government = fascism
+			}
+			}
+            ROOT.FROM = { tag = CHM }
+            ROOT.FROM.FROM.FROM = { is_core_of = CHM }
+        }
+        ai_desire = 150
+    }
+	
+	KEK_want_controll_kekzahstan = {
+        peace_action_type = puppet
+        enable = {
+            tag = KEK
+			ROOT = {
+			NOT = {
+				has_government = fascism
+			}
+			}
+            ROOT.FROM = { tag = KEZ }
+            ROOT.FROM.FROM.FROM = { is_core_of = KEZ }
+        }
+        ai_desire = 150
+    }
+	
+	KEK_want_controll_repya = {
+        peace_action_type = puppet
+        enable = {
+            tag = KEK
+			ROOT = {
+			NOT = {
+				has_government = fascism
+			}
+			NOT = {
+				has_government = neutrality
+			}
+			}
+            ROOT.FROM = { tag = REP }
+            ROOT.FROM.FROM.FROM = { is_core_of = REP }
+        }
+        ai_desire = 150
+    }
+	
+	KEK_want_controll_orden = {
+        peace_action_type = puppet
+        enable = {
+			ROOT = {
+            tag = KEK
+			NOT = {
+				has_government = fascism
+			}
+			}
+            ROOT.FROM = { tag = ORD }
+            ROOT.FROM.FROM.FROM = { is_core_of = ORD }
+        }
+        ai_desire = 150
+    }
+	
+	KEK_wants_annex_morshu_lands = {
+	peace_action_type = take_state
+	 enable = {
+			ROOT = {
+            original_tag = KEK
+			NOT = {
+				has_government = democratic
+			}
+			NOT = {
+				has_government = communism
+			}
+			}
+            FROM.FROM.FROM = {
+                OR = {
+                    state = 205
+                    state = 202
+                    state = 113
+					state = 197
+                    state = 191
+					state = 201
+					state = 208
+                    state = 410
+					state = 391
+                    state = 426
+                }
+            }
+            FROM = {
+			original_tag = MOH
+			}
+        }
+        ai_desire = 300
+	}
+	
+	KEK_want_controll_opo_if_democratic = {
+        peace_action_type = puppet
+        enable = {
+			ROOT = {
+				has_government = democratic
+				tag = KEK
+			}
+            ROOT.FROM = { tag = OPO }
+        }
+        ai_desire = 150
+    }
+	
+	KEK_DONT_want_liberate = {
+        peace_action_type = { liberate force_government }  
+        enable = {
+            FROM = {
+                OR = {
+                    tag = OPO
+					tag = ARO
+                    tag = CHM
+                    tag = ORD
+                    tag = OMH
+                    tag = MOH
+                    tag = KMH
+                    tag = REP
+                    tag = KEZ
+                }
+            }
+        }
+        ai_desire = -250
+    }
+	
+}

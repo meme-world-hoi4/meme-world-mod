@@ -8,6 +8,8 @@ state={
 		owner = ARO
 		controller = ARO
 		add_core_of = DRO
+		add_core_of = ARO
+		add_core_of = OPO
 		
 		victory_points = {
 		15593 30
@@ -17,6 +19,10 @@ state={
 		}
 	add_dynamic_modifier = {
 			modifier = OPO_hard_placement
+
+		}
+	add_dynamic_modifier = {
+			modifier = ARO_town_wall
 
 		}
 buildings = {

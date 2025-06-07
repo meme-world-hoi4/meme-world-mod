@@ -2,8 +2,18 @@ state={
 	id=521
 	name="STATE_521"
 	provinces={
-		2036 8143 8438 9206 20827 20875 20896 
+		1044 2036 2131 2656 2693 3897 4440 4732 5477 5736 5816 8143 8438 9206 9543 20804 20827 20844 20861 20875 20896 20903 20910 20943 20957 20977 20991 21002 21023 
 	}
+history={
+		owner = UNI
+		controller = UNI
+		add_core_of = UNI
+		
+	buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+	}
+}
 	manpower = 10000
 	state_category = rural
 }

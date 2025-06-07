@@ -139,7 +139,7 @@ country_event = {
 		finalize_border_war = {
 			defender_win = yes
 			attacker = 222
-			defender = 215
+			defender = 418
 		}
 }
 }

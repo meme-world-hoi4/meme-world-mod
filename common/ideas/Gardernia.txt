@@ -1,0 +1,34 @@
+ideas = {
+
+	hidden_ideas = {
+		
+	}
+
+	# Special ones that can be applied on other countries through focus system.
+	country = {
+	
+	GAR_unskilled_head_of_navy = {
+	picture = GAR_unskilled_navy2
+	allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+		experience_gain_navy_unit_factor = 0.15
+		naval_accidents_chance = 0.15
+		navy_leader_cost_factor = -0.25 
+		navy_org_factor = -0.15
+		navy_visibility = 0.1
+		naval_damage_factor = -0.1
+		naval_defense_factor = -0.15
+		naval_coordination = -0.05
+			}
+	}
+	
+	}
+}

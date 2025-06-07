@@ -9,7 +9,7 @@ state={
 		controller = OPO
 		add_core_of = OPO
 		victory_points = {
-			15457 10 
+			15457 15 
 		}
 		victory_points = {
 			15539 5 

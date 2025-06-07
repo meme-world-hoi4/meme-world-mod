@@ -8407,4 +8407,8 @@ spriteTypes = {
 		name = "GFX_decision_category_OPO_senat"
 		texturefile = "gfx/interface/decision/decision_category_OPO_senat.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_GAR_unskilled_navy2"
+		texturefile = "gfx/interface/ideas/idea_GAR_unskilled_navy2.dds"
+	}
 }

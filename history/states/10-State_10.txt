@@ -2,8 +2,26 @@ state={
 	id=10
 	name="STATE_10"
 	provinces={
-		653 8795 10014 10074 10118 10126 
+		653 8795 10014 10074 10118 10126 21603
 	}
-	manpower = 10000
-	state_category = rural
+	history={
+		owner = AMG
+		controller = AMG
+		add_core_of = AMG
+		
+		victory_points = {
+		653 15
+		}
+buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			21603 = {
+			naval_base = 2
+			}
+}
+}
+	
+	manpower = 700000
+	state_category = town
 }

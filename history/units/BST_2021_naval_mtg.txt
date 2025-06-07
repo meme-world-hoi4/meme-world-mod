@@ -12,10 +12,6 @@ units= {
 			location = 119
 			ship = { name = "Georgy Kazmin" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BST version_name = "Light Crusier Type A" } } }
 			ship = { name = "BST Light Crusier Type A 1" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = BST version_name = "Light Crusier Type A" } } }
-		}
-		task_force = {
-			name = "BST Destroyer Type A Force"
-			location = 119
 			ship = { name = "BST Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = BST version_name = "Destroyer Type A" } } }
 			ship = { name = "BST Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = BST version_name = "Destroyer Type A" } } }
 			ship = { name = "BST Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = BST version_name = "Destroyer Type A" } } }

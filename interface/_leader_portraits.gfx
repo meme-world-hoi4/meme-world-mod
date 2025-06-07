@@ -207,4 +207,24 @@ spriteTypes = {
 		name = "GFX_Portrait_Orden_Gagik_Aslanyan"
 		texturefile = "gfx/leaders/ORD/Portrait_Orden_Gagik_Aslanyan.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_Kekland_Fisting_Boy"
+		texturefile = "gfx/leaders/KEK/Portrait_Kekland_Fisting_Boy.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Kekland_Kekalavat_Kekzamov"
+		texturefile = "gfx/leaders/KEK/Portrait_Kekland_Kekalavat_Kekzamov.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Autodomia_Government_Council"
+		texturefile = "gfx/leaders/AUT/Portrait_Autodomia_Government_Council.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Ernst_Kekelman"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Ernst_Kekelman.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Izgoi_Leonid_Kikta"
+		texturefile = "gfx/leaders/IZG/Portrait_Izgoi_Leonid_Kikta.dds"
+	}
 }

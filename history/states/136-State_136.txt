@@ -2,8 +2,30 @@ state={
 	id=136
 	name="STATE_136"
 	provinces={
-		5890 9692 12935 12944 12976 13068 
+	6151 7712 20277 21611 21612 21613
 	}
-	manpower = 10000
-	state_category = rural
+	
+	history = {
+		owner = SHL
+		controller = SHL
+		add_core_of = SHL
+		
+		victory_points = {
+		6151 10
+		}
+		victory_points = {
+		7712 5
+		}
+buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			7712 = {
+			naval_base = 4
+			}
+		}
+}
+	
+	manpower = 1486000
+	state_category = city
 }

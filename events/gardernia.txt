@@ -1,0 +1,271 @@
+﻿###########################
+# Gardernian Events
+###########################
+
+add_namespace = gardernia
+
+# Ивенты с альянсом на вступление
+country_event = {
+	id = gardernia.1
+	title = gardernia.1.t
+	desc = gardernia.1.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.1.a
+		ai_chance = { factor = 70 }
+		GAR = { add_to_faction = BST }
+		GAR = { country_event = { id = gardernia.2 hours = 6 } }
+		JJK = {
+		add_opinion_modifier = { 
+		target = BST
+		modifier = JJK_they_dangerous_neighbour
+		}
+		}
+	}
+	option = {
+		name = gardernia.1.b
+		ai_chance = { factor = 30 }
+		GAR = { country_event = { id = gardernia.3 hours = 6 } }
+	}
+}
+country_event = {
+	id = gardernia.2
+	title = gardernia.2.t
+	desc = gardernia.2.d
+	picture = GFX_report_event_generic_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.2.a
+		JJK = {
+		add_opinion_modifier = { 
+		target = GAR
+		modifier = JJK_they_influence_on_our_neighbors
+		}
+	}
+	}
+}
+country_event = {
+	id = gardernia.3
+	title = gardernia.3.t
+	desc = gardernia.3.d
+	picture = GFX_report_event_german_volunteers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.3.a
+		
+	}
+}
+
+###
+country_event = {
+	id = gardernia.4
+	title = gardernia.4.t
+	desc = gardernia.4.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.4.a
+		ai_chance = { factor = 70 }
+		GAR = { add_to_faction = ZEL }
+		GAR = { country_event = { id = gardernia.5 hours = 6 } }
+		PAR = {
+		add_opinion_modifier = { 
+		target = ZEL
+		modifier = PAR_they_dangerous_neighbour
+		}
+		}
+	}
+	option = {
+		name = gardernia.4.b
+		ai_chance = { factor = 30 }
+		GAR = { country_event = { id = gardernia.6 hours = 6 } }
+	}
+}
+country_event = {
+	id = gardernia.5
+	title = gardernia.5.t
+	desc = gardernia.5.d
+	picture = GFX_report_event_generic_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.5.a
+		PAR = {
+		add_opinion_modifier = { 
+		target = GAR
+		modifier = PAR_they_influence_on_our_neighbors
+		}
+		}
+	}
+}
+country_event = {
+	id = gardernia.6
+	title = gardernia.6.t
+	desc = gardernia.6.d
+	picture = GFX_report_event_german_volunteers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.6.a
+	}
+}
+
+###
+country_event = {
+	id = gardernia.7
+	title = gardernia.7.t
+	desc = gardernia.7.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.7.a
+		ai_chance = { factor = 70 }
+		GAR = { add_to_faction = AMG }
+		GAR = { country_event = { id = gardernia.8 hours = 6 } }
+		BAL = {
+		add_opinion_modifier = { 
+		target = AMG
+		modifier = BAL_they_dangerous_neighbour
+		}
+		}
+	}
+	option = {
+		name = gardernia.7.b
+		ai_chance = { factor = 30 }
+		GAR = { country_event = { id = gardernia.9 hours = 6 } }
+	}
+}
+country_event = {
+	id = gardernia.8
+	title = gardernia.8.t
+	desc = gardernia.8.d
+	picture = GFX_report_event_generic_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.8.a
+		BAL = {
+		add_opinion_modifier = { 
+		target = GAR
+		modifier = BAL_they_influence_on_our_neighbors
+		}
+		}
+	}
+}
+country_event = {
+	id = gardernia.9
+	title = gardernia.9.t
+	desc = gardernia.9.d
+	picture = GFX_report_event_german_volunteers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.9.a
+	}
+}
+
+###
+country_event = {
+	id = gardernia.10
+	title = gardernia.10.t
+	desc = gardernia.10.d
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.10.a
+		ai_chance = { factor = 70 }
+		GAR = { add_to_faction = KRH }
+		GAR = { country_event = { id = gardernia.11 hours = 6 } }
+	}
+	option = {
+		name = gardernia.7.b
+		ai_chance = { factor = 30 }
+		GAR = { country_event = { id = gardernia.12 hours = 6 } }
+	}
+}
+country_event = {
+	id = gardernia.11
+	title = gardernia.11.t
+	desc = gardernia.11.d
+	picture = GFX_report_event_generic_handshake
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.11.a
+	}
+}
+country_event = {
+	id = gardernia.12
+	title = gardernia.12.t
+	desc = gardernia.12.d
+	picture = GFX_report_event_german_volunteers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.12.a
+	}
+}
+
+
+country_event = {
+	id = gardernia.13
+	title = gardernia.13.t
+	desc = gardernia.13.d
+	picture = GFX_report_event_usa_heavy_cruiser
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = gardernia.13.a
+		ai_chance = { factor = 60 }
+		GAR = {
+		add_opinion_modifier = { 
+		target = GAR
+		modifier = GAR_falleland_wish_invite_us
+		}
+		}
+		GAR = { country_event = { id = gardernia.14 hours = 2 } }
+	}
+	option = {
+		name = gardernia.13.b
+		ai_chance = { factor = 20 }
+		GAR = {
+		add_opinion_modifier = { 
+		target = GAR
+		modifier = GAR_not_good_conditions
+		}
+		}
+		GAR = { country_event = { id = gardernia.15 hours = 2 } }
+	}
+	option = {
+		name = gardernia.13.c
+		ai_chance = { factor = 20 }
+		GAR = {
+		add_opinion_modifier = { 
+		target = GAR
+		modifier = GAR_falleland_cancel_our_wishes
+		}
+		}
+		GAR = { country_event = { id = gardernia.16 hours = 2 } }
+	}
+}
+

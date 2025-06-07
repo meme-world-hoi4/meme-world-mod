@@ -8,7 +8,7 @@ state={
 		controller = KIR
 		add_core_of = KIR
 		victory_points = {
-			8373 10 
+			8373 20 
 		}
 buildings = {
 			infrastructure = 3

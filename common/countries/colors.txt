@@ -133,6 +133,26 @@ CHM = {
     color_ui = rgb { 175  100  26 }
 }
 
+AMG = {
+	color = rgb { 150  64  46  }
+	color_ui = rgb { 186  80  58 }
+}
+
+AUT = {
+	color = rgb { 136  30  30  }
+	color_ui = rgb { 198  43  80 }
+}
+
+IZG = {
+	color = rgb { 27  125  75  }
+	color_ui = rgb { 30  140  83 }
+}
+
+UNI = {
+	color = rgb { 32  127  153 }
+	color_ui = rgb { 35  145  176 }
+}
+
 D01 = {
 	color = rgb { 69 157 208 }
 	color_ui = rgb { 90 204 255 }

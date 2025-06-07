@@ -20,6 +20,6 @@ buildings = {
 			}
 }
 }
-	manpower = 437410
+	manpower = 307410
 	state_category = rural
 }

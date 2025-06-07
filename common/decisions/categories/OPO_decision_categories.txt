@@ -1,0 +1,33 @@
+################
+##### OPO ######
+################
+
+
+OPO_congress = {
+	icon = opo_parlament
+	allowed = {
+		original_tag = OPO
+	}
+
+	scripted_gui = opo_congress_decision_ui
+
+	priority = 85
+}
+
+OPO_call_help_weapon = {
+	icon = NOR_fascist_deploy_prep
+	allowed = {
+		original_tag = OPO
+	}
+
+	priority = 80
+}
+
+OPO_trade_weapon_others = {
+	icon = generic_arms_trade
+	allowed = {
+		original_tag = OPO
+	}
+
+	priority = 50
+}

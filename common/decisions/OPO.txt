@@ -1,0 +1,354 @@
+OPO_congress = {
+
+	OPO_offer_join_bst = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 100
+				date > 2021.09.30
+			}
+			modifier = {
+				factor = 150
+				date > 2021.10.10
+			}
+		}
+		
+	days_remove = 3
+
+		icon = opo_peace_with_jjk
+
+		allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			OPO = { has_capitulated = no }
+			OPO = { is_in_faction = yes }
+			BST = { is_in_faction = no }
+			country_exists = BST
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = OPO
+		}
+
+		complete_effect = {
+			BST = { country_event = { id = gardernia.1 hours = 72 } }
+		}
+	}
+
+}
+
+OPO_call_help_weapon = {
+
+
+
+########################################################################### ТУЛТИПЫ
+	OPO_call_help_from_evd = {
+		
+	days_remove = 1
+
+		icon = opo_peace_with_evd
+
+		allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			country_exists = OPO
+			country_exists = EVD
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+
+		visible = {
+			NOT = { country_exists = OPO }
+		}
+
+		complete_effect = {
+			
+		}
+	}
+	
+	OPO_call_help_from_jjk = {
+	
+	allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			country_exists = OPO
+			country_exists = EVD
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+
+		visible = {
+			NOT = { country_exists = OPO }
+		}
+
+		complete_effect = {
+			
+		}
+	}
+	
+	OPO_dialog_with_kek = {
+	
+	allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			country_exists = OPO
+			country_exists = EVD
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+
+		visible = {
+			NOT = { country_exists = OPO }
+		}
+
+		complete_effect = {
+			
+		}
+	}
+
+##########################################################
+
+
+	OPO_peace_with_evdokimia = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 50
+				date > 2021.09.30
+			}
+			modifier = {
+				factor = 150
+				date > 2021.10.01
+			}
+		}
+		
+	days_remove = 1
+
+		icon = opo_peace_with_evd
+
+		allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			country_exists = OPO
+			country_exists = EVD
+			OPO = { has_war_with = ARO }
+			NOT = { has_country_flag = opo_make_peace_with_jjk_tt }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = OPO
+			has_country_flag = opo_war_with_great_nation_flag
+			NOT = { has_country_flag = opo_make_peace_with_jjk_tt }
+		}
+
+		complete_effect = {
+			EVD = { country_event = { id = opolchenie.25 hours = 6 } }
+			set_country_flag =  opo_make_peace_with_evdo_tt
+		}
+	}
+	
+	OPO_peace_with_jjk = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 50
+				date > 2021.09.30
+			}
+			modifier = {
+				factor = 150
+				date > 2021.10.01
+			}
+		}
+		
+	days_remove = 1
+
+		icon = opo_peace_with_jjk
+
+		allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			country_exists = OPO
+			country_exists = JJK
+			OPO = { has_war_with = ARO }
+			NOT = { has_country_flag = opo_make_peace_with_evdo_tt }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = OPO
+			has_country_flag = opo_war_with_great_nation_flag
+			NOT = { has_country_flag = opo_make_peace_with_evdo_tt }
+		}
+
+		complete_effect = {
+			JJK = { country_event = { id = opolchenie.26 hours = 6 } }
+			set_country_flag = opo_make_peace_with_jjk_tt
+		}
+	}
+	
+	OPO_peace_with_kek = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 50
+				date > 2021.09.30
+			}
+			modifier = {
+				factor = 150
+				date > 2021.10.01
+			}
+		}
+		
+	days_remove = 1
+
+		icon = opo_peace_with_kek
+
+		allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			country_exists = OPO
+			country_exists = KEK
+			OPO = { has_war_with = KEK }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = OPO
+			has_country_flag = opo_peace_with_great_nation_flag
+		}
+
+		complete_effect = {
+			KEK = { country_event = { id = opolchenie.27 hours = 6 } }
+		}
+	}
+
+}
+
+################################################
+
+OPO_trade_weapon_others = {
+
+	OPO_buy_weapon_from_aliance_krutuih = {
+	
+	allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			country_exists = OPO
+			country_exists = EVD
+		}
+
+		cost = 10
+
+		fire_only_once = yes
+
+
+		visible = {
+			original_tag = OPO
+			OPO = { has_war = yes }
+		}
+
+		complete_effect = {
+			
+		}
+	}
+	
+	OPO_buy_weapon_from_aliance_pivo = {
+	
+	allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			country_exists = OPO
+			country_exists = JJK
+		}
+
+		cost = 10
+
+		fire_only_once = yes
+
+
+		visible = {
+			original_tag = OPO
+			OPO = { has_war = yes }
+		}
+
+		complete_effect = {
+			
+		}
+	}
+	
+	OPO_buy_weapon_from_aliance_ssrmm = {
+	
+	allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			country_exists = OPO
+			country_exists = FAL
+		}
+
+		cost = 10
+
+		fire_only_once = yes
+
+
+		visible = {
+			original_tag = OPO
+			OPO = { has_war = yes }
+		}
+
+		complete_effect = {
+			
+		}
+	}
+
+}

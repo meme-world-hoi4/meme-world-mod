@@ -3,7 +3,7 @@ strategic_region={
 	id=12
 	name="STRATEGICREGION_12"
 	provinces={
-		21157 21281 21368 21375 
+		21157 21281 21368 21375 21609
 	}
 	naval_terrain=ocean
 	weather={

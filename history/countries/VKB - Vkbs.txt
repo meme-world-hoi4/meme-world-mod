@@ -63,6 +63,10 @@ set_popularities = {
   #  }
 #}
 
+if = {
+	limit = { is_ai = yes }
+	country_event = { id = genericc.7 days = 25 }
+}
 
 add_ideas = based_political_power
 add_ideas = command_economy_type

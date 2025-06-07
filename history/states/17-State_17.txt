@@ -4,6 +4,19 @@ state={
 	provinces={
 		2951 8905 10270 
 	}
-	manpower = 10000
+	
+	history={
+		owner = AMG
+		controller = AMG
+		add_core_of = AMG
+
+	buildings = {
+			infrastructure = 1
+			2951 = {
+			naval_base = 1
+			}
+	}
+	}
+	manpower = 180000
 	state_category = rural
 }

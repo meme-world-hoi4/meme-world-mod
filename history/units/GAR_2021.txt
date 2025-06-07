@@ -374,17 +374,39 @@ instant_effect = {
 			type = infantry_equipment_0
 			creator = "GAR"
 		}
-		requested_factories = 1
+		requested_factories = 3
 		progress = 0.28
-		efficiency = 100
+		efficiency = 40
 	}
-		add_equipment_production = {
+	
+	add_equipment_production = {
 		equipment = {
 			type = motorized_equipment_1
-			creator = "GAR" 
+			creator = GAR
 		}
 		requested_factories = 2
 		progress = 0.4
-		efficiency = 50
+		efficiency = 40
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = GAR 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 25
+
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = GAR
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 25
 	}
 }

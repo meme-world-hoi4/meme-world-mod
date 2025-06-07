@@ -10,6 +10,7 @@ state={
 		controller = REP
 		add_core_of = REP
 		add_core_of = POS
+		add_core_of = KEK
 		
 		victory_points = {
 		16622 15

@@ -4388,22 +4388,6 @@ on_actions = {
 					set_cosmetic_tag = MOH_SUB
 				}
 			}
-			
-			IF = {
-				limit = {
-					tag = D01
-					FROM = {
-						AND = {
-							original_tag = KEK
-							has_government = democratic
-						}
-					}
-				}
-				ROOT = {
-					retire_country_leader = yes
-					set_cosmetic_tag = MOH_SUB
-				}
-			}
 		}
 	}
 	
@@ -4412,22 +4396,6 @@ on_actions = {
 			IF = {
 				limit = {
 					original_tag = MOH
-					FROM = {
-						AND = {
-							original_tag = KEK
-							has_government = neutrality
-						}
-					}
-				}
-				ROOT = {
-					retire_country_leader = yes
-					set_cosmetic_tag = MOH_SUB
-				}
-			}
-			
-			IF = {
-				limit = {
-					tag = D01
 					FROM = {
 						AND = {
 							original_tag = KEK
@@ -4971,5 +4939,45 @@ on_actions = {
 		MOH = { country_event = morshucivilwar.2 }
 		}
 	}
+	}
+	
+	on_puppet = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = OPO
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = democratic
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = OPO_SUB_KEK
+				}
+			}
+		}
+	}
+	
+	on_puppet = {
+		effect = {
+			IF = {
+				limit = {
+					original_tag = CHM
+					FROM = {
+						AND = {
+							original_tag = KEK
+							has_government = democratic
+						}
+					}
+				}
+				ROOT = {
+					retire_country_leader = yes
+					set_cosmetic_tag = CHM_SUB_KEK
+				}
+			}
+		}
 	}
 }

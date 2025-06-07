@@ -2,8 +2,21 @@ state={
 	id=520
 	name="STATE_520"
 	provinces={
-		2656 2693 4732 9543 20804 20844 20861 20903 20910 20957 20977 
+		3042 6364 6929 8610 15458 15498 15511 15521 15557 15567 15610 15622 15669 15686 
 	}
+	history={
+		owner = IZG
+		controller = IZG
+		add_core_of = IZG
+		
+		victory_points = {
+		
+		}
+	buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+	}
+}
 	manpower = 10000
-	state_category = rural
+	state_category = town
 }

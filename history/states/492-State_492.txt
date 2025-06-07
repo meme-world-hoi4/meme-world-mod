@@ -2,9 +2,9 @@ state={
 	id=492
 	name="STATE_492"
 	provinces={
-		324 1212 2095 6151 7712 20200 20247 20277 
+		324 1212 2095 20200 20247 21607 21608
 	}
-	manpower = 3469560
+	manpower = 1982600
 	state_category = city
 	history = {
 		owner = SHL
@@ -15,12 +15,6 @@ state={
 		1212 15
 		}
 		victory_points = {
-		6151 10
-		}
-		victory_points = {
-		7712 5
-		}
-		victory_points = {
 		324 10
 		}
 		victory_points = {
@@ -29,12 +23,9 @@ state={
 buildings = {
 			infrastructure = 3
 			arms_factory = 2
-			industrial_complex = 4
+			industrial_complex = 2
 			1212 = {
 			naval_base = 4
-			}
-			7712 = {
-			naval_base = 3
 			}
 		}
 }

@@ -69,7 +69,7 @@ units = {
 		}
 		location = 3943
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
+		start_equipment_factor = 0.9
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -91,7 +91,7 @@ units = {
 		}
 		location = 16941
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
+		start_equipment_factor = 0.8
 		start_experience_factor = 0.3
 	}
 		division = {
@@ -102,7 +102,7 @@ units = {
 		}
 		location = 5951
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
+		start_equipment_factor = 0.8
 		start_experience_factor = 0.3
 		}
 		division = {
@@ -113,7 +113,7 @@ units = {
 		}
 		location = 2782
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
+		start_equipment_factor = 0.8
 		start_experience_factor = 0.3
 	}
 		division = {
@@ -124,7 +124,7 @@ units = {
 		}
 		location = 6025
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
+		start_equipment_factor = 0.75
 		start_experience_factor = 0.3
 	
 	}
@@ -137,7 +137,7 @@ units = {
 		}
 		location = 15950
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
+		start_equipment_factor = 0.75
 		start_experience_factor = 0.3
 	}
 	division = {
@@ -148,7 +148,7 @@ units = {
 		}
 		location = 16266
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
+		start_equipment_factor = 0.75
 		start_experience_factor = 0.3
 	}
 		division = {
@@ -159,8 +159,8 @@ units = {
 		}
 		location = 5209
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.75
+		start_experience_factor = 0.15
 	}
 		division = {
 		#name = "Strelkovaya Diviziya 10"
@@ -170,8 +170,8 @@ units = {
 		}
 		location = 7295
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+		start_experience_factor = 0.15
 		}
 		division = {
 		#name = "Strelkovaya Diviziya 11"
@@ -181,8 +181,8 @@ units = {
 		}
 		location = 16621
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+		start_experience_factor = 0.15
 	}
 		division = {
 		#name = "Strelkovaya Diviziya 12"
@@ -192,8 +192,8 @@ units = {
 		}
 		location = 16709
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+		start_experience_factor = 0.15
 	
 	}
 	
@@ -205,8 +205,8 @@ units = {
 		}
 		location = 7820
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+		start_experience_factor = 0.15
 	}
 		division = {
 		#name = "Strelkovaya Diviziya 14"
@@ -216,8 +216,8 @@ units = {
 		}
 		location = 7239
 		division_template = "Strelkovaya Diviziya"
-		start_equipment_factor = 0.85
-		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+		start_experience_factor = 0.15
 	
 	}
 	
@@ -274,7 +274,7 @@ units = {
 		}
 		location = 14752
 		division_template = "Kolonialniya Diviziya"
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.45
 
 	}
 		division = {
@@ -285,7 +285,7 @@ units = {
 		}
 		location = 9349
 		division_template = "Kolonialniya Diviziya"
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.45
 
 	}
 		division = {
@@ -296,7 +296,7 @@ units = {
 		}
 		location = 15012
 		division_template = "Kolonialniya Diviziya"
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.35
 
 	}
 		division = {
@@ -307,7 +307,7 @@ units = {
 		}
 		location = 15139
 		division_template = "Kolonialniya Diviziya"
-		start_equipment_factor = 0.5
+		start_equipment_factor = 0.35
 
 	}
 	
@@ -319,7 +319,7 @@ units = {
 		}
 		location = 16040
 		division_template = "Maloe Voennoe Formirovanie"
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.75
 
 	}
 	
@@ -331,7 +331,7 @@ units = {
 		}
 		location = 17078
 		division_template = "Maloe Voennoe Formirovanie"
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.75
 
 	}	
 	
@@ -343,7 +343,7 @@ units = {
 		}
 		location = 16222
 		division_template = "Maloe Voennoe Formirovanie"
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.75
 
 	}
 	division = {
@@ -354,7 +354,7 @@ units = {
 		}
 		location = 16952
 		division_template = "Maloe Voennoe Formirovanie"
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.7
 
 	}
 	
@@ -366,7 +366,7 @@ units = {
 		}
 		location = 4329
 		division_template = "Maloe Voennoe Formirovanie"
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.7
 
 	}
 	
@@ -378,7 +378,7 @@ units = {
 		}
 		location = 16852
 		division_template = "Maloe Voennoe Formirovanie"
-		start_equipment_factor = 0.8
+		start_equipment_factor = 0.65
 
 	}
 	
@@ -439,7 +439,7 @@ instant_effect = {
 			type = infantry_equipment_0
 			creator = "KEK"
 		}
-		requested_factories = 1
+		requested_factories = 5
 		progress = 0.28
 		efficiency = 100
 	}
@@ -450,6 +450,24 @@ instant_effect = {
 		}
 		requested_factories = 2
 		progress = 0.4
-		efficiency = 50
+		efficiency = 70
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "KEK" 
+		}
+		requested_factories = 3
+		progress = 0.4
+		efficiency = 70
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "KEK" 
+		}
+		requested_factories = 3
+		progress = 0.35
+		efficiency = 70
 	}
 }

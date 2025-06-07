@@ -1,0 +1,272 @@
+GAR_create_coalition = {
+
+	GAR_offer_join_bst = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 100
+				date > 2021.09.30
+			}
+			modifier = {
+				factor = 150
+				date > 2021.10.10
+			}
+		}
+		
+	days_remove = 3
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GAR
+		}
+
+		available = {
+			GAR = { has_capitulated = no }
+			GAR = { is_in_faction = yes }
+			BST = { is_in_faction = no }
+			country_exists = BST
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = GAR
+		}
+
+		complete_effect = {
+			BST = { country_event = { id = gardernia.1 hours = 72 } }
+		}
+	}
+
+	GAR_offer_join_zel = {
+		
+		ai_will_do = {
+			base = 50
+			modifier = {
+				add = 100
+				date > 2021.09.30
+			}
+		}
+		
+		days_remove = 3
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GAR
+		}
+
+		available = {
+			GAR = { has_capitulated = no }
+			GAR = { is_in_faction = yes }
+			ZEL = { is_in_faction = no }
+			country_exists = ZEL
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = GAR
+		}
+
+		complete_effect = {
+			ZEL = { country_event = { id = gardernia.4 hours = 72 } }
+		}
+	}
+	
+	GAR_offer_join_amg = {
+	
+	ai_will_do = {
+			base = 80
+			modifier = {
+				add = 50
+				date > 2021.09.30
+			}
+		}
+		
+		days_remove = 3
+
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GAR
+		}
+
+		available = {
+			GAR = { has_capitulated = no }
+			GAR = { is_in_faction = yes }
+			AMG = { is_in_faction = no }
+			country_exists = AMG
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = GAR
+		}
+
+		complete_effect = {
+			AMG = { country_event = { id = gardernia.7 hours = 72 } }
+		}
+	}
+	
+	GAR_offer_join_krh = {
+
+		icon = generic_form_nation
+		
+		days_remove = 3
+
+		allowed = {
+			original_tag = GAR
+		}
+
+		available = {
+			GAR = { has_capitulated = no }
+			GAR = { is_in_faction = yes }
+			KRH = { is_in_faction = no }
+			country_exists = KRH
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = GAR
+		}
+
+		complete_effect = {
+			KRH = { country_event = { id = gardernia.10 hours = 72 } }
+		}
+	}
+	GAR_offer_join_shd = {
+
+		icon = generic_form_nation
+		
+		days_remove = 3
+
+		allowed = {
+			original_tag = GAR
+		}
+
+		available = {
+			GAR = { has_capitulated = no }
+			GAR = { is_in_faction = yes }
+			SHD = { is_in_faction = no }
+			country_exists = SHD
+		}
+
+		cost = 25
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = GAR
+		}
+
+		complete_effect = {
+			SHD = { country_event = { id = gardernia.13 hours = 72 } }
+		}
+	}
+	
+	GAR_union_with_ssrmm = {
+
+		icon = eng_trade_unions_support
+
+		allowed = {
+			original_tag = GAR
+		}
+
+		available = {
+			country_exists = FAL
+			country_exists = GAR
+			GAR = { is_in_faction = yes }
+			FAL = { is_faction_leader = yes }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = GAR
+		}
+
+		complete_effect = {
+			FAL = { country_event = { id = gardernia.16 hours = 12 } }
+		}
+	}
+	
+	GAR_diplo_visit_shlepenia = {
+
+		icon = generic_protection
+
+		allowed = {
+			original_tag = GAR
+		}
+
+		available = {
+			country_exists = SHL
+			country_exists = GAR
+			GAR = { is_in_faction = yes }
+			date > 2021.10.01
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = GAR
+		}
+
+		complete_effect = {
+			BST = { country_event = { id = gardernia.1 hours = 6 } }
+		}
+	}
+	GAR_ultimatum_vkbs = {
+
+		icon = generic_protection
+
+		allowed = {
+			original_tag = GAR
+		}
+
+		available = {
+			country_exists = SHL
+			country_exists = GAR
+			GAR = { is_in_faction = yes }
+			date > 2021.10.01
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = GAR
+			has_country_flag = GAR_diplo_mission_success
+		}
+
+		complete_effect = {
+			VKB = { country_event = { id = gardernia.18 hours = 1 } }
+		}
+	}
+
+}

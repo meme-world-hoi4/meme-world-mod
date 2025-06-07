@@ -11,10 +11,6 @@ units= {
 			name = "PER Light Crusier Force"
 			location = 1768
 			ship = { name = "Viv Mim" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PER version_name = "Light Crusier Type A" } } }
-		}
-		task_force = {
-			name = "PER Destroyer Type A Force"
-			location = 1768
 			ship = { name = "PER Destroyer Type A 1" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Destroyer Type A" } } }
 			ship = { name = "PER Destroyer Type A 2" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Destroyer Type A" } } }
 			ship = { name = "PER Destroyer Type A 3" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = PER version_name = "Destroyer Type A" } } }

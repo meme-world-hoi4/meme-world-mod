@@ -1,20 +1,25 @@
 # Written by Henrik "Groogy" Hansson
 # Modified by Daniel "Da9L" Sjöberg
 
-kek_always_conquer_repya = {
+bal_always_conquer_sersya = {
+	allowed = {
+		original_tag = BAL
+	}
 	enable = {
-	threat > 0.5	
+	country_exists = SER
 	}
 	abort = {
-	threat < 0.5	
+	NOT = { country_exists = SER }
 	}
-	
-	KEK = {
+	abort_when_not_enabled = yes
 	ai_strategy = {
 		type = conquer
-		id = REP
+		id = SER
 		value = 400
 	}
+	ai_strategy = {
+    type = ignore_army_incompetence
+    value = 100
 	}
 }
 
@@ -65,7 +70,7 @@ anarhical_morhu_dont_want_have_alies = {
 	abort = {
 		threat > 0.3
 	}
-	abort_when_not_enabled = yes
+
 		ai_strategy = {
 			type = alliance
 			id = FAL
@@ -81,6 +86,18 @@ anarhical_morhu_dont_want_have_alies = {
 		id = KMH
 		value = 300
 	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = KEK
+		target = military_access
+		value = -100
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = KEK
+		target = docking_rights
+		value = -100
+	}
 }
 
 anarhical_morhu_want_attack = {
@@ -93,7 +110,7 @@ anarhical_morhu_want_attack = {
 	abort = {
 		threat > 0.3
 	}
-	abort_when_not_enabled = yes
+
 	ai_strategy = {
     type = conquer
 	id = OMH
@@ -122,7 +139,15 @@ anarhical_morhu_want_attack = {
 		ordertype = front
 		execution_type = rush
 		execute_order = yes
-}
+	}
+	ai_strategy = {
+    type = ignore_army_incompetence
+    value = 100
+	}
+	ai_strategy = {
+    type = garrison
+    value = -50
+	}
 }
 morhu_dont_want_attack = {
 	allowed = {
@@ -134,7 +159,7 @@ morhu_dont_want_attack = {
 	abort = {
 		threat > 0.3
 	}
-	abort_when_not_enabled = yes
+
 	ai_strategy = {
     type = garrison
     value = 1000
@@ -157,3 +182,1015 @@ kekland_always_want_coquer_repya = {
 		value = 400
 	}
 }
+
+kekland_dont_want_conquer_orden = {
+	allowed = {
+		original_tag = KEK
+	}
+	enable = {
+		threat < 0.5
+	}
+	abort = {
+		threat > 0.5
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+		type = conquer
+		id = OMH
+		value = -400
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = ORD
+		value = -100
+	}
+	ai_strategy = {
+    type = invade
+    id = ORD
+    value = -500
+	}
+}
+
+gardernia_want_befriend_with_sersia = {
+	allowed = {
+		original_tag = GAR
+	}
+	enable = {
+	country_exists = SER
+	has_government = democratic
+	}
+	abort = {
+	OR = {
+	NOT = { country_exists = SER }
+	NOT = { has_government = democratic }
+	}
+	}
+
+	ai_strategy = {
+    type = befriend
+    id = SER
+    value = 100
+	}
+	
+}
+
+gardernia_want_befriend_with_bulba = {
+	allowed = {
+		original_tag = GAR
+	}
+	enable = {
+	country_exists = BST
+	NOT = { is_in_faction_with = JJK }
+	}
+	abort = {
+	OR = {
+	NOT = { country_exists = BST }
+	is_in_faction_with = JJK
+	}
+	}
+
+	ai_strategy = {
+    type = befriend
+    id = BST
+    value = 100
+	}
+	ai_strategy = {
+    type = support
+    id = BST
+    value = 100
+	}
+	
+}
+
+gardernia_want_befriend_with_amogus = {
+	allowed = {
+		original_tag = GAR
+	}
+	enable = {
+	country_exists = AMG
+	OR = {
+	AMG ={ 
+	NOT = { is_in_faction_with = BAL }
+	NOT = { is_in_faction_with = JJK }
+	}
+	}
+	}
+	abort = {
+	OR = {
+	NOT = { country_exists = AMG }
+	AMG = {
+	OR = {
+	is_in_faction_with = JJK
+	is_in_faction_with = BAL
+	}
+	}
+	}
+	}
+
+	ai_strategy = {
+    type = befriend
+    id = AMG
+    value = 100
+	}
+	
+}
+
+gardernia_want_befriend_with_shlepa = {
+	allowed = {
+		original_tag = GAR
+	}
+	enable = {
+	country_exists = SHL
+	}
+	abort = {
+	NOT = { country_exists = SHL }
+	}
+
+	ai_strategy = {
+    type = befriend
+    id = SHL
+    value = 100
+	}
+	ai_strategy = {
+    type = support
+    id = SHL
+    value = 100
+	}
+	ai_strategy = {
+    type = protect
+    id = SHL
+    value = 100
+	}
+	
+}
+
+shlepa_want_befriend_with_gardernia = {
+	allowed = {
+		original_tag = SHL
+	}
+	enable = {
+	country_exists = GAR
+	GAR = {
+	has_government = democratic
+	}
+	}
+	abort = {
+	NOT = { country_exists = GAR }
+	NOT = { has_government = democratic }
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = befriend
+    id = GAR
+    value = 100
+	}
+	ai_strategy = {
+    type = support
+    id = GAR
+    value = 100
+	}
+	
+}
+
+vkb_knows_that_shlepa_want_war = {
+	allowed = {
+		original_tag = VKB
+	}
+	enable = {
+	country_exists = SHL
+	SHL = {
+	NOT = { has_government = communism }
+	}
+	}
+	abort = {
+	OR = {
+	NOT = { country_exists = SHL }
+	SHL = { has_government = communism }
+	}
+	}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = prepare_for_war
+    id = SHL
+    value = 100
+	}
+	ai_strategy = {
+    type = force_build_armies
+    value = 100
+	}
+	ai_strategy = {
+    type = ignore_army_incompetence
+    value = 100
+	}
+	ai_strategy = {
+    type = garrison
+    value = -50
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 80
+	}
+	ai_strategy = { 
+		type = build_army
+		id = infantry
+		value = 50
+	}
+	
+}
+
+shlepa_want_attack_vkb = {
+	allowed = {
+		original_tag = SHL
+	}
+	enable = {
+	country_exists = VKB
+	VKB = {
+	NOT = { has_government = democratic }
+	}
+	date > 2021.10.05
+	}
+	abort = {
+	OR = {
+	NOT = { country_exists = VKB }
+	VKB = {
+	has_government = democratic
+	}
+	}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = conquer
+    id = VKB
+    value = 100
+	}
+	ai_strategy = {
+    type = prepare_for_war
+    id = VKB
+    value = 100
+	}
+	ai_strategy = {
+    type = force_build_armies
+    value = 100
+	}
+	ai_strategy = {
+    type = ignore_army_incompetence
+    value = 100
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 50
+	}
+	ai_strategy = { 
+		type = build_army
+		id = infantry
+		value = 50
+	}
+	ai_strategy = {
+    type = garrison
+    value = -150
+	}
+	
+}
+
+jjk_dont_want_support_shlepa = {
+	allowed = {
+		original_tag = JJK
+	}
+	enable = {
+	country_exists = SHL
+	}
+	abort = {
+	NOT = { country_exists = SHL }
+	}
+
+	ai_strategy = {
+    type = dont_defend_ally_borders
+    id = SHL
+    value = 500
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = SHL
+		value = 5000
+	}
+	ai_strategy = {
+    type = garrison
+    value = 100
+	}
+	ai_strategy = {
+    type = contain
+    id = VKB
+    value = 150
+	}
+	ai_strategy = {
+    type = protect
+    id = VKB
+    value = 150
+	}
+}
+
+bal_dont_want_support_shlepa = {
+	allowed = {
+		original_tag = BAL
+	}
+	enable = {
+	country_exists = SHL
+	}
+	abort = {
+	NOT = { country_exists = SHL }
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+    type = dont_defend_ally_borders
+    id = SHL
+    value = 1500
+	}
+	ai_strategy = {
+		type = dont_defend_ally_borders
+		id = SHL
+		value = 1500
+	}
+	ai_strategy = {
+    type = contain
+    id = VKB
+    value = 100
+	}
+	ai_strategy = {
+    type = protect
+    id = VKB
+    value = 100
+	}
+	ai_strategy = {
+    type = garrison
+    value = 50
+	}
+}
+
+gar_want_support_shlepa = {
+	allowed = {
+		original_tag = GAR
+	}
+	enable = {
+	GAR = { is_in_faction_with = SHL }
+	country_exists = SHL
+	}
+	abort = {
+	NOT = { country_exists = SHL }
+	NOT = {
+	GAR = { is_in_faction_with = SHL }
+	}
+	}
+
+	ai_strategy = {
+    type = force_defend_ally_borders
+    id = SHL
+    value = 100
+	}
+	ai_strategy = {
+    type = prepare_for_war
+    id = VKB
+    value = 100
+	}
+	ai_strategy = {
+    type = conquer
+    id = VKB
+    value = 150
+	}
+	ai_strategy = {
+    type = garrison
+    value = -60
+	}
+	ai_strategy = {
+    type = ignore_army_incompetence
+    value = 100
+	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = VKB
+    value = 80
+	}
+	
+}
+
+vkb_want_defend_their_colonies = {
+	allowed = {
+		original_tag = VKB
+	}
+	enable = {
+	country_exists = BST
+	BST = { is_in_faction_with = GAR }
+	}
+	abort = {
+	OR = {
+	NOT = { country_exists = BST }
+	BST
+	NOT = { has_government = communism }
+	}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = put_unit_buffers
+    ratio = 0.2
+    states = {
+        366
+    }
+}
+}
+
+vkb_dont_want_have_alies_in_ssrmm = {
+	allowed = {
+		original_tag = VKB
+	}
+	enable = {
+		country_exists = FAL
+		FAL = { has_government = communism }
+	}
+	abort = {
+		OR = {
+		NOT = { country_exists = FAL }
+		FAL = { 
+		NOT = { 
+		has_government = communism 
+		}
+		}
+		}
+	}
+
+	ai_strategy = {
+		type = alliance
+		id = FAL
+		value = -100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = FAL
+		value = 300
+	}
+	ai_strategy = {
+		type = antagonize
+		id = KMH
+		value = 300
+	}
+}
+
+jjk_want_protect_vkb = {
+	allowed = {
+		original_tag = JJK
+	}
+	enable = {
+		country_exists = VKB
+		VKB = { has_government = communism }
+		JJK = {
+		NOT = { is_in_faction_with = SHL }
+		}
+	}
+	abort = {
+		NOT = { country_exists = VKB }
+		JJK = { is_in_faction_with = SHL }
+		}
+
+	ai_strategy = {
+    type = protect
+    id = VKB
+    value = 100
+	}
+	ai_strategy = {
+    type = support
+    id = VKB
+    value = 100
+	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = VKB
+    value = 100
+	}
+	ai_strategy = {
+    type = conquer
+    id = SHL
+    value = 150
+	}
+	
+}
+
+gar_want_defend_yourself_sea = {
+	allowed = {
+		original_tag = GAR
+	}
+	enable = {
+		GAR = { has_war = yes }
+	}
+	abort = {
+		OR = {
+		GAR = {
+		NOT = { has_war = yes }
+		}
+		GAR = { has_offensive_war_with = OPO }
+		GAR = { has_offensive_war_with = FAL }
+		GAR = { has_offensive_war_with = EPI }
+		}
+		}
+
+	ai_strategy = {
+    type = strike_force_home_base
+    id = 60
+    value = 30
+	}
+}
+
+gar_want_attack_vkbs_fleet = {
+	allowed = {
+		original_tag = GAR
+	}
+	enable = {
+		GAR = { has_war_with = VKB }
+	}
+	abort = {
+		OR = {
+		GAR = {
+		NOT = { has_war_with = VKB }
+		}
+		date > 2021.11.01
+	}
+	}
+	ai_strategy = {
+    type = strike_force_home_base
+    id = 12
+    value = 100
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 49
+    value = 30
+	}
+}
+
+gar_want_control_eudokim_sea = {
+	allowed = {
+		original_tag = GAR
+	}
+	enable = {
+		GAR = { has_war_with = JJK }
+	}
+	abort = {
+		GAR = {
+		NOT = { has_war_with = JJK }
+	}
+	}
+	ai_strategy = {
+    type = strike_force_home_base
+    id = 56
+    value = 40
+	}
+}
+
+jjk_want_destroy_gar_navy_start = {
+	allowed = {
+		original_tag = JJK
+	}
+	enable = {
+		JJK = { has_war_with = GAR }
+	}
+	abort = {
+		JJK = {
+		NOT = { has_war_with = GAR }
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = strike_force_home_base
+    id = 56
+    value = 300
+	}
+	ai_strategy = {
+    type = naval_mission_threshold
+    id = MISSION_CONVOY_RAIDING
+    value = -200
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 47
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 49
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 58
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 12
+    value = 30
+	}
+}
+
+jjk_want_destroy_gar_navy_final = {
+	allowed = {
+		original_tag = JJK
+	}
+	enable = {
+		JJK = { has_war_with = GAR }
+	}
+	abort = {
+		JJK = {
+		NOT = { has_war_with = GAR }
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = strike_force_home_base
+    id = 60
+    value = 300
+	}
+	ai_strategy = {
+    type = naval_mission_threshold
+    id = MISSION_CONVOY_RAIDING
+    value = -200
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 47
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 49
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 58
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 12
+    value = 30
+	}
+}
+
+bal_want_destroy_gar_navy_start = {
+	allowed = {
+		original_tag = BAL
+	}
+	enable = {
+		BAL = { has_defensive_war_with = GAR }
+	}
+	abort = {
+		BAL = {
+		NOT = { has_war_with = GAR }
+	}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = strike_force_home_base
+    id = 56
+    value = 200
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 47
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 49
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 58
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 12
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_mission_threshold
+    id = MISSION_CONVOY_RAIDING
+    value = -200
+	}
+}
+
+bal_want_destroy_gar_navy_final = {
+	allowed = {
+		original_tag = BAL
+	}
+	enable = {
+		BAL = { has_war_with = GAR }
+	}
+	abort = {
+		BAL = {
+		NOT = { has_war_with = GAR }
+		}
+	}
+	abort_when_not_enabled = yes
+	ai_strategy = {
+    type = strike_force_home_base
+    id = 60
+    value = 200
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 47
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 49
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 58
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_avoid_region
+    id = 12
+    value = 30
+	}
+	ai_strategy = {
+    type = naval_mission_threshold
+    id = MISSION_CONVOY_RAIDING
+    value = -200
+	}
+}
+
+opo_dont_want_invade_in_jojo = {
+	allowed = {
+		original_tag = OPO
+	}
+	enable = {
+		NOT = { OPO = { has_war_with = JJK } }
+	}
+	abort = {
+		OPO = { has_war_with = JJK }
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = JJK
+		value = -100
+	}
+	ai_strategy = {
+    type = invade
+    id = JJK
+    value = -500
+	}
+}
+
+opo_dont_want_invade_in_bal = {
+	allowed = {
+		original_tag = OPO
+	}
+	enable = {
+		NOT = { OPO = { has_war_with = BAL } }
+	}
+	abort = {
+		OPO = { has_war_with = BAL }
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = BAL
+		value = -100
+	}
+	ai_strategy = {
+    type = invade
+    id = BAL
+    value = -500
+	}
+}
+
+opo_dont_want_invade_in_gardernia = {
+	allowed = {
+		original_tag = OPO
+	}
+	enable = {
+		NOT = { OPO = { has_war_with = GAR } }
+	}
+	abort = {
+		OPO = { has_war_with = GAR }
+	}
+
+	ai_strategy = {
+		type = prepare_for_war
+		id = GAR
+		value = -100
+	}
+	ai_strategy = {
+    type = invade
+    id = GAR
+    value = -500
+	}
+}
+
+kek_want_keep_garrison_on_opo_border = {
+
+	allowed = {
+		original_tag = KEK
+	}
+	enable = {
+	country_exists = OPO
+	}
+	abort = {
+	NOT = { country_exists = OPO }
+	}
+	
+	ai_strategy = {
+    type = conquer
+    id = OPO
+    value = 50
+	}
+	ai_strategy = {
+    type = prepare_for_war
+    id = OPO
+    value = 50
+	}
+	ai_strategy = {
+    type = invade
+    id = OPO
+    value = -200
+	}
+}
+
+opo_want_smash_dro = {
+
+	allowed = {
+		original_tag = OPO
+	}
+	enable = {
+	country_exists = ARO
+	}
+	abort = {
+	NOT = { country_exists = ARO }
+	}
+	
+	ai_strategy = {
+    type = conquer
+    id = ARO
+    value = 50
+	}
+	ai_strategy = {
+    type = prepare_for_war
+    id = ARO
+    value = 50
+	}
+	
+	ai_strategy = {
+    type = force_build_armies
+    value = 100
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 50
+	}
+	ai_strategy = { 
+		type = build_army
+		id = infantry
+		value = 50
+	}
+	ai_strategy = {
+    type = garrison
+    value = -50
+	}
+	
+}
+
+bul_want_keep_garrison_on_fal_border = {
+
+	allowed = {
+		original_tag = BST
+	}
+	enable = {
+	country_exists = FAL
+	has_government = communism
+	}
+	abort = {
+	OR = {
+	NOT = { country_exists = FAL }
+	NOT = { has_government = communism }
+	}
+	}
+	
+	ai_strategy = {
+    type = conquer
+    id = FAL
+    value = 25
+	}
+	ai_strategy = {
+    type = prepare_for_war
+    id = FAL
+    value = 25
+	}
+	
+}
+
+rep_want_keep_garrison_on_kek_border = {
+
+	allowed = {
+		original_tag = REP
+	}
+	enable = {
+	country_exists = KEK
+	}
+	abort = {
+	NOT = { country_exists = KEK }
+	}
+	
+	ai_strategy = {
+    type = conquer
+    id = KEK
+    value = 50
+	}
+	ai_strategy = {
+    type = prepare_for_war
+    id = KEK
+    value = 50
+	}
+	ai_strategy = {
+    type = force_build_armies
+    value = 100
+	}
+	ai_strategy = {
+    type = ignore_army_incompetence
+    value = 100
+	}
+	ai_strategy = {
+    type = garrison
+    value = -50
+	}
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 80
+	}
+	ai_strategy = { 
+		type = build_army
+		id = infantry
+		value = 50
+	}
+	
+}
+
+opo_want_smash_dro = {
+
+	allowed = {
+		original_tag = PAR
+	}
+	enable = {
+	country_exists = ZEL
+	}
+	abort = {
+	NOT = { country_exists = ZEL }
+	}
+	
+	ai_strategy = {
+    type = conquer
+    id = ZEL
+    value = 50
+	}
+	ai_strategy = {
+    type = prepare_for_war
+    id = ZEL
+    value = 50
+	}
+	
+	ai_strategy = {
+    type = force_build_armies
+    value = 100
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = infantry
+		value = 50
+	}
+	ai_strategy = { 
+		type = build_army
+		id = infantry
+		value = 50
+	}
+	ai_strategy = {
+    type = garrison
+    value = -50
+	}
+	
+}
+
+
+
+

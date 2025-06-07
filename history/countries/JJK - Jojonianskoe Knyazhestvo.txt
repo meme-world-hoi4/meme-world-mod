@@ -59,6 +59,8 @@ add_to_faction = ORD
 add_to_faction = PAR
 add_to_faction = SHL
 
+give_guarantee = KIR
+
 set_autonomy = {
 		target = KIR
 		autonomous_state = autonomy_dominion

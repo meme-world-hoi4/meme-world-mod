@@ -27,6 +27,15 @@ state={
 			}
 		}
 
+	add_dynamic_modifier = {
+			modifier = OPO_ses_minority_modifiers
+
+		}
+	add_dynamic_modifier = {
+			modifier = OPO_opo_mountains_modifier
+
+		}
+
 	}
 	
 	resources={

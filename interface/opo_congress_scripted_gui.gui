@@ -1,0 +1,164 @@
+@SENATE_TEXT_X = 16
+@HOUSE_TEXT_X = 212
+@HEADERS_Y = 67
+@STATUS_Y = 52
+guiTypes = {
+
+	containerWindowType = {
+		name = "opo_congress_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 186 }
+	
+	iconType = {
+			name ="party_background"
+			spriteType = "GFX_decision_category_opo_parlament_ui"
+			position = { x= -10 y = -20 }
+		}
+	iconType = {
+			name ="poor_metal_effect"
+			spriteType = "GFX_poor_metal_effect_for_desk"
+			position = { x= -7 y = -20 }
+		}
+
+		iconType = {
+			name ="seats_icon_nubmer"
+			spriteType = "GFX_decision_category_opo_parlament_seats_number"
+			position = { x= 86 y = 88 }
+		}
+		instantTextBoxType = {
+			name ="chairman_senate_header"
+			position = { x = 156 y = -4 }
+			font = "hoi_24header"
+			text = "chairman_of_the_senate"
+			format = center
+			maxHeight = 28
+		}
+		instantTextBoxType = {
+			name ="opo_next_ele"
+			position = { x= 126 y = 152 }
+			font = "hoi_24header"
+			text = "[scripted_election_day]"
+			format = center
+			maxHeight = 28
+		}
+		iconType = {
+			name ="chair_man_icon"
+			spriteType = "GFX_decision_category_chair_man_ui"
+			position = { x= 210 y = 17 }
+			pdx_tooltip = "OPO_CHAIRMAN_EFFECT_TOOLTIP"
+		}
+		instantTextBoxType = {
+			name ="another_election_header"
+			position = { x= -2 y = 152 }
+			font = "hoi_24header"
+			text = "another_election_on_opo"
+			format = center
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="opo_senate_header"
+			position = { x= 0 y = 2 }
+			font = "hoi_24header"
+			text = "opo_senate_header_text"
+			format = center
+			maxHeight = 28
+		}
+
+	#	instantTextBoxType = {
+	#		name ="status_senate"
+	#		position = { x = @SENATE_TEXT_X y = @STATUS_Y }
+	#		font = "hoi_18mbs"
+	#		text = "USA_congress_senate_support_amount"
+	#		format = center
+	#	}
+
+		iconType = {
+			name ="seats_icon"
+			spriteType = "GFX_decision_category_opo_parlament_seats_ui"
+			position = { x= 5 y = 22 }
+		}
+		iconType = {
+			name ="seats_icon_legend"
+			spriteType = "GFX_decision_category_seats_legend"
+			position = { x= 337 y = -5 }
+		}
+		instantTextBoxType = {
+			name ="Banner_of_Kekin"
+			position = { x= 314 y = 1 }
+			font = "hoi_18mbs"
+			text = "Banner_of_Kekin_opo_party"
+			format = center
+		}
+		instantTextBoxType = {
+			name ="DemPRO"
+			position = { x= 285 y = 22 }
+			font = "hoi_18mbs"
+			text = "DPRO_opo_party"
+			format = center
+		}
+		instantTextBoxType = {
+			name ="Monarchical_Party"
+			position = { x= 307 y = 45 }
+			font = "hoi_18mbs"
+			text = "Monarchical_Party_opo_party"
+			format = center
+		}
+		instantTextBoxType = {
+			name ="Utkin_party"
+			position = { x= 302 y = 67 }
+			font = "hoi_18mbs"
+			text = "Utkins_party_opo_party"
+			format = center
+		}
+		instantTextBoxType = {
+			name ="Vox_party"
+			position = { x= 280 y = 88 }
+			font = "hoi_18mbs"
+			text = "Vox_opo_party"
+			format = center
+		}
+		instantTextBoxType = {
+			name ="TNFO_party"
+			position = { x= 286 y = 111 }
+			font = "hoi_18mbs"
+			text = "Tnfo_opo_party"
+			format = center
+		}
+		instantTextBoxType = {
+			name ="Unionist_party"
+			position = { x= 307 y = 132 }
+			font = "hoi_18mbs"
+			text = "Unionist_opo_party"
+			format = center
+		}
+		
+		iconType = {
+			name ="seats_icon_effect"
+			spriteType = "GFX_decision_category_opo_parlament_seats_poor_effect"
+			position = { x= 5 y = 10 }
+		}
+		
+
+	#	instantTextBoxType = {
+	#		name ="status_house"
+	#		position = { x= @HOUSE_TEXT_X y = @STATUS_Y }
+	#		font = "hoi_18mbs"
+	#		text = "USA_congress_house_support_amount"
+	#		format = center
+	#		fixedsize = yes
+	#		maxWidth = 280
+	#	}
+
+	#	instantTextBoxType = {
+	#		name ="house_support_header"
+	#		position = { x= @HOUSE_TEXT_X y = @HEADERS_Y }
+	#		font = "hoi_24header"
+	#		text = "USA_congress_house_support_header"
+	#		format = center
+	#		maxHeight = 24
+	#		fixedsize = yes
+	#		maxWidth = 280
+	#	}
+
+	}
+}

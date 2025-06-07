@@ -2531,6 +2531,7 @@ hidden_effect = {
 				remove_idea = agrarian_country
 				add_idea = industrial_country
 		}
+	add_ideas = partial_economic_mobilisation
 	}
 	}
 	

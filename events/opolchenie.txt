@@ -275,7 +275,9 @@ country_event = {
 	
 	option = {
 	name = opolchenie.12.a
-	remove_unit_leader = 3
+	OPO = {
+	remove_unit_leader = 6
+	}
 	custom_effect_tooltip = kill_eduard_kekinesky_tt
 }
 }
@@ -293,7 +295,7 @@ country_event = {
 	215 = {
 	damage_building = {
     type = industrial_complex
-    damage = 1.5
+    damage = 0.5
 	}
 	damage_building = {
     type = arms_factory
@@ -303,11 +305,11 @@ country_event = {
 	418 = {
 	damage_building = {
     type = industrial_complex
-    damage = 1
+    damage = 0.5
 	}
 	damage_building = {
     type = arms_factory
-    damage = 1
+    damage = 0.5
 	}
 	}
 	411 = {
@@ -318,12 +320,6 @@ country_event = {
 	damage_building = {
     type = arms_factory
     damage = 0.25
-	}
-	}
-	412 = {
-	damage_building = {
-    type = industrial_complex
-    damage = 0.1
 	}
 	}
 }
@@ -406,3 +402,338 @@ country_event = {
 		}
 }
 }
+
+country_event = {
+	id = opolchenie.17
+	title = opolchenie.17.t
+	desc = opolchenie.17.d
+	picture = GFX_report_event_lithuanian_ultimatum
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.17.a
+	set_variable = {
+    var = next_elections_in_opo_senate
+    value = next_elections_in_opo_senate_sixteen_october
+	}
+}
+}
+
+country_event = {
+	id = opolchenie.18
+	title = opolchenie.18.t
+	desc = opolchenie.18.d
+	picture = GFX_report_event_lithuanian_ultimatum
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.18.a
+	set_variable = {
+    var = next_elections_in_opo_senate_sixteen_october
+    value = next_elections_in_opo_senate_sixteen_october
+	}
+}
+}
+
+country_event = {
+	id = opolchenie.19
+	title = opolchenie.19.t
+	desc = opolchenie.19.d
+	picture = GFX_report_event_hol_cabinet_de_geer
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.19.a
+	KEK = {
+	add_opinion_modifier = {
+    target = OPO
+    modifier = OPO_meeting_in_green_house_modifier
+	}
+	}
+	add_political_power = 50
+	}
+}
+
+country_event = {
+	id = opolchenie.20
+	title = opolchenie.20.t
+	desc = opolchenie.20.d
+	picture = GFX_report_event_hol_cabinet_de_geer
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.20.a
+	add_political_power = 50
+	}
+}
+
+country_event = {
+	id = opolchenie.21
+	title = opolchenie.21.t
+	desc = opolchenie.21.d
+	picture = GFX_report_event_hol_cabinet_de_geer
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.21.a
+	add_political_power = 150
+	set_cosmetic_tag = ARO_DRO
+	}
+}
+
+country_event = {
+	id = opolchenie.22
+	title = opolchenie.22.t
+	desc = opolchenie.22.d
+	picture = GFX_report_event_hol_cabinet_de_geer
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.22.a
+	set_autonomy = {
+			target = ARO
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+	}
+}
+
+country_event = {
+	id = opolchenie.23
+	title = opolchenie.23.t
+	desc = opolchenie.23.d
+	picture = GFX_report_event_hol_cabinet_de_geer
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.23.a
+	set_autonomy = {
+			target = ARO
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+	}
+}
+
+country_event = {
+	id = opolchenie.24
+	title = opolchenie.24.t
+	desc = opolchenie.24.d
+	picture = GFX_report_event_hol_cabinet_de_geer
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.24.a
+	set_autonomy = {
+			target = ARO
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+	}
+}
+
+####### ИВЕНТЫ ПРОЦЕССА ДЛЯ ДРУГИХ СТРАН
+
+country_event = {
+	id = opolchenie.25
+	title = opolchenie.25.t
+	desc = opolchenie.25.d
+	picture = GFX_report_event_saf_coup
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.25.a
+	ai_chance = { factor = 90 }
+	custom_effect_tooltip = evd_wishes_get_lands_tt
+	country_event = { id = opolchenie.28 days = 1 }
+	}
+	option = {
+	name = opolchenie.25.b
+	ai_chance = { factor = 10 }
+	OPO = {
+	add_opinion_modifier = {
+    target = EVD
+    modifier = GAR_falleland_cancel_our_wishes
+	}
+	country_event = { id = opolchenie.29 days = 1 }
+	}
+	}
+}
+
+country_event = {
+	id = opolchenie.26	
+	title = opolchenie.26.t
+	desc = opolchenie.26.d
+	picture = GFX_report_event_saf_coup
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.26.a
+	ai_chance = { factor = 90 }
+	custom_effect_tooltip = jjk_wishes_get_lands_tt
+	country_event = { id = opolchenie.30 days = 1 }
+	}
+	option = {
+	name = opolchenie.26.b
+	ai_chance = { factor = 10 }
+	OPO = {
+	add_opinion_modifier = {
+    target = JJK
+    modifier = GAR_falleland_cancel_our_wishes
+	}
+	country_event = { id = opolchenie.31 days = 1 }
+	}
+	}
+}
+
+country_event = {
+	id = opolchenie.27	
+	title = opolchenie.27.t
+	desc = opolchenie.27.d
+	picture = GFX_report_event_saf_coup
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.27.a
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.32	
+	title = opolchenie.32.t
+	desc = opolchenie.32.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.32.a
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.33	
+	title = opolchenie.33.t
+	desc = opolchenie.33.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.33.a
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.34	
+	title = opolchenie.34.t
+	desc = opolchenie.34.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.34.a
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.35
+	title = opolchenie.35.t
+	desc = opolchenie.35.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.35.a
+	
+	}
+}
+
+########## ИВЕНТЫ ДЛЯ ОПОЛЧЕНИЯ ОБ ОТПРАВКЕ ПОСЛОВ
+
+country_event = {
+	id = opolchenie.28	
+	title = opolchenie.28.t
+	desc = opolchenie.28.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.28.a
+	
+	}
+	option = {
+	name = opolchenie.28.b
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.29	
+	title = opolchenie.29.t
+	desc = opolchenie.29.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.29.a
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.30	
+	title = opolchenie.30.t
+	desc = opolchenie.30.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.30.a
+	
+	}
+	option = {
+	name = opolchenie.30.b
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.31	
+	title = opolchenie.31.t
+	desc = opolchenie.31.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.31.a
+	
+	}
+}
+
+
+############# ИВЕНТЫ ДЛЯ ГАРДЕРНИИ

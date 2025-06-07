@@ -23,4 +23,19 @@ music = {
 	file = "pavelplamenevbeyonddeath.ogg"
 	volume = 0.7
 }
+music = {
+	name = "pavelplamenevotryadnezametilpoteriboica"
+	file = "pavelplamenevotryadnezametilpoteriboica.ogg"
+	volume = 0.8
+}
+music = {
+	name = "pavelplamenevrespectnashuvlast"
+	file = "pavelplamenevrespectnashuvlast.ogg"
+	volume = 0.8
+}
+music = {
+	name = "pavelplamenevpushechnoemyaso"
+	file = "pavelplamenevpushechnoemyaso.ogg"
+	volume = 0.8
+}
 

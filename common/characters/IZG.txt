@@ -1,0 +1,33 @@
+characters={
+	IZG_Leonid_Kikta={
+		name="IZG_Leonid_Kikta"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Izgoi_Leonid_Kikta
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2029.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=stalinism
+			expire="2029.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=conservatism
+			expire="2029.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=nazism
+			expire="2029.1.1.1"
+			id=-1
+		}
+	}
+	
+	
+	
+}

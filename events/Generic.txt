@@ -41,35 +41,6 @@ country_event = {
 }
 }
 
-country_event = {
-	id = genericc.4
-	title = genericc.4.t
-	desc = genericc.2.d
-	picture = GFX_report_event_generic_handshake
-
-	trigger = {
-		check_variable = { extra_slot_high_education = 7 }
-	}
-
-	option = {
-		add_research_slot = -1
-	}
-}
-
-country_event = {
-	id = genericc.3
-	title = genericc.3.t
-	desc = genericc.2.d
-	picture = GFX_report_event_generic_handshake
-
-	trigger = {
-		check_variable = { extra_slot_high_education = 4 }
-	}
-
-	option = {
-		add_research_slot = 1
-	}
-}
 
 country_event = {
 	id = genericc.5
@@ -103,4 +74,86 @@ country_event = {
 		name = genericc.6.a
 		281 = { transfer_state_to = JJK }
 }
+}
+
+country_event = {
+	id = genericc.7
+	title = genericc.7.t
+	desc = genericc.7.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = genericc.7.a
+		division_template = {
+			name = "Strelkovaya Diviziya"
+			is_locked = no
+			division_names_group = VKB_INF_01
+			priority = 0
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+    }
+	}
+	capital_scope = {
+		create_unit = { 
+			division = "name = \"Strelkovaya Diviziya.1\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.05 start_equipment_factor = 0.7" owner = VKB
+					}
+		create_unit = { 
+			division = "name = \"Strelkovaya Diviziya.2\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.05 start_equipment_factor = 0.7" owner = VKB
+					}
+		create_unit = { 
+			division = "name = \"Strelkovaya Diviziya.3\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.05 start_equipment_factor = 0.7" owner = VKB
+					}
+	}
+	}
+}
+
+country_event = {
+	id = genericc.8
+	title = genericc.8.t
+	desc = genericc.8.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	option = {
+		name = genericc.8.a
+		division_template = {
+			name = "Strelkovaya Diviziya"
+			is_locked = no
+			division_names_group = VKB_INF_01
+			priority = 0
+		regiments = {
+			infantry = { x = 0 y = 0 }
+			infantry = { x = 0 y = 1 }
+			infantry = { x = 1 y = 0 }
+			infantry = { x = 1 y = 1 }
+			infantry = { x = 1 y = 2 }
+			infantry = { x = 0 y = 2 }
+			infantry = { x = 2 y = 0 }
+			infantry = { x = 2 y = 1 }
+			infantry = { x = 2 y = 2 }
+    }
+	}
+	capital_scope = {
+		create_unit = { 
+			division = "name = \"Strelkovaya Diviziya.1\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.05 start_equipment_factor = 0.7" owner = SHL
+					}
+		create_unit = { 
+			division = "name = \"Strelkovaya Diviziya.2\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.05 start_equipment_factor = 0.7" owner = SHL
+					}
+		create_unit = { 
+			division = "name = \"Strelkovaya Diviziya.3\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.05 start_equipment_factor = 0.7" owner = SHL
+					}
+	}
+	}
 }

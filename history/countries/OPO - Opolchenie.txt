@@ -75,8 +75,8 @@ set_politics = {
 
 set_popularities = {
 	democratic = 30
-	neutrality = 35
-	communism = 20
+	neutrality = 30
+	communism = 25
 	fascism = 15
 }
 
@@ -105,14 +105,13 @@ add_ideas = low_economic_mobilisation
 add_ideas = middle_education
 add_ideas = paid_medicine
 add_ideas = particular_social_care
-add_ideas = controlled_opposition
+add_ideas = multiparty
 add_ideas = parlament_republic
-add_ideas = autorbur
+add_ideas = democ
 add_ideas = default_training
 add_ideas = default_control_army_laws
 add_ideas = kekin_gift
 add_ideas = agrarian_paradise
-add_ideas = strong_old_regime
 add_ideas = ses_minority
 
 OPO = {
@@ -124,6 +123,7 @@ recruit_character = OPO_Billy_Herrington
 recruit_character = OPO_Otto_Kerk
 recruit_character = OPO_Edward_Kekinesky
 recruit_character = OPO_Emperor_Kekron
+recruit_character = OPO_Ernst_Kekelman
 
 add_opinion_modifier = { 
 		target = KEK

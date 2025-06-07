@@ -10,7 +10,21 @@ characters={
 		country_leader={
 			ideology=conservatism
 			expire="2029.1.1.1"
-			id=1
+			id=5
+		}
+	}
+	
+	OPO_Ernst_Kekelman={
+		name="OPO_Ernst_Kekelman"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Ernst_Kekelman
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="2029.1.1.1"
+			id=8
 		}
 	}
 	
@@ -25,7 +39,7 @@ characters={
 		country_leader={
 			ideology=despotism
 			expire="2029.1.1.1"
-			id=4
+			id=7
 		}
 		 advisor = {
             slot = political_advisor
@@ -70,7 +84,7 @@ characters={
 			defense_skill=2
 			planning_skill=3
 			logistics_skill=2
-			legacy_id=3
+			legacy_id=6
 		}
 	}
 	

@@ -51,6 +51,11 @@ set_popularities = {
 	fascism = 10
 }
 
+if = {
+	limit = { is_ai = yes }
+	country_event = { id = genericc.8 days = 25 }
+}
+
 
 add_ideas = based_political_power
 add_ideas = paid_medicine

@@ -1278,4 +1278,56 @@ opinion_modifiers = {
 	KEK_end_occupation_dro = {
 		value = 25
 	}
+	JJK_they_influence_on_our_neighbors = {
+		value = -30
+		months = 3
+	}
+	BAL_they_influence_on_our_neighbors = {
+		value = -30
+		months = 3
+	}
+	PAR_they_influence_on_our_neighbors = {
+		value = -25
+		months = 2
+	}
+	PAR_they_dangerous_neighbour = {
+		value = -20
+		months = 2
+	}
+	JJK_they_dangerous_neighbour = {
+		value = -20
+		months = 2
+	}
+	BAL_they_dangerous_neighbour = {
+		value = -20
+		months = 2
+	}
+	GAR_falleland_wish_invite_us = {
+		value = 20
+		months = 1
+	}
+	GAR_not_good_conditions = {
+		value = -10
+		months = 1
+	}
+	GAR_falleland_cancel_our_wishes = {
+		value = -25
+		months = 3
+	}
+	GAR_falleland_potential_alias = {
+		value = 20
+	}
+	GAR_leaders_good_relationship = {
+		value = 10
+	}
+	OPO_start_repair_relationship = {
+		value = 20
+		months = 2
+		decay = 10
+	}
+	OPO_meeting_in_green_house_modifier = {
+		value = 10
+		months = 1
+		decay = 10
+	}
 }

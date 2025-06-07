@@ -2,8 +2,26 @@ state={
 	id=464
 	name="STATE_464"
 	provinces={
-		5764 19515 19548 19569 19594 
+		9605 17848 
 	}
-	manpower = 10000
-	state_category = rural
+	history={
+		owner = AUT
+		controller = AUT
+		add_core_of = AUT
+		victory_points = {
+		9605 15
+		}
+	buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			17848 = {
+				naval_base = 4
+			}
+		}
+	
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

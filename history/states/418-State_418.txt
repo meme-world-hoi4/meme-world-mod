@@ -9,7 +9,7 @@ state={
 		controller = OPO
 		add_core_of = OPO
 		victory_points = {
-			15653 15 
+			15653 20 
 		}
 		victory_points = {
 			21568 5
@@ -18,6 +18,14 @@ state={
 			infrastructure = 4
 			arms_factory = 3
 			industrial_complex = 3
+		}
+		add_dynamic_modifier = {
+			modifier = OPO_ses_minority_modifiers
+
+		}
+		add_dynamic_modifier = {
+			modifier = OPO_opo_mountains_modifier
+
 		}
 
 	}

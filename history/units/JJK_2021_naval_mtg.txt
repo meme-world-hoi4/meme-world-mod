@@ -12,21 +12,11 @@ units= {
 			location = 1063
 			### Battleship Division 1 ###						
 			ship = { name = "Gospodin Araki the First" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = JJK version_name = "Mid Range Battleship" } } }				
-			### Battleship Division 2 ###			
-			}
-		
-		task_force = {					
-			name = "Jojo Light Crusier Force"
-			location = 1063
+			### Battleship Division 2 ###
 			ship = { name = "JJK Light Crusier Type A 1" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JJK version_name = "Light Crusier Type A" } } }
 			ship = { name = "JJK Light Crusier Type A 2" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JJK version_name = "Light Crusier Type A" } } }		
 			ship = { name = "JJK Light Crusier Type A 3" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JJK version_name = "Light Crusier Type A" } } }		
 			ship = { name = "JJK Light Crusier Type A 4" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = JJK version_name = "Light Crusier Type A" } } }	
-		}
-		
-		task_force = {
-			name = "Jojo Destroyer Type A Force"
-			location = 1063
 			ship = { name = "JJK Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = JJK version_name = "Destroyer Type A" } } }
 			ship = { name = "JJK Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = JJK version_name = "Destroyer Type A" } } }
 			ship = { name = "JJK Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = JJK version_name = "Destroyer Type A" } } }

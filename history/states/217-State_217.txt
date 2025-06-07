@@ -30,6 +30,12 @@ state={
 				naval_base = 2
 			}
 }
+
+	add_dynamic_modifier = {
+			modifier = OPO_ses_minority_modifiers
+
+		}
+
 }
 
 resources={

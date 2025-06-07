@@ -35,3 +35,24 @@ music = {
 	chance = { factor = 1 }
 
 }
+
+music = {
+	song = "pavelplamenevotryadnezametilpoteriboica"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "pavelplamenevpushechnoemyaso"
+	
+	chance = { factor = 1 }
+
+}
+
+music = {
+	song = "pavelplamenevrespectnashuvlast"
+	
+	chance = { factor = 1 }
+
+}

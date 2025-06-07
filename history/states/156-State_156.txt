@@ -1,12 +1,26 @@
-
 state={
 	id=156
 	name="STATE_156"
 	provinces={
-		9946 
+		6930 17976 18106 21620 21628 21637
+	}
+	history={
+		owner = AUT
+		controller = AUT
+		add_core_of = AUT
+	victory_points = {
+		21628 10
+		}
+	victory_points = {
+		17976 5
+		}
+	buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 	local_supplies=0.000
 }

@@ -1,0 +1,16 @@
+################
+##### GAR ######
+################
+
+GAR_create_coalition = {
+	
+	icon = GER_weltpolitik
+
+	allowed = {
+		original_tag = GAR
+	}
+
+	visible = {
+		country_exists = GAR
+	}
+}

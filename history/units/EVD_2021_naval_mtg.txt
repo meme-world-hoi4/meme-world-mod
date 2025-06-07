@@ -12,36 +12,13 @@ units= {
 			location = 7404
 			### Battleship Division 1 ###						
 			ship = { name = "Evdokimenko" pride_of_the_fleet = yes definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = EVD version_name = "Mid Range Battleship" } } }				
-			### Battleship Division 2 ###			
-			}
-		
-		task_force = {					
-			name = "Evdokimia Light Crusier Force"
-			location = 7404
+			### Battleship Division 2 ###
 			ship = { name = "EVD Light Crusier Type A 1" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EVD version_name = "Light Crusier Type A" } } }
 			ship = { name = "EVD Light Crusier Type A 2" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EVD version_name = "Light Crusier Type A" } } }		
 			ship = { name = "EVD Light Crusier Type A 3" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EVD version_name = "Light Crusier Type A" } } }		
 			ship = { name = "EVD Light Crusier Type A 4" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EVD version_name = "Light Crusier Type A" } } }	
 			ship = { name = "EVD Light Crusier Type A 5" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EVD version_name = "Light Crusier Type A" } } }		
 			ship = { name = "EVD Light Crusier Type A 6" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = EVD version_name = "Light Crusier Type A" } } }
-		}
-		
-		task_force = {
-			name = "Evdokimia Destroyer Type A Force"
-			location = 7404
-			ship = { name = "EVD Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
-			ship = { name = "EVD Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
-			ship = { name = "EVD Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
-			ship = { name = "EVD Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
-			ship = { name = "EVD Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
-			ship = { name = "EVD Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
-			ship = { name = "EVD Destroyer Type A 7" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
-			ship = { name = "EVD Destroyer Type A 8" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
-	}
-	
-	task_force = {
-			name = "Evdokimia Destroyer Type B Force"
-			location = 7404
 			ship = { name = "EVD Destroyer Type B 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type B" } } }
 			ship = { name = "EVD Destroyer Type B 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type B" } } }
 			ship = { name = "EVD Destroyer Type B 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type B" } } }
@@ -52,6 +29,19 @@ units= {
 			ship = { name = "EVD Destroyer Type B 8" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type B" } } }
 			ship = { name = "EVD Destroyer Type B 9" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type B" } } }
 			ship = { name = "EVD Destroyer Type B 10" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type B" } } }
+	}
+	
+	task_force = {
+			name = "Evdokimia Destroyer Type A Force"
+			location = 7404
+			ship = { name = "EVD Destroyer Type A 1" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
+			ship = { name = "EVD Destroyer Type A 2" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
+			ship = { name = "EVD Destroyer Type A 3" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
+			ship = { name = "EVD Destroyer Type A 4" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
+			ship = { name = "EVD Destroyer Type A 5" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
+			ship = { name = "EVD Destroyer Type A 6" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
+			ship = { name = "EVD Destroyer Type A 7" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
+			ship = { name = "EVD Destroyer Type A 8" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = EVD version_name = "Destroyer Type A" } } }
 	}
 	
 }

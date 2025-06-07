@@ -5196,5 +5196,44 @@ spriteTypes = {
 		name = "GFX_focus_opo_disarm_rebels"
 		texturefile = "gfx/interface/goals/focus_opo_disarm_rebels.dds"
 	}
-
+	spriteType = {
+		name = "GFX_focus_call_help_parlament"
+		texturefile = "gfx/interface/goals/focus_call_help_parlament.dds"
+	}
+	spriteType = {
+		name = "GFX_repair_relationship_with_gardernia"
+		texturefile = "gfx/interface/goals/focus_repair_relationship_with_gardernia.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_enter_war_regime"
+		texturefile = "gfx/interface/goals/focus_enter_war_regime.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_generic_low_cost_housing"
+		texturefile = "gfx/interface/goals/focus_generic_low_cost_housing.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_unity_opolchenie_land"
+		texturefile = "gfx/interface/goals/focus_unity_opolchenie_land.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_opo_urban_defending"
+		texturefile = "gfx/interface/goals/focus_opo_urban_defending.dds"
+	}
+	spriteType = {
+		name = "GFX_opo_focus_on_riots"
+		texturefile = "gfx/interface/goals/opo_focus_on_riots.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_war_with_great_nations"
+		texturefile = "gfx/interface/goals/focus_war_with_great_nations.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_peace_with_great_nations"
+		texturefile = "gfx/interface/goals/focus_peace_with_great_nations.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_solo_war"
+		texturefile = "gfx/interface/goals/focus_solo_war.dds"
+	}
 }

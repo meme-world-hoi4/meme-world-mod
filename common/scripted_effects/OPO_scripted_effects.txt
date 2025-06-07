@@ -1,0 +1,17 @@
+OPO_next_elections_september = {
+	set_variable = {
+    var = next_elections_in_opo_senate
+    value = 1
+    tooltip = next_elections_in_opo_senate_sixteen_september
+	}
+}
+
+OPO_next_elections_october = {
+	set_variable = {
+    var = next_elections_in_opo_senate
+    value = 2
+    tooltip = next_elections_in_opo_senate_sixteen_october
+	}
+}
+
+

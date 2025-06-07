@@ -97,6 +97,8 @@ add_ideas = parlament_monarchy
 add_ideas = default_control_army_laws
 add_ideas = default_training
 
+give_guarantee = SER
+
 create_equipment_variant = {
 		name = "Submarine Type A"
 		type = ship_hull_submarine_1

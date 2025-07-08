@@ -21,6 +21,52 @@ bal_always_conquer_sersya = {
     type = ignore_army_incompetence
     value = 100
 	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = SER
+    value = 100
+	}
+}
+
+kekland_dont_want_conquer_orden = {
+	allowed = {
+		original_tag = KEK
+	}
+	enable = {
+	country_exists = ORD
+	}
+	abort_when_not_enabled = yes
+
+	ai_strategy = {
+		type = conquer
+		id = ORD
+		value = -999
+	}
+	ai_strategy = {
+		type = prepare_for_war
+		id = ORD
+		value = -1000
+	}
+	ai_strategy = {
+    type = invade
+    id = ORD
+    value = -1000
+	}
+	ai_strategy = {
+    type = protect
+    id = ORD
+    value = 100
+	}
+	ai_strategy = {
+		type = avoid_starting_wars
+		value = -400
+	}
+	
+	ai_strategy = {
+    type = front_unit_request
+    tag = ORD
+    value = -999
+	}
 }
 
 EPI_dont_want_join_to_wars_with_fal = {
@@ -90,13 +136,13 @@ anarhical_morhu_dont_want_have_alies = {
 		type = diplo_action_desire
 		id = KEK
 		target = military_access
-		value = -100
+		value = -200
 	}
 	ai_strategy = {
 		type = diplo_action_desire
 		id = KEK
 		target = docking_rights
-		value = -100
+		value = -200
 	}
 }
 
@@ -119,7 +165,7 @@ anarhical_morhu_want_attack = {
 	ai_strategy = {
 		type = befriend
 		id = KEK
-		value = 100
+		value = 20
 	}
 	ai_strategy = {
 		type = prepare_for_war
@@ -146,7 +192,12 @@ anarhical_morhu_want_attack = {
 	}
 	ai_strategy = {
     type = garrison
-    value = -50
+    value = -80
+	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = OPO
+    value = 100
 	}
 }
 morhu_dont_want_attack = {
@@ -163,51 +214,6 @@ morhu_dont_want_attack = {
 	ai_strategy = {
     type = garrison
     value = 1000
-	}
-}
-kekland_always_want_coquer_repya = {
-	allowed = {
-		original_tag = KEK
-	}
-	enable = {
-		threat < 0.5
-	}
-	abort = {
-		threat > 0.5
-	}
-	abort_when_not_enabled = yes
-	ai_strategy = {
-		type = conquer
-		id = OMH
-		value = 400
-	}
-}
-
-kekland_dont_want_conquer_orden = {
-	allowed = {
-		original_tag = KEK
-	}
-	enable = {
-		threat < 0.5
-	}
-	abort = {
-		threat > 0.5
-	}
-	abort_when_not_enabled = yes
-	ai_strategy = {
-		type = conquer
-		id = OMH
-		value = -400
-	}
-	ai_strategy = {
-		type = prepare_for_war
-		id = ORD
-		value = -100
-	}
-	ai_strategy = {
-    type = invade
-    id = ORD
-    value = -500
 	}
 }
 
@@ -489,6 +495,11 @@ jjk_dont_want_support_shlepa = {
     type = protect
     id = VKB
     value = 150
+	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = VKB
+    value = -999
 	}
 }
 
@@ -955,21 +966,25 @@ opo_dont_want_invade_in_bal = {
 		original_tag = OPO
 	}
 	enable = {
-		NOT = { OPO = { has_war_with = BAL } }
+		country_exists = BAL
 	}
 	abort = {
-		OPO = { has_war_with = BAL }
+		NOT = { country_exists = BAL }
 	}
 
 	ai_strategy = {
 		type = prepare_for_war
 		id = BAL
-		value = -100
+		value = -500
 	}
 	ai_strategy = {
     type = invade
     id = BAL
     value = -500
+	}
+	ai_strategy = {
+    type = naval_invasion_focus
+    value = -100
 	}
 }
 
@@ -1011,17 +1026,31 @@ kek_want_keep_garrison_on_opo_border = {
 	ai_strategy = {
     type = conquer
     id = OPO
-    value = 50
+    value = 100
 	}
 	ai_strategy = {
     type = prepare_for_war
     id = OPO
-    value = 50
+    value = 100
 	}
 	ai_strategy = {
     type = invade
     id = OPO
-    value = -200
+    value = -500
+	}
+	
+	ai_strategy = {
+    type = front_control
+    strategic_region = 63
+    ratio = 0.5
+    ordertype = front
+    execution_type = rush
+    manual_attack = no
+	}
+	
+	ai_strategy = {
+    type = naval_invasion_focus
+    value = -100
 	}
 }
 
@@ -1146,7 +1175,7 @@ rep_want_keep_garrison_on_kek_border = {
 	
 }
 
-opo_want_smash_dro = {
+par_want_smash_zel = {
 
 	allowed = {
 		original_tag = PAR
@@ -1189,6 +1218,44 @@ opo_want_smash_dro = {
     value = -50
 	}
 	
+}
+
+dro_dont_want_push_opo = {
+
+	allowed = {
+		original_tag = ARO
+	}
+	enable = {
+	country_exists = OPO
+	}
+	abort = {
+	NOT = { country_exists = OPO }
+	}
+	
+	ai_strategy = {
+    type = conquer
+    id = OPO
+    value = -100
+	}
+	ai_strategy = {
+    type = invade
+    id = OPO
+    value = -500
+	}
+	
+	ai_strategy = {
+    type = front_control
+    tag = OPO
+    ratio = 0.5
+    ordertype = front
+    execution_type = careful
+    manual_attack = no
+	}
+	
+	ai_strategy = {
+    type = naval_invasion_focus
+    value = -100
+	}
 }
 
 

@@ -376,76 +376,76 @@ focus_tree = {
 	}
 	}
 	
-	focus = {
-		id = OPO_war_with_great_nations
-		icon = GFX_focus_war_with_great_nations
-		cost = 0.44
-		prerequisite = {
-			focus = OPO_aliance_help
-		}
-		mutually_exclusive = {
-			focus = OPO_peace_with_great_nations
-			focus = OPO_solo_war
-		}
-		x = 2
-		y = 7
-	completion_reward = {
-	custom_effect_tooltip = start_peace_dialoge_with_aliances_tt
-	effect_tooltip = {
-	unlock_decision_tooltip = OPO_call_help_from_evd
-	unlock_decision_tooltip = OPO_call_help_from_jjk
-	}
-	hidden_effect = {
-	set_country_flag = opo_war_with_great_nation_flag
-	}
-	}
-	}
+#	focus = {
+	#	id = OPO_war_with_great_nations
+	#	icon = GFX_focus_war_with_great_nations
+	#	cost = 0.44
+	#	prerequisite = {
+	#		focus = OPO_aliance_help
+	#	}
+	#	mutually_exclusive = {
+	#		focus = OPO_peace_with_great_nations
+	#		focus = OPO_solo_war
+	#	}
+	#	x = 2
+	#	y = 7
+#	completion_reward = {
+#	custom_effect_tooltip = start_peace_dialoge_with_aliances_tt
+#	effect_tooltip = {
+#	unlock_decision_tooltip = OPO_call_help_from_evd
+#	unlock_decision_tooltip = OPO_call_help_from_jjk
+#	}
+#	hidden_effect = {
+#	set_country_flag = opo_war_with_great_nation_flag
+#	}
+#	}
+#	}
 	
-	focus = {
-		id = OPO_peace_with_great_nations
-		icon = GFX_focus_peace_with_great_nations
-		cost = 0.44
-		prerequisite = {
-			focus = OPO_aliance_help
-		}
-		mutually_exclusive = {
-			focus = OPO_war_with_great_nations
-			focus = OPO_solo_war
-		}
-		x = 4
-		y = 7
-	completion_reward = {
-	custom_effect_tooltip = start_peace_dialoge_with_kek_tt
-	effect_tooltip = {
-	unlock_decision_tooltip = OPO_dialog_with_kek
-	}
-	hidden_effect = {
-	set_country_flag = opo_peace_with_great_nation_flag
-	}
-	}
-	}
+#	focus = {
+#		id = OPO_peace_with_great_nations
+#		icon = GFX_focus_peace_with_great_nations
+#		cost = 0.44
+#		prerequisite = {
+#			focus = OPO_aliance_help
+#		}
+#		mutually_exclusive = {
+#			focus = OPO_war_with_great_nations
+#			focus = OPO_solo_war
+#		}
+#		x = 4
+#		y = 7
+#	completion_reward = {
+#	custom_effect_tooltip = start_peace_dialoge_with_kek_tt
+#	effect_tooltip = {
+#	unlock_decision_tooltip = OPO_dialog_with_kek
+#	}
+#	hidden_effect = {
+#	set_country_flag = opo_peace_with_great_nation_flag
+#	}
+#	}
+#	}
 	
-	focus = {
-		id = OPO_solo_war
-		icon = GFX_focus_solo_war
-		cost = 0.44
-		prerequisite = {
-			focus = OPO_aliance_help
-		}
-		mutually_exclusive = {
-			focus = OPO_war_with_great_nations
-			focus = OPO_peace_with_great_nations
-		}
-		x = 6
-		y = 7
-	completion_reward = {
-	custom_effect_tooltip = we_continiue_solo_war_tt
-	add_timed_idea = {
-				idea = opo_solo_war_idea
-				days = 28
-			}
-		}
-	}
+#	focus = {
+#		id = OPO_solo_war
+#		icon = GFX_focus_solo_war
+#		cost = 0.44
+#		prerequisite = {
+#			focus = OPO_aliance_help
+#		}
+#		mutually_exclusive = {
+#			focus = OPO_war_with_great_nations
+#			focus = OPO_peace_with_great_nations
+#		}
+#		x = 6
+#		y = 7
+#	completion_reward = {
+#	custom_effect_tooltip = we_continiue_solo_war_tt
+#	add_timed_idea = {
+#				idea = opo_solo_war_idea
+#				days = 28
+#			}
+#		}
+#	}
 
 	focus = {
 		id = OPO_war_status
@@ -612,8 +612,8 @@ focus_tree = {
 		id = OPO_start_riots
 		icon = GFX_focus_BRA_utilize_security_law
 		cost = 1.00
-		x = 27
-		y = 0
+		x = 12
+		y = 10
 	available = {
 			date > 2021.12.1
 		}
@@ -628,8 +628,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = OPO_new_revolution_path
 		}
-		x = 26
-		y = 1
+		x = 11
+		y = 11
 
 	}
 	focus = {
@@ -639,8 +639,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_old_reform_path
 		}
-		x = 22
-		y = 2
+		x = 7
+		y = 12
 
 	}
 	focus = {
@@ -650,8 +650,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_old_band
 		}
-		x = 20
-		y = 3
+		x = 5
+		y = 13
 
 	}
 	focus = {
@@ -661,8 +661,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_old_band
 		}
-		x = 22
-		y = 3
+		x = 7
+		y = 13
 
 	}
 	focus = {
@@ -675,8 +675,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_powerup_police
 		}
-		x = 21
-		y = 4
+		x = 6
+		y = 14
 
 	}
 	focus = {
@@ -686,8 +686,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_call_help_others
 		}
-		x = 21
-		y = 5
+		x = 6
+		y = 15
 
 	}
 	focus = {
@@ -697,8 +697,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_old_band
 		}
-		x = 24
-		y = 3
+		x = 9
+		y = 13
 
 	}
 	focus = {
@@ -711,8 +711,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_reshuffle_command
 		}
-		x = 23
-		y = 4
+		x = 8
+		y = 14
 
 	}
 	focus = {
@@ -722,8 +722,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_reform_law
 		}
-		x = 23
-		y = 5
+		x = 8
+		y = 15
 
 	}
 	focus = {
@@ -736,8 +736,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_limit_radicals
 		}
-		x = 22
-		y = 6
+		x = 7
+		y = 16
 
 	}
 	focus = {
@@ -750,8 +750,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = OPO_old_reform_path
 		}
-		x = 28
-		y = 1
+		x = 13
+		y = 11
 
 	}
 	focus = {
@@ -762,8 +762,8 @@ focus_tree = {
 			focus = OPO_old_reform_path
 			focus = OPO_new_revolution_path
 		}
-		x = 27
-		y = 2
+		x = 12
+		y = 12
 
 	}
 	focus = {
@@ -773,8 +773,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_focus_on_riots
 		}
-		x = 26
-		y = 3
+		x = 11
+		y = 13
 
 	}
 	focus = {
@@ -784,8 +784,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_focus_on_riots
 		}
-		x = 28
-		y = 3
+		x = 13
+		y = 13
 
 	}
 	focus = {
@@ -798,8 +798,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_enter_army_opo
 		}
-		x = 27
-		y = 4
+		x = 12
+		y = 14
 
 	}
 	focus = {
@@ -812,8 +812,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = OPO_brutally_suppress
 		}
-		x = 26
-		y = 5
+		x = 11
+		y = 15
 
 	}
 	focus = {
@@ -826,8 +826,8 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = OPO_try_to_dialog
 		}
-		x = 28
-		y = 5
+		x = 13
+		y = 15
 
 	}
 	focus = {
@@ -838,8 +838,8 @@ focus_tree = {
 			focus = OPO_try_to_dialog
 			focus = OPO_brutally_suppress
 		}
-		x = 27
-		y = 6
+		x = 12
+		y = 16
 
 	}
 	focus = {
@@ -849,8 +849,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_new_revolution_path
 		}
-		x = 32
-		y = 2
+		x = 17
+		y = 12
 
 	}
 	focus = {
@@ -860,8 +860,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_new_president
 		}
-		x = 30
-		y = 3
+		x = 15
+		y = 13
 
 	}
 	focus = {
@@ -871,8 +871,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_new_president
 		}
-		x = 32
-		y = 3
+		x = 17
+		y = 13
 
 	}
 	focus = {
@@ -885,8 +885,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_new_religion
 		}
-		x = 31
-		y = 4
+		x = 16
+		y = 14
 
 	}
 	focus = {
@@ -896,8 +896,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_high_purge
 		}
-		x = 31
-		y = 5
+		x = 16
+		y = 15
 
 	}
 	focus = {
@@ -907,8 +907,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_new_president
 		}
-		x = 34
-		y = 3
+		x = 19
+		y = 13
 
 	}
 	focus = {
@@ -921,8 +921,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_all_power_pres
 		}
-		x = 33
-		y = 4
+		x = 18
+		y = 14
 
 	}
 	focus = {
@@ -932,8 +932,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_only_one_nation
 		}
-		x = 33
-		y = 5
+		x = 18
+		y = 15
 
 	}
 	focus = {
@@ -946,8 +946,8 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_gencide_others
 		}
-		x = 32
-		y = 6
+		x = 17
+		y = 16
 
 	}
 	focus = {
@@ -961,8 +961,128 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_disarm_rebels
 		}
-		x = 27
-		y = 7
+		x = 12
+		y = 17
+
+	}
+	
+	focus = {
+		id = OPO_party_congress
+		icon = GFX_goal_unknown
+		cost = 1.00
+
+		x = 20
+		y = 0
+	available = {
+			date > 2021.12.1
+		}
+	
+	}
+	
+	focus = {
+		id = OPO_discuss_results
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_party_congress
+		}
+		x = 19
+		y = 1
+
+	}
+	
+	focus = {
+		id = OPO_discuss_useful
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_party_congress
+		}
+		x = 21
+		y = 1
+
+	}
+	focus = {
+		id = OPO_open_senate
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_discuss_results
+		}
+		prerequisite = {
+			focus = OPO_discuss_useful
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = OPO_new_benefits
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_open_senate
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = OPO_visit_village
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_new_benefits
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = OPO_meeting_with_villagers
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_visit_village
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = OPO_check_budget
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_new_benefits
+		}
+		x = 21
+		y = 4
+
+	}
+	focus = {
+		id = OPO_discuss_with_economist
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_check_budget
+		}
+		x = 21
+		y = 5
+
+	}
+	focus = {
+		id = OPO_approve_law
+		icon = GFX_goal_unknown
+		cost = 1.00
+		prerequisite = {
+			focus = OPO_discuss_with_economist
+		}
+		prerequisite = {
+			focus = OPO_meeting_with_villagers
+		}
+		x = 20
+		y = 6
 
 	}
 }

@@ -227,4 +227,20 @@ spriteTypes = {
 		name = "GFX_Portrait_Izgoi_Leonid_Kikta"
 		texturefile = "gfx/leaders/IZG/Portrait_Izgoi_Leonid_Kikta.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Mark_Kekano"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Mark_Kekano.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Lev_Kekotsky"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Lev_Kekotsky.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Erwin Kekmmel"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Erwin Kekmmel.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Andrew_American"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Andrew_American.dds"
+	}
 }

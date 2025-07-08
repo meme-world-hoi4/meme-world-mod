@@ -124,6 +124,10 @@ recruit_character = OPO_Otto_Kerk
 recruit_character = OPO_Edward_Kekinesky
 recruit_character = OPO_Emperor_Kekron
 recruit_character = OPO_Ernst_Kekelman
+recruit_character = OPO_Mark_Kekano
+recruit_character = OPO_Lev_Kekotsky
+recruit_character = OPO_Erwin_Kekmmel
+recruit_character = OPO_Andrew_American
 
 add_opinion_modifier = { 
 		target = KEK

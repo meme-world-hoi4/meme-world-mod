@@ -1,4 +1,7 @@
 characters={
+
+
+######## ДЕМОКРАТЫ
 	
 	OPO_Billy_Herrington={
 		name="OPO_Billy_Herrington"
@@ -14,6 +17,58 @@ characters={
 		}
 	}
 	
+		OPO_Otto_Kerk={
+		name="OPO_Otto_Kerk"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Otto_Kerk
+			}
+		}
+	}
+	
+	OPO_Mark_Kekano={
+	name=OPO_Mark_Kekano
+	portraits={
+			army={
+				large="GFX_Portrait_Opolchenie_Mark_Kekano"
+			}
+			civilian={
+				large=GFX_Portrait_Opolchenie_Mark_Kekano_Civilwar
+			}
+		}
+
+		corps_commander={
+			traits={ career_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=9
+		}
+	}
+	
+	OPO_Erwin_Kekmmel={
+	name=OPO_Erwin_Kekmmel
+	portraits={
+			army={
+				large="GFX_Portrait_Opolchenie_Erwin Kekmmel"
+			}
+		}
+
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=10
+		}
+	}
+	
+############# КОММУНИСТЫ
+	
 	OPO_Ernst_Kekelman={
 		name="OPO_Ernst_Kekelman"
 		portraits={
@@ -28,6 +83,36 @@ characters={
 		}
 	}
 	
+		OPO_Enver_Kekir={
+		name="OPO_Enver_Kekir"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Enver_Kekir
+			}
+		}
+	}
+	
+	OPO_Lev_Kekotsky={
+	name=OPO_Lev_Kekotsky
+	portraits={
+			army={
+				large="GFX_Portrait_Opolchenie_Lev_Kekotsky"
+			}
+		}
+
+		corps_commander={
+			traits={ war_hero }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=11
+		}
+	}
+	
+############# МОНАРХИСТЫ
+	
 	OPO_Emperor_Kekron={
 		name="OPO_Emperor_Kekron"
 		portraits={
@@ -41,7 +126,7 @@ characters={
 			expire="2029.1.1.1"
 			id=7
 		}
-		 advisor = {
+		advisor = {
             slot = political_advisor
             idea_token = emperor_kekron
             ledger = political_advisor
@@ -49,23 +134,8 @@ characters={
         }
 	}
 	
-	OPO_Enver_Kekir={
-		name="OPO_Enver_Kekir"
-		portraits={
-			civilian={
-				large=GFX_Portrait_Opolchenie_Enver_Kekir
-			}
-		}
-	}
-	
-	OPO_Otto_Kerk={
-		name="OPO_Otto_Kerk"
-		portraits={
-			civilian={
-				large=GFX_Portrait_Opolchenie_Otto_Kerk
-			}
-		}
-	}
+############# КЛЕПТОКРАТЫ
+
 	OPO_Edward_Kekinesky={
 	name=OPO_Edward_Kekinesky
 	portraits={
@@ -74,6 +144,7 @@ characters={
 			}
 			civilian={
 				large=GFX_Portrait_Opolchenie_Edward_Kekinesky
+				small=GFX_idea_opolchenie_edward_kekinesky
 			}
 		}
 
@@ -85,6 +156,22 @@ characters={
 			planning_skill=3
 			logistics_skill=2
 			legacy_id=6
+		}
+		
+		advisor = {
+            slot = army_chief
+            idea_token = edward_kekinesky
+            ledger = army
+            traits = { operational_initiator }
+        }
+	}
+	
+	OPO_Andrew_American={
+		name="OPO_Andrew_American"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Andrew_American
+			}
 		}
 	}
 	

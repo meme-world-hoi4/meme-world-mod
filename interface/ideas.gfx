@@ -8411,4 +8411,8 @@ spriteTypes = {
 		name = "GFX_idea_GAR_unskilled_navy2"
 		texturefile = "gfx/interface/ideas/idea_GAR_unskilled_navy2.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_edward_kekinesky"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_edward_kekinesky.dds"
+	}
 }

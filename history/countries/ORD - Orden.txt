@@ -28,4 +28,9 @@ add_ideas = no_base_training
 add_ideas = disarmed_nation
 
 recruit_character = ORD_Gagik_Aslanyan
+
+add_opinion_modifier = { 
+		target = KEK
+		modifier = KEK_start_non_bad_realationship
+	}
 }

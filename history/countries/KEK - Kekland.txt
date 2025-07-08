@@ -212,6 +212,10 @@ add_opinion_modifier = {
 		modifier = KEK_start_non_bad_realationship
 	}
 add_opinion_modifier = { 
+		target = ORD
+		modifier = KEK_start_non_bad_realationship
+	}
+add_opinion_modifier = { 
 		target = EPI
 		modifier = KEK_start_government_old_friends
 	}

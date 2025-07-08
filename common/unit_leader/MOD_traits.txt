@@ -1,0 +1,36 @@
+leader_traits = {
+
+	
+##################################
+# Common Traits
+##################################
+	trait_opo_civil_war_royalist= { 
+		type = land
+		trait_type = personality_trait
+		
+		new_commander_weight = {
+			factor = 0
+		}
+		
+	}
+	
+	trait_opo_civil_war_nationalist= { 
+		type = land
+		trait_type = personality_trait
+		
+		new_commander_weight = {
+			factor = 0
+		}
+		
+	}
+	
+	trait_opo_civil_war_communist= { 
+		type = land
+		trait_type = personality_trait
+		
+		new_commander_weight = {
+			factor = 0
+		}
+		
+	}
+}

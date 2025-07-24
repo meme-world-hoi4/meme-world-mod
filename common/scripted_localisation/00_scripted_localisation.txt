@@ -8,17 +8,145 @@
 # localization_key -> points to the localization key
 # that'll be used if trigger passes
 
-#
+#MM: UNUSED after WW (replaced by GetKfdWagenNames)
 defined_text = { # Country
 	name = scripted_election_day
 	text = {
 		trigger = {
 			original_tag = OPO
-			date < 2021.09.16
+			date < 2021.09.17
+			NOT = { has_country_flag = enver_regime_has_established }
 		}
 		localization_key = next_elections_in_opo_senate_sixteen_september
 	}
 	text = {
+		trigger = {
+			original_tag = OPO
+			date > 2021.09.17
+			date < 2021.10.17
+			NOT = { has_country_flag = enver_regime_has_established }
+		}
 		localization_key = next_elections_in_opo_senate_sixteen_october
 	}
+	text = {
+		trigger = {
+		original_tag = OPO
+		has_country_flag = enver_regime_has_established
+		date < 2021.10.01
+		}
+		localization_key = next_elections_in_enver_opo_senate_first_october
+	}
+	text = {
+		localization_key = next_elections_not_declared
+	}
 }
+
+defined_text = { # Country
+	name = scripted_dpro_name
+	text = {
+		trigger = {
+			original_tag = OPO
+			NOT = { has_country_flag = opo_enver_senate_changed }
+		}
+		localization_key = opo_senate_dpro_name_first_election
+	}
+	text = {
+		trigger = {
+		original_tag = OPO
+		has_country_flag = opo_enver_senate_changed
+		}
+		localization_key = opo_senate_dpro_name_enver_election
+	}
+}
+
+defined_text = { # Country
+	name = scripted_monarchist_name
+	text = {
+		trigger = {
+			original_tag = OPO
+			NOT = { has_country_flag = opo_enver_senate_changed }
+		}
+		localization_key = opo_senate_monarchist_name_first_election
+	}
+	text = {
+		trigger = {
+		original_tag = OPO
+		has_country_flag = opo_enver_senate_changed
+		}
+		localization_key = opo_senate_monarchist_name_enver_election
+	}
+}
+
+defined_text = { # Country
+	name = scripted_utkinist_name
+	text = {
+		trigger = {
+			original_tag = OPO
+			NOT = { has_country_flag = opo_enver_senate_changed }
+		}
+		localization_key = opo_senate_utkinist_name_first_election
+	}
+	text = {
+		trigger = {
+		original_tag = OPO
+		has_country_flag = opo_enver_senate_changed
+		}
+		localization_key = opo_senate_utkinist_name_enver_election
+	}
+}
+
+defined_text = { # Country
+	name = scripted_vox_name
+	text = {
+		trigger = {
+			original_tag = OPO
+			NOT = { has_country_flag = opo_enver_senate_changed }
+		}
+		localization_key = opo_senate_vox_name_first_election
+	}
+	text = {
+		trigger = {
+		original_tag = OPO
+		has_country_flag = opo_enver_senate_changed
+		}
+		localization_key = opo_senate_vox_name_enver_election
+	}
+}
+
+defined_text = { # Country
+	name = scripted_tnfo_name
+	text = {
+		trigger = {
+			original_tag = OPO
+			NOT = { has_country_flag = opo_enver_senate_changed }
+		}
+		localization_key = opo_senate_tnfo_name_first_election
+	}
+	text = {
+		trigger = {
+		original_tag = OPO
+		has_country_flag = opo_enver_senate_changed
+		}
+		localization_key = opo_senate_tnfo_name_enver_election
+	}
+}
+
+defined_text = { # Country
+	name = scripted_unionist_name
+	text = {
+		trigger = {
+			original_tag = OPO
+			NOT = { has_country_flag = opo_enver_senate_changed }
+		}
+		localization_key = opo_senate_unionist_name_first_election
+	}
+	text = {
+		trigger = {
+		original_tag = OPO
+		has_country_flag = opo_enver_senate_changed
+		}
+		localization_key = opo_senate_unionist_name_enver_election
+	}
+}
+
+

@@ -3,7 +3,21 @@ scripted_gui = {
 	opo_congress_decision_ui = {
 		context_type = decision_category
 		window_name = "opo_congress_decision_ui_window"
+
+	properties = {
+			party_background = {
+				frame = current_opo_parlament_ui_icon_frame
+			}
+			seats_icon = {
+				frame = current_opo_parlament_seats_icon_frame
+			}
+			seats_icon_legend = {
+			frame = current_opo_parlament_seats_icon_legend_frame
+			}
+			chair_man_icon = {
+			frame = current_opo_parlament_chairman_frame
+			}
+		}
 	}
-	
 }
 

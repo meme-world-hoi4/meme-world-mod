@@ -5236,4 +5236,12 @@ spriteTypes = {
 		name = "GFX_focus_solo_war"
 		texturefile = "gfx/interface/goals/focus_solo_war.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_party_congress"
+		texturefile = "gfx/interface/goals/focus_party_congress.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_discuss_results"
+		texturefile = "gfx/interface/goals/focus_discuss_results.dds"
+	}
 }

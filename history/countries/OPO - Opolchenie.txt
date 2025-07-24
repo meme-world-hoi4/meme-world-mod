@@ -123,11 +123,41 @@ recruit_character = OPO_Billy_Herrington
 recruit_character = OPO_Otto_Kerk
 recruit_character = OPO_Edward_Kekinesky
 recruit_character = OPO_Emperor_Kekron
-recruit_character = OPO_Ernst_Kekelman
 recruit_character = OPO_Mark_Kekano
 recruit_character = OPO_Lev_Kekotsky
 recruit_character = OPO_Erwin_Kekmmel
 recruit_character = OPO_Andrew_American
+recruit_character = OPO_Ernst_Kekelman
+recruit_character = OPO_Keklian_Keyuzfavich
+recruit_character = OPO_Kekashi_Hatakin
+recruit_character = OPO_Kek_Donsbassovich
+recruit_character = OPO_Joseph_Kekowsky
+recruit_character = OPO_Sesailo_Soserman
+
+set_variable = { current_opo_regime = 1 }
+clamp_variable = {
+			var = current_opo_regime
+			min = 1
+			max = 2
+		}
+set_variable = { current_opo_parlament_seats_icon_frame = 1 }
+clamp_variable = {
+			var = current_opo_parlament_seats_icon_frame
+			min = 1
+			max = 2
+		}
+set_variable = { current_opo_parlament_seats_icon_legend_frame = 1 }
+clamp_variable = {
+			var = current_opo_parlament_seats_icon_legend_frame
+			min = 1
+			max = 2
+		}
+set_variable = { current_opo_parlament_chairman_frame = 1 }
+clamp_variable = {
+			var = current_opo_parlament_chairman_frame
+			min = 1
+			max = 2
+		}
 
 add_opinion_modifier = { 
 		target = KEK
@@ -238,7 +268,7 @@ create_equipment_variant = {
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = light_ship_engine_1
@@ -278,7 +308,7 @@ create_equipment_variant = {
 				fixed_ship_engine_slot = heavy_ship_engine_1
 				fixed_ship_secondaries_slot = ship_secondaries_1
 				fixed_ship_armor_slot = ship_armor_bb_2
-				front_1_custom_slot = ship_anti_air_1
+				front_1_custom_slot = ship_secondaries_1
 				mid_1_custom_slot = ship_airplane_launcher_1
 				mid_2_custom_slot = ship_secondaries_1
 				rear_1_custom_slot = ship_heavy_battery_1
@@ -308,12 +338,12 @@ create_equipment_variant = {
 		parent_version = 0
 		modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
-			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_anti_air_slot = empty
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_1
 			fixed_ship_armor_slot = ship_armor_cruiser_1
-			mid_1_custom_slot = empty
+			mid_1_custom_slot = ship_airplane_launcher_1
 			mid_2_custom_slot = empty
 			rear_1_custom_slot = ship_light_medium_battery_1
 		}

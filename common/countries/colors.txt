@@ -149,8 +149,8 @@ IZG = {
 }
 
 UNI = {
-	color = rgb { 32  127  153 }
-	color_ui = rgb { 35  145  176 }
+	color = rgb { 35  145  176 }
+	color_ui = rgb { 32  127  153 }
 }
 
 D01 = {

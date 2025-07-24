@@ -968,44 +968,54 @@ focus_tree = {
 	
 	focus = {
 		id = OPO_party_congress
-		icon = GFX_goal_unknown
-		cost = 1.00
+		icon = GFX_focus_party_congress
+		cost = 0.44
 
 		x = 20
 		y = 0
 	available = {
 			date > 2021.12.1
 		}
+		
+	completion_reward = {
+	custom_effect_tooltip = enver_kekir_add_event_group_tt
+	country_event = { id = opolchenie.60 }
+	}
 	
 	}
 	
 	focus = {
 		id = OPO_discuss_results
-		icon = GFX_goal_unknown
-		cost = 1.00
+		icon = GFX_focus_discuss_results
+		cost = 0.35
 		prerequisite = {
 			focus = OPO_party_congress
 		}
 		x = 19
 		y = 1
-
+	completion_reward = {
+	country_event = { id = opolchenie.61 }
+	add_political_power = 50
+	}
 	}
 	
 	focus = {
 		id = OPO_discuss_useful
 		icon = GFX_goal_unknown
-		cost = 1.00
+		cost = 0.35
 		prerequisite = {
 			focus = OPO_party_congress
 		}
 		x = 21
 		y = 1
-
+	completion_reward = {
+	country_event = { id = opolchenie.62 }
+	}
 	}
 	focus = {
 		id = OPO_open_senate
 		icon = GFX_goal_unknown
-		cost = 1.00
+		cost = 0.2
 		prerequisite = {
 			focus = OPO_discuss_results
 		}
@@ -1019,7 +1029,7 @@ focus_tree = {
 	focus = {
 		id = OPO_new_benefits
 		icon = GFX_goal_unknown
-		cost = 1.00
+		cost = 0.2
 		prerequisite = {
 			focus = OPO_open_senate
 		}
@@ -1030,7 +1040,7 @@ focus_tree = {
 	focus = {
 		id = OPO_visit_village
 		icon = GFX_goal_unknown
-		cost = 1.00
+		cost = 0.2
 		prerequisite = {
 			focus = OPO_new_benefits
 		}
@@ -1041,40 +1051,51 @@ focus_tree = {
 	focus = {
 		id = OPO_meeting_with_villagers
 		icon = GFX_goal_unknown
-		cost = 1.00
+		cost = 0.2
 		prerequisite = {
 			focus = OPO_visit_village
 		}
 		x = 19
 		y = 5
-
+	completion_reward = {
+	country_event = { id = opolchenie.63 }
 	}
+	}
+	
 	focus = {
 		id = OPO_check_budget
 		icon = GFX_goal_unknown
-		cost = 1.00
+		cost = 0.2
 		prerequisite = {
 			focus = OPO_new_benefits
 		}
 		x = 21
 		y = 4
-
+	completion_reward = {
+	country_event = { id = opolchenie.65 }
 	}
+	}
+	
+
 	focus = {
 		id = OPO_discuss_with_economist
 		icon = GFX_goal_unknown
-		cost = 1.00
+		cost = 0.2
 		prerequisite = {
 			focus = OPO_check_budget
 		}
 		x = 21
 		y = 5
-
+	completion_reward = {
+	country_event = { id = opolchenie.64 }
 	}
+	}
+	
+	
 	focus = {
 		id = OPO_approve_law
 		icon = GFX_goal_unknown
-		cost = 1.00
+		cost = 0.44
 		prerequisite = {
 			focus = OPO_discuss_with_economist
 		}
@@ -1083,6 +1104,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 6
-
+	
+	completion_reward = {
+	add_political_power = 20
+	}
 	}
 }

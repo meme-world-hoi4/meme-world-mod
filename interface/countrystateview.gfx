@@ -727,6 +727,10 @@ spriteTypes = {
 		name = "GFX_modifier_opo_mountains"
 		texturefile = "gfx/interface/state_modifiers/modifier_opo_mountains.dds"
 	}
+	spriteType = {
+		name = "GFX_modifier_hard_walk_zone"
+		texturefile = "gfx/interface/state_modifiers/modifier_hard_walk_zone.dds"
+	}
 
 
 		#####  ##    ##  #####

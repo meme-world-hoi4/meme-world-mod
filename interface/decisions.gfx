@@ -2705,10 +2705,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_category_opo_parlament_ui"
 		texturefile = "gfx/interface/decisions/decision_category_opo_parlament_ui.dds"
+		noOfFrames = 2
 	}
 	spriteType = {
 		name = "GFX_decision_category_opo_parlament_seats_ui"
 		texturefile = "gfx/interface/decisions/decision_category_opo_parlament_seats_ui.dds"
+		noOfFrames = 2
 	}
 	spriteType = {
 		name = "GFX_poor_metal_effect_for_desk"
@@ -2721,10 +2723,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_category_seats_legend"
 		texturefile = "gfx/interface/decisions/decision_category_seats_legend.dds"
+		noOfFrames = 2
 	}
 	spriteType = {
 		name = "GFX_decision_category_chair_man_ui"
 		texturefile = "gfx/interface/decisions/decision_category_chair_man_ui.dds"
+		noOfFrames = 2
 	}
 	spriteType = {
 		name = "GFX_decision_category_opo_parlament_seats_poor_effect"
@@ -2745,5 +2749,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_decision_opo_peace_with_jjk"
 		texturefile = "gfx/interface/decisions/decision_opo_peace_with_jjk.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_opo_buy_weapons"
+		texturefile = "gfx/interface/decisions/decision_opo_buy_weapons.dds"
 	}
 }

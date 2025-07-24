@@ -10856,8 +10856,10 @@ leader_traits = {
 	}
 	member_emperor_family = {
 		random = no
+		sprite = 13
+		
 		political_power_factor = 0.15
-		neutrality_drift = 0.1
+		neutrality_drift = 0.15
 
 		ai_will_do = {
 			factor = 1
@@ -10865,6 +10867,9 @@ leader_traits = {
 	}
 	operational_initiator = {
 		random = no
+		sprite = 7
+		command_cap = @tier1
+		
 		army_attack_factor = 0.15
 
 		ai_will_do = {
@@ -10873,7 +10878,66 @@ leader_traits = {
 	}
 	neat_strategist = {
 		random = no
+		sprite = 9
+		command_cap = @tier2
+		
 	    army_defence_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	people_love_target = {
+		random = no
+		sprite = 13
+		
+		political_power_factor = 0.15
+		stability_factor = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	labour_union_leader = {
+		random = no
+		sprite = 13
+		
+		communism_drift = 0.15
+		industrial_capacity_factory = -0.05
+		production_factory_efficiency_gain_factor = 0.05 
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	first_class_economist = {
+		random = no
+		sprite = 10
+		
+		production_speed_industrial_complex_factor = 0.15
+		industry_repair_factor = 0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	socialist_scientist = {
+		random = no
+		sprite = 13
+	
+		communism_drift = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	trade_diplomat = {
+		random = no
+		sprite = 13
+		
+		opinion_gain_monthly_factor = 0.1
+		trade_opinion_factor = 0.25
+		cic_construction_boost_factor = 0.1
 
 		ai_will_do = {
 			factor = 1

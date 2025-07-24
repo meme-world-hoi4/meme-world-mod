@@ -8415,4 +8415,44 @@ spriteTypes = {
 		name = "GFX_idea_opolchenie_edward_kekinesky"
 		texturefile = "gfx/interface/ideas/idea_opolchenie_edward_kekinesky.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_mark_kekano"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_mark_kekano.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_joseph_kekowsky"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_joseph_kekowsky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_kekashi_hatakin"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_kekashi_hatakin.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_erwin_kekmmel"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_erwin_kekmmel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_lev_kekotsky"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_lev_kekotsky.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_kefar_kok_bashar"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_kefar_kok_bashar.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_andrew_american"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_andrew_american.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_ernst_kekelman"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_ernst_kekelman.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_kek_donbassovich"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_kek_donbassovich.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_opolchenie_keklian_keyuzfavich"
+		texturefile = "gfx/interface/ideas/idea_opolchenie_keklian_keyuzfavich.dds"
+	}
 }

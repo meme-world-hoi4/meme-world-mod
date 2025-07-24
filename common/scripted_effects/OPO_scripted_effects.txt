@@ -1,17 +1,9 @@
-OPO_next_elections_september = {
-	set_variable = {
-    var = next_elections_in_opo_senate
-    value = 1
-    tooltip = next_elections_in_opo_senate_sixteen_september
-	}
-}
 
-OPO_next_elections_october = {
-	set_variable = {
-    var = next_elections_in_opo_senate
-    value = 2
-    tooltip = next_elections_in_opo_senate_sixteen_october
-	}
+OPO_decision_category_opo_parlament_ui_change = {
+
+set_variable = { var = current_opo_parlament_ui_icon_frame  value = current_opo_regime }
+set_country_flag = enver_regime_has_established
+
 }
 
 

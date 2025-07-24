@@ -243,4 +243,8 @@ spriteTypes = {
 		name = "GFX_Portrait_Opolchenie_Andrew_American"
 		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Andrew_American.dds"
 	}
+	spriteType = {
+		name = "GFX_Portrait_Opolchenie_Sesailo_Soserman"
+		texturefile = "gfx/leaders/OPO/Portrait_Opolchenie_Sesailo_Soserman.dds"
+	}
 }

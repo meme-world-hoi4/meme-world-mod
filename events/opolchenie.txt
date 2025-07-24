@@ -737,3 +737,111 @@ country_event = {
 
 
 ############# ИВЕНТЫ ДЛЯ ГАРДЕРНИИ
+
+
+################## ИВЕНТЫ ДЛЯ ПУТИ ЭНВЕРА КЕКИРА
+country_event = {
+	id = opolchenie.60	
+	title = opolchenie.60.t
+	desc = opolchenie.60.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.60.a
+	set_variable = { current_opo_regime = 2 }
+	OPO_decision_category_opo_parlament_ui_change = yes
+	}
+}
+
+country_event = {
+	id = opolchenie.61	
+	title = opolchenie.61.t
+	desc = opolchenie.61.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.61.a
+	set_variable = { current_opo_parlament_seats_icon_frame = 1 }
+	set_variable = { current_opo_parlament_seats_icon_legend_frame = 1 }
+	set_variable = { current_opo_parlament_chairman_frame = 1 }
+	clr_country_flag = opo_enver_senate_changed
+	}
+}
+
+country_event = {
+	id = opolchenie.62	
+	title = opolchenie.62.t
+	desc = opolchenie.62.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.62.a
+	set_variable = { current_opo_parlament_seats_icon_frame = 2 }
+	set_variable = { current_opo_parlament_seats_icon_legend_frame = 2 }
+	set_variable = { current_opo_parlament_chairman_frame = 2 }
+	set_country_flag = opo_enver_senate_changed
+	}
+}
+
+country_event = {
+	id = opolchenie.63	
+	title = opolchenie.63.t
+	desc = opolchenie.63.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.63.a
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.64	
+	title = opolchenie.64.t
+	desc = opolchenie.64.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.64.a
+	
+	}
+}
+
+
+country_event = {
+	id = opolchenie.65	
+	title = opolchenie.65.t
+	desc = opolchenie.65.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.65.a
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.66	
+	title = opolchenie.66.t
+	desc = opolchenie.66.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.66.a
+	
+	}
+}

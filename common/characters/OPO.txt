@@ -34,6 +34,7 @@ characters={
 			}
 			civilian={
 				large=GFX_Portrait_Opolchenie_Mark_Kekano_Civilwar
+				small=GFX_idea_opolchenie_mark_kekano
 			}
 		}
 
@@ -46,6 +47,13 @@ characters={
 			logistics_skill=2
 			legacy_id=9
 		}
+		
+		advisor = {
+            slot = army_chief
+            idea_token = mark_kekano
+            ledger = army
+            traits = { neat_strategist }
+        }
 	}
 	
 	OPO_Erwin_Kekmmel={
@@ -64,50 +72,6 @@ characters={
 			planning_skill=2
 			logistics_skill=2
 			legacy_id=10
-		}
-	}
-	
-############# КОММУНИСТЫ
-	
-	OPO_Ernst_Kekelman={
-		name="OPO_Ernst_Kekelman"
-		portraits={
-			civilian={
-				large=GFX_Portrait_Opolchenie_Ernst_Kekelman
-			}
-		}
-		country_leader={
-			ideology=leninism
-			expire="2029.1.1.1"
-			id=8
-		}
-	}
-	
-		OPO_Enver_Kekir={
-		name="OPO_Enver_Kekir"
-		portraits={
-			civilian={
-				large=GFX_Portrait_Opolchenie_Enver_Kekir
-			}
-		}
-	}
-	
-	OPO_Lev_Kekotsky={
-	name=OPO_Lev_Kekotsky
-	portraits={
-			army={
-				large="GFX_Portrait_Opolchenie_Lev_Kekotsky"
-			}
-		}
-
-		corps_commander={
-			traits={ war_hero }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=11
 		}
 	}
 	
@@ -134,7 +98,7 @@ characters={
         }
 	}
 	
-############# КЛЕПТОКРАТЫ
+############# КЛЕПТОКРАТ-ГЕНЕРАЛ
 
 	OPO_Edward_Kekinesky={
 	name=OPO_Edward_Kekinesky
@@ -166,12 +130,161 @@ characters={
         }
 	}
 	
+#################### КЛЕПТОКРАТ
+	
 	OPO_Andrew_American={
 		name="OPO_Andrew_American"
 		portraits={
 			civilian={
 				large=GFX_Portrait_Opolchenie_Andrew_American
+				small=GFX_idea_opolchenie_andrew_american
 			}
+		}
+		
+		advisor = {
+            slot = political_advisor
+            idea_token = andrew_american
+            ledger = political_advisor
+            traits = { people_love_target }
+        }
+	}
+	
+############# КОММУНИСТЫ
+	
+	OPO_Ernst_Kekelman={
+		name="OPO_Ernst_Kekelman"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Ernst_Kekelman
+				small=GFX_idea_opolchenie_ernst_kekelman
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="2029.1.1.1"
+			id=8
+		}
+		advisor = {
+            slot = political_advisor
+            idea_token = ernst_kekelman
+            ledger = political_advisor
+            traits = { labour_union_leader }
+        }
+	}
+	
+		OPO_Enver_Kekir={
+		name="OPO_Enver_Kekir"
+		portraits={
+			civilian={
+				large=GFX_Portrait_Opolchenie_Enver_Kekir
+			}
+		}
+	}
+	
+	OPO_Lev_Kekotsky={
+	name=OPO_Lev_Kekotsky
+	portraits={
+			army={
+				large="GFX_Portrait_Opolchenie_Lev_Kekotsky"
+			}
+		}
+
+		corps_commander={
+			traits={ war_hero }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=11
+		}
+	}
+	
+############################## СОВЕТНИКИ
+	
+	OPO_Keklian_Keyuzfavich={
+		name="OPO_Keklian_Keyuzfavich"
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_keklian_keyuzfavich
+			}
+		}
+		
+		advisor = {
+            slot = political_advisor
+            idea_token = keklian_keyuzfavich
+            ledger = political_advisor
+            traits = { first_class_economist }
+        }
+	}
+	
+	OPO_Kek_Donsbassovich={
+		name="OPO_Kek_Donsbassovich"
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_kek_donbassovich
+			}
+		}
+		
+		advisor = {
+            slot = political_advisor
+            idea_token = kek_donbassovich
+            ledger = political_advisor
+            traits = { trade_diplomat }
+        }
+	}
+	
+	OPO_Kekashi_Hatakin={
+		name="OPO_Kekashi_Hatakin"
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_kekashi_hatakin
+			}
+		}
+		
+		advisor = {
+            slot = political_advisor
+            idea_token = kekashi_hatakin
+            ledger = political_advisor
+            traits = { socialist_scientist }
+        }
+	}
+	
+	OPO_Joseph_Kekowsky={
+		name="OPO_Joseph_Kekowsky"
+		portraits={
+			civilian={
+				small=GFX_idea_opolchenie_joseph_kekowsky
+			}
+		}
+		
+		advisor = {
+            slot = political_advisor
+            idea_token = joseph_kekowsky
+            ledger = political_advisor
+            traits = { head_of_intelligence }
+			allowed = {
+				original_tag = OPO
+				has_dlc = "La Resistance"
+			}
+        }
+	}
+	
+	OPO_Sesailo_Soserman={
+		name="OPO_Sesailo_Soserman"
+		portraits={
+			army={
+				large=GFX_Portrait_Opolchenie_Sesailo_Soserman
+			}
+		}
+		
+		navy_leader = {
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 3
+			coordination_skill = 3
+			legacy_id = 12
 		}
 	}
 	

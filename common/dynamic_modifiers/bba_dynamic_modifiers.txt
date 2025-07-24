@@ -77,7 +77,7 @@ OPO_ses_minority_modifiers = {
 	
 	icon = GFX_modifiers_ses_minority
 	stability_factor = -0.05
-	conscription_factor = -0.05
+	local_manpower = -0.1
 	
 
 }
@@ -86,8 +86,19 @@ OPO_opo_mountains_modifier = {
 	enable = { always = yes }
 	
 	icon = GFX_modifier_opo_mountains
-	army_defence_factor = 0.1
-	army_speed_factor = -0.1
+	
+	local_supplies = -0.1
 	
 
+}
+
+IZG_hard_walk_zone = {
+	enable = { always = yes }
+	
+	icon = GFX_modifier_hard_walk_zone
+	
+	army_speed_factor_for_controller = -0.5
+	enemy_army_speed_factor = -0.5
+	
+	
 }

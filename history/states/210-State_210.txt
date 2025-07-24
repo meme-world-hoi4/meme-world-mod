@@ -16,6 +16,11 @@ state={
 			infrastructure = 1
 			industrial_complex = 1
 	}
+	
+		add_dynamic_modifier = {
+			modifier = IZG_hard_walk_zone
+
+		}
 }
 	manpower = 10000
 	state_category = town

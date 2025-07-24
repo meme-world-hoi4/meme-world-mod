@@ -12,12 +12,12 @@ guiTypes = {
 	iconType = {
 			name ="party_background"
 			spriteType = "GFX_decision_category_opo_parlament_ui"
-			position = { x= -10 y = -20 }
+			position = { x= -11 y = -20 }
 		}
 	iconType = {
 			name ="poor_metal_effect"
 			spriteType = "GFX_poor_metal_effect_for_desk"
-			position = { x= -7 y = -20 }
+			position = { x= 0 y = -20 }
 		}
 
 		iconType = {
@@ -93,42 +93,42 @@ guiTypes = {
 			name ="DemPRO"
 			position = { x= 285 y = 22 }
 			font = "hoi_18mbs"
-			text = "DPRO_opo_party"
+			text = "[scripted_dpro_name]"
 			format = center
 		}
 		instantTextBoxType = {
 			name ="Monarchical_Party"
-			position = { x= 307 y = 45 }
+			position = { x= 287 y = 45 }
 			font = "hoi_18mbs"
-			text = "Monarchical_Party_opo_party"
+			text = "[scripted_monarchist_name]"
 			format = center
 		}
 		instantTextBoxType = {
 			name ="Utkin_party"
-			position = { x= 302 y = 67 }
+			position = { x= 282 y = 67 }
 			font = "hoi_18mbs"
-			text = "Utkins_party_opo_party"
+			text = "[scripted_utkinist_name]"
 			format = center
 		}
 		instantTextBoxType = {
 			name ="Vox_party"
 			position = { x= 280 y = 88 }
 			font = "hoi_18mbs"
-			text = "Vox_opo_party"
+			text = "[scripted_vox_name]"
 			format = center
 		}
 		instantTextBoxType = {
 			name ="TNFO_party"
 			position = { x= 286 y = 111 }
 			font = "hoi_18mbs"
-			text = "Tnfo_opo_party"
+			text = "[scripted_tnfo_name]"
 			format = center
 		}
 		instantTextBoxType = {
 			name ="Unionist_party"
 			position = { x= 307 y = 132 }
 			font = "hoi_18mbs"
-			text = "Unionist_opo_party"
+			text = "[scripted_unionist_name]"
 			format = center
 		}
 		

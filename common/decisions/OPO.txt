@@ -1,6 +1,8 @@
 OPO_congress = {
 
-	OPO_offer_join_bst = {
+############# КОНГРЕСС ЭНВЕРА
+
+	OPO_discuss_with_znamya_kekina = {
 	
 	ai_will_do = {
 			base = 10
@@ -16,7 +18,7 @@ OPO_congress = {
 		
 	days_remove = 3
 
-		icon = opo_peace_with_jjk
+		icon = generic_political_discourse
 
 		allowed = {
 			original_tag = OPO
@@ -29,7 +31,179 @@ OPO_congress = {
 			country_exists = BST
 		}
 
-		cost = 50
+		cost = 10
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = OPO
+		}
+
+		complete_effect = {
+			BST = { country_event = { id = gardernia.1 hours = 72 } }
+		}
+	}
+	
+	OPO_buy_znamya_kekina_voices = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 100
+				date > 2021.09.30
+			}
+			modifier = {
+				factor = 150
+				date > 2021.10.10
+			}
+		}
+		
+	days_remove = 3
+
+		icon = hol_attract_foreign_investors
+
+		allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			OPO = { has_capitulated = no }
+			OPO = { is_in_faction = yes }
+			BST = { is_in_faction = no }
+			country_exists = BST
+		}
+
+		cost = 15
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = OPO
+		}
+
+		complete_effect = {
+			BST = { country_event = { id = gardernia.1 hours = 72 } }
+		}
+	}
+	
+	OPO_enter_in_contact_with_tnfo = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 100
+				date > 2021.09.30
+			}
+			modifier = {
+				factor = 150
+				date > 2021.10.10
+			}
+		}
+		
+	days_remove = 3
+
+		icon = SWI_support_humanitarian_efforts
+
+		allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			OPO = { has_capitulated = no }
+			OPO = { is_in_faction = yes }
+			BST = { is_in_faction = no }
+			country_exists = BST
+		}
+
+		cost = 30
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = OPO
+		}
+
+		complete_effect = {
+			BST = { country_event = { id = gardernia.1 hours = 72 } }
+		}
+	}
+	
+	OPO_make_threat_for_senators_dpro = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 100
+				date > 2021.09.30
+			}
+			modifier = {
+				factor = 150
+				date > 2021.10.10
+			}
+		}
+		
+	days_remove = 3
+
+		icon = generic_civil_support
+
+		allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			OPO = { has_capitulated = no }
+			OPO = { is_in_faction = yes }
+			BST = { is_in_faction = no }
+			country_exists = BST
+		}
+
+		cost = 30
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = OPO
+		}
+
+		complete_effect = {
+			BST = { country_event = { id = gardernia.1 hours = 72 } }
+		}
+	}
+	
+	OPO_blackmail_senators_kpo = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 100
+				date > 2021.09.30
+			}
+			modifier = {
+				factor = 150
+				date > 2021.10.10
+			}
+		}
+		
+	days_remove = 3
+
+		icon = SWI_support_humanitarian_efforts
+
+		allowed = {
+			original_tag = OPO
+		}
+
+		available = {
+			OPO = { has_capitulated = no }
+			OPO = { is_in_faction = yes }
+			BST = { is_in_faction = no }
+			country_exists = BST
+		}
+
+		cost = 30
 
 		fire_only_once = yes
 
@@ -44,6 +218,8 @@ OPO_congress = {
 	}
 
 }
+
+###########################################################################
 
 OPO_call_help_weapon = {
 
@@ -275,6 +451,8 @@ OPO_trade_weapon_others = {
 
 	OPO_buy_weapon_from_aliance_krutuih = {
 	
+	icon = opo_buy_weapons
+	
 	allowed = {
 			original_tag = OPO
 		}
@@ -284,7 +462,7 @@ OPO_trade_weapon_others = {
 			country_exists = EVD
 		}
 
-		cost = 10
+		cost = 25
 
 		fire_only_once = yes
 
@@ -301,6 +479,8 @@ OPO_trade_weapon_others = {
 	
 	OPO_buy_weapon_from_aliance_pivo = {
 	
+	icon = opo_buy_weapons
+	
 	allowed = {
 			original_tag = OPO
 		}
@@ -310,7 +490,7 @@ OPO_trade_weapon_others = {
 			country_exists = JJK
 		}
 
-		cost = 10
+		cost = 25
 
 		fire_only_once = yes
 
@@ -327,6 +507,8 @@ OPO_trade_weapon_others = {
 	
 	OPO_buy_weapon_from_aliance_ssrmm = {
 	
+	icon = opo_buy_weapons
+	
 	allowed = {
 			original_tag = OPO
 		}
@@ -336,7 +518,7 @@ OPO_trade_weapon_others = {
 			country_exists = FAL
 		}
 
-		cost = 10
+		cost = 25
 
 		fire_only_once = yes
 

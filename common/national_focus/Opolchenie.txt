@@ -12,11 +12,11 @@ focus_tree = {
 	
 	default = no
 
-	continuous_focus_position = { x = 2350 y = 1150 }
+	continuous_focus_position = { x = 2600 y = 50 }
 	
 	focus = {
 		id = OPO_vosvrashenie_prezidenta
-		icon = GFX_focus_hol_the_foundations_of_defense
+		icon = GFX_focus_return_president_status
 		cost = 0.44
 		x = 13
 		y = 0
@@ -59,7 +59,7 @@ focus_tree = {
 	}
 	focus = {
 		id = OPO_plan_general
-		icon = GFX_focus_generic_military_dictatorship
+		icon = GFX_focus_OPO_general_plan
 		cost = 0.35
 		prerequisite = {
 			focus = OPO_destiny_dro
@@ -87,7 +87,7 @@ focus_tree = {
 	}
 	focus = {
 		id = OPO_word_of_emperor
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_focus_OPO_word_of_emperor
 		cost = 0.35
 		prerequisite = {
 			focus = OPO_destiny_dro
@@ -233,7 +233,7 @@ focus_tree = {
 	
 	focus = {
 		id = OPO_president_ukaz
-		icon = GFX_focus_SWE_refuge_from_war
+		icon = GFX_focus_OPO_president_ukaz
 		cost = 0.35
 		prerequisite = {
 			focus = OPO_destiny_dro
@@ -271,7 +271,7 @@ focus_tree = {
 	}
 	focus = {
 		id = OPO_nedopusk_krov
-		icon = GFX_focus_SWI_establish_pro_helvetia
+		icon = GFX_focus_OPO_nedopusk_krov
 		cost = 0.2
 		prerequisite = {
 			focus = OPO_president_ukaz
@@ -307,7 +307,7 @@ focus_tree = {
 	custom_trigger_tooltip = {
     tooltip = victory_in_kekziland_opo_tt
     OPO = {
-        has_country_flag = victory_in_kekziland_battle_tt
+        has_war_with = ARO
 		}
 	}
 	}
@@ -315,7 +315,34 @@ focus_tree = {
 	
 	completion_reward = {
 	custom_effect_tooltip = total_war_with_dro_tt
+	hidden_effect = {
+	if = {
+		limit = {
+			OR = {
+				OPO = {
+					controls_state = 219
+				}
+				OPO = {
+					owns_state = 219
+				}
+			}
+		}
+	
+	}
+	if = {
+		limit = {
+			OR = {
+				ARO = {
+					controls_state = 219
+				}
+				ARO = {
+					owns_state = 219
+				}
+			}
+		}
 	country_event = opolchenie.14
+	}
+	}
 	}
 	}
 	focus = {
@@ -346,13 +373,18 @@ focus_tree = {
 	}
 	focus = {
 		id = OPO_mobilization
-		icon = GFX_focus_generic_full_social_mobilization
+		icon = GFX_focus_OPO_mobilisation
 		cost = 0.44
 		prerequisite = {
 			focus = OPO_total_war
 		}
 		x = 8
 		y = 6
+	available = {
+	OPO = {
+	has_war = yes
+	}
+	}
 	completion_reward = {
 	add_timed_idea = {
 				idea = mobilization_opo
@@ -371,81 +403,92 @@ focus_tree = {
 		}
 		x = 4
 		y = 6
+	
+	available = {
+	OPO = {
+	has_war = yes
+	}
+	}
 	completion_reward = {
 
 	}
 	}
 	
-#	focus = {
-	#	id = OPO_war_with_great_nations
-	#	icon = GFX_focus_war_with_great_nations
-	#	cost = 0.44
-	#	prerequisite = {
-	#		focus = OPO_aliance_help
-	#	}
-	#	mutually_exclusive = {
-	#		focus = OPO_peace_with_great_nations
-	#		focus = OPO_solo_war
-	#	}
-	#	x = 2
-	#	y = 7
-#	completion_reward = {
-#	custom_effect_tooltip = start_peace_dialoge_with_aliances_tt
-#	effect_tooltip = {
-#	unlock_decision_tooltip = OPO_call_help_from_evd
-#	unlock_decision_tooltip = OPO_call_help_from_jjk
-#	}
-#	hidden_effect = {
-#	set_country_flag = opo_war_with_great_nation_flag
-#	}
-#	}
-#	}
+	focus = {
+		id = OPO_war_with_great_nations
+		icon = GFX_focus_war_with_great_nations
+		cost = 0.44
+		prerequisite = {
+			focus = OPO_aliance_help
+		}
+		mutually_exclusive = {
+			focus = OPO_peace_with_great_nations
+			focus = OPO_solo_war
+		}
+		x = 2
+		y = 7
+	available = {
+	OPO = {
+	has_war = yes
+	}
+	}
+	completion_reward = {
+	custom_effect_tooltip = start_peace_dialoge_with_aliances_tt
+	effect_tooltip = {
+	unlock_decision_tooltip = OPO_call_help_from_evd
+	unlock_decision_tooltip = OPO_call_help_from_jjk
+	}
+	hidden_effect = {
+	set_country_flag = opo_war_with_great_nation_flag
+	}
+	}
+	}
 	
-#	focus = {
-#		id = OPO_peace_with_great_nations
-#		icon = GFX_focus_peace_with_great_nations
-#		cost = 0.44
-#		prerequisite = {
-#			focus = OPO_aliance_help
-#		}
-#		mutually_exclusive = {
-#			focus = OPO_war_with_great_nations
-#			focus = OPO_solo_war
-#		}
-#		x = 4
-#		y = 7
-#	completion_reward = {
-#	custom_effect_tooltip = start_peace_dialoge_with_kek_tt
-#	effect_tooltip = {
-#	unlock_decision_tooltip = OPO_dialog_with_kek
-#	}
-#	hidden_effect = {
-#	set_country_flag = opo_peace_with_great_nation_flag
-#	}
-#	}
-#	}
+	focus = {
+		id = OPO_peace_with_great_nations
+		icon = GFX_focus_peace_with_great_nations
+		cost = 0.44
+		prerequisite = {
+			focus = OPO_aliance_help
+		}
+		mutually_exclusive = {
+			focus = OPO_war_with_great_nations
+			focus = OPO_solo_war
+		}
+		x = 4
+		y = 7
+	completion_reward = {
+	custom_effect_tooltip = start_peace_dialoge_with_kek_tt
+	effect_tooltip = {
+	unlock_decision_tooltip = OPO_dialog_with_kek
+	}
+	hidden_effect = {
+	set_country_flag = opo_peace_with_great_nation_flag
+	}
+	}
+	}
 	
-#	focus = {
-#		id = OPO_solo_war
-#		icon = GFX_focus_solo_war
-#		cost = 0.44
-#		prerequisite = {
-#			focus = OPO_aliance_help
-#		}
-#		mutually_exclusive = {
-#			focus = OPO_war_with_great_nations
-#			focus = OPO_peace_with_great_nations
-#		}
-#		x = 6
-#		y = 7
-#	completion_reward = {
-#	custom_effect_tooltip = we_continiue_solo_war_tt
-#	add_timed_idea = {
-#				idea = opo_solo_war_idea
-#				days = 28
-#			}
-#		}
-#	}
+	focus = {
+		id = OPO_solo_war
+		icon = GFX_focus_solo_war
+		cost = 0.44
+		prerequisite = {
+			focus = OPO_aliance_help
+		}
+		mutually_exclusive = {
+			focus = OPO_war_with_great_nations
+			focus = OPO_peace_with_great_nations
+		}
+		x = 6
+		y = 7
+	completion_reward = {
+	custom_effect_tooltip = we_continiue_solo_war_tt
+	add_timed_idea = {
+				idea = opo_solo_war_idea
+				days = 28
+			}
+		}
+	}
 
 	focus = {
 		id = OPO_war_status
@@ -456,6 +499,11 @@ focus_tree = {
 		}
 		x = 10
 		y = 6
+	available = {
+	OPO = {
+	has_war = yes
+	}
+	}
 	completion_reward = {
 	418 = {
 	add_building_construction = {
@@ -497,6 +545,11 @@ focus_tree = {
 		}
 		x = 6
 		y = 6
+	available = {
+	OPO = {
+	has_war = yes
+	}
+	}
 	completion_reward = {
 	215 = {
 	add_building_construction = {
@@ -547,7 +600,7 @@ focus_tree = {
 	
 	focus = {
 		id = OPO_meeting_in_green_house
-		icon = GFX_goal_generic_improve_relations
+		icon = GFX_focus_OPO_meeting_in_green_house
 		cost = 0.20
 		prerequisite = {
 			focus = OPO_krah_pod_kekzilendom
@@ -570,7 +623,10 @@ focus_tree = {
 		}
 		x = 14
 		y = 7
-
+	available = {
+	OPO = { exists = yes }
+	ARO = { exists = yes }
+	}
 	}
 	focus = {
 		id = OPO_protiv_vseh
@@ -650,7 +706,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_old_band
 		}
-		x = 5
+		x = 7
 		y = 13
 
 	}
@@ -661,7 +717,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_old_band
 		}
-		x = 7
+		x = 5
 		y = 13
 
 	}
@@ -670,7 +726,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 1.00
 		prerequisite = {
-			focus = OPO_reduce_party_influence
+			focus = OPO_reshuffle_command
 		}
 		prerequisite = {
 			focus = OPO_powerup_police
@@ -706,7 +762,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 1.00
 		prerequisite = {
-			focus = OPO_powerup_police
+			focus = OPO_reduce_party_influence
 		}
 		prerequisite = {
 			focus = OPO_reshuffle_command
@@ -971,7 +1027,7 @@ focus_tree = {
 		icon = GFX_focus_party_congress
 		cost = 0.44
 
-		x = 20
+		x = 23
 		y = 0
 	available = {
 			date > 2021.12.1
@@ -991,7 +1047,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_party_congress
 		}
-		x = 19
+		x = 22
 		y = 1
 	completion_reward = {
 	country_event = { id = opolchenie.61 }
@@ -1006,7 +1062,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_party_congress
 		}
-		x = 21
+		x = 24
 		y = 1
 	completion_reward = {
 	country_event = { id = opolchenie.62 }
@@ -1022,7 +1078,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_discuss_useful
 		}
-		x = 20
+		x = 23
 		y = 2
 
 	}
@@ -1033,7 +1089,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_open_senate
 		}
-		x = 20
+		x = 23
 		y = 3
 
 	}
@@ -1044,7 +1100,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_new_benefits
 		}
-		x = 19
+		x = 22
 		y = 4
 
 	}
@@ -1055,7 +1111,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_visit_village
 		}
-		x = 19
+		x = 22
 		y = 5
 	completion_reward = {
 	country_event = { id = opolchenie.63 }
@@ -1069,7 +1125,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_new_benefits
 		}
-		x = 21
+		x = 24
 		y = 4
 	completion_reward = {
 	country_event = { id = opolchenie.65 }
@@ -1084,7 +1140,7 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_check_budget
 		}
-		x = 21
+		x = 24
 		y = 5
 	completion_reward = {
 	country_event = { id = opolchenie.64 }
@@ -1102,11 +1158,165 @@ focus_tree = {
 		prerequisite = {
 			focus = OPO_meeting_with_villagers
 		}
-		x = 20
+		x = 23
 		y = 6
 	
 	completion_reward = {
 	add_political_power = 20
 	}
 	}
+	
+	#### ВТОРАЯ ЧАСТЬ: ВЕТКА С УНИЕЙ КЕКА
+	
+	focus = {
+		id = OPO_kek_union
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			
+		}
+		x = 24
+		y = 10
+
+	}
+	
+	focus = {
+		id = OPO_weak_union
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_kek_union
+		}
+		x = 24
+		y = 11
+
+	}
+	
+	focus = {
+		id = OPO_unbreakable_friendship
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_weak_union
+		}
+		mutually_exclusive = {
+			focus = OPO_way_to_bye
+		}
+		x = 22
+		y = 12
+
+	}
+	
+	focus = {
+		id = OPO_visit_kekan_city
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_unbreakable_friendship
+		}
+		x = 21
+		y = 13
+
+	}
+	
+	focus = {
+		id = OPO_economic_support
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_unbreakable_friendship
+		}
+		x = 23
+		y = 13
+
+	}
+	
+	focus = {
+		id = OPO_war_support
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_economic_support
+		}
+		x = 23
+		y = 14
+
+	}
+	
+	focus = {
+		id = OPO_joint_communique
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_visit_kekan_city
+		}
+		x = 21
+		y = 14
+
+	}
+	
+	focus = {
+		id = OPO_way_to_bye
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_weak_union
+		}
+		mutually_exclusive = {
+			focus = OPO_unbreakable_friendship
+		}
+		x = 26
+		y = 12
+
+	}
+	
+	focus = {
+		id = OPO_kick_instructors
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_way_to_bye
+		}
+		x = 25
+		y = 13
+
+	}
+	
+	focus = {
+		id = OPO_hard_transit
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_way_to_bye
+		}
+		x = 27
+		y = 13
+
+	}
+	
+	focus = {
+		id = OPO_leave_from_union
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_kick_instructors
+		}
+		x = 25
+		y = 14
+
+	}
+	
+	focus = {
+		id = OPO_visit_on_tv
+		icon = GFX_goal_unknown
+		cost = 0.2
+		prerequisite = {
+			focus = OPO_hard_transit
+		}
+		x = 27
+		y = 14
+
+	}
+	
+	
 }

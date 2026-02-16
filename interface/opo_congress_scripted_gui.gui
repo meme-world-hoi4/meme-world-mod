@@ -136,6 +136,7 @@ guiTypes = {
 			name ="seats_icon_effect"
 			spriteType = "GFX_decision_category_opo_parlament_seats_poor_effect"
 			position = { x= 5 y = 10 }
+			pdx_tooltip = "OPO_SENAT_FIRST_EFFECT_TOOLTIP"
 		}
 		
 

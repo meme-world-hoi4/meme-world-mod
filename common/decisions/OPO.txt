@@ -2,6 +2,115 @@ OPO_congress = {
 
 ############# КОНГРЕСС ЭНВЕРА
 
+	OPO_decision_senate_on_relaxing = {
+	
+	priority = 100
+	
+	icon = unknown
+	
+	available = {
+			hidden_trigger = { always = no }
+		}
+	allowed = {
+			original_tag = OPO
+		}
+		
+################## 
+################## 
+################## 
+	
+	days_mission_timeout = 7
+
+		 activation = {
+			tag = OPO
+				check_variable = {
+					var = opo_parlament_work_status
+					value = 1
+				}
+			}
+
+		is_good = yes
+
+		timeout_effect = {
+		hidden_effect = {
+			country_event = opolchenie.46
+		}
+		custom_effect_tooltip = OPO_senate_start_session_tt
+		custom_effect_tooltip = OPO_senate_can_make_laws_tt
+		}
+	}
+	
+	OPO_decision_senate_on_session = {
+	
+	priority = 100
+	
+	icon = unknown
+	
+	available = {
+			hidden_trigger = { always = no }
+		}
+	allowed = {
+		original_tag = OPO
+	}
+	
+	days_mission_timeout = 7
+
+		activation = {
+			tag = OPO
+				check_variable = {
+					var = opo_parlament_work_status
+					value = 2
+				}
+		}
+
+		is_good = yes
+
+		timeout_effect = {
+		custom_effect_tooltip = OPO_senate_end_session_tt
+		custom_effect_tooltip = OPO_senate_can_not_make_laws_tt
+		hidden_effect = {
+			country_event = opolchenie.36
+		}
+		}
+	}
+	
+	OPO_decision_senate_on_voting = {
+	
+	priority = 100
+	
+	icon = unknown
+	
+	available = {
+			hidden_trigger = { always = no }
+		}
+	allowed = {
+		original_tag = OPO
+	}
+	
+	days_mission_timeout = 3
+
+		activation = {
+			tag = OPO
+				check_variable = {
+					var = opo_parlament_work_status
+					value = 3
+					compare = greater_than_or_equals
+				}
+		}
+		
+		cancel_if_not_visible = yes
+
+		is_good = yes
+
+		timeout_effect = {
+		custom_effect_tooltip = OPO_senate_interrupt_session_tt
+		custom_effect_tooltip = OPO_senate_can_not_make_laws_bcs_voting_tt
+		hidden_effect = {
+			country_event = opolchenie.37
+		}
+		}
+	}
+
 	OPO_discuss_with_znamya_kekina = {
 	
 	ai_will_do = {
@@ -38,6 +147,8 @@ OPO_congress = {
 
 		visible = {
 			country_exists = OPO
+			has_completed_focus = OPO_open_senate
+			has_country_flag = time_to_create_law_project_flag
 		}
 
 		complete_effect = {
@@ -81,6 +192,8 @@ OPO_congress = {
 
 		visible = {
 			country_exists = OPO
+			has_completed_focus = OPO_open_senate
+			has_country_flag = time_to_create_law_project_flag
 		}
 
 		complete_effect = {
@@ -124,6 +237,8 @@ OPO_congress = {
 
 		visible = {
 			country_exists = OPO
+			has_completed_focus = OPO_open_senate
+			has_country_flag = time_to_create_law_project_flag
 		}
 
 		complete_effect = {
@@ -167,6 +282,8 @@ OPO_congress = {
 
 		visible = {
 			country_exists = OPO
+			has_completed_focus = OPO_open_senate
+			has_country_flag = time_to_create_law_project_flag
 		}
 
 		complete_effect = {
@@ -210,6 +327,8 @@ OPO_congress = {
 
 		visible = {
 			country_exists = OPO
+			has_completed_focus = OPO_open_senate
+			has_country_flag = time_to_create_law_project_flag
 		}
 
 		complete_effect = {
@@ -470,6 +589,7 @@ OPO_trade_weapon_others = {
 		visible = {
 			original_tag = OPO
 			OPO = { has_war = yes }
+			has_completed_focus = OPO_aliance_help
 		}
 
 		complete_effect = {
@@ -498,6 +618,7 @@ OPO_trade_weapon_others = {
 		visible = {
 			original_tag = OPO
 			OPO = { has_war = yes }
+			has_completed_focus = OPO_aliance_help
 		}
 
 		complete_effect = {
@@ -526,6 +647,7 @@ OPO_trade_weapon_others = {
 		visible = {
 			original_tag = OPO
 			OPO = { has_war = yes }
+			has_completed_focus = OPO_aliance_help
 		}
 
 		complete_effect = {

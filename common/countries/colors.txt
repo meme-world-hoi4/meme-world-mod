@@ -153,6 +153,21 @@ UNI = {
 	color_ui = rgb { 32  127  153 }
 }
 
+KET = {
+	color = rgb { 55  166  25 }
+	color_ui = rgb { 55  181  27 }
+}
+
+JJG = {
+	color = rgb { 156  56  156 }
+	color_ui = rgb { 228  75  228 }
+}
+
+SRS = {
+	color = rgb { 64  64  64 }
+	color_ui = rgb { 82  82  82 }
+}
+
 D01 = {
 	color = rgb { 69 157 208 }
 	color_ui = rgb { 90 204 255 }

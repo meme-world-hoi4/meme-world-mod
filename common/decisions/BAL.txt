@@ -1,0 +1,131 @@
+BAL_operation_in_sersia = {
+
+	BAL_start_operation = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 100
+				date > 2021.09.15
+			}
+			modifier = {
+				factor = 200
+				date > 2021.09.20
+			}
+		}
+		
+	days_remove = 3
+
+		icon = generic_intelligence_operation
+
+		allowed = {
+			original_tag = BAL
+			country_exists = SER
+		}
+
+		available = {
+			BAL = { has_capitulated = no }
+			country_exists = SER
+			SER = { has_capitulated = no }
+			divisions_in_border_state = {
+				type = infantry
+				size > 4
+				state = 33
+				border_state = 28
+			}
+			divisions_in_border_state = {
+				type = infantry
+				size > 4
+				state = 25
+				border_state = 28
+			}
+			BAL = {
+			ships_in_state_ports = {
+			type = battle_cruiser
+			size > 29
+			state = 41
+			}
+			}
+			hidden_trigger = {
+				is_ai = no
+			}
+		}
+
+		cost = 15
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = BAL
+			country_exists = SER
+		}
+
+		complete_effect = {
+			BAL = { country_event = { id = balticania.1 hours = 48 } }
+		}
+	}
+	
+	BAL_start_operation_for_ai = {
+	
+	ai_will_do = {
+			base = 10
+			modifier = {
+				factor = 100
+				date > 2021.09.15
+			}
+			modifier = {
+				factor = 200
+				date > 2021.09.20
+			}
+		}
+		
+	days_remove = 3
+
+		icon = generic_intelligence_operation
+
+		allowed = {
+			original_tag = BAL
+			BAL = {
+			is_ai = yes
+			}
+			country_exists = SER
+		}
+
+		available = {
+			BAL = { has_capitulated = no }
+			country_exists = SER
+			SER = { has_capitulated = no }
+			divisions_in_border_state = {
+				type = infantry
+				size > 4
+				state = 33
+				border_state = 28
+			}
+			divisions_in_border_state = {
+				type = infantry
+				size > 4
+				state = 25
+				border_state = 28
+			}
+		}
+
+		cost = 15
+
+		fire_only_once = yes
+
+
+		visible = {
+			country_exists = BAL
+			BAL = {
+			is_ai = yes
+			}
+			country_exists = SER
+		}
+
+		complete_effect = {
+			BAL = { country_event = { id = balticania.1 hours = 48 } }
+		}
+	}
+
+}

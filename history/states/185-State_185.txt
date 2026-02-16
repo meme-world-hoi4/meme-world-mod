@@ -10,6 +10,7 @@ state={
 		owner = JJK
 		controller = JJK
 		add_core_of = JJK
+		add_core_of = JJG
 	victory_points = {
 		16713 10
 		}

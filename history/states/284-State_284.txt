@@ -1,12 +1,28 @@
-
 state={
 	id=284
 	name="STATE_284"
 	provinces={
-		1875 2941 3592 8608 9411 9777 16541 16571 16625 16647 16661 16681 16701 16727 
+		1875 2941 3592 9777 16541 16571 16661 16681 21645 21646 21654 21655 21656 21657 21658 21659 21660
 	}
-	manpower=10000
+	history = {
+		owner = JJG
+		controller = JJG
+		add_core_of = JJG
+	victory_points = {
+		21660 20
+		}
+	buildings = {
+		infrastructure = 3
+		2941 = {
+			naval_base = 3
+			}
+		dockyard = 1
+		industrial_complex = 2
+		arms_factory = 1
+	}
+	}
+	manpower=635500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 	local_supplies=0.000
 }

@@ -1,0 +1,320 @@
+﻿###########################
+# Balticanian Events
+###########################
+
+add_namespace = balticania
+
+# Ивент о положняке в Серсии
+country_event = {
+	id = balticania.1
+	title = balticania.1.t
+	desc = balticania.1.d
+	picture = GFX_report_event_sersia_map
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = balticania.1.a
+		custom_effect_tooltip = we_are_starting_our_operation_in_sersia_tt
+		SER = { country_event = { id = balticania.2 hours = 6 } }
+		SER = {
+		28 = {
+		start_resistance = yes
+		force_enable_resistance = {
+		clear = no
+		occupier = SER
+		occupied = BAL
+		}
+		set_resistance = 50
+		}
+		}
+		hidden_effect = {
+			SER = {
+		country_event = { id = balticania.5 hours = 1 }
+			}
+		}
+	}
+}
+
+# Ивент ультиматум от Балтикании
+country_event = {
+	id = balticania.2
+	title = balticania.2.t
+	desc = balticania.2.d
+	picture = GFX_report_event_british_artillery
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = balticania.2.a
+		ai_chance = { factor = 90 }
+		damage_building = {
+			type = infrastructure
+			state = 28
+			damage = 0.8
+		}
+		damage_building = {
+			type = industrial_complex
+			state = 28
+			damage = 0.2
+		}
+		custom_effect_tooltip = our_country_will_be_annexed_tt
+		custom_effect_tooltip = baltica_event_sersia_in_fire_tt
+		hidden_effect = {
+		BAL = { country_event = { id = balticania.3 hours = 24 } }
+		}
+	}
+	
+	option = {
+		name = balticania.2.b
+		ai_chance = { factor = 10 }
+		damage_building = {
+			type = infrastructure
+			state = 28
+			damage = 0.8
+		}
+		damage_building = {
+			type = industrial_complex
+			state = 28
+			damage = 0.2
+		}
+		custom_effect_tooltip = start_civil_war_with_sersian_separatists_tt
+		custom_effect_tooltip = will_be_formed_our_army_vs_separatists_tt
+		SER = {
+		28 = {
+		set_resistance = 0
+		cancel_resistance = yes
+		}
+		}
+		
+		SRS = {
+		declare_war_on = {
+			target = SER
+			type = annex_everything
+		}
+		}
+		
+		hidden_effect = {
+		BAL = { country_event = { id = balticania.4 hours = 12 } }
+		BAL = {
+		country_event = { id = balticania.7 hours = 3 }
+			}
+		181 = {
+		transfer_state_to = SRS
+		}
+		BAL = {
+		diplomatic_relation = {
+			country = SER
+			relation = guarantee
+			active = no
+		}
+		}
+		SRS = {
+		add_state_core = 28
+		}
+		SRS = {
+		set_capital = {
+		state = 28
+		}
+		}
+		SER = {
+		delete_units = {
+			division_template = "Maloe Voennoe Formirovanie"
+			disband = yes
+		}
+		}
+		SER = {
+		division_template = {
+			name = "Sersiya Militia"
+			division_names_group = SER_INF_01
+			priority = 0
+			template_counter = GFX_div_templ_7_large
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+			support = {
+				
+			}
+		}
+		}
+		SER = {
+		28 = {
+		create_unit = {
+			division = "name = \"Sersiya Militia\" division_template = \"Sersiya Militia\" start_manpower_factor = 0.8"
+			owner = SER
+			count = 3
+			prioritize_location = 21669
+		}
+		}
+		}
+		SER = {
+		28 = {
+		create_unit = {
+			division = "name = \"Sersiya Militia\" division_template = \"Sersiya Militia\" start_manpower_factor = 0.8"
+			owner = SER
+			count = 1
+			prioritize_location = 2034
+		}
+		}
+		}
+		SER = {
+		add_ideas = extensive_conscription
+		add_ideas = default_control_army_laws
+		}
+		}
+	}
+}
+
+#### Серсия соглашается
+country_event = {
+	id = balticania.3
+	title = balticania.3.t
+	desc = balticania.3.d
+	picture = GFX_report_event_british_artillery
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = balticania.3.a
+		custom_effect_tooltip = operation_in_sersia_was_succecful_tt
+		annex_country = {
+		target = SER
+		transfer_troops = yes
+		}
+		SER = {
+		28 = {
+		set_resistance = 0
+		cancel_resistance = yes
+		}
+		}
+		add_political_power = 100
+		GAR = {
+			add_opinion_modifier = {
+			target = BAL
+			modifier = GAR_baltica_annex_our_ally
+			}
+		}
+		hidden_effect = {
+		set_global_flag = baltika_takes_over_sersia
+		}
+	}
+}
+
+#### Серсия не соглашается
+country_event = {
+	id = balticania.4
+	title = balticania.4.t
+	desc = balticania.4.d
+	picture = GFX_report_event_british_artillery
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = balticania.4.a
+		custom_effect_tooltip = war_with_sersia_will_be_soon_tt
+		hidden_effect = {
+			BAL = {
+		country_event = { id = balticania.6 hours = 12 }
+			}
+		}
+	}
+}
+
+#### Скриптовые скрытые ивенты для создания сопротивления и объявления войны
+country_event = {
+	id = balticania.5
+	title = balticania.5.t
+	desc = balticania.5.d
+	picture = GFX_report_event_british_artillery
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+		name = balticania.5.a
+		SER = {
+		28 = {
+		start_resistance = yes
+		force_enable_resistance = {
+		clear = no
+		occupier = SER
+		occupied = BAL
+		}
+		set_resistance = 50
+		}
+		}
+	}
+}
+
+country_event = {
+	id = balticania.6
+	title = balticania.6.t
+	desc = balticania.6.d
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+	name = balticania.6.a
+	BAL = {
+	declare_war_on = {
+    target = SER
+    type = annex_everything
+	}
+	}
+}
+}
+
+country_event = {
+	id = balticania.7
+	title = balticania.7.t
+	desc = balticania.7.d
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+	name = balticania.7.a
+	SRS = {
+		declare_war_on = {
+			target = SER
+			type = annex_everything
+		}
+	}
+	SRS = {
+		load_oob = "SRS_2021_20_09"
+	}
+	SRS = {
+	country_event = { id = balticania.8 hours = 12 }
+	}
+	SRS = {
+	country_event = { id = balticania.9 hours = 3 }
+	}
+	}
+}
+
+country_event = {
+	id = balticania.8
+	title = balticania.8.t
+	desc = balticania.8.d
+	picture = GFX_report_event_nationalist_china_machinegun_firing
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+	name = balticania.8.a
+	set_global_flag = sersian_separatists_can_be_destroyed
+}
+}
+

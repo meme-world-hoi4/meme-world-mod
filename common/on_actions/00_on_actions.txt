@@ -4124,6 +4124,13 @@ on_actions = {
 						}
 					}
 					set_cosmetic_tag = EVD_puppet_jjk
+					add_ideas = capitalism_economy_type
+					add_ideas = free_trade
+					add_ideas = lack_of_health_care
+					add_ideas = lack_of_social_care
+					add_ideas = autorbur
+					add_ideas = no_party
+					add_ideas = absolute_monarchy
 				}
 			}
 			
@@ -4149,6 +4156,13 @@ on_actions = {
 						}
 					}
 					set_cosmetic_tag = EVD_puppet_jjk
+					add_ideas = capitalism_economy_type
+					add_ideas = free_trade
+					add_ideas = lack_of_health_care
+					add_ideas = lack_of_social_care
+					add_ideas = autorbur
+					add_ideas = no_party
+					add_ideas = absolute_monarchy
 				}
 			}
 		}
@@ -4179,6 +4193,13 @@ on_actions = {
 						}
 					}
 					set_cosmetic_tag = KEK_puppet_par
+					add_ideas = capitalism_economy_type
+					add_ideas = free_trade
+					add_ideas = lack_of_health_care
+					add_ideas = lack_of_social_care
+					add_ideas = autorbur
+					add_ideas = no_party
+					add_ideas = absolute_monarchy
 				}
 			}
 			
@@ -4204,6 +4225,13 @@ on_actions = {
 						}
 					}
 					set_cosmetic_tag = KEK_puppet_par
+					add_ideas = ccapitalism_economy_type
+					add_ideas = free_trade
+					add_ideas = lack_of_health_care
+					add_ideas = lack_of_social_care
+					add_ideas = autorbur
+					add_ideas = no_party
+					add_ideas = absolute_monarchy
 				}
 			}
 		}
@@ -4233,6 +4261,14 @@ on_actions = {
 						}
 					}
 					set_cosmetic_tag = KEK_puppet_par
+					add_ideas = ccapitalism_economy_type
+					add_ideas = free_trade
+					add_ideas = lack_of_health_care
+					add_ideas = lack_of_social_care
+					add_ideas = autorbur
+					add_ideas = monoparty
+					add_ideas = president_republic
+					add_ideas = comissioners_brigade
 				}
 			}
 			
@@ -4258,6 +4294,14 @@ on_actions = {
 						}
 					}
 					set_cosmetic_tag = KEK_puppet_par
+					add_ideas = ccapitalism_economy_type
+					add_ideas = free_trade
+					add_ideas = lack_of_health_care
+					add_ideas = lack_of_social_care
+					add_ideas = autorbur
+					add_ideas = monoparty
+					add_ideas = president_republic
+					add_ideas = comissioners_brigade
 				}
 			}
 		}
@@ -4278,6 +4322,12 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = PAR_puppet_fal
+					add_ideas = command_economy_type
+					add_ideas = default_medicine
+					add_ideas = social_care
+					add_ideas = oligarch
+					add_ideas = monoparty
+					add_ideas = parlament_republic
 				}
 			}
 			
@@ -4294,6 +4344,12 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = PAR_puppet_fal
+					add_ideas = command_economy_type
+					add_ideas = default_medicine
+					add_ideas = social_care
+					add_ideas = oligarch
+					add_ideas = monoparty
+					add_ideas = parlament_republic
 				}
 			}
 		}
@@ -4314,6 +4370,15 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = KEZ_SUB
+					add_ideas = capitalism_economy_type
+					add_ideas = low_economic_mobilization
+					add_ideas = free_trade
+					add_ideas = paid_medicine
+					add_ideas = lack_of_social_care
+					add_ideas = democ
+					add_ideas = no_party
+					add_ideas = president_republic
+					add_ideas = disarmed_nation
 				}
 			}
 			
@@ -4330,6 +4395,15 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = KEZ_SUB
+					add_ideas = capitalism_economy_type
+					add_ideas = low_economic_mobilization
+					add_ideas = free_trade
+					add_ideas = paid_medicine
+					add_ideas = lack_of_social_care
+					add_ideas = democ
+					add_ideas = no_party
+					add_ideas = president_republic
+					add_ideas = disarmed_nation
 				}
 			}
 		}
@@ -4350,6 +4424,14 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = KEZ_SUB
+					add_ideas = capitalism_economy_type
+					add_ideas = low_economic_mobilization
+					add_ideas = free_trade
+					add_ideas = paid_medicine
+					add_ideas = lack_of_social_care
+					add_ideas = autorbur
+					add_ideas = no_party
+					add_ideas = absolute_monarchy
 				}
 			}
 			
@@ -4366,6 +4448,14 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = KEZ_SUB
+					add_ideas = capitalism_economy_type
+					add_ideas = low_economic_mobilization
+					add_ideas = free_trade
+					add_ideas = paid_medicine
+					add_ideas = lack_of_social_care
+					add_ideas = autorbur
+					add_ideas = no_party
+					add_ideas = absolute_monarchy
 				}
 			}
 		}
@@ -4386,6 +4476,15 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = MOH_SUB
+					add_ideas = capitalism_economy_type
+					add_ideas = low_economic_mobilization
+					add_ideas = free_trade
+					add_ideas = paid_medicine
+					add_ideas = lack_of_social_care
+					add_ideas = democ
+					add_ideas = no_party
+					add_ideas = president_republic
+					add_ideas = disarmed_nation
 				}
 			}
 		}
@@ -4406,6 +4505,14 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = MOH_SUB
+					add_ideas = capitalism_economy_type
+					add_ideas = low_economic_mobilization
+					add_ideas = free_trade
+					add_ideas = paid_medicine
+					add_ideas = lack_of_social_care
+					add_ideas = autorbur
+					add_ideas = no_party
+					add_ideas = absolute_monarchy
 				}
 			}
 		}
@@ -4956,6 +5063,14 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = OPO_SUB_KEK
+					add_ideas = social_capitalism_economy_type
+					add_ideas = low_economic_mobilization
+					add_ideas = free_trade
+					add_ideas = default_medicine
+					add_ideas = particular_social_care
+					add_ideas = democ
+					add_ideas = multiparty
+					add_ideas = disarmed_nation
 				}
 			}
 		}
@@ -4976,8 +5091,61 @@ on_actions = {
 				ROOT = {
 					retire_country_leader = yes
 					set_cosmetic_tag = CHM_SUB_KEK
+					add_ideas = capitalism_economy_type
+					add_ideas = low_economic_mobilization
+					add_ideas = free_trade
+					add_ideas = paid_medicine
+					add_ideas = particular_social_care
+					add_ideas = democ
+					add_ideas = no_party
+					add_ideas = disarmed_nation
 				}
 			}
 		}
 	}
+	
+	on_daily = {
+		effect = {
+		if = {
+			limit = {
+				SRS = {
+				OR = {
+				NOT = {
+				controls_province = 10819
+				}
+				NOT = {
+				controls_province = 21664
+				}
+				}
+				}
+				SRS = { has_war_with = SER }
+				has_global_flag = sersian_separatists_can_be_destroyed
+			}
+		SER = {
+		181 = {
+		transfer_state_to = XXX
+		}
+		}
+		}
+	}
+	}
+	
+	on_daily = {
+		effect = {
+		if = {
+			limit = {
+				SRS = { 
+				NOT = { has_war_with = SER }
+				}
+				has_global_flag = sersian_separatists_can_be_destroyed
+			}
+		SER = {
+		181 = {
+		transfer_state_to = XXX
+		}
+		}
+		}
+	}
+	}
+	
 }

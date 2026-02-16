@@ -86,6 +86,8 @@ add_ideas = lack_of_education
 
 set_stability = 0.15
 
+add_command_power = 25
+
 recruit_character = MOH_Anarkia
 
 add_opinion_modifier = {

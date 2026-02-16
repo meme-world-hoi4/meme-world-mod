@@ -8,9 +8,10 @@ state={
 		owner = IZG
 		controller = IZG
 		add_core_of = IZG
+		add_core_of = KET
 		
 		victory_points = {
-		449 10
+		15732 10
 		}
 	buildings = {
 			infrastructure = 1

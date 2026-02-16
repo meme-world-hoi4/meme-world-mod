@@ -2751,6 +2751,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_opo_peace_with_jjk.dds"
 	}
 	spriteType = {
+		name = "GFX_decision_bal_war_with_sde"
+		texturefile = "gfx/interface/decisions/decision_bal_war_with_sde.dds"
+	}
+	spriteType = {
 		name = "GFX_decision_opo_buy_weapons"
 		texturefile = "gfx/interface/decisions/decision_opo_buy_weapons.dds"
 	}

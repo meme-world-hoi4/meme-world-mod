@@ -142,8 +142,9 @@ country_event = {
 	hidden_effect = {
 	ARO = { country_event = arepublicopolchenia.4 }
 	KEK = {
-		country_event = keklandia.3
+		country_event = keklandia.8
 		}
+	KEK = { country_event = { id = keklandia.7 days = 4 } }
 	set_autonomy = {
 			target = ARO
 			autonomous_state = autonomy_free
@@ -166,10 +167,10 @@ country_event = {
 	picture = GFX_report_event_hol_cabinet_gerbrandy
 	
 	is_triggered_only = yes
-	hidden = yes
 	
 	option = {
-	name = opolchenie.4.a
+	name = opolchenie.6.a
+	country_event = opolchenie.59
 }
 }
 
@@ -735,10 +736,467 @@ country_event = {
 	}
 }
 
+####### ВЫБОРЫ 20 СЕНТЯБРЯ В СЕНАТ
+
+####### ВЫБОРЫ В ВОЕННОЕ ПОЛОЖЕНИЕ
+
+country_event = {
+	id = opolchenie.32	
+	title = opolchenie.32.t
+	desc = opolchenie.32.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.32.a
+	
+	}
+}
+
+####### ВЫБОРЫ В МИРНОЕ ВРЕМЯ
+
+country_event = {
+	id = opolchenie.33	
+	title = opolchenie.33.t
+	desc = opolchenie.33.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.33.a
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.34	
+	title = opolchenie.34.t
+	desc = opolchenie.34.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.34.a
+	
+	}
+}
+
+############# Ивенты для работы парламента: сессия, каникулы, голосование
+
+country_event = {
+	id = opolchenie.46
+	title = opolchenie.46.t
+	desc = opolchenie.46.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+	name = opolchenie.46.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 2
+	}
+	if = {
+		limit = {
+			date < 2021.9.20
+		}
+	random_list = {
+	10 = {
+	country_event = { 
+	id = opolchenie.38
+	days = 1
+	random_days = 4
+	}
+	}
+	10 = {
+	country_event = { 
+	id = opolchenie.39
+	random_days = 4
+	days = 1
+	}
+	}
+	10 = {
+	country_event = { 
+	id = opolchenie.40
+	random_days = 4
+	days = 1
+	}
+	}
+	10 = {
+	country_event = { 
+	id = opolchenie.41
+	random_days = 4
+	days = 1
+	}
+	}
+	10 = {
+	country_event = { 
+	id = opolchenie.42
+	random_days = 4
+	days = 1
+	}
+	}
+	10 = {
+	country_event = { 
+	id = opolchenie.43
+	random_days = 4
+	days = 1
+	}
+	}
+	10 = {
+	country_event = { 
+	id = opolchenie.44
+	random_days = 4
+	days = 1
+	}
+	}
+	10 = {
+	country_event = { 
+	id = opolchenie.45
+	random_days = 4
+	days = 1
+	}
+	}
+	10 = {
+	country_event = { 
+	id = opolchenie.41
+	days = 1
+	}
+	country_event = { 
+	id = opolchenie.44
+	days = 4
+	}
+	}
+	10 = {
+	country_event = { 
+	id = opolchenie.38
+	days = 1
+	}
+	country_event = { 
+	id = opolchenie.42
+	days = 4
+	}
+	}
+	}
+	}
+	
+	}
+}
+
+country_event = {
+	id = opolchenie.36	
+	title = opolchenie.36.t
+	desc = opolchenie.36.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+	
+	option = {
+	name = opolchenie.36.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 1
+	}
+	}
+}
+
+country_event = {
+	id = opolchenie.37	
+	title = opolchenie.37.t
+	desc = opolchenie.37.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.37.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 2
+	tooltip = OPO_senate_will_work_tt
+	}
+	}
+}
+
+################# ИВЕНТЫ ЗАКОНОПРОЕКТОВ ДО ОКТЯБРЯ
+
+########## 1 уткинисты хотят повысить подготовку
+country_event = {
+	id = opolchenie.38	
+	title = opolchenie.38.t
+	desc = opolchenie.38.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.38.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 3
+	tooltip = OPO_senate_voting_will_be_soon
+	}
+	}
+}
+
+################# 2 социалисты хотят социальный капитализм
+country_event = {
+	id = opolchenie.39	
+	title = opolchenie.39.t
+	desc = opolchenie.39.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.39.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 3
+	tooltip = OPO_senate_voting_will_be_soon
+	}
+	}
+}
+
+
+########### 3 социалисты хотят повышения финансирования образования
+country_event = {
+	id = opolchenie.40	
+	title = opolchenie.40.t
+	desc = opolchenie.40.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.40.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 3
+	tooltip = OPO_senate_voting_will_be_soon
+	}
+	}
+}
+
+############## 4 дпро хотят повышения льгот
+country_event = {
+	id = opolchenie.41	
+	title = opolchenie.41.t
+	desc = opolchenie.41.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.41.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 3
+	tooltip = OPO_senate_voting_will_be_soon
+	}
+	}
+}
+
+
+############## 5 дпро хотят повышения медицины
+country_event = {
+	id = opolchenie.42	
+	title = opolchenie.42.t
+	desc = opolchenie.42.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.42.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 3
+	tooltip = OPO_senate_voting_will_be_soon
+	}
+	}
+}
+
+############## 6 монархисты хотят снижения образования
+country_event = {
+	id = opolchenie.43
+	title = opolchenie.43.t
+	desc = opolchenie.43.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.43.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 3
+	tooltip = OPO_senate_voting_will_be_soon
+	}
+	}
+}
+
+############## 7 монархисты хотят отозвать кеканских дипломатов
+country_event = {
+	id = opolchenie.44	
+	title = opolchenie.44.t
+	desc = opolchenie.44.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.44.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 3
+	tooltip = OPO_senate_voting_will_be_soon
+	}
+	}
+}
+
+############## 8 уткинисты хотят усилить контроль за автономией
+country_event = {
+	id = opolchenie.45
+	title = opolchenie.45.t
+	desc = opolchenie.45.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.45.a
+	set_variable = {
+    var = opo_parlament_work_status
+    value = 3
+	tooltip = OPO_senate_voting_will_be_soon
+	}
+	}
+}
+
+
+
+###################### голосование за законопроект о повышения финансирования армии
+######### через if итоги
+country_event = {
+	id = opolchenie.47
+	title = opolchenie.47.t
+	desc = opolchenie.47.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.47.a
+	custom_effect_tooltip = OPO_votes_results_tt
+	custom_effect_tooltip = OPO_line_design_tt
+	custom_effect_tooltip = OPO_votes_for_yes_tt
+	custom_effect_tooltip = OPO_votes_for_no_tt
+	custom_effect_tooltip = OPO_line_design_tt
+	# custom_effect_tooltip = OPO_votes_statistic_tt
+	# custom_effect_tooltip = OPO_senat_votes_tooltip_for_yes_tt
+	# custom_effect_tooltip = OPO_senat_votes_tooltip_for_no_tt
+	# custom_effect_tooltip = OPO_line_design_tt
+	custom_effect_tooltip = OPO_result_confirm_tt
+	if = {
+		limit = {
+			has_idea = minimum_training
+		}
+		swap_ideas = {
+		remove_idea = minimum_training
+		add_idea = default_training
+		}
+	}
+	if = {
+		limit = {
+			has_idea = default_training
+		}
+		swap_ideas = {
+		remove_idea = default_training
+		add_idea = combat_training
+		}
+	}
+	if = {
+		limit = {
+			has_idea = combat_training
+		}
+		army_experience = 20
+	}
+	}
+}
 
 ############# ИВЕНТЫ ДЛЯ ГАРДЕРНИИ
 
 
+################ СУДЬБА ДРО
+country_event = {
+	id = opolchenie.59
+	title = opolchenie.59.t
+	desc = opolchenie.59.d
+	picture = GFX_report_event_military_planning
+	
+	is_triggered_only = yes
+	
+	option = {
+	name = opolchenie.59.a
+	annex_country = {
+    target = ARO
+    transfer_troops = yes
+	}
+	custom_effect_tooltip = OPO_mikhail_captured
+	hidden_effect = {
+	OPO = {
+	complete_national_focus = OPO_protiv_vseh
+	}
+	}
+	}
+	option = {
+	name = opolchenie.59.b
+	puppet = {
+    target = ARO
+    end_wars = no
+	}
+	custom_effect_tooltip = OPO_mikhail_captured
+	retire_character = ARO_Michael_Kekich
+	ARO = {
+	set_politics = {
+		ruling_party = neutrality
+		elections_allowed = no
+		last_election = "2021.9.13"
+		long_name = ARO_loyalists_of_emperor_party_long
+		name = ARO_loyalists_of_emperor_party
+	}
+	add_country_leader_role = {
+			character = OPO_Joseph_Kekkels
+			promote_leader = yes
+		country_leader = {
+			ideology = oligarchism
+			traits={ dislikes_garderniya }
+			expire = "2024.1.1"
+		}
+	}
+	ARO = {
+	set_cosmetic_tag = ARO_OPO
+	}
+	}
+	hidden_effect = {
+	ARO = {
+	add_popularity = { ideology = neutrality popularity = 0.15 }
+	}
+	OPO = {
+	complete_national_focus = OPO_protiv_vseh
+	}
+	}
+	}
+}
 ################## ИВЕНТЫ ДЛЯ ПУТИ ЭНВЕРА КЕКИРА
 country_event = {
 	id = opolchenie.60	
@@ -786,6 +1244,7 @@ country_event = {
 	set_variable = { current_opo_parlament_seats_icon_legend_frame = 2 }
 	set_variable = { current_opo_parlament_chairman_frame = 2 }
 	set_country_flag = opo_enver_senate_changed
+	set_country_flag = time_to_create_law_project_flag
 	}
 }
 
@@ -813,7 +1272,6 @@ country_event = {
 	
 	option = {
 	name = opolchenie.64.a
-	
 	}
 }
 

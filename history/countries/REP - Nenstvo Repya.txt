@@ -18,6 +18,9 @@ set_popularities = {
 	neutrality = 75
 }
 
+291 = {
+set_demilitarized_zone = yes
+}
 
 add_ideas = based_political_power
 add_ideas = no_party

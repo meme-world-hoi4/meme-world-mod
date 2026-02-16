@@ -1,0 +1,16 @@
+################
+##### BAL ######
+################
+
+BAL_operation_in_sersia = {
+	
+	icon = GER_weltpolitik
+
+	allowed = {
+		original_tag = BAL
+	}
+
+	visible = {
+		country_exists = BAL
+	}
+}

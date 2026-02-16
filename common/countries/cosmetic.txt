@@ -127,3 +127,8 @@ JJK_FAS = {
 	color = rgb { 23  23  23 }
 	color_ui = rgb { 46  46  46 }
 }
+
+ARO_OPO = {
+	color = rgb { 22  106  60 }
+	color_ui = rgb { 31  134  79 }
+}

@@ -158,6 +158,81 @@ clamp_variable = {
 			min = 1
 			max = 2
 		}
+		
+############ парламент исторический голосование
+############ 1 - отдых, 2 - сессия, 3 - голосование
+		
+set_variable = { opo_parlament_work_status = 1 }
+clamp_variable = {
+			var = current_opo_regime
+			min = 1
+			max = 3
+		}
+		
+set_variable = { opo_votes_for_yes = 0 }
+clamp_variable = {
+			var = opo_votes_for_yes
+			min = 0
+			max = 20
+		}
+		
+set_variable = { opo_votes_for_no = 0 }
+clamp_variable = {
+			var = opo_votes_for_no
+			min = 0
+			max = 20
+		}
+		
+################ начальные партии в парламенте ополчения
+################ места партии на 1 сентября 2021
+set_variable = { opo_znamya_kekina_seats = 6 }
+clamp_variable = {
+			var = opo_znamya_kekina_seats
+			min = 0
+			max = 20
+		}
+		
+set_variable = { opo_dpro_seats = 6 }
+clamp_variable = {
+			var = opo_dpro_seats
+			min = 0
+			max = 20
+		}
+		
+set_variable = { opo_monarchist_seats = 1 }
+clamp_variable = {
+			var = opo_monarchist_seats
+			min = 0
+			max = 20
+		}
+		
+set_variable = { opo_unionists_seats = 1 }
+clamp_variable = {
+			var = opo_unionists_seats
+			min = 0
+			max = 20
+		}
+		
+set_variable = { opo_utkinists_seats = 6 }
+clamp_variable = {
+			var = opo_utkinists_seats
+			min = 0
+			max = 20
+		}
+		
+set_variable = { opo_vox_seats = 0 }
+clamp_variable = {
+			var = opo_vox_seats
+			min = 0
+			max = 20
+		}
+		
+set_variable = { opo_tnfo_seats = 0 }
+clamp_variable = {
+			var = opo_tnfo_seats
+			min = 0
+			max = 20
+		}
 
 add_opinion_modifier = { 
 		target = KEK

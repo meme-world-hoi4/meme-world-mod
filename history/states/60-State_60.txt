@@ -2,8 +2,26 @@ state={
 	id=60
 	name="STATE_60"
 	provinces={
-	7885
+		8608 9411 16625 16647 16701 16727 21647 21648 21649 21650 21651 
 	}
-	manpower = 10000
-	state_category = rural
+	history = {
+		owner = JJG
+		controller = JJG
+		add_core_of = JJG
+	victory_points = {
+		8608 15
+		}
+	victory_points = {
+		16701 15
+		}
+	buildings = {
+		infrastructure = 2
+		industrial_complex = 1
+		arms_factory = 2
+	}
+	}
+	manpower=1125500
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
 }

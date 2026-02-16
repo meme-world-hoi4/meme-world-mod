@@ -237,10 +237,20 @@ country_event = {
 	option = {
 		name = gardernia.13.a
 		ai_chance = { factor = 60 }
+		custom_effect_tooltip = GAR_admit_our_wishes_to_vkbs_territory_tt
+		custom_effect_tooltip = GAR_will_aprove_communist_unions_tt
+		custom_effect_tooltip = GAR_will_recive_chernotsvetie_tt
+		custom_effect_tooltip = GAR_soon_will_open_gui_vkbs_destiny_tt
 		GAR = {
 		add_opinion_modifier = { 
 		target = GAR
 		modifier = GAR_falleland_wish_invite_us
+		}
+		}
+		EPI = {
+		add_opinion_modifier = { 
+		target = FAL
+		modifier = EPI_falleland_invite_gardernia_first_october
 		}
 		}
 		GAR = { country_event = { id = gardernia.14 hours = 2 } }
@@ -248,10 +258,21 @@ country_event = {
 	option = {
 		name = gardernia.13.b
 		ai_chance = { factor = 20 }
+		custom_effect_tooltip = GAR_will_cancel_relationship_with_every_our_enemy_tt
+		custom_effect_tooltip = GAR_will_aprove_communist_unions_tt
+		custom_effect_tooltip = GAR_will_assign_communist_authority_tt
+		custom_effect_tooltip = GAR_will_redesign_economic_tt
+		custom_effect_tooltip = GAR_will_create_early_elections_tt
 		GAR = {
 		add_opinion_modifier = { 
-		target = GAR
+		target = FAL
 		modifier = GAR_not_good_conditions
+		}
+		}
+		EPI = {
+		add_opinion_modifier = { 
+		target = FAL
+		modifier = EPI_falleland_invite_gardernia_first_october
 		}
 		}
 		GAR = { country_event = { id = gardernia.15 hours = 2 } }
@@ -259,10 +280,17 @@ country_event = {
 	option = {
 		name = gardernia.13.c
 		ai_chance = { factor = 20 }
+		custom_effect_tooltip = GAR_will_support_separatism_in_chernotsvetie_tt
 		GAR = {
 		add_opinion_modifier = { 
 		target = GAR
 		modifier = GAR_falleland_cancel_our_wishes
+		}
+		}
+		EPI = {
+		add_opinion_modifier = { 
+		target = FAL
+		modifier = EPI_falleland_complete_our_wishes
 		}
 		}
 		GAR = { country_event = { id = gardernia.16 hours = 2 } }

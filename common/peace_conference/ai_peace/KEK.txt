@@ -1,189 +1,151 @@
-# Scripted AI desire for peace actions.
-# See documentation.info file for more detailed scripting information.
+# Scripted AI desire for peace actions
+
+# *** How to access data from the peace action ***
+# ROOT - Negotiator country
+# FROM - Taker country
+# FROM.FROM - Giver country
+# FROM.FROM.FROM - State (if peace action refers to a state)
+# You might have to use e.g. ROOT.FROM to access the variable from inside another scope
+
+# Peace actions
+    # take_states
+    # puppet
+    # force_government
+    # liberate
 
 peace_ai_desires = {
-	
-	KEK_wants_annex_opo_lands = {
-	peace_action_type = take_state
-	 enable = {
-			ROOT = {
-                original_tag = KEK
-			NOT = {
-				has_government = democratic
-			}
-			NOT = {
-				has_government = communism
-			}
-			}
-            ROOT.FROM.FROM.FROM = {
-                OR = {
-                    state = 411
-                    state = 412
-                    state = 418
-					state = 126
-                    state = 215
-					state = 326
-					state = 217
-                    state = 172
-                }
-            }
-            ROOT.FROM = { tag = KEK }
-        }
-        ai_desire = 300
-	}
-	
-	KEK_wants_postrebornya = {
-        peace_action_type = take_states
-        enable = {
-			ROOT = {
-            tag = KEK
-			}			
-            FROM = { tag = REP }  # And the negotiator is also taking for themselves
-            FROM.FROM.FROM = { is_core_of = KEK }
-        }
-
-        ai_desire = 500
-    }
-	
-	KEK_wants_kektrans = {
-        peace_action_type = take_states
+    # сдавшаяся дро не хочет земли ополчения
+    capitulated_aro_dont_want_take_any_opo_states = {
+        peace_action_type = { take_states }
         enable = {
             ROOT = {
-            tag = KEK
-			}
-            FROM = { tag = MOH }  # And the negotiator is also taking for themselves
-            FROM.FROM.FROM = { is_core_of = KEK }
-        }
-
-        ai_desire = 300
-    }
-	
-	KEK_want_controll_chimsland = {
-        peace_action_type = puppet
-        enable = {
-            tag = KEK
-			ROOT = {
-			NOT = {
-				has_government = fascism
-			}
-			}
-            ROOT.FROM = { tag = CHM }
-            ROOT.FROM.FROM.FROM = { is_core_of = CHM }
-        }
-        ai_desire = 150
-    }
-	
-	KEK_want_controll_kekzahstan = {
-        peace_action_type = puppet
-        enable = {
-            tag = KEK
-			ROOT = {
-			NOT = {
-				has_government = fascism
-			}
-			}
-            ROOT.FROM = { tag = KEZ }
-            ROOT.FROM.FROM.FROM = { is_core_of = KEZ }
-        }
-        ai_desire = 150
-    }
-	
-	KEK_want_controll_repya = {
-        peace_action_type = puppet
-        enable = {
-            tag = KEK
-			ROOT = {
-			NOT = {
-				has_government = fascism
-			}
-			NOT = {
-				has_government = neutrality
-			}
-			}
-            ROOT.FROM = { tag = REP }
-            ROOT.FROM.FROM.FROM = { is_core_of = REP }
-        }
-        ai_desire = 150
-    }
-	
-	KEK_want_controll_orden = {
-        peace_action_type = puppet
-        enable = {
-			ROOT = {
-            tag = KEK
-			NOT = {
-				has_government = fascism
-			}
-			}
-            ROOT.FROM = { tag = ORD }
-            ROOT.FROM.FROM.FROM = { is_core_of = ORD }
-        }
-        ai_desire = 150
-    }
-	
-	KEK_wants_annex_morshu_lands = {
-	peace_action_type = take_state
-	 enable = {
-			ROOT = {
-            original_tag = KEK
-			NOT = {
-				has_government = democratic
-			}
-			NOT = {
-				has_government = communism
-			}
-			}
-            FROM.FROM.FROM = {
-                OR = {
-                    state = 205
-                    state = 202
-                    state = 113
-					state = 197
-                    state = 191
-					state = 201
-					state = 208
-                    state = 410
-					state = 391
-                    state = 426
+                original_tag = ARO
+                # has_government = democratic
+				ARO = {
+				has_capitulated = yes
+				}
+				ARO = {
+                    has_war_with = OPO 
                 }
             }
-            FROM = {
-			original_tag = MOH
-			}
-        }
-        ai_desire = 300
-	}
-	
-	KEK_want_controll_opo_if_democratic = {
-        peace_action_type = puppet
-        enable = {
-			ROOT = {
-				has_government = democratic
-				tag = KEK
-			}
-            ROOT.FROM = { tag = OPO }
-        }
-        ai_desire = 150
-    }
-	
-	KEK_DONT_want_liberate = {
-        peace_action_type = { liberate force_government }  
-        enable = {
-            FROM = {
+            FROM.FROM = {
+                original_tag = OPO
+            }
+            FROM.FROM.FROM = {
                 OR = {
-                    tag = OPO
-					tag = ARO
-                    tag = CHM
-                    tag = ORD
-                    tag = OMH
-                    tag = MOH
-                    tag = KMH
-                    tag = REP
-                    tag = KEZ
+                    state = 411
+                    state = 418
+                    state = 412
+                    state = 215
+                    state = 126
                 }
+            }
+        }
+        ai_desire = -50
+    }
+    # несдавшаяся дро хочет земли ополчения
+    not_capitulated_aro_want_take_all_opo_states = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = {
+                original_tag = ARO
+                # has_government = democratic
+				ARO = {
+				has_capitulated = no
+				}
+				ARO = {
+                    has_war_with = OPO 
+                }
+            }
+            FROM.FROM = {
+                original_tag = OPO
+            }
+            FROM.FROM.FROM = {
+                OR = {
+                    state = 411
+                    state = 418
+                    state = 412
+                    state = 215
+                    state = 126
+                }
+            }
+        }
+        ai_desire = 200
+    }
+    # никто не хочет мешать кекляндии забрать колонии
+    everyone_dont_want_take_kek_claims = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = {
+                NOT = { original_tag = KEK }
+               # has_government = democratic
+               # is_in_faction_with = USA
+            }
+            FROM.FROM = {
+                original_tag = OPO
+            }
+            FROM.FROM.FROM = {
+                OR = {
+                    state = 217
+                    state = 172
+                    state = 326
+                }
+            }
+        }
+        ai_desire = -200
+    }
+
+    # любой шрек заберет ополченские колонии
+    kek_want_take_opo_non_national_states = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = {
+                original_tag = KEK
+                # has_government = democratic
+            }
+            FROM.FROM = {
+                original_tag = OPO
+            }
+            FROM.FROM.FROM = {
+                OR = {
+                    state = 217
+                    state = 172
+                    state = 326
+                }
+            }
+        }
+        ai_desire = 1000
+    }
+
+    # чтобы шрек не освобождал ополчение
+    democratic_kek_dont_want_liberate_opo = {
+        peace_action_type = { liberate }
+        enable = {
+            ROOT = {
+                original_tag = KEK
+                #has_government = democratic
+                #is_in_faction_with = ENG 
+                KEK = { has_war_with = OPO }
+            }
+            FROM.FROM = {
+                original_tag = OPO
             }
         }
         ai_desire = -250
     }
-	
+
+    # чтобы проклятый кек не менял правительство
+    democratic_kek_dont_want_change_government_opo = {
+        peace_action_type = { force_government }
+        enable = {
+            ROOT = {
+                original_tag = KEK
+                KEK = { has_war_with = OPO }
+            }
+            FROM.FROM = {
+                original_tag = OPO
+            }
+        }
+        ai_desire = -250
+    }
 }

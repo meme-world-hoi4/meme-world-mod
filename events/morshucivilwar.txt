@@ -19,10 +19,7 @@ country_event = {
 			base = 0
 			modifier = {
 			add = 5
-				OR = {
-				FAL = { is_ai = no }
-				EPI = { is_ai = no }
-		}
+			FAL = { is_ai = no }
 	}
 	}
 	declare_war_on = {
@@ -41,7 +38,12 @@ country_event = {
 		}
 	}
 	custom_effect_tooltip = send_agree_for_peace_tt
-	MOH = { country_event = morshucivilwar.3 }
+	MOH = {
+	country_event = {
+	id = morshucivilwar.3 
+	days = 1
+	}
+	}
 	hidden_effect = {
 		FAL = { country_event = { id = morshucivilwar.5 days = 3 } }
 		}
@@ -74,7 +76,7 @@ country_event = {
 			remember_old_capital = no
 	}
 	}
-	KMH = { country_event = { id = morshucivilwar.1 days = 1 } }
+	KMH = { country_event = { id = morshucivilwar.1 days = 2 } }
 	}
 }
 

@@ -70,15 +70,12 @@ add_ideas = lack_of_control_army_laws
 
 recruit_character = BST_Gregmor_Putifur
 
-give_market_access = GAR
 give_market_access = JJK
 give_market_access = BAL
-give_market_access = OPO
 give_market_access = MOH
 give_market_access = KIR
 give_market_access = REZ
 give_market_access = PAR
-give_market_access = KEK
 give_market_access = EVD
 
 create_equipment_variant = {

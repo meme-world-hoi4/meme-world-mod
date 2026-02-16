@@ -3446,6 +3446,10 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/report_event_DEN_exiled_king.dds"
 	}
 	spriteType = {
+		name = "GFX_report_event_sersia_map"
+		texturefile = "gfx/event_pictures/report_event_sersia_map.dds"
+	}
+	spriteType = {
 		name = "GFX_memworld_news_event_001"
 		texturefile = "gfx/event_pictures/memworld_news_event_001.dds"
 	}
@@ -3488,5 +3492,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_memworld_news_event_011"
 		texturefile = "gfx/event_pictures/memworld_news_event_011.dds"
+	}
+	spriteType = {
+		name = "GFX_memworld_news_event_012"
+		texturefile = "gfx/event_pictures/memworld_news_event_012.dds"
 	}
 }

@@ -5244,4 +5244,32 @@ spriteTypes = {
 		name = "GFX_focus_discuss_results"
 		texturefile = "gfx/interface/goals/focus_discuss_results.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_OPO_return_president_status"
+		texturefile = "gfx/interface/goals/focus_OPO_return_president_status.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_OPO_word_of_emperor"
+		texturefile = "gfx/interface/goals/focus_OPO_word_of_emperor.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_OPO_general_plan"
+		texturefile = "gfx/interface/goals/focus_OPO_general_plan.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_OPO_president_ukaz"
+		texturefile = "gfx/interface/goals/focus_OPO_president_ukaz.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_OPO_meeting_in_green_house"
+		texturefile = "gfx/interface/goals/focus_OPO_meeting_in_green_house.dds"
+	} 
+	spriteType = {
+		name = "GFX_focus_OPO_nedopusk_krov"
+		texturefile = "gfx/interface/goals/focus_OPO_nedopusk_krov.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_OPO_mobilisation"
+		texturefile = "gfx/interface/goals/focus_OPO_mobilisation.dds"
+	}
 }

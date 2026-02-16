@@ -1,0 +1,45 @@
+# Scripted AI desire for peace actions
+
+# *** How to access data from the peace action ***
+# ROOT - Negotiator country
+# FROM - Taker country
+# FROM.FROM - Giver country
+# FROM.FROM.FROM - State (if peace action refers to a state)
+# You might have to use e.g. ROOT.FROM to access the variable from inside another scope
+
+# Peace actions
+    # take_states
+    # puppet
+    # force_government
+    # liberate
+
+peace_ai_desires = {
+    # не надо мешать моршустану объединяться
+    anarchical_morhu_want_all_territory = {
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = {
+                original_tag = MOH
+                # has_government = democratic
+				MOH = {
+				has_capitulated = no
+				}
+				MOH = {
+                    has_war_with = OMH 
+                }
+            }
+            FROM.FROM = {
+                original_tag = OMH
+            }
+            FROM.FROM.FROM = {
+                OR = {
+                    state = 201
+                    state = 391
+                    state = 191
+                    state = 197
+                }
+            }
+        }
+        ai_desire = 200
+    }
+}

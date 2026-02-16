@@ -1138,7 +1138,7 @@ NMilitary = {
 	UNIT_LEADER_ASSIGN_TRAIT_COST = 15.0,					-- cost to assign a new trait to a unit leader
 	ATTACHED_WINGS_ORDER_UPDATE_DAYS = 5,					-- Days untill the attached wing will update the order
 
-	BORDER_WAR_WIN_DAYS_AGAINST_EMPTY_OPPONENTS = 5,		-- border wars will be automatically won if no opponent shows up for this duration
+	BORDER_WAR_WIN_DAYS_AGAINST_EMPTY_OPPONENTS = 3,		-- border wars will be automatically won if no opponent shows up for this duration
 
 
 	MAX_RELATIVE_COMBAT_DAMAGE_TO_MODIFY_XP = 4.0,			-- you gain more XP if you are doing more damage relative to enemy, this is the max relative amount to gain following RATe

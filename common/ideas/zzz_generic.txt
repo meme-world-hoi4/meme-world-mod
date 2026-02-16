@@ -13,8 +13,24 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-			army_speed_factor = 0.2
+			army_speed_factor = 0.05
 			army_attack_factor = 0.3
+			planning_speed = 1
+			}
+		}
+		SRS_last_standing_in_war = {
+		
+		allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
+		
+		modifier = {
+			forced_surrender_limit = 1
 			}
 		}
 		neutral_speed_debuff = {
@@ -268,7 +284,7 @@ ideas = {
 		removal_cost = -1
 		
 		modifier = {
-			army_defence_factor = 0.5
+			army_defence_factor = 0.4
 			}
 		}
 		

@@ -3,13 +3,14 @@ state={
 	id=248
 	name="STATE_248"
 	provinces={
-		16542 
+		16542 21653
 	}
 	manpower=14880
 	history = {
 		owner = JJK
 		controller = JJK
 		add_core_of = JJK
+		add_core_of = JJG
 	victory_points = {
 		16542 5
 		}

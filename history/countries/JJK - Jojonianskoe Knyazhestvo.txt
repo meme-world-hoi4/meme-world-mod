@@ -58,11 +58,18 @@ add_to_faction = KIR
 add_to_faction = ORD
 add_to_faction = PAR
 add_to_faction = SHL
+add_to_faction = JJG
 
 give_guarantee = KIR
 
 set_autonomy = {
 		target = KIR
+		autonomous_state = autonomy_dominion
+		freedom_level = 0.2
+	}
+	
+set_autonomy = {
+		target = JJG
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
@@ -195,4 +202,10 @@ add_ideas = autorbur
 add_ideas = absolute_monarchy
 add_ideas = combat_training
 add_ideas = default_control_army_laws
+
+give_market_access = JJG
+give_market_access = BAL
+give_market_access = KIR
+give_market_access = KEZ
+give_market_access = PAR
 }

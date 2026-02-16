@@ -39,7 +39,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6181
+		location = 16836
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
@@ -50,7 +50,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 2
 		}
-		location = 3062
+		location = 16894
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
@@ -61,7 +61,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 3
 		}
-		location = 16737
+		location = 16883
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7

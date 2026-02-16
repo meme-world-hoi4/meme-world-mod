@@ -1,7 +1,22 @@
 ideas = {
 
 	hidden_ideas = {
+	opo_godness_win_buff_for_end = {
+	picture = generic_reserve_divisions
+	allowed = {
+			always = no
+			}
+
+			allowed_civil_war = {
+				allowed = yes
+			}
+		removal_cost = -1
 		
+		modifier = {
+		army_attack_factor = 2
+		army_defence_factor = 2
+			}
+	}
 	}
 
 	# Special ones that can be applied on other countries through focus system.

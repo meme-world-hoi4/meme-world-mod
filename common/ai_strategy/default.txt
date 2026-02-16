@@ -26,6 +26,28 @@ bal_always_conquer_sersya = {
     tag = SER
     value = 100
 	}
+	
+	# ai_strategy = {
+    # type = naval_mission_threshold
+    # id = MISSION_STRIKE_FORCE
+    # value = 100
+	# }
+	# ai_strategy = {
+    # type = naval_mission_threshold
+    # id = MISSION_CONVOY_ESCORT
+    # value = 100
+	# }
+	# ai_strategy = {
+    # type = naval_mission_threshold
+    # id = MISSION_PATROL
+    # value = 100
+	# }
+	# ai_strategy = {
+    # type = naval_mission_threshold
+    # id = MISSION_CONVOY_RAIDING
+    # value = 100
+	# }
+	
 }
 
 kekland_dont_want_conquer_orden = {
@@ -117,7 +139,7 @@ anarhical_morhu_dont_want_have_alies = {
 		threat > 0.3
 	}
 
-		ai_strategy = {
+	ai_strategy = {
 			type = alliance
 			id = FAL
 			value = -100
@@ -151,16 +173,31 @@ anarhical_morhu_want_attack = {
 		original_tag = MOH
 	}
 	enable = {
-		threat < 0.3
+		threat < 0.5
 	}
 	abort = {
-		threat > 0.3
+		threat > 0.5
 	}
 
 	ai_strategy = {
     type = conquer
 	id = OMH
     value = 1000
+	}
+	ai_strategy = {
+    type = front_unit_request
+    tag = OMH
+    value = 1000
+	}
+	ai_strategy = {
+	type = force_concentration_front_factor
+
+	tag = OMH
+	state = 197
+	strategic_region = 144
+	ratio = 0.1
+
+	value = 100
 	}
 	ai_strategy = {
 		type = befriend
@@ -173,25 +210,12 @@ anarhical_morhu_want_attack = {
 		value = -1000
 	}
 	ai_strategy = {
-		type = area_priority
-		id = morshu_civil_war_invasion
-		value = 1000
-	}
-	ai_strategy = {
-    type = front_control
-    strategic_region = 144
-    ratio = 0.9
-    ordertype = front
-    execution_type = rush
-    manual_attack = no
-	}
-	ai_strategy = {
     type = ignore_army_incompetence
-    value = 100
+    value = 1000
 	}
 	ai_strategy = {
     type = garrison
-    value = -80
+    value = -100
 	}
 	ai_strategy = {
     type = front_unit_request
@@ -734,7 +758,7 @@ gar_want_attack_vkbs_fleet = {
 	ai_strategy = {
     type = naval_avoid_region
     id = 49
-    value = 30
+    value = 300
 	}
 }
 
@@ -753,7 +777,7 @@ gar_want_control_eudokim_sea = {
 	ai_strategy = {
     type = strike_force_home_base
     id = 56
-    value = 40
+    value = 100
 	}
 }
 
@@ -764,11 +788,6 @@ jjk_want_destroy_gar_navy_start = {
 	enable = {
 		JJK = { has_war_with = GAR }
 	}
-	abort = {
-		JJK = {
-		NOT = { has_war_with = GAR }
-		}
-	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
     type = strike_force_home_base
@@ -778,27 +797,37 @@ jjk_want_destroy_gar_navy_start = {
 	ai_strategy = {
     type = naval_mission_threshold
     id = MISSION_CONVOY_RAIDING
+    value = 200
+	}
+	ai_strategy = {
+    type = naval_mission_threshold
+    id = MISSION_STRIKE_FORCE
     value = -200
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 47
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 49
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 58
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 12
-    value = 30
+    value = 300
+	}
+	ai_strategy = {
+    type = invade
+    id = GAR
+    value = 500
 	}
 }
 
@@ -809,11 +838,6 @@ jjk_want_destroy_gar_navy_final = {
 	enable = {
 		JJK = { has_war_with = GAR }
 	}
-	abort = {
-		JJK = {
-		NOT = { has_war_with = GAR }
-		}
-	}
 	abort_when_not_enabled = yes
 	ai_strategy = {
     type = strike_force_home_base
@@ -823,27 +847,27 @@ jjk_want_destroy_gar_navy_final = {
 	ai_strategy = {
     type = naval_mission_threshold
     id = MISSION_CONVOY_RAIDING
-    value = -200
+    value = 200
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 47
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 49
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 58
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 12
-    value = 30
+    value = 300
 	}
 }
 
@@ -868,27 +892,27 @@ bal_want_destroy_gar_navy_start = {
 	ai_strategy = {
     type = naval_avoid_region
     id = 47
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 49
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 58
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 12
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_mission_threshold
     id = MISSION_CONVOY_RAIDING
-    value = -200
+    value = 200
 	}
 }
 
@@ -913,27 +937,27 @@ bal_want_destroy_gar_navy_final = {
 	ai_strategy = {
     type = naval_avoid_region
     id = 47
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 49
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 58
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_avoid_region
     id = 12
-    value = 30
+    value = 300
 	}
 	ai_strategy = {
     type = naval_mission_threshold
     id = MISSION_CONVOY_RAIDING
-    value = -200
+    value = 200
 	}
 }
 
@@ -1095,7 +1119,40 @@ opo_want_smash_dro = {
     type = garrison
     value = -50
 	}
-	
+	ai_strategy = {
+    type = front_control
+    state = 219
+    ratio = 0.3
+    ordertype = front
+    execute_order = yes
+	execution_type = balanced
+    manual_attack = yes
+	}
+}
+
+
+opo_want_win_border_conflict = {
+
+allowed = {
+		original_tag = OPO
+	}
+enable = {
+	country_exists = ARO
+	NOT = { has_war_with = ARO }
+	}
+abort = {
+	NOT = { country_exists = ARO }
+	has_war_with = ARO
+	}
+
+ai_strategy = {
+    type = put_unit_buffers
+    ratio = 0.15
+    states = {
+        215
+    }
+    subtract_fronts_from_need = yes
+	}
 }
 
 bul_want_keep_garrison_on_fal_border = {
@@ -1256,6 +1313,183 @@ dro_dont_want_push_opo = {
     value = -100
 	}
 }
+
+ser_separatists_dont_want_have_union = {
+
+	allowed = {
+		original_tag = SRS
+	}
+	enable = {
+	country_exists = SER
+	country_exists = BAL
+	}
+	abort = {
+	NOT = { country_exists = SER }
+	NOT = { country_exists = BAL }
+	}
+
+	ai_strategy = {
+			type = alliance
+			id = OMH
+			value = -100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = OMH
+		value = 300
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = BAL
+		target = military_access
+		value = 100
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = BAL
+		target = docking_rights
+		value = 100
+	}
+	
+}
+
+gar_want_help_sersia_so_much = {
+
+	allowed = {
+		original_tag = GAR
+	}
+	enable = {
+	country_exists = SER
+	SER = { has_war = yes } 
+	SER = { has_capitulated = no }
+	}
+	abort = {
+	OR = {
+	NOT = { country_exists = SER }
+	NOT = { 
+	SER = { has_war = yes } 
+	}
+	SER = { has_capitulated = yes }
+	}
+	}
+
+	ai_strategy = {
+    type = support
+    id = SER
+    value = 200
+	}
+	ai_strategy = {
+    type = send_volunteers_desire
+    id = SER
+    value = 100
+	}
+	ai_strategy = {
+    type = send_lend_lease_desire
+    id = SER
+    value = 100
+	}
+	
+}
+
+jjk_dont_want_fighting_against_ser = {
+
+	allowed = {
+		original_tag = JJK
+	}
+	enable = {
+	country_exists = SER
+	SER = { has_war = yes }
+	BAL = { has_war = yes } 
+	SER = { has_capitulated = no }
+	}
+	abort = {
+	OR = {
+	NOT = { country_exists = SER }
+	NOT = { 
+	SER = { has_war = yes }
+	BAL = { has_war = yes } 
+	}
+	SER = { has_capitulated = yes }
+	}
+	}
+
+	ai_strategy = {
+		type = diplo_action_desire
+		id = BAL
+		target = join_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = BAL
+		target = call_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = PAR
+		target = join_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = PAR
+		target = call_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = KIR
+		target = join_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = KIR
+		target = call_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = JJG
+		target = join_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = JJG
+		target = call_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = SHL
+		target = join_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = SHL
+		target = call_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_desire
+		id = ORD
+		target = join_allies
+		value = -150
+	}
+	ai_strategy = {
+		type = diplo_action_acceptance
+		id = ORD
+		target = call_allies
+		value = -150
+	}
+	
+	
+}
+
+
 
 
 

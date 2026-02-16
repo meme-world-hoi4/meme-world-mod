@@ -1,0 +1,46 @@
+# Scripted cost modifiers for peace actions.
+# See documentation.info file for more detailed scripting information.
+
+peace_action_modifiers = {
+
+    KEK_want_take_colony_states = {
+        category = events_or_focuses
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = {
+                original_tag = KEK
+            }
+            FROM.FROM.FROM = {
+                 OR = {
+					state = 217
+                    state = 172
+                    state = 326
+                }
+            }
+			OPO = {
+				pc_is_loser = yes
+				}
+        }
+        cost_multiplier = 0.5 #50% cost reduction
+    }
+	
+	DRO_want_take_their_states = {
+		category = events_or_focuses
+        peace_action_type = { take_states }
+        enable = {
+            ROOT = {
+                original_tag = ARO
+              ARO = {
+				has_capitulated = no
+				}
+            }
+            FROM.FROM.FROM = {
+                is_core_of = OPO
+            }
+			OPO = {
+				pc_is_loser = yes
+				}
+        }
+        cost_multiplier = 0.25 #75% cost reduction
+	}
+}
